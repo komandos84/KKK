@@ -1,0 +1,1903 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: World Of Tanks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-01 10:00+0300\n"
+"PO-Revision-Date: 2010-07-06 18:34+0200\n"
+"Last-Translator: i_maliavko <noreply@wargaming.net>\n"
+"Language-Team: WoT Team <noreply@wargaming.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "aim/zoom"
+msgstr "x%(zoom)d"
+
+msgid "attackReason/artilleryProtection"
+msgstr "Ostrzał artyleryjski"
+
+msgid "attackReason/artillery_sector"
+msgstr "Ostrzał artyleryjski"
+
+msgid "attackReason/bombers"
+msgstr "Nalot"
+
+msgid "battleEndWarning/text"
+msgstr "Bitwa kończy się za:"
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/body"
+msgstr ""
+"Wiadomości tekstowe i głosowe od tego gracza będą ukryte podczas tej bitwy."
+
+msgid "battleMessenger/toxic/blackList/ADD_IN_BLACKLIST/header"
+msgstr "Zablokuj wiadomości od gracza"
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/body"
+msgstr "Wiadomości od gracza z czarnej listy są zablokowane."
+
+msgid "battleMessenger/toxic/blackList/CANT_ADD_IN_BLACKLIST/header"
+msgstr "Działanie niedostępne"
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/body"
+msgstr ""
+"Wiadomości tekstowe i głosowe od tego gracza\n"
+"znów będą dostępne."
+
+msgid "battleMessenger/toxic/blackList/REMOVE_FROM_BLACKLIST/header"
+msgstr "Odblokuj wiadomości od gracza"
+
+msgid "battleProgress/hint/description"
+msgstr "aby przejrzeć misje osobiste"
+
+msgid "battleProgress/hint/noBindingKey"
+msgstr "Nie przypisano klawisza do przełączania wyświetlania postępów misji"
+
+msgid "battleProgress/hint/press"
+msgstr "Naciśnij"
+
+msgid "chat_example/attack"
+msgstr "Do ataku!"
+
+msgid "chat_example/attack_enemy"
+msgstr "Atakuję <Nazwa przeciwnika>!"
+
+msgid "chat_example/attention_to_cell"
+msgstr "Uwaga na <Sektor na minimapie>!"
+
+msgid "chat_example/back_to_base"
+msgstr "Bronić bazę!"
+
+msgid "chat_example/follow_me"
+msgstr "<Nazwa sojusznika>, jedź na mną!"
+
+msgid "chat_example/global_msg/atk/focus_hq"
+msgstr "Zniszcz cele"
+
+msgid "chat_example/global_msg/atk/save_tanks"
+msgstr "Oszczędzaj swoje czołgi!"
+
+msgid "chat_example/global_msg/atk/time"
+msgstr "Zajmij strefę"
+
+msgid "chat_example/global_msg/def/focus_hq"
+msgstr "Broń cele"
+
+msgid "chat_example/global_msg/def/save_tanks"
+msgstr "Oszczędzaj swoje czołgi!"
+
+msgid "chat_example/global_msg/def/time"
+msgstr "Broń strefy"
+
+msgid "chat_example/global_msg/lane/center"
+msgstr "Wzmocnij strefę"
+
+msgid "chat_example/global_msg/lane/east"
+msgstr "Wzmocnij strefę"
+
+msgid "chat_example/global_msg/lane/west"
+msgstr "Wzmocnij strefę"
+
+msgid "chat_example/help_me"
+msgstr "Pomocy!"
+
+msgid "chat_example/help_me_ex"
+msgstr "<Nazwa sojusznika>, pomóż mi!"
+
+msgid "chat_example/negative"
+msgstr "Odmawiam!"
+
+msgid "chat_example/positive"
+msgstr "Tak jest!"
+
+msgid "chat_example/reloading_cassette"
+msgstr ""
+"Gotów do strzału za <Czas przeładowania> s, pocisków w kasecie: <Liczba "
+"pocisków> szt."
+
+msgid "chat_example/reloading_gun"
+msgstr "Przeładowuję! Pozostało <Czas przeładowania> s!"
+
+msgid "chat_example/reloading_ready"
+msgstr "Gotów do strzału!"
+
+msgid "chat_example/reloading_ready_cassette"
+msgstr "Gotów do strzału! Pocisków w kasecie: <Liczba pocisków> szt."
+
+msgid "chat_example/reloading_unavailable"
+msgstr "Brak amunicji."
+
+msgid "chat_example/spg_aim_area"
+msgstr "Celuję w <sektor na minimapie>!"
+
+msgid "chat_example/stop"
+msgstr "<Nazwa sojusznika>, stój!"
+
+msgid "chat_example/support_me_with_fire"
+msgstr "Potrzebny ostrzał na <Nazwa przeciwnika>"
+
+msgid "chat_example/turn_back"
+msgstr "<Nazwa sojusznika>, wycofaj się!"
+
+msgid "chat_shortcuts/attack"
+msgstr "Do ataku!"
+
+msgid "chat_shortcuts/attack_enemy"
+msgstr "Atakuję %(target)s! Gotów do strzału!"
+
+msgid "chat_shortcuts/attack_enemy_reloading"
+msgstr "Atakuję %(target)s! Przeładowuję. Pozostało %(reloadTime)d s!"
+
+msgid "chat_shortcuts/attention_to_base_atk"
+msgstr "Zajęcie %(strArg1)s"
+
+msgid "chat_shortcuts/attention_to_base_def"
+msgstr "Obrona %(strArg1)s"
+
+msgid "chat_shortcuts/attention_to_cell"
+msgstr "Uwaga na %(cellName)s!"
+
+msgid "chat_shortcuts/attention_to_objective_atk"
+msgstr "Zniszcz cel %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def"
+msgstr "Obrona celu %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_position"
+msgstr "Uwaga na pozycję!"
+
+msgid "chat_shortcuts/back_to_base"
+msgstr "Bronić bazę!"
+
+msgid "chat_shortcuts/follow_me"
+msgstr "%(target)s, za mną!"
+
+msgid "chat_shortcuts/global_msg/atk/focus_hq"
+msgstr "Zniszcz cele!"
+
+msgid "chat_shortcuts/global_msg/atk/save_tanks"
+msgstr "Wystarczy nam czasu, oszczędzaj swoje czołgi!"
+
+msgid "chat_shortcuts/global_msg/atk/time"
+msgstr "Czas się kończy, zrób wszystko, aby zająć strefę!"
+
+msgid "chat_shortcuts/global_msg/def/focus_hq"
+msgstr "Broń cele!"
+
+msgid "chat_shortcuts/global_msg/def/save_tanks"
+msgstr "Musimy się utrzymać, oszczędzaj swoje czołgi!"
+
+msgid "chat_shortcuts/global_msg/def/time"
+msgstr "Czas się kończy, bronić strefy za wszelką cenę!"
+
+msgid "chat_shortcuts/global_msg/lane/center"
+msgstr "Strefa %(strArg1)s potrzebuje pomocy, wzmocnić ją!"
+
+msgid "chat_shortcuts/global_msg/lane/east"
+msgstr "Strefa %(strArg1)s potrzebuje pomocy, wzmocnić ją!"
+
+msgid "chat_shortcuts/global_msg/lane/west"
+msgstr "Strefa %(strArg1)s potrzebuje pomocy, wzmocnić ją!"
+
+msgid "chat_shortcuts/help_me"
+msgstr "Pomocy!"
+
+msgid "chat_shortcuts/help_me_ex"
+msgstr "%(target)s, pomocy!"
+
+msgid "chat_shortcuts/negative"
+msgstr "Odmawiam!"
+
+msgid "chat_shortcuts/positive"
+msgstr "Tak jest!"
+
+msgid "chat_shortcuts/reloading_cassette"
+msgstr ""
+"Gotów do strzału za %(floatArg1)d s; pociski w kasecie: %(int32Arg1)s szt."
+
+msgid "chat_shortcuts/reloading_gun"
+msgstr "Przeładowuję! Pozostało %(floatArg1)d s!"
+
+msgid "chat_shortcuts/reloading_ready"
+msgstr "Gotów do strzału!"
+
+msgid "chat_shortcuts/reloading_ready_cassette"
+msgstr "Gotowy do strzału! Pociski w kasecie: %(int32Arg1)s szt."
+
+msgid "chat_shortcuts/reloading_unavailable"
+msgstr "Brak amunicji."
+
+msgid "chat_shortcuts/spg_aim_area"
+msgstr "Celuję w %(cellName)s! Gotów do strzału!"
+
+msgid "chat_shortcuts/spg_aim_area_reloading"
+msgstr "Celuję w %(cellName)s! Przeładowuję. Pozostało %(reloadTime)d s!"
+
+msgid "chat_shortcuts/stop"
+msgstr "%(target)s, stój!"
+
+msgid "chat_shortcuts/support_me_with_fire"
+msgstr "Potrzebny ostrzał na %(target)s"
+
+msgid "chat_shortcuts/turn_back"
+msgstr "%(target)s, wycofaj się!"
+
+msgid "consumables_panel/equipment/cooldownSeconds"
+msgstr "Czas przygotowania: %(cooldownSeconds)s s."
+
+msgid "consumables_panel/equipment/tooltip/empty"
+msgstr "Miejsce dla sprzętu"
+
+msgid "countRibbons/multiSeparator"
+msgstr "x%(multiplier)d"
+
+msgid "cruise_ctrl/speedMetric"
+msgstr "km/h"
+
+msgid "damageIndicator/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/multiplier"
+msgstr "x%(multiplier)s"
+
+msgid "damageLog/shellType/ARMOR_PIERCING"
+msgstr "PP"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_CR"
+msgstr "APCR"
+
+msgid "damageLog/shellType/ARMOR_PIERCING_HE"
+msgstr "PB"
+
+msgid "damageLog/shellType/HIGH_EXPLOSIVE"
+msgstr "OB"
+
+msgid "damageLog/shellType/HOLLOW_CHARGE"
+msgstr "HEAT"
+
+msgid "damage_panel/crew/commander/destroyed"
+msgstr "Dowódca jest ranny."
+
+msgid "damage_panel/crew/commander/normal"
+msgstr "Dowódca"
+
+msgid "damage_panel/crew/driver/destroyed"
+msgstr "Kierowca-mechanik jest ranny."
+
+msgid "damage_panel/crew/driver/normal"
+msgstr "Kierowca-mechanik"
+
+msgid "damage_panel/crew/gunner1/destroyed"
+msgstr "Celowniczy jest ranny."
+
+msgid "damage_panel/crew/gunner1/normal"
+msgstr "Celowniczy"
+
+msgid "damage_panel/crew/gunner2/destroyed"
+msgstr "Drugi celowniczy jest ranny."
+
+msgid "damage_panel/crew/gunner2/normal"
+msgstr "Drugi celowniczy"
+
+msgid "damage_panel/crew/loader1/destroyed"
+msgstr "Ładowniczy jest ranny."
+
+msgid "damage_panel/crew/loader1/normal"
+msgstr "Ładowniczy"
+
+msgid "damage_panel/crew/loader2/destroyed"
+msgstr "Drugi ładowniczy jest ranny."
+
+msgid "damage_panel/crew/loader2/normal"
+msgstr "Drugi ładowniczy"
+
+msgid "damage_panel/crew/radioman1/destroyed"
+msgstr "Radiooperator jest ranny."
+
+msgid "damage_panel/crew/radioman1/normal"
+msgstr "Radiooperator"
+
+msgid "damage_panel/crew/radioman2/destroyed"
+msgstr "Drugi radiooperator jest ranny."
+
+msgid "damage_panel/crew/radioman2/normal"
+msgstr "Drugi radiooperator"
+
+msgid "damage_panel/devices/ammoBay/critical"
+msgstr "Amunicja uszkodzona."
+
+msgid "damage_panel/devices/ammoBay/destroyed"
+msgstr "Wybuch amunicji."
+
+msgid "damage_panel/devices/ammoBay/normal"
+msgstr "Amunicja nienaruszona."
+
+msgid "damage_panel/devices/chassis/critical"
+msgstr "Zawieszenie uszkodzone."
+
+msgid "damage_panel/devices/chassis/destroyed"
+msgstr "Unieruchomienie: zawieszenie zniszczone."
+
+msgid "damage_panel/devices/chassis/normal"
+msgstr "Zawieszenie nienaruszone."
+
+msgid "damage_panel/devices/engine/critical"
+msgstr "Spadek mocy silnika na skutek uszkodzenia."
+
+msgid "damage_panel/devices/engine/destroyed"
+msgstr "Unieruchomienie: silnik zniszczony."
+
+msgid "damage_panel/devices/engine/normal"
+msgstr "Silnik nienaruszony."
+
+msgid "damage_panel/devices/fuelTank/critical"
+msgstr "Zbiornik paliwa uszkodzony."
+
+msgid "damage_panel/devices/fuelTank/destroyed"
+msgstr "Zbiornik paliwa zniszczony."
+
+msgid "damage_panel/devices/fuelTank/normal"
+msgstr "Zbiornik paliwa nienaruszony."
+
+msgid "damage_panel/devices/gun/critical"
+msgstr "Spadek celności na skutek uszkodzenia działa."
+
+msgid "damage_panel/devices/gun/destroyed"
+msgstr "Działo zniszczone. Prowadzenie ognia niemożliwe."
+
+msgid "damage_panel/devices/gun/normal"
+msgstr "Działo nienaruszone."
+
+msgid "damage_panel/devices/radio/critical"
+msgstr "Radio uszkodzone."
+
+msgid "damage_panel/devices/radio/destroyed"
+msgstr "Radio zniszczone."
+
+msgid "damage_panel/devices/radio/normal"
+msgstr "Radio nienaruszone."
+
+msgid "damage_panel/devices/surveyingDevice/critical"
+msgstr "Urządzenia obserwacyjne uszkodzone."
+
+msgid "damage_panel/devices/surveyingDevice/destroyed"
+msgstr "Urządzenia obserwacyjne zniszczone."
+
+msgid "damage_panel/devices/surveyingDevice/normal"
+msgstr "Urządzenie obserwacyjne nie zostało uszkodzone."
+
+msgid "damage_panel/devices/track/critical"
+msgstr "Zawieszenie uszkodzone."
+
+msgid "damage_panel/devices/track/destroyed"
+msgstr "Unieruchomienie: zawieszenie zniszczone."
+
+msgid "damage_panel/devices/track/normal"
+msgstr "Zawieszenie nienaruszone."
+
+msgid "damage_panel/devices/turretRotator/critical"
+msgstr "Wieża uszkodzona. Zmniejszona prędkość obrotu."
+
+msgid "damage_panel/devices/turretRotator/destroyed"
+msgstr "Wieża uszkodzona. Obrót wieży niemożliwy."
+
+msgid "damage_panel/devices/turretRotator/normal"
+msgstr "Wieża nienaruszona."
+
+msgid "devices/ammo_bay"
+msgstr "magazyn amunicyjny"
+
+msgid "devices/chassis"
+msgstr "podwozie"
+
+msgid "devices/engine"
+msgstr "silnik"
+
+msgid "devices/fuel_tank"
+msgstr "zbiornik paliwa"
+
+msgid "devices/gun"
+msgstr "działo"
+
+msgid "devices/left_track"
+msgstr "lewa gąsienica"
+
+msgid "devices/radio"
+msgstr "radio"
+
+msgid "devices/right_track"
+msgstr "prawa gąsienica"
+
+msgid "devices/surveing_device"
+msgstr "urządzenia obserwacyjne"
+
+msgid "devices/turret_rotator"
+msgstr "obrót wieży"
+
+msgid "distance/meters"
+msgstr "%(meters)d m"
+
+msgid "dynamicSquad/ally/add"
+msgstr ""
+"Kliknij by zaprosić gracza do plutonu.\n"
+"Może on przyjąć zaproszenie albo podczas bitwy, albo kiedy dobiegnie ona "
+"końca."
+
+msgid "dynamicSquad/ally/disabled"
+msgstr "Nie można zaprosić tego sojusznika do plutonu."
+
+msgid "dynamicSquad/ally/received"
+msgstr ""
+"Kliknij by przyjąć zaproszenie do plutonu.\n"
+"Pluton zostanie stworzeny podczas bitwy."
+
+msgid "dynamicSquad/ally/wasSent"
+msgstr ""
+"Zaproszenie zostało wysłane do gracza.\n"
+"Jeśli je przyjmie, dołączy do Twojego plutonu albo w trakcie, albo po "
+"zakończeniu bitwy."
+
+msgid "dynamicSquad/enemy/add"
+msgstr ""
+"Kliknij by zaprosić gracza do plutonu.\n"
+"Może on przyjąć zaproszenie albo podczas bitwy, albo kiedy dobiegnie ona "
+"końca."
+
+msgid "dynamicSquad/enemy/disabled"
+msgstr "Nie można zaprosić przeciwnika do plutonu."
+
+msgid "dynamicSquad/enemy/received"
+msgstr ""
+"Kliknij by przyjąć zaproszenie do plutonu.\n"
+"Pluton zostanie stworzeny dopiero gdy bitwa dobiegnie końca."
+
+msgid "dynamicSquad/enemy/wasSent"
+msgstr ""
+"Zaproszenie zostało wysłane do gracza.\n"
+"Jeśli je przyjmie, dołączy do Twojego plutonu po zakończeniu bitwy."
+
+msgid "dynamicSquad/invite"
+msgstr "Zaproszenie do plutonu"
+
+msgid "efficiencyRibbons/armor"
+msgstr "Zablokowane uszkodzenia"
+
+msgid "efficiencyRibbons/assistByAbility"
+msgstr "Asysta za pomocą rezerwy bojowej"
+
+msgid "efficiencyRibbons/assistSpot"
+msgstr "Uszkodzenia po wykryciu"
+
+msgid "efficiencyRibbons/assistTrack"
+msgstr "Gąsienica zniszczona"
+
+msgid "efficiencyRibbons/burn"
+msgstr "Podpalenie"
+
+msgid "efficiencyRibbons/capture"
+msgstr "Zdobywanie bazy przeciwnika"
+
+msgid "efficiencyRibbons/crits"
+msgstr "Uszkodzenie krytyczne"
+
+msgid "efficiencyRibbons/damage"
+msgstr "Zadane uszkodzenia"
+
+msgid "efficiencyRibbons/defence"
+msgstr "Odjęte punkty przejęcia"
+
+msgid "efficiencyRibbons/defenderBonus"
+msgstr "Strefa obroniona"
+
+msgid "efficiencyRibbons/destructibleDamaged"
+msgstr "Zadane uszkodzenia"
+
+msgid "efficiencyRibbons/destructibleDestroyed"
+msgstr "Cel zniszczony"
+
+msgid "efficiencyRibbons/destructiblesDefended"
+msgstr "Cel obroniony"
+
+msgid "efficiencyRibbons/enemySectorCaptured"
+msgstr "Strefa zajęta"
+
+msgid "efficiencyRibbons/kill"
+msgstr "Zniszczenia"
+
+msgid "efficiencyRibbons/ram"
+msgstr "Taranowanie"
+
+msgid "efficiencyRibbons/receivedBurn"
+msgstr "Uszkodzenia od ognia"
+
+msgid "efficiencyRibbons/receivedCrits"
+msgstr "Uszkodzenia krytyczne"
+
+msgid "efficiencyRibbons/receivedDamage"
+msgstr "Uszkodzenia od strzału"
+
+msgid "efficiencyRibbons/receivedRam"
+msgstr "Uszkodzenia od taranowania"
+
+msgid "efficiencyRibbons/receivedWorldCollision"
+msgstr "Uszkodzenia od kolizji"
+
+msgid "efficiencyRibbons/spotted"
+msgstr "Wykryty"
+
+msgid "efficiencyRibbons/stun"
+msgstr "Uszkodzenia po ogłuszeniu przez Ciebie"
+
+msgid "efficiencyRibbons/vehicleRecovery"
+msgstr "Porzucono pojazd"
+
+msgid "efficiencyRibbons/worldCollision"
+msgstr "Uszkodzenia od upadku"
+
+msgid "epic_players_panel/state/hidden/body"
+msgstr "Ukryj panele drużyn"
+
+msgid "epic_players_panel/state/hidden/header"
+msgstr "Bez panelu"
+
+msgid "epic_players_panel/state/hidden/note"
+msgstr "(Naciśnij Ctrl + Tab, by przełączyć się między trybami)"
+
+msgid "epic_players_panel/state/medium_player/body"
+msgstr "Pokaż nazwy graczy, zniszczone cele i ikony pojazdów"
+
+msgid "epic_players_panel/state/medium_player/header"
+msgstr "Średni panel 1"
+
+msgid "epic_players_panel/state/medium_player/note"
+msgstr "(Naciśnij Ctrl + Tab, by przełączyć się między trybami)"
+
+msgid "epic_players_panel/state/medium_tank/body"
+msgstr "Pokaż pojazdy zniszczone przez gracza, nazwę i ikonę pojazdu gracza."
+
+msgid "epic_players_panel/state/medium_tank/header"
+msgstr "Średni panel 2"
+
+msgid "epic_players_panel/state/medium_tank/note"
+msgstr "(Naciśnij Ctrl + Tab, by przełączyć się między trybami)"
+
+msgid "epic_players_panel/state/short/body"
+msgstr "Pokaż zniszczone cele i ikony pojazdów"
+
+msgid "epic_players_panel/state/short/header"
+msgstr "Skrócony panel"
+
+msgid "epic_players_panel/state/short/note"
+msgstr "(Naciśnij Ctrl + Tab, by przełączyć się między trybami)"
+
+msgid "epic_players_panel/state/toggle/body"
+msgstr "Przełącz pomiędzy podglądem tylko swojej lub wszystkich trzech grup."
+
+msgid "epic_players_panel/state/toggle/header"
+msgstr "Przełącz kolumny"
+
+msgid "epic_players_panel/state/toggle/note"
+msgstr "(Naciśnij Ctrl + Tab, by przełączyć się między trybami)"
+
+msgid "flagNotification/flagAbsorbed"
+msgstr "Zniszczyłeś flagę!"
+
+msgid "flagNotification/flagCaptured"
+msgstr "Przejęto flagę!"
+
+msgid "flagNotification/flagDelivered"
+msgstr "Dostarczono flagę."
+
+msgid "flagNotification/flagInbase"
+msgstr "Dostarcz flagę do kwatery głównej."
+
+msgid "flags/timer"
+msgstr "%(time)s s..."
+
+msgid "fortConsumables/timer/postfix"
+msgstr "s..."
+
+msgid "hitMarker/blocked"
+msgstr "Nie przebito pancerza"
+
+msgid "hitMarker/critical"
+msgstr "Uszkodzenie krytyczne"
+
+msgid "hitMarker/ricochet"
+msgstr "Rykoszet"
+
+msgid "marker/meters"
+msgstr "m"
+
+msgid "personalMissions/tip/additionalHeader"
+msgstr "Warunek poboczny:"
+
+msgid "personalMissions/tip/mainHeader"
+msgstr "Warunek główny:"
+
+msgid "personalMissions/tip/noQuests/battleType"
+msgstr "Nie ma aktywnej misji dla tego trybu bitwy."
+
+msgid "personalMissions/tip/noQuests/vehicleType"
+msgstr "Nie ma aktywnej misji dla tego typu pojazdów."
+
+msgid "player_errors/cant_move/chassis_damaged"
+msgstr "Unieruchomienie: zawieszenie uszkodzone"
+
+msgid "player_errors/cant_move/crew_inactive"
+msgstr "Unieruchomienie: cała załoga ranna"
+
+msgid "player_errors/cant_move/engine_damaged"
+msgstr "Unieruchomienie: silnik uszkodzony"
+
+msgid "player_errors/cant_shoot/crew_inactive"
+msgstr "Brak możliwości oddania strzału: cała załoga ranna"
+
+msgid "player_errors/cant_shoot/gun_damaged"
+msgstr "Brak możliwości oddania strzału: działo uszkodzone"
+
+msgid "player_errors/cant_shoot/gun_locked"
+msgstr "Nie można strzelać"
+
+msgid "player_errors/cant_shoot/gun_reload"
+msgstr "Trwa przeładowanie działa"
+
+msgid "player_errors/cant_shoot/no_ammo"
+msgstr "Nie można strzelać – brak amunicji."
+
+msgid "player_errors/cant_shoot/vehicle_destroyed"
+msgstr "Brak możliwości oddania strzału: czołg zniszczony"
+
+msgid "player_errors/cant_switch/engine_destroyed"
+msgstr "Przełączanie niedostępne. Silnik jest zniszczony."
+
+msgid "player_errors/equipment/alreadyActivated"
+msgstr "[%(name)s] już jest w użyciu"
+
+msgid "player_errors/equipment/extinguisher/doesNotActivated"
+msgstr "[%(name)s] nie są w użyciu. Nie ma pożaru"
+
+msgid "player_errors/equipment/isInCooldown"
+msgstr "[%(name)s] jest niedostępny podczas przygotowania."
+
+msgid "player_errors/equipment/medkit/allTankmenAreSafe"
+msgstr "Pomoc medyczna nie jest wymagana: nie ma rannych czołgistów"
+
+msgid "player_errors/equipment/medkit/tankmanIsSafe"
+msgstr "[%(entity)s] nie potrzebuje pomocy medycznej"
+
+msgid "player_errors/equipment/order/notReady"
+msgstr "Rezerwa nie jest jeszcze gotowa."
+
+msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
+msgstr ""
+"Naprawa nie jest wymagana: wszystkie urządzenia są w stanie nienaruszonym"
+
+msgid "player_errors/equipment/repairkit/deviceIsNotDamaged"
+msgstr "[%(entity)s] jest w doskonałym stanie, nie wymaga napraw"
+
+msgid "player_messages/ALLY_HIT"
+msgstr "Trafienie w sojusznika - %(entity)s!"
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
+msgstr "Bateria artylerii na pozycji i gotowa do ostrzału."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
+msgstr "Wsparcie lotnicze na miejscu w gotowości do bombardowania."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
+msgstr "Nasza załoga jest gotowa zainspirować innych wokół siebie."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
+msgstr "Samolot nadlatuje i jest gotowy do wykrywania."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
+msgstr "Bateria dymna rozlokowana i gotowa do wystrzału."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
+msgstr "Bateria artylerii gracza %(player)s prowadzi ostrzał."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
+msgstr "Bombowce gracza %(player)s są w drodze."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
+msgstr "%(player)s aktywuje Inspirację."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
+msgstr "Lot zwiadowczy gracza %(player)s w drodze."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
+msgstr "%(player)s uruchamia zasłonę dymną."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
+msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ENEMY"
+msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_SUICIDE"
+msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ALLY"
+msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_ENEMY"
+msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_ENEMY_SUICIDE"
+msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ALLY_SUICIDE"
+msgstr "%(target)s został zniszczony przez nalot."
+
+msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
+msgstr "%(target)s został zniszczony przez nalot."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
+msgstr "Sojusznik %(target)s został zniszczony przez sojusznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ENEMY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Pojazd został zniszczony przez sojusznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Sojusznik %(target)s zginął w bitwie."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ALLY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_ENEMY"
+msgstr "Przeciwnik %(attacker)s zniszczył przeciwnika %(target)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Pojazd został zniszczony przez gracza %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SUICIDE"
+msgstr "Gracz %(target)s zginął w bitwie."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ALLY"
+msgstr "Sojusznik %(target)s został zniszczony."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_ENEMY"
+msgstr "%(target)s został zniszczony."
+
+msgid "player_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Pojazd zniszczony."
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Urządzenie [%(device)s] eksplodowało"
+
+msgid "player_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr ""
+"Urządzenie [%(device)s] zostało zniszczone strzałem, który oddał gracz "
+"%(entity)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ALLY"
+msgstr "Sojusznik %(attacker)s zatopił sojusznika %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_ENEMY"
+msgstr "Gracz %(attacker)s zatopił gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Pojazd został zatopiony przez sojusznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ALLY_SUICIDE"
+msgstr "Sojusznik %(target)s utonął."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ALLY"
+msgstr "Gracz %(attacker)s zatopił gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_ENEMY"
+msgstr "Przeciwnik %(attacker)s zatopił przeciwnika %(target)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Pojazd został zatopiony przez przeciwnika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_DROWNING_ENEMY_SUICIDE"
+msgstr "Przeciwnik %(target)s utonął."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ALLY"
+msgstr "Sojusznik %(target)s został zatopiony."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_ENEMY"
+msgstr "Gracz %(target)s utonął."
+
+msgid "player_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Pojazd zatonął."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
+msgstr "Sojusznik %(target)s został zniszczony przez sojusznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ENEMY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Pojazd został zniszczony przez sojusznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ALLY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_ENEMY"
+msgstr "Przeciwnik %(attacker)s zniszczył przeciwnika %(target)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Pojazd został zniszczony przez gracza %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ALLY"
+msgstr "Sojusznik %(target)s został zniszczony."
+
+msgid "player_messages/DEATH_FROM_GAS_ATTACK_SELF_ENEMY"
+msgstr "%(target)s został zniszczony."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW"
+msgstr "Załoga zabita"
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Załoga została zabita pociskiem, który wystrzelił gracz %(entity)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr ""
+"Załoga sojusznika %(target)s została zabita przez sojusznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Załoga %(target)s została zabita przez %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Załoga została zniszczona przez sojusznika %(attacker)s."
+
+msgid ""
+"player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Sojusznik %(target)s zabił swoją załogę."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Załoga %(target)s została zabita przez %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr ""
+"Załoga przeciwnika %(target)s została zabita przez przeciwnika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Załoga została zabita przez gracza %(attacker)s."
+
+msgid ""
+"player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Przeciwnik %(target)s zabił swoją załogę."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ALLY"
+msgstr "Załoga sojusznika %(target)s została zabita."
+
+msgid "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_ENEMY"
+msgstr "Załoga gracza %(target)s została zabita."
+
+msgid ""
+"player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Załoga zabita."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
+msgstr "Sojusznik %(attacker)s przewrócił sojusznika %(target)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ENEMY"
+msgstr "%(attacker)s przewrócił %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Pojazd przewrócony przez sojusznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_SUICIDE"
+msgstr "Sojusznik %(target)s przewrócił swój pojazd."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ALLY"
+msgstr "%(attacker)s przewrócił %(target)s"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_ENEMY"
+msgstr "Przeciwnik %(attacker)s przewrócił przeciwnika %(target)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Pojazd przewrócony i zniszczony przez %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_ENEMY_SUICIDE"
+msgstr "Przeciwnik %(target)s przewrócił swój pojazd."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ALLY"
+msgstr "Sojusznik %(target)s przewrócony."
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_ENEMY"
+msgstr "%(target)s przewróconych"
+
+msgid "player_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Pojazd przewrócony i zniszczony."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ALLY"
+msgstr "Sojusznik %(attacker)s zniszczył sojusznika %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_ENEMY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Pojazd został zniszczony przez sojusznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ALLY_SUICIDE"
+msgstr "Sojusznik %(target)s rozbił się."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ALLY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_ENEMY"
+msgstr "Przeciwnik %(attacker)s zniszczył przeciwnika %(target)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Pojazd został zniszczony przez gracza %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_RAMMING_ENEMY_SUICIDE"
+msgstr "Przeciwnik %(target)s rozbił się."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ALLY"
+msgstr "Sojusznik %(target)s został zniszczony."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_ENEMY"
+msgstr "%(target)s został zniszczony."
+
+msgid "player_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Pojazd zniszczony."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ALLY_SUICIDE"
+msgstr "%(target)s opuścił swój pojazd."
+
+msgid "player_messages/DEATH_FROM_RECOVERY_ENEMY_SUICIDE"
+msgstr "%(target)s opuścił swój pojazd."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ALLY"
+msgstr "%(target)s został zniszczony podczas bombardowania strefy."
+
+msgid "player_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN_ENEMY"
+msgstr "%(target)s został zniszczony podczas bombardowania strefy."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ALLY"
+msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
+msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
+msgstr "Sojusznik %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_ARTILLERY"
+msgstr ""
+"Sojusznik %(attacker)s zniszczył gracza %(target)s ostrzałem artyleryjskim."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY_BOMBER"
+msgstr "Sojusznik %(attacker)s zniszczył gracza %(target)s nalotem bombowym."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s ostrzałem artylerii."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s nalotem bombowym."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
+msgstr "Sojusznik: %(target)s zginął w bitwie."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_ARTILLERY"
+msgstr ""
+"Sojusznik %(target)s zginął w bitwie w wyniku ostrzału artyleryjskiego."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE_BOMBER"
+msgstr "Sojusznik %(target)s zginął w bitwie w wyniku nalotu bombowego."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s ostrzałem artylerii."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s nalotem bombowym."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
+msgstr "Przeciwnik %(attacker)s zniszczył przeciwnika %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_ARTILLERY"
+msgstr ""
+"Przeciwnik %(attacker)s zniszczył przeciwnika %(target)s ostrzałem artylerii."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY_BOMBER"
+msgstr ""
+"Przeciwnik %(attacker)s zniszczył przeciwnika %(target)s nalotem bombowym."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
+msgstr "Przeciwnik %(target)s zginął w bitwie."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_ARTILLERY"
+msgstr ""
+"Przeciwnik %(target)s zginął w bitwie w wyniku ostrzału artyleryjskiego."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE_BOMBER"
+msgstr "Przeciwnik %(target)s zginął w bitwie w wyniku nalotu bombowego."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY"
+msgstr "Sojusznik %(target)s został zniszczony."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_ARTILLERY"
+msgstr "Sojusznik %(target)s zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ALLY_BOMBER"
+msgstr "Sojusznik %(target)s zniszczony przez nalot bombowy."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY"
+msgstr "%(target)s został zniszczony."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
+msgstr "Gracz %(target)s zniszczony przez ostrzał artyleryjski."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
+msgstr "Gracz %(target)s zniszczony przez nalot bombowy."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Sojusznik %(attacker)s rozbił sojusznika %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ENEMY"
+msgstr "Gracz %(attacker)s rozbił gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Pojazd został rozbity przez sojusznika %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Sojusznik %(target)s rozbił się."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Gracz %(attacker)s rozbił gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_ENEMY"
+msgstr "Przeciwnik %(attacker)s rozbił przeciwnika %(target)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Pojazd został rozbity przez gracza %(attacker)s."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SUICIDE"
+msgstr "Przeciwnik %(target)s rozbił się."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ALLY"
+msgstr "Sojusznik %(target)s został rozbity."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_ENEMY"
+msgstr "%(target)s został rozbity."
+
+msgid "player_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Pojazd został rozbity."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ALLY"
+msgstr "%(attacker)s zniszczył cel %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_ENEMY"
+msgstr "%(attacker)s zniszczył cel %(target)s."
+
+msgid "player_messages/DESTRUCTIBLE_DESTROYED_SELF"
+msgstr "Zniszczyłeś cel %(target)s."
+
+msgid "player_messages/DEVICE_CRITICAL_AT_FIRE"
+msgstr "Urządzenie [%(device)s] zostało uszkodzone przez pożar"
+
+msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
+msgstr "Strzał %(entity)s uszkodził [%(device)s]."
+
+msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
+msgstr "Urządzenie [%(device)s] zostało zniszczone przez pożar"
+
+msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
+msgstr "Urządzenie [%(device)s] zostało zniszczone przez gracza %(entity)s."
+
+msgid "player_messages/DEVICE_REPAIRED"
+msgstr "Naprawiono: [%(device)s]"
+
+msgid "player_messages/DEVICE_REPAIRED_TO_CRITICAL"
+msgstr "[%(device)s] znowu działa"
+
+msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
+msgstr "[%(device)s] płonie po trafieniu gracza %(entity)s."
+
+msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
+msgstr ""
+"Usunięcie ograniczenia prędkości obrotu uszkodziło urządzenie: [%(device)s]"
+
+msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
+msgstr ""
+"Usunięcie ograniczenia prędkości obrotu zniszczyło urządzenie: [%(device)s]"
+
+msgid "player_messages/FIRE_STOPPED"
+msgstr "Pożar został ugaszony"
+
+msgid "player_messages/TANKMAN_HIT_AT_SHOT"
+msgstr "Strzał z %(entity)s zranił [%(device)s]."
+
+msgid "player_messages/TANKMAN_RESTORED"
+msgstr "[%(device)s] znów działa"
+
+msgid "player_messages/allied_team_name"
+msgstr "Nasza drużyna"
+
+msgid "player_messages/ally_base_captured_by_notification"
+msgstr "Okupacja naszej bazy%s (%d)"
+
+msgid "player_messages/ally_base_captured_notification"
+msgstr "Zdobyto naszą bazę%s!"
+
+msgid "player_messages/base_capture_blocked"
+msgstr "Zablokowano zajmowanie bazy"
+
+msgid "player_messages/base_captured_by_notification"
+msgstr "Opanowanie bazy%s (%d)"
+
+msgid "player_messages/base_captured_notification"
+msgstr "Okupacja bazy%s!"
+
+msgid "player_messages/enemy_base_captured_by_notification"
+msgstr "Opanowanie bazy%s przeciwnika (%d)"
+
+msgid "player_messages/enemy_base_captured_notification"
+msgstr "Baza%s przeciwnika opanowana"
+
+msgid "player_messages/enemy_team_name"
+msgstr "Drużyna przeciwna"
+
+msgid "player_messages/loader_intuition_was_used"
+msgstr "Użyto atutu \"Intuicja\"."
+
+msgid "player_messages/postmortem_caption"
+msgstr "Gracz: %(name)s (%(type)s); Wytrzymałość: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/other"
+msgstr "Gracz: %(name)s; Wytrzymałość: %(health)d%%"
+
+msgid "player_messages/postmortem_caption/self"
+msgstr "Twój pojazd (%(type)s) został zniszczony"
+
+msgid "player_messages/postmortem_userNoHasAmmo"
+msgstr "Nie można strzelać – brak amunicji."
+
+msgid "player_messages/replayControlsHelp1"
+msgstr "Sterowanie powtórką:"
+
+msgid "player_messages/replayControlsHelp2"
+msgstr ""
+"LPM: przełączanie między trybami pracy kamery\n"
+"Spacja: pauza"
+
+msgid "player_messages/replayControlsHelp3"
+msgstr ""
+"Kursor - lewo: cofnij o 20 sek. (z Ctrl o 40 sek.)\n"
+"Kursor - prawo: przewiń o 20 sek. (z Ctrl o 40 sek.)\n"
+"Home/End: przejście do początku/końca\n"
+"Kursor - góra/dół: zwiększenie/zmniejszenie szybkości odtwarzania"
+
+msgid "player_messages/replayFreeCameraActivated"
+msgstr "Swobodna kamera wł."
+
+msgid "player_messages/replayPaused"
+msgstr "Pauza"
+
+msgid "player_messages/replaySavedCameraActivated"
+msgstr "Stała kamera wł."
+
+msgid "player_messages/replaySpeedChange"
+msgstr "Szybkość powtórki: %(speed)sx"
+
+msgid "player_messages/tank_in_fire"
+msgstr "Czołg się pali!"
+
+msgid "players_panel/state/large/body"
+msgstr "Pokaż nazwy graczy, zniszczone cele, oraz nazwy i ikony pojazdów"
+
+msgid "players_panel/state/large/header"
+msgstr "Panel pełny"
+
+msgid "players_panel/state/large/note"
+msgstr "(Naciśnij Ctrl + Tab, by przełączać się pomiędzy trybami)"
+
+msgid "players_panel/state/medium/body"
+msgstr "Pokaż nazwy graczy, zniszczone cele, oraz ikony pojazdów"
+
+msgid "players_panel/state/medium/header"
+msgstr "Panel średni"
+
+msgid "players_panel/state/medium/note"
+msgstr "(Naciśnij Ctrl + Tab, by przełączać się pomiędzy trybami)"
+
+msgid "players_panel/state/medium2/body"
+msgstr "Pokaż pojazdy zniszczone przez gracza oraz nazwę i ikonę jego czołgu."
+
+msgid "players_panel/state/medium2/header"
+msgstr "Średni 2"
+
+msgid "players_panel/state/medium2/note"
+msgstr "(Naciśnij Ctrl + Tab, by przełączać się pomiędzy trybami)"
+
+msgid "players_panel/state/none/body"
+msgstr "Ukryj panele drużyn"
+
+msgid "players_panel/state/none/header"
+msgstr "Brak panelu"
+
+msgid "players_panel/state/none/note"
+msgstr "(Naciśnij Ctrl + Tab, by przełączać się pomiędzy trybami)"
+
+msgid "players_panel/state/short/body"
+msgstr "Pokaż zniszczone cele oraz ikony pojazdów"
+
+msgid "players_panel/state/short/header"
+msgstr "Panel skrócony"
+
+msgid "players_panel/state/short/note"
+msgstr "(Naciśnij Ctrl + Tab, by przełączać się pomiędzy trybami)"
+
+msgid "players_panel/unknown_clan"
+msgstr "?empty?"
+
+msgid "players_panel/unknown_frags"
+msgstr "--"
+
+msgid "players_panel/unknown_name"
+msgstr "Przeciwnik"
+
+msgid "players_panel/unknown_vehicle"
+msgstr "..."
+
+msgid "players_panel/unknown_vehicleState"
+msgstr "------"
+
+msgid "postmortem/tips/exitHangar/label"
+msgstr "Wróć do garażu"
+
+msgid "postmortem/tips/exitHangar/text"
+msgstr ""
+"Esc > Powrót do garażu.\n"
+"Stocz bitwę w innym pojeździe."
+
+msgid "postmortem/tips/observerMode/label"
+msgstr "Tryb obserwatora"
+
+msgid "postmortem/tips/observerMode/text"
+msgstr "Przełącz się między pojazdami sojuszników."
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr "Pojazd zniszczony w strefie zakazanej przez sojusznika"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Pojazd zniszczony w strefie zakazanej"
+
+msgid "postmortem_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Pojazd zniszczony przez strefę śmierci"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_FIRE"
+msgstr "Moduł [%(device)s] zniszczony przez ogień"
+
+msgid "postmortem_messages/DEATH_FROM_DEVICE_EXPLOSION_AT_SHOT"
+msgstr "Moduł [%(device)s] eksplodował po strzale gracza"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Pojazd zatopiony przez sojusznika"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Pojazd utonął"
+
+msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Pojazd utonął"
+
+msgid "postmortem_messages/DEATH_FROM_FIRE"
+msgstr "Pojazd zniszczony przez pożar."
+
+msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
+msgstr "Załoga ogłuszona przez strzał gracza"
+
+msgid ""
+"postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Załoga ogłuszona po silnym zderzeniu z pojazdem sojuszniczym"
+
+msgid ""
+"postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Załoga ogłuszona po silnym uderzeniu"
+
+msgid ""
+"postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Załoga ogłuszona po silnym uderzeniu"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Pojazd przewrócony przez sojusznika"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Pojazd przewrócony przez przeciwnika"
+
+msgid "postmortem_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Pojazd zniszczony przez przewrócenie"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Pojazd zniszczony przez taranowanie sojusznika"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Pojazd zniszczony przez taranowanie"
+
+msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Pojazd zniszczony przez taranowanie"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT"
+msgstr "Pojazd zniszczony przez strzał gracza"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Pojazd zniszczony przez ostrzał artyleryjski"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Pojazd zniszczony przez bombardowanie"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Pojazd został rozbity przez sojusznika"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Pojazd został rozbity przez przeciwnika"
+
+msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Pojazd został rozbity."
+
+msgid "postmortem_messages/DEATH_UNKNOWN"
+msgstr "Twój pojazd został zniszczony"
+
+msgid "recovery/cooldown"
+msgstr "Pojazd można opuścić za %(cooldown)s sekund"
+
+msgid "recovery/hint1"
+msgstr "Trzymaj"
+
+msgid "recovery/hint2"
+msgstr "aby opuścić pojazd"
+
+msgid "repairPoint/title"
+msgstr "Naprawa"
+
+msgid "repairPoint/unavailable"
+msgstr "Niedostępny"
+
+msgid "respawnView/additionalTip"
+msgstr ""
+"Wybierz pojazd, w którym chcesz kontynuować bitwę. Jeśli wszystkie pojazdy "
+"są w naprawie, dołączysz do bitwy w pierwszym dostępnym pojeździe."
+
+msgid "respawnView/additionalTipLimited"
+msgstr ""
+"Wybierz pojazd, aby kontynuować. Zniszczonego pojazdu nie można naprawić "
+"przed końcem bitwy."
+
+msgid "respawnView/classNotAvailable"
+msgstr ""
+"Osiągnięto limit\n"
+"frontu"
+
+msgid "respawnView/cooldownLbl"
+msgstr "W remoncie %(time)s"
+
+msgid "respawnView/destroyedLbl"
+msgstr "Zniszczony"
+
+msgid "respawnView/disabledLbl"
+msgstr "Pojazd niedostępny"
+
+msgid "respawnView/emptySlotInfo"
+msgstr "Nie wybrano odpowiedniego pojazdu"
+
+msgid "respawnView/emptySlotInfoTooltip"
+msgstr "W grupie nie ma pojazdu na poziomie X."
+
+msgid "respawnView/nextVehicleName"
+msgstr "Bitwa będzie kontynuowana za "
+
+msgid "respawnView/title"
+msgstr "Wybierz pojazdy"
+
+msgid "rewardWindow/base/btnLabel"
+msgstr "Potwierdzam!"
+
+msgid "rewardWindow/base/descText"
+msgstr "Otrzymano nagrody"
+
+msgid "rewardWindow/base/headerText"
+msgstr "Gratulacje"
+
+msgid "rewardWindow/base/subHeaderText"
+msgstr "Otrzymano nagrody"
+
+msgid "rewardWindow/winHeaderText"
+msgstr "Gratulacje!"
+
+msgid "scorePanel/mySquadLbl"
+msgstr "Nasz pluton"
+
+msgid "scorePanel/playerScore"
+msgstr "Twój wkład:"
+
+msgid "scorePanel/squadLbl"
+msgstr "Pluton %(sq_number)s"
+
+msgid "shells_kinds/ARMOR_PIERCING"
+msgstr "%(caliber)s mm pocisk przeciwpancerny %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_CR"
+msgstr "%(caliber)s mm pocisk pełnokalibrowy z rdzeniem %(userString)s"
+
+msgid "shells_kinds/ARMOR_PIERCING_HE"
+msgstr "%(caliber)s mm pocisk przeciwpancerny burzący %(userString)s"
+
+msgid "shells_kinds/HIGH_EXPLOSIVE"
+msgstr "%(caliber)s mm pocisk odłamkowo-burzący %(userString)s"
+
+msgid "shells_kinds/HOLLOW_CHARGE"
+msgstr "%(caliber)s mm pocisk kumulacyjny %(userString)s"
+
+msgid "shells_kinds/params"
+msgstr ""
+"Uszkodzenia %(damage)s \n"
+"Przebicie %(piercingPower)s"
+
+msgid "shells_kinds/stunParams"
+msgstr ""
+"Uszkodzenia %(damage)s\n"
+"Odsetek penetracji %(piercingPower)s\n"
+"Minimalny czas ogłuszenia %(stunMinDuration)s (s)\n"
+"Maksymalny czas ogłuszenia %(stunMaxDuration)s (s)"
+
+msgid "siegeMode/hint/forMode/0"
+msgstr "aby przełączyć w tryb ostrzału"
+
+msgid "siegeMode/hint/forMode/1"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/forMode/2"
+msgstr "aby przełączyć w tryb przemieszczania,"
+
+msgid "siegeMode/hint/forMode/3"
+msgstr "?empty?"
+
+msgid "siegeMode/hint/noBinding"
+msgstr "Klawisz przełączania trybów nie został przypisany."
+
+msgid "siegeMode/hint/press"
+msgstr "Naciśnij"
+
+msgid "statistics/exit"
+msgstr "Naciśnij Esc, aby wyjść do garażu..."
+
+msgid "statistics/final/heroes"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/alive"
+msgstr "?empty?"
+
+msgid "statistics/final/lifeInfo/dead"
+msgstr "Zniszczony przez: %s"
+
+msgid "statistics/final/personal/capturePoints"
+msgstr "Okupacja bazy: %d%%"
+
+msgid "statistics/final/personal/damaged"
+msgstr "Uszkodził:"
+
+msgid "statistics/final/personal/directHits"
+msgstr "Trafienia w cel: %d"
+
+msgid "statistics/final/personal/directHitsReceived"
+msgstr "Otrzymane trafienia: %d"
+
+msgid "statistics/final/personal/droppedCapturePoints"
+msgstr "Obrona bazy: %d%%"
+
+msgid "statistics/final/personal/killed"
+msgstr "Zniszczył:"
+
+msgid "statistics/final/personal/postmortem"
+msgstr "(pośmiertnie)"
+
+msgid "statistics/final/personal/shots"
+msgstr "Strzały: %d"
+
+msgid "statistics/final/personal/spotted"
+msgstr "Wykrył:"
+
+msgid "statistics/final/reasons/reason0"
+msgstr "?empty?"
+
+msgid "statistics/final/reasons/reason1lose"
+msgstr "Wszystkie sojusznicze pojazdy zostały zniszczone."
+
+msgid "statistics/final/reasons/reason1tie"
+msgstr "Wszystkie pojazdy zniszczone!"
+
+msgid "statistics/final/reasons/reason1win"
+msgstr "Wszystkie nieprzyjacielskie pojazdy zniszczone."
+
+msgid "statistics/final/reasons/reason2"
+msgstr "Okupacja bazy."
+
+msgid "statistics/final/reasons/reason3"
+msgstr "Koniec czasu bitwy."
+
+msgid "statistics/final/stats/credits"
+msgstr "Kredyty:"
+
+msgid "statistics/final/stats/experience"
+msgstr "Doświadczenie:"
+
+msgid "statistics/final/stats/multipliedExp"
+msgstr "Doświadczenie (x%d):"
+
+msgid "statistics/final/stats/repair"
+msgstr "Naprawa:"
+
+msgid "statistics/final/status/lose"
+msgstr "Porażka! %s"
+
+msgid "statistics/final/status/tie"
+msgstr "Remis! %s"
+
+msgid "statistics/final/status/win"
+msgstr "Zwycięstwo! %s"
+
+msgid "statistics/header"
+msgstr "Statystyki bitwy"
+
+msgid "statistics/headers/header0"
+msgstr "#"
+
+msgid "statistics/headers/header1"
+msgstr "Gracz"
+
+msgid "statistics/headers/header2"
+msgstr "Pojazd"
+
+msgid "statistics/headers/header3"
+msgstr "Stan"
+
+msgid "statistics/headers/header4"
+msgstr "Zniszczony"
+
+msgid "statistics/playerState/0"
+msgstr "Zniszczony"
+
+msgid "statistics/playerState/1"
+msgstr "poza bitwą"
+
+msgid "statistics/playerState/2"
+msgstr "Zniszczony"
+
+msgid "statistics/playerState/3"
+msgstr "w bitwie"
+
+msgid "statistics/playerState/4"
+msgstr "----"
+
+msgid "statistics/tab/line_up/header"
+msgstr "Skład"
+
+msgid "statistics/tab/line_up/title"
+msgstr "Skład drużyny"
+
+msgid "statistics/tab/progressTracing/notAvailable"
+msgstr ""
+"Śledzenie postępów misji osobistych w kampanii „Długo oczekiwane wsparcie” "
+"jest aktualnie niedostępne"
+
+msgid "statistics/tab/quests/header"
+msgstr "Misje"
+
+msgid "statistics/tab/quests/notAvailable/title"
+msgstr "Misje osobiste nie są dostępne w tym trybie gry"
+
+msgid "statistics/tab/quests/nothingToPerform/descr"
+msgstr "Przejdź do zakładki Kampania w garażu, aby wybrać misję"
+
+msgid "statistics/tab/quests/nothingToPerform/title"
+msgstr "Nie masz aktywnych misji dla tego pojazdu"
+
+msgid "statistics/tab/quests/status/done"
+msgstr "Spełniono warunek główny"
+
+msgid "statistics/tab/quests/status/fullDone"
+msgstr "Wypełniono wszystkie misje"
+
+msgid "statistics/tab/quests/status/inProgress"
+msgstr "Rozpoczęta"
+
+msgid "statistics/tab/quests/status/increaseResult"
+msgstr "Poprawa wyniku"
+
+msgid "statistics/tab/quests/switchOff/title"
+msgstr "Wyświetlanie postępów misji jest niedostępne"
+
+msgid "statistics/tabs/group"
+msgstr "Osiągnięcia drużyny"
+
+msgid "statistics/tabs/heroes"
+msgstr "Bohaterowie bitwy"
+
+msgid "statistics/tabs/personal"
+msgstr "Osiągnięcia osobiste"
+
+msgid "statistics/team1title"
+msgstr "Nasza drużyna"
+
+msgid "statistics/team2title"
+msgstr "Drużyna przeciwna"
+
+msgid "stun/indicator"
+msgstr "Załoga ogłuszona"
+
+msgid "stun/seconds"
+msgstr "s"
+
+msgid "tabStatsHint"
+msgstr "— Statystyka"
+
+msgid "tankmen/commander"
+msgstr "dowódca"
+
+msgid "tankmen/driver"
+msgstr "kierowca-mechanik"
+
+msgid "tankmen/gunner"
+msgstr "Celowniczy"
+
+msgid "tankmen/loader"
+msgstr "ładowniczy"
+
+msgid "tankmen/radioman"
+msgstr "radiooperator"
+
+msgid "timer/battlePeriod"
+msgstr "Bitwa kończy się za:"
+
+msgid "timer/started"
+msgstr "Do boju!"
+
+msgid "timer/starting"
+msgstr "Bitwa zaczyna się za:"
+
+msgid "timer/waiting"
+msgstr "Oczekiwanie na graczy..."
+
+msgid "trajectoryView/hint/alternateModeLeft"
+msgstr "Naciśnij"
+
+msgid "trajectoryView/hint/alternateModeRight"
+msgstr "aby zmienić tryb celowania"
+
+msgid "trajectoryView/hint/noBindingKey"
+msgstr "Nie przypisano klawisza zmiany trybu celowania"
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
+msgstr ""
+"Pojazd został zniszczony w strefie śmierci przez sojusznika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ENEMY_SELF"
+msgstr "Pojazd został zniszczony w strefie śmierci przez gracza %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Pojazd został zniszczony przez strefę śmierci."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ALLY_SELF"
+msgstr "Pojazd został zatopiony przez sojusznika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_ENEMY_SELF"
+msgstr "Pojazd został zatopiony przez gracza %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
+msgstr "Pojazd zatonął."
+
+msgid "vehicle_messages/DEATH_FROM_FIRE"
+msgstr "Czołg zniszczony przez pożar."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ALLY_SELF"
+msgstr "Pojazd został zniszczony przez sojusznika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_GAS_ATTACK_ENEMY_SELF"
+msgstr "Pojazd został zniszczony przez %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Załoga zginęła w wyniku uderzenia sojusznika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Załoga zginęła w wyniku uderzenia gracza %(entity)s."
+
+msgid ""
+"vehicle_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Załoga została unieszkodliwiona w wyniku taranowania."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
+msgstr "Pojazd przewrócony przez sojusznika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_ENEMY_SELF"
+msgstr "Pojazd przewrócony przez przeciwnika %(entity)s"
+
+msgid "vehicle_messages/DEATH_FROM_OVERTURN_SELF_SUICIDE"
+msgstr "Pojazd zniszczony przez przewrócenie."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ALLY_SELF"
+msgstr "Sojusznik %(entity)s zniszczył pojazd poprzez staranowanie."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_ENEMY_SELF"
+msgstr "Gracz %(entity)s zniszczył pojazd poprzez staranowanie."
+
+msgid "vehicle_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
+msgstr "Pojazd został zniszczony w wyniku taranowania."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT"
+msgstr ""
+"Pojazd został zniszczony pociskiem wystrzelonym przez gracza %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_ARTILLERY"
+msgstr "Gracz %(entity)s zniszczył pojazd ostrzałem artyleryjskim."
+
+msgid "vehicle_messages/DEATH_FROM_SHOT_BOMBER"
+msgstr "Gracz %(entity)s zniszczył pojazd nalotem bombowym."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
+msgstr "Pojazd został rozbity przez sojusznika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Pojazd został rozbity przez przeciwnika %(entity)s."
+
+msgid "vehicle_messages/DEATH_FROM_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Pojazd został rozbity."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_ALLY"
+msgstr ""
+"Sojusznik %(entity)s uszkodził urządzenie [%(device)s] poprzez taranowanie."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SELF"
+msgstr ""
+"Sojusznik %(entity)s uszkodził urządzenie [%(device)s] poprzez taranowanie."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Urządzenie: [%(device)s] zostało uszkodzone przez taranowanie."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_ALLY"
+msgstr ""
+"Przeciwnik %(entity)s uszkodził urządzenie [%(device)s] poprzez taranowanie."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_ENEMY_SELF"
+msgstr ""
+"Przeciwnik %(entity)s uszkodził urządzenie [%(device)s] poprzez taranowanie."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_RAMMING_SELF_SUICIDE"
+msgstr "Urządzenie: [%(device)s] zostało uszkodzone przez taranowanie."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Uderzenie sojusznika %(entity)s uszkodziło urządzenie [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Uderzenie sojusznika %(entity)s uszkodziło urządzenie [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Uderzenie uszkodziło urządzenie [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr ""
+"Przeciwnik %(entity)s uszkodził urządzenie [%(device)s] w wyniku uderzenia."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr ""
+"Przeciwnik %(entity)s uszkodził urządzenie [%(device)s] w wyniku uderzenia."
+
+msgid "vehicle_messages/DEVICE_CRITICAL_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Uderzenie uszkodziło urządzenie [%(device)s]."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_ALLY"
+msgstr ""
+"Sojusznik %(entity)s zniszczył urządzenie [%(device)s] poprzez taranowanie."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SELF"
+msgstr ""
+"Sojusznik %(entity)s zniszczył urządzenie [%(device)s] poprzez taranowanie."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Urządzenie: [%(device)s] zostało zniszczone w wyniku taranowania."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_ALLY"
+msgstr ""
+"Przeciwnik %(entity)s zniszczył urządzenie [%(device)s] poprzez taranowanie."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_ENEMY_SELF"
+msgstr ""
+"Przeciwnik %(entity)s zniszczył urządzenie [%(device)s] poprzez taranowanie."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_RAMMING_SELF_SUICIDE"
+msgstr "Urządzenie: [%(device)s] zostało zniszczone w wyniku taranowania."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr ""
+"Sojusznik %(entity)s zniszczył urządzenie [%(device)s] poprzez uderzenie."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr ""
+"Sojusznik %(entity)s zniszczył urządzenie [%(device)s] poprzez uderzenie."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "Urządzenie: [%(device)s] zostało zniszczone w wyniku uderzenia."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr ""
+"Przeciwnik %(entity)s zniszczył urządzenie [%(device)s] poprzez uderzenie."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr ""
+"Przeciwnik %(entity)s zniszczył urządzenie [%(device)s] poprzez uderzenie."
+
+msgid "vehicle_messages/DEVICE_DESTROYED_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "Urządzenie: [%(device)s] zostało zniszczone w wyniku uderzenia."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_ALLY"
+msgstr ""
+"Urządzenie [%(device)s] płonie w wyniku taranowania przez sojusznika "
+"%(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SELF"
+msgstr ""
+"Urządzenie [%(device)s] płonie w wyniku taranowania przez sojusznika "
+"%(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ALLY_SUICIDE"
+msgstr "Urządzenie: [%(device)s] zapaliło się w wyniku taranowania."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_ALLY"
+msgstr ""
+"Urządzenie [%(device)s] płonie w wyniku taranowania przez przeciwnika "
+"%(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_ENEMY_SELF"
+msgstr ""
+"Urządzenie [%(device)s] płonie w wyniku taranowania przez przeciwnika "
+"%(entity)s."
+
+msgid "vehicle_messages/DEVICE_STARTED_FIRE_AT_RAMMING_SELF_SUICIDE"
+msgstr "Urządzenie: [%(device)s] zapaliło się w wyniku taranowania."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_ALLY"
+msgstr "Uderzenie sojusznika %(entity)s uszkodziło urządzenie [%(device)s]."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SELF"
+msgstr "Uderzenie sojusznika %(entity)s uszkodziło urządzenie [%(device)s]."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ALLY_SUICIDE"
+msgstr "[%(device)s] odnosi uszkodzenia w wyniku uderzenia."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_ALLY"
+msgstr "Uderzenie przeciwnika %(entity)s uszkodziło urządzenie [%(device)s]."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_ENEMY_SELF"
+msgstr "Uderzenie przeciwnika %(entity)s uszkodziło urządzenie [%(device)s]."
+
+msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
+msgstr "[%(device)s] odnosi uszkodzenia w wyniku uderzenia."
