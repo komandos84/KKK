@@ -1931,6 +1931,28 @@ msgstr ""
 "Wyjątkowy kamuflaż dla pojazdu %(vehicleName)s jest dostępny dla wszystkich "
 "pojazdów kraju %(nation)s."
 
+msgid "personalMissions/discard/server_error"
+msgstr "Nie można wyzerować misji. Spróbuj ponownie później."
+
+msgid "personalMissions/discard/server_error/DISABLED"
+msgstr "Operacja niedostępna. Misje są tymczasowo wyłączone."
+
+msgid "personalMissions/discard/server_error/INVALID_QUEST_ID"
+msgstr "Aktualnie nie można wyzerować misji. Spróbuj ponownie później."
+
+msgid "personalMissions/discard/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr ""
+"Aktualnie nie można wyzerować misji. Poczekaj, aż pojazd tego typu nie "
+"będzie w bitwie."
+
+msgid "personalMissions/discard/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
+msgstr ""
+"Aktualnie nie można wyzerować misji. Poczekaj, aż dana grupa pojazdów nie "
+"będzie w bitwie."
+
+msgid "personalMissions/discard/success"
+msgstr "Udało się wyzerować misję %(quest)s."
+
 msgid "personalMissions/freeAwardListGain"
 msgstr "Otrzymano rozkazy: %(count)s"
 
@@ -1939,36 +1961,31 @@ msgstr ""
 "Zwrócono rozkazy: %(count)s.\n"
 "Można ich użyć ponownie."
 
+msgid "personalMissions/pause/server_error"
+msgstr "Nie wstrzymano misji. Spróbuj ponownie później."
+
+msgid "personalMissions/pause/server_error/DISABLED"
+msgstr "Operacja niedostępna. Misje są tymczasowo wyłączone."
+
+msgid "personalMissions/pause/server_error/INVALID_QUEST_ID"
+msgstr "Aktualnie nie można wstrzymać tej misji. Spróbuj ponownie później."
+
+msgid "personalMissions/pause/server_error/LOCKED_BY_VEHICLE_QUEST"
+msgstr ""
+"Aktualnie nie można wstrzymać tej misji. Poczekaj, aż pojazd tego typu nie "
+"będzie w bitwie."
+
+msgid "personalMissions/pause/success_pause"
+msgstr "Udało się wstrzymać misję %(quest)s."
+
+msgid "personalMissions/pause/success_unpause"
+msgstr "Udało się wznowić wypełnianie misji %(quest)s."
+
 msgid "personalMissions/pawn/server_error"
 msgstr "Błąd. Nie można w tej chwili wykorzystać rozkazu."
 
 msgid "personalMissions/pawn/success"
-msgstr "Rozkazy wykorzystane w misji %(questName)s: %(count)s."
-
-msgid "personalMissions/refuse/DISABLED"
-msgstr "Operacja niedostępna. Misje są tymczasowo wyłączone."
-
-msgid "personalMissions/refuse/no_quests"
-msgstr "Brak wybranych aktualnych misji."
-
-msgid "personalMissions/refuse/quests"
-msgstr "Aktualne wybrane misje: %(questNames)s."
-
-msgid "personalMissions/refuse/server_error"
-msgstr "Nie można odwołać misji. Spróbuj ponownie później."
-
-msgid "personalMissions/refuse/server_error/LOCKED_BY_VEHICLE_QUEST"
-msgstr ""
-"Nie można teraz odwołać misji. Prosimy poczekać, aż pojazd tego typu nie "
-"będzie w bitwie."
-
-msgid "personalMissions/refuse/server_error/fallout/LOCKED_BY_VEHICLE_QUEST"
-msgstr ""
-"Nie da się teraz odwołać misji. Prosimy poczekać, aż ta grupa pojazdów nie "
-"będzie w bitwie."
-
-msgid "personalMissions/refuse/success"
-msgstr "Udało się odrzucić misje. %(quests)s"
+msgstr "Rozkazy wykorzystane w misji %(questName)s: %(count)s"
 
 msgid "personalMissions/reward/regular/server_error"
 msgstr "Nie można odebrać nagrody. Spróbuj ponownie później."
@@ -2000,11 +2017,11 @@ msgstr "Nie można odebrać nagrody. Nagroda niedostępna."
 msgid "personalMissions/reward/tankwoman/server_error/WRONG_ARGS_TYPE"
 msgstr "Nie można odebrać nagrody. Niepoprawne dane."
 
-msgid "personalMissions/select/DISABLED"
-msgstr "Operacja niedostępna. Misje są tymczasowo wyłączone."
-
 msgid "personalMissions/select/server_error"
 msgstr "Nie wybrano misji: %(questNames)s. Spróbuj ponownie później."
+
+msgid "personalMissions/select/server_error/DISABLED"
+msgstr "Operacja niedostępna. Misje są tymczasowo wyłączone."
 
 msgid "personalMissions/select/server_error/LOCKED_BY_VEHICLE_QUEST"
 msgstr "Nie wybrano misji: %(questNames)s. Misja zablokowana."
@@ -3518,23 +3535,8 @@ msgstr "Błąd odtwarzania wideo. Kod błędu: %(code)s."
 
 msgid "wallet/available"
 msgstr ""
-"Synchronizacja z Portfelem WG zakończona powodzeniem. Twoje złoto i wolne "
-"doświadczenie są już dostępne."
-
-msgid "wallet/available_asia"
-msgstr ""
-"Udało się zsynchronizować Portfel WG. Całe Twoje złoto, kredyty i wolne "
-"doświadczenie są już dostępne."
-
-msgid "wallet/available_asia_freexp"
-msgstr ""
-"Udało się zsynchronizować Portfel WG. Wszystkie Twoje kredyty i wolne "
-"doświadczenie są już dostępne."
-
-msgid "wallet/available_asia_gold"
-msgstr ""
-"Udało się zsynchronizować Portfel WG. Całe Twoje złoto i kredyty są już "
-"dostępne."
+"Synchronizacja z Portfelem WG zakończona powodzeniem. Twoje złoto, "
+"obligacje, kredyty i wolne doświadczenie są już dostępne."
 
 msgid "wallet/available_freexp"
 msgstr ""
@@ -3548,23 +3550,8 @@ msgstr ""
 
 msgid "wallet/not_available"
 msgstr ""
-"Trwa pobieranie danych na temat konta. Twoje złoto i wolne doświadczenie "
-"wkrótce znów będą dostępne."
-
-msgid "wallet/not_available_asia"
-msgstr ""
-"Pobieranie informacji o saldzie. Całe Twoje złoto, kredyty i wolne "
-"doświadczenie będą dostępne wkrótce."
-
-msgid "wallet/not_available_asia_freexp"
-msgstr ""
-"Pobieranie informacji o saldzie. Wszystkie Twoje kredyty i wolne "
-"doświadczenie będą dostępne wkrótce."
-
-msgid "wallet/not_available_asia_gold"
-msgstr ""
-"Pobieranie informacji o saldzie. Całe Twoje złoto i kredyty będą dostępne "
-"wkrótce."
+"Trwa pobieranie danych na temat salda konta. Twoje złoto, obligacje, kredyty "
+"i wolne doświadczenie wkrótce znów będą dostępne."
 
 msgid "wallet/not_available_freexp"
 msgstr ""
