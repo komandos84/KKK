@@ -1668,9 +1668,6 @@ msgstr "rekompensata za uszkodzenia zadane przez sojuszników: %s"
 msgid "serviceChannelMessages/battleResults/credits"
 msgstr "Kredytów"
 
-msgid "serviceChannelMessages/battleResults/credits/notAccrued"
-msgstr "nie dodano"
-
 msgid "serviceChannelMessages/battleResults/crystal"
 msgstr "Otrzymano obligacje"
 
@@ -1927,6 +1924,23 @@ msgstr "Uzyskano złota"
 
 msgid "serviceChannelMessages/durationOfPremiumAccounExpires"
 msgstr "Konto premium wygasa %(expiryTime)s."
+
+msgid "serviceChannelMessages/failedPersonalMission"
+msgstr "Zerowanie postępów"
+
+msgid "serviceChannelMessages/failedPersonalMission/button"
+msgstr "Przejdź do misji"
+
+msgid "serviceChannelMessages/failedPersonalMission/message"
+msgstr ""
+"Uwaga! Postępy misji %(missionShortName)s zostały wyzerowane. Wypełnienie "
+"warunku zostanie rozpoczęte od początku."
+
+msgid "serviceChannelMessages/failedPersonalMission/mission"
+msgstr "Misja: %(missionName)s"
+
+msgid "serviceChannelMessages/failedPersonalMission/operation"
+msgstr "Operacja: %(operation)s"
 
 msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
 msgstr ""
