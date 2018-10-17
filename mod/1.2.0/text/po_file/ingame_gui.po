@@ -616,7 +616,7 @@ msgid "efficiencyRibbons/receivedWorldCollision"
 msgstr "Uszkodzenia od kolizji"
 
 msgid "efficiencyRibbons/spotted"
-msgstr "Plamisty"
+msgstr "Wyświecony"
 
 msgid "efficiencyRibbons/stun"
 msgstr "Uszkodzenia po ogłuszeniu przez Ciebie"
