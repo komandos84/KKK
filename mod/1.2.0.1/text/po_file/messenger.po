@@ -922,8 +922,8 @@ msgstr "Linia frontu jest dostępna tylko dla pojazdów VIII poziomu."
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"+++ event +++\n"
-"+++ event +++"
+"Tryb bitwy:\n"
+"Ciemny Front"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -1730,6 +1730,12 @@ msgstr "Otrzymujesz darmowe doświadczenie"
 
 msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Uzyskano złota"
+
+msgid "serviceChannelMessages/battleResults/halloweenFinalReward"
+msgstr "Osiągnąłeś maksymalny poziom premii! Nagroda:"
+
+msgid "serviceChannelMessages/battleResults/halloweenShopItem"
+msgstr "Poziom w górę!"
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr ""

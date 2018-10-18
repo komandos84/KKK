@@ -1551,6 +1551,35 @@ msgid "graficsPresetFail"
 msgstr ""
 "Nie udało się zastosować ustawienia grafiki. Konflikt karty graficznej."
 
+msgid "halloween/disabled"
+msgstr "Błąd podczas zakupu maksymalnego poziomu premii. Operacja niedostępna."
+
+msgid "halloween/gold_error"
+msgstr "Za mało złota, by kupić maksymalny poziom premii."
+
+msgid "halloween/gold_not_available"
+msgstr "Nie można kupić maksymalnego poziomu premii. Spróbuj ponownie później."
+
+msgid "halloween/gold_price_changed"
+msgstr "Cena zakupu za złoto zmieniła się. Spróbuj ponownie później."
+
+msgid "halloween/max_level_already_bought"
+msgstr "Maksymalny poziom premii już został kupiony."
+
+msgid "halloween/no_gold"
+msgstr "Za mało złota, by kupić maksymalny poziom premii."
+
+msgid "halloween/server_error"
+msgstr "Nie można kupić maksymalnego poziomu premii. Spróbuj ponownie później."
+
+msgid "halloween/wallet_not_available"
+msgstr "Błąd podczas zakupu maksymalnego poziomu premii. Operacja niedostępna."
+
+msgid "he_shop/buy_max_level_success"
+msgstr ""
+"Kupiono maksymalny poziom premii! Wydano %(gold)s.\n"
+"Dostarcza: %(achieves)s"
+
 msgid "igr/customization/begin"
 msgstr "Darmowe kamuflaże, napisy i emblematy są dostępne w %(igrIcon)s."
 
@@ -1726,6 +1755,9 @@ msgid "login_to_other_game_wows"
 msgstr ""
 "bieżąca sesja gra została przerwana. Twoje Wargaming.net&nbsp;ID zostało "
 "wykorzystane do zalogowania się do gry World&nbsp;of&nbsp;Warships"
+
+msgid "max_level_already_reached"
+msgstr "Osiągnąłeś już maksymalny poziom premii."
 
 msgid "memberRosterChangedMain"
 msgstr "%s promował do drużyny %s."

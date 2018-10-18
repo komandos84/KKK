@@ -1171,6 +1171,15 @@ msgstr "Baza%s przeciwnika opanowana"
 msgid "player_messages/enemy_team_name"
 msgstr "Drużyna przeciwna"
 
+msgid "player_messages/halloweenBliss"
+msgstr "%(player)s zebrał %(points)s"
+
+msgid "player_messages/halloweenSalvation"
+msgstr "%(player)s dostarczył %(points)s"
+
+msgid "player_messages/halloweenSin"
+msgstr "%(player)s został zniszczony i stracił %(points)s"
+
 msgid "player_messages/loader_intuition_was_used"
 msgstr "Użyto atutu \"Intuicja\"."
 
