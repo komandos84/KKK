@@ -545,7 +545,7 @@ msgid "efficiencyRibbons/receivedWorldCollision"
 msgstr "Uszkodzenia od kolizji"
 
 msgid "efficiencyRibbons/spotted"
-msgstr "Plamisty"
+msgstr "Wykryty"
 
 msgid "efficiencyRibbons/stun"
 msgstr "Uszkodzenia po ogłuszeniu przez Ciebie"
@@ -1442,6 +1442,47 @@ msgstr "Gratulacje"
 
 msgid "rewardWindow/base/subHeaderText"
 msgstr "Otrzymano nagrody"
+
+msgid "rewardWindow/twitch0/btnLabel"
+msgstr "TAK JEST!"
+
+msgid "rewardWindow/twitch0/descText"
+msgstr ""
+"Gratulacje, w pakiecie z Twitch Prime otrzymałeś specjalny zrzut "
+"zaopatrzenia. Dobrze go wykorzystaj na polu bitwy."
+
+msgid "rewardWindow/twitch0/headerText"
+msgstr "Pakiet bytowy „Bravo”"
+
+msgid "rewardWindow/twitch0/subHeaderText"
+msgstr "Zostałeś nagrodzony!"
+
+msgid "rewardWindow/twitch1/btnLabel"
+msgstr "ZWERBUJ"
+
+msgid "rewardWindow/twitch1/descText"
+msgstr ""
+"Gratulacje, wraz z Twitch Prime otrzymałeś nowego, specjalnego rekruta."
+
+msgid "rewardWindow/twitch1/headerText"
+msgstr "Pakiet bytowy „Alfa”"
+
+msgid "rewardWindow/twitch1/subHeaderText"
+msgstr "Zostałeś nagrodzony!"
+
+msgid "rewardWindow/twitch2/btnLabel"
+msgstr "TAK JEST!"
+
+msgid "rewardWindow/twitch2/descText"
+msgstr ""
+"Gratulacje, w pakiecie z Twitch Prime otrzymałeś specjalny zrzut "
+"zaopatrzenia. Dobrze go wykorzystaj na polu bitwy."
+
+msgid "rewardWindow/twitch2/headerText"
+msgstr "Pakiet bytowy „Charlie”"
+
+msgid "rewardWindow/twitch2/subHeaderText"
+msgstr "Zostałeś nagrodzony!"
 
 msgid "rewardWindow/winHeaderText"
 msgstr "Gratulacje!"
