@@ -2325,7 +2325,7 @@ msgid "serviceChannelMessages/recruitGift/header"
 msgstr "Nadeszły posiłki!"
 
 msgid "serviceChannelMessages/recruitGift/text"
-msgstr "Otrzymałeś załogę podczas %(event)s."
+msgstr "Otrzymałeś załogę w %(event)s."
 
 msgid "serviceChannelMessages/recruitReminder/text"
 msgstr ""
