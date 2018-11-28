@@ -1820,6 +1820,23 @@ msgstr "Bitwa będzie kontynuowana za "
 msgid "respawnView/title"
 msgstr "Wybierz pojazdy"
 
+msgid "rewardWindow/anniversary_ga/btnLabel"
+msgstr "TAK JEST!"
+
+msgid "rewardWindow/anniversary_ga/descText"
+msgstr ""
+"Dziękujemy Ci za Twój udział w rozwijaniu World of Tanks! Naprawdę doceniamy "
+"Twój osobisty wkład!"
+
+msgid "rewardWindow/anniversary_ga/headerText"
+msgstr "List z podziękowaniami"
+
+msgid "rewardWindow/anniversary_ga/subHeaderText"
+msgstr "Zostałeś nagrodzony!"
+
+msgid "rewardWindow/anniversary_ga/winHeaderText"
+msgstr "Gratulacje!"
+
 msgid "rewardWindow/base/btnLabel"
 msgstr "Potwierdzam!"
 
