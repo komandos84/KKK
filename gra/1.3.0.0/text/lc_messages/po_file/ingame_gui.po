@@ -50,10 +50,16 @@ msgid "battleProgress/hint/description"
 msgstr "aby przejrzeć misje osobiste"
 
 msgid "battleProgress/hint/noBindingKey"
-msgstr "Nie przypisano klawisza do przełączania wyświetlania postępów misji"
+msgstr "Główne klawisze nie są przypisane"
 
 msgid "battleProgress/hint/press"
 msgstr "Naciśnij"
+
+msgid "burnout/hint/engineDamageWarning"
+msgstr "UWAGA, USZKODZENIE"
+
+msgid "burnout/hint/engineDamaged"
+msgstr "SILNIK USZKODZONY"
 
 msgid "chat_example/attack"
 msgstr "Do ataku!"
@@ -278,55 +284,57 @@ msgid "damageLog/shellType/HOLLOW_CHARGE"
 msgstr "HEAT"
 
 msgid "damage_panel/crew/commander/destroyed"
-msgstr "Dowódca jest ranny."
+msgstr "Dowódca jest ranny. Charakterystyki techniczne są pogorszone."
 
 msgid "damage_panel/crew/commander/normal"
 msgstr "Dowódca"
 
 msgid "damage_panel/crew/driver/destroyed"
-msgstr "Kierowca-mechanik jest ranny."
+msgstr ""
+"Kierowca-mechanik jest ranny. Poruszanie się i prędkość obrotu są "
+"ograniczone."
 
 msgid "damage_panel/crew/driver/normal"
 msgstr "Kierowca-mechanik"
 
 msgid "damage_panel/crew/gunner1/destroyed"
-msgstr "Celowniczy jest ranny."
+msgstr "Celowniczy jest ranny. Celność jest pogorszona."
 
 msgid "damage_panel/crew/gunner1/normal"
 msgstr "Celowniczy"
 
 msgid "damage_panel/crew/gunner2/destroyed"
-msgstr "Drugi celowniczy jest ranny."
+msgstr "Drugi celowniczy jest ranny. Celność jest pogorszona."
 
 msgid "damage_panel/crew/gunner2/normal"
 msgstr "Drugi celowniczy"
 
 msgid "damage_panel/crew/loader1/destroyed"
-msgstr "Ładowniczy jest ranny."
+msgstr "Ładowniczy jest ranny. Czas przeładowania jest wydłużony."
 
 msgid "damage_panel/crew/loader1/normal"
 msgstr "Ładowniczy"
 
 msgid "damage_panel/crew/loader2/destroyed"
-msgstr "Drugi ładowniczy jest ranny."
+msgstr "Drugi ładowniczy jest ranny. Czas przeładowania jest wydłużony."
 
 msgid "damage_panel/crew/loader2/normal"
 msgstr "Drugi ładowniczy"
 
 msgid "damage_panel/crew/radioman1/destroyed"
-msgstr "Radiooperator jest ranny."
+msgstr "Radiooperator jest ranny. Zasięg sygnału zmniejszony."
 
 msgid "damage_panel/crew/radioman1/normal"
 msgstr "Radiooperator"
 
 msgid "damage_panel/crew/radioman2/destroyed"
-msgstr "Drugi radiooperator jest ranny."
+msgstr "Drugi radiooperator jest ranny. Zasięg sygnału jest zmniejszony."
 
 msgid "damage_panel/crew/radioman2/normal"
 msgstr "Drugi radiooperator"
 
 msgid "damage_panel/devices/ammoBay/critical"
-msgstr "Amunicja uszkodzona."
+msgstr "Stojak amunicyjny jest uszkodzony. Czas ładowania wydłużony."
 
 msgid "damage_panel/devices/ammoBay/destroyed"
 msgstr "Wybuch amunicji."
@@ -344,7 +352,7 @@ msgid "damage_panel/devices/chassis/normal"
 msgstr "Zawieszenie nienaruszone."
 
 msgid "damage_panel/devices/engine/critical"
-msgstr "Spadek mocy silnika na skutek uszkodzenia."
+msgstr "Silnik jest uszkodzony. Moc jest zmniejszona."
 
 msgid "damage_panel/devices/engine/destroyed"
 msgstr "Unieruchomienie: silnik zniszczony."
@@ -362,7 +370,7 @@ msgid "damage_panel/devices/fuelTank/normal"
 msgstr "Zbiornik paliwa nienaruszony."
 
 msgid "damage_panel/devices/gun/critical"
-msgstr "Spadek celności na skutek uszkodzenia działa."
+msgstr "Działo jest uszkodzone. Celność jest pogorszona."
 
 msgid "damage_panel/devices/gun/destroyed"
 msgstr "Działo zniszczone. Prowadzenie ognia niemożliwe."
@@ -374,7 +382,7 @@ msgid "damage_panel/devices/radio/critical"
 msgstr "Radio uszkodzone."
 
 msgid "damage_panel/devices/radio/destroyed"
-msgstr "Radio zniszczone."
+msgstr "Radio zniszczone. Zasięg sygnału jest zmniejszony."
 
 msgid "damage_panel/devices/radio/normal"
 msgstr "Radio nienaruszone."
@@ -383,7 +391,7 @@ msgid "damage_panel/devices/surveyingDevice/critical"
 msgstr "Urządzenia obserwacyjne uszkodzone."
 
 msgid "damage_panel/devices/surveyingDevice/destroyed"
-msgstr "Urządzenia obserwacyjne zniszczone."
+msgstr "Urządzenia obserwacyjne zniszczone. Zasięg widzenia jest zmniejszony."
 
 msgid "damage_panel/devices/surveyingDevice/normal"
 msgstr "Urządzenie obserwacyjne nie zostało uszkodzone."
@@ -398,13 +406,22 @@ msgid "damage_panel/devices/track/normal"
 msgstr "Zawieszenie nienaruszone."
 
 msgid "damage_panel/devices/turretRotator/critical"
-msgstr "Wieża uszkodzona. Zmniejszona prędkość obrotu."
+msgstr "Wieża jest uszkodzona. Prędkość obrotu jest zmniejszona."
 
 msgid "damage_panel/devices/turretRotator/destroyed"
-msgstr "Wieża uszkodzona. Obrót wieży niemożliwy."
+msgstr "Obrót wieży niemożliwy: wieża zniszczona."
 
 msgid "damage_panel/devices/turretRotator/normal"
 msgstr "Wieża nienaruszona."
+
+msgid "damage_panel/devices/wheel/critical"
+msgstr "Zawieszenie uszkodzone."
+
+msgid "damage_panel/devices/wheel/destroyed"
+msgstr "Unieruchomiony: zawieszenie jest zniszczone."
+
+msgid "damage_panel/devices/wheel/normal"
+msgstr "Zawieszenie jest całe."
 
 msgid "devices/ammo_bay"
 msgstr "magazyn amunicyjny"
@@ -435,6 +452,9 @@ msgstr "urządzenia obserwacyjne"
 
 msgid "devices/turret_rotator"
 msgstr "obrót wieży"
+
+msgid "devices/wheel"
+msgstr "Koło"
 
 msgid "distance/meters"
 msgstr "%(meters)d m"
@@ -618,6 +638,12 @@ msgstr "%(time)s s..."
 
 msgid "fortConsumables/timer/postfix"
 msgstr "s..."
+
+msgid "helpScreen/hint/press"
+msgstr "Naciśnij"
+
+msgid "helpscreen/hint/description"
+msgstr "aby zobaczyć charakterystyki pojazdu"
 
 msgid "hitMarker/blocked"
 msgstr "Nie przebito pancerza"
@@ -1127,9 +1153,15 @@ msgstr "[%(device)s] znowu działa"
 msgid "player_messages/DEVICE_STARTED_FIRE_AT_SHOT"
 msgstr "[%(device)s] płonie po trafieniu gracza %(entity)s."
 
+msgid "player_messages/ENGINE_CRITICAL_AT_BURNOUT"
+msgstr "Urządzenie [%(device)s] zostało uszkodzone przez dopalacz."
+
 msgid "player_messages/ENGINE_CRITICAL_AT_UNLIMITED_RPM"
 msgstr ""
 "Usunięcie ograniczenia prędkości obrotu uszkodziło urządzenie: [%(device)s]"
+
+msgid "player_messages/ENGINE_DESTROYED_AT_BURNOUT"
+msgstr "Urządzenie [%(device)s] zostało zniszczone przez dopalacz."
 
 msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
 msgstr ""
@@ -1170,15 +1202,6 @@ msgstr "Baza%s przeciwnika opanowana"
 
 msgid "player_messages/enemy_team_name"
 msgstr "Drużyna przeciwna"
-
-msgid "player_messages/halloweenBliss"
-msgstr "%(player)s zebrał %(points)s"
-
-msgid "player_messages/halloweenSalvation"
-msgstr "%(player)s dostarczył %(points)s"
-
-msgid "player_messages/halloweenSin"
-msgstr "%(player)s został zniszczony i stracił %(points)s"
 
 msgid "player_messages/loader_intuition_was_used"
 msgstr "Użyto atutu \"Intuicja\"."
@@ -1432,7 +1455,7 @@ msgid "respawnView/title"
 msgstr "Wybierz pojazdy"
 
 msgid "rewardWindow/anniversary_ga/btnLabel"
-msgstr "TAK JEST!"
+msgstr "Tak jest!"
 
 msgid "rewardWindow/anniversary_ga/descText"
 msgstr ""
@@ -1459,6 +1482,24 @@ msgstr "Gratulacje"
 
 msgid "rewardWindow/base/subHeaderText"
 msgstr "Otrzymano nagrody"
+
+msgid "rewardWindow/countLabel"
+msgstr "x{count}"
+
+msgid "rewardWindow/lootbox/btnLabel"
+msgstr "Przejdź do pudełek"
+
+msgid "rewardWindow/lootbox/descText"
+msgstr "Otrzymałeś duże pudełka z cennymi nagrodami."
+
+msgid "rewardWindow/lootbox/headerText"
+msgstr "Otrzymałeś pudełka!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Otrzymałeś małe pudełka z cennymi nagrodami za ukończenie misji."
+
+msgid "rewardWindow/lootbox/winHeaderText"
+msgstr "Czas się dowiedzieć, co jest w pudełku!"
 
 msgid "rewardWindow/twitch0/btnLabel"
 msgstr "TAK JEST!"
@@ -1553,10 +1594,13 @@ msgid "siegeMode/hint/forMode/3"
 msgstr "?empty?"
 
 msgid "siegeMode/hint/noBinding"
-msgstr "Klawisz przełączania trybów nie został przypisany."
+msgstr "Główne klawisze nie są przypisane"
 
 msgid "siegeMode/hint/press"
 msgstr "Naciśnij"
+
+msgid "siegeMode/hint/wheeled"
+msgstr "aby przełączyć tryb poruszania się"
 
 msgid "statistics/exit"
 msgstr "Naciśnij Esc, aby wyjść do garażu..."
@@ -1675,11 +1719,6 @@ msgstr "Skład"
 msgid "statistics/tab/line_up/title"
 msgstr "Skład drużyny"
 
-msgid "statistics/tab/progressTracing/notAvailable"
-msgstr ""
-"Śledzenie postępów misji osobistych w kampanii „Długo oczekiwane wsparcie” "
-"jest aktualnie niedostępne"
-
 msgid "statistics/tab/quests/header"
 msgstr "Misje"
 
@@ -1768,7 +1807,7 @@ msgid "trajectoryView/hint/alternateModeRight"
 msgstr "aby zmienić tryb celowania"
 
 msgid "trajectoryView/hint/noBindingKey"
-msgstr "Nie przypisano klawisza zmiany trybu celowania"
+msgstr "Główne klawisze nie są przypisane"
 
 msgid "vehicle_messages/DEATH_FROM_DEATH_ZONE_ALLY_SELF"
 msgstr ""

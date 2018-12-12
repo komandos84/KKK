@@ -918,7 +918,7 @@ msgstr ""
 "aby otrzymywać więcej doświadczenia"
 
 msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
-msgstr "Linia frontu jest dostępna tylko dla pojazdów VIII poziomu."
+msgstr "Tryb „Linia frontu” jest dostępny tylko dla pojazdów VIII poziomu."
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
@@ -1731,12 +1731,6 @@ msgstr "Otrzymujesz darmowe doświadczenie"
 msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Uzyskano złota"
 
-msgid "serviceChannelMessages/battleResults/halloweenFinalReward"
-msgstr "Osiągnąłeś maksymalny poziom premii! Nagroda:"
-
-msgid "serviceChannelMessages/battleResults/halloweenShopItem"
-msgstr "Poziom w górę!"
-
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/penalty.png' width='12' "
@@ -1791,6 +1785,9 @@ msgstr "Dodano"
 
 msgid "serviceChannelMessages/battleResults/quests/items/name"
 msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/nyBoxes"
+msgstr "Otrzymano małe pudełka (x%(count)s)"
 
 msgid "serviceChannelMessages/battleResults/quests/premium"
 msgstr "Dodano dni premium"
@@ -1865,6 +1862,9 @@ msgstr ""
 msgid "serviceChannelMessages/battleResults/tanks"
 msgstr "Pojazdy"
 
+msgid "serviceChannelMessages/battleResults/tankwoman"
+msgstr "Członkini załogi"
+
 msgid "serviceChannelMessages/battleResults/techDefeat"
 msgstr "Porażki techniczne"
 
@@ -1873,6 +1873,9 @@ msgstr "Zwycięstwo walkowerem"
 
 msgid "serviceChannelMessages/battleResults/training_battle"
 msgstr "Poligon"
+
+msgid "serviceChannelMessages/battleResults/vehicle_discount"
+msgstr "Zniżka na pojazdy %(level)s poziomu"
 
 msgid "serviceChannelMessages/battleResults/victory"
 msgstr "Zwycięstwo"
@@ -2169,6 +2172,9 @@ msgstr "efekt"
 msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
 msgstr "malowanie"
 
+msgid "serviceChannelMessages/invoiceReceived/compensation/projection_decal"
+msgstr "naklejka"
+
 msgid "serviceChannelMessages/invoiceReceived/compensation/style"
 msgstr "styl"
 
@@ -2238,6 +2244,12 @@ msgstr "Przepisano sprzęt"
 msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
 msgstr "Na pojazdach"
 
+msgid "serviceChannelMessages/invoiceReceived/nyToysAccruedInvoiceReceived"
+msgstr "Otrzymano dekoracje: "
+
+msgid "serviceChannelMessages/invoiceReceived/nyToysDebitedInvoiceReceived"
+msgstr "Usunięto dekoracje: "
+
 msgid "serviceChannelMessages/invoiceReceived/pieces"
 msgstr "szt."
 
@@ -2268,6 +2280,9 @@ msgstr "Dodano nierozdzielone doświadczenie członkom załogi"
 msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
 msgstr "Usunięto nierozdzielone doświadczenie członkom załogi"
 
+msgid "serviceChannelMessages/invoiceReceived/toyTypeWrapper"
+msgstr "%(name)s (x%(count)s)"
+
 msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
 msgstr "Dodano czołgi"
 
@@ -2279,6 +2294,41 @@ msgstr "Dodano wypożyczone pojazdy"
 
 msgid "serviceChannelMessages/itemReceivedAsGift"
 msgstr "Otrzymano wyposażenie: %(typeName)s \"%(itemName)s\" - %(amount)d szt."
+
+msgid "serviceChannelMessages/lootBoxes/button"
+msgstr "Do pudełek"
+
+msgid "serviceChannelMessages/lootBoxes/footer"
+msgstr "Kliknij przycisk, by zobaczyć zawartość."
+
+msgid "serviceChannelMessages/lootBoxes/header"
+msgstr "Otrzymałeś paczkę:"
+
+msgid "serviceChannelMessages/lootBoxes/item/name"
+msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Obejrzyj"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Otrzymano nagrody"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr ""
+"Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy nagrody za Operacje "
+"świąteczne"
+
+msgid "serviceChannelMessages/lootBoxesGift/body"
+msgstr "Kliknij przycisk, by zobaczyć zawartość."
+
+msgid "serviceChannelMessages/lootBoxesGift/button"
+msgstr "Odbierz"
+
+msgid "serviceChannelMessages/lootBoxesGift/header"
+msgstr "Otrzymałeś paczkę:"
 
 msgid "serviceChannelMessages/notrecruitedTankman/button"
 msgstr "Do koszar"
@@ -2362,11 +2412,14 @@ msgid "serviceChannelMessages/recruitGift/header"
 msgstr "Nadeszły posiłki!"
 
 msgid "serviceChannelMessages/recruitGift/text"
-msgstr "Otrzymałeś załogę w %(event)s."
+msgstr "Otrzymałeś członka załogi w %(event)s."
 
 msgid "serviceChannelMessages/recruitReminder/text"
 msgstr ""
 "Masz niezrekrutowanych członków załogi: %(count)s. Zostaną usunięci %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderTermless/text"
+msgstr "Posiadasz niezrekrutowanych członków załogi: %(count)s"
 
 msgid "serviceChannelMessages/removedBadgeAchievement"
 msgstr "Usunięto odznaki"
