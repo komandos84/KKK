@@ -918,7 +918,9 @@ msgstr ""
 "aby otrzymywać więcej doświadczenia"
 
 msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
-msgstr "Tryb „Linia frontu” jest dostępny tylko dla pojazdów VIII poziomu."
+msgstr ""
+"Linia frontu jest dostępna tylko\n"
+"dla pojazdów VIII poziomu."
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
@@ -1144,12 +1146,6 @@ msgstr "Ignorowani"
 
 msgid "messenger/contacts/mainGrops/Other/friendshipRequest"
 msgstr "Prośby o dołączenie do znajomych"
-
-msgid "messenger/contacts/mainGroups/other/referrals"
-msgstr "Rekruci"
-
-msgid "messenger/contacts/mainGroups/other/referrers"
-msgstr "Rekruterzy"
 
 msgid "messenger/contacts/searchInputPrompt"
 msgstr "Znajdź gracza na liście"
@@ -1599,6 +1595,14 @@ msgstr ""
 "Nie udało się przedłużyć okresu wypożyczenia stylu na %s. Całe Twoje złoto "
 "będzie dostępne automatycznie po przywróceniu funkcjonowania potrfela WG."
 
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
+msgstr "Przedłuż okres wypożyczenia"
+
+msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/text"
+msgstr ""
+"Okres wypożyczenia stylu %s zastosowanego na pojeździe %s niedługo dobiegnie "
+"końca: pozostały 3 bitwy."
+
 msgid "serviceChannelMessages/autoRentStyleRentIsOver/button"
 msgstr "Wygląd zewnętrzny"
 
@@ -1760,9 +1764,6 @@ msgstr "Dodano"
 msgid "serviceChannelMessages/battleResults/quests/items/name"
 msgstr "%(name)s (x%(count)s)"
 
-msgid "serviceChannelMessages/battleResults/quests/nyBoxes"
-msgstr "Otrzymano małe pudełko (x%(count)s)"
-
 msgid "serviceChannelMessages/battleResults/quests/premium"
 msgstr "Dodano dni premium"
 
@@ -1818,21 +1819,6 @@ msgstr "utracono szewron"
 msgid "serviceChannelMessages/battleResults/rankedState/win/stepsEarned"
 msgstr "otrzymano szewrony"
 
-msgid "serviceChannelMessages/battleResults/refSystemBoughtVehicle"
-msgstr ""
-"Gratulacje!\n"
-"Twój rekrut %(userName)s kupił pojazd na X poziomie."
-
-msgid "serviceChannelMessages/battleResults/refSystemContributeXp"
-msgstr ""
-"Gratulacje!\n"
-"Twój rekrut %(userName)s zdobył dla ciebie %(xp)s punktów doświadczenia."
-
-msgid "serviceChannelMessages/battleResults/refSystemQuests"
-msgstr ""
-"Gratulacje!\n"
-"W zamian za sukces twoich rekrutów otrzymujesz"
-
 msgid "serviceChannelMessages/battleResults/tanks"
 msgstr "Pojazdy"
 
@@ -1847,9 +1833,6 @@ msgstr "Zwycięstwo walkowerem"
 
 msgid "serviceChannelMessages/battleResults/training_battle"
 msgstr "Poligon"
-
-msgid "serviceChannelMessages/battleResults/vehicle_discount"
-msgstr "Zniżka na pojazdy %(level)s poziomu"
 
 msgid "serviceChannelMessages/battleResults/victory"
 msgstr "Zwycięstwo"
@@ -2112,7 +2095,7 @@ msgid "serviceChannelMessages/invoiceReceived/compensation"
 msgstr "Kompensacja za"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
-msgstr "kamuflaż"
+msgstr "Kamuflaż"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/credits"
 msgstr "kredytów"
@@ -2121,25 +2104,28 @@ msgid "serviceChannelMessages/invoiceReceived/compensation/crystal"
 msgstr "za obligacje"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
-msgstr "emblemat"
+msgstr "Emblemat"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
 msgstr "złota"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/inscription"
-msgstr "napis"
+msgstr "Napis"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/modification"
-msgstr "efekt"
+msgstr "Efekt"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
-msgstr "malowanie"
+msgstr "Farba"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personal_number"
+msgstr "Trzycyfrowy numer"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/projection_decal"
-msgstr "naklejka"
+msgstr "Naklejka"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/style"
-msgstr "styl"
+msgstr "Styl"
 
 msgid "serviceChannelMessages/invoiceReceived/creditsAccrued"
 msgstr "Dodane kredyty"
@@ -2207,12 +2193,6 @@ msgstr "Przepisano sprzęt"
 msgid "serviceChannelMessages/invoiceReceived/itemsInstalled"
 msgstr "Na pojazdach"
 
-msgid "serviceChannelMessages/invoiceReceived/nyToysAccruedInvoiceReceived"
-msgstr "Otrzymano dekoracje: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyToysDebitedInvoiceReceived"
-msgstr "Usunięto dekoracje: "
-
 msgid "serviceChannelMessages/invoiceReceived/pieces"
 msgstr "szt."
 
@@ -2243,9 +2223,6 @@ msgstr "Dodano nierozdzielone doświadczenie członkom załogi"
 msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
 msgstr "Usunięto nierozdzielone doświadczenie członkom załogi"
 
-msgid "serviceChannelMessages/invoiceReceived/toyTypeWrapper"
-msgstr "%(name)s (x%(count)s)"
-
 msgid "serviceChannelMessages/invoiceReceived/vehiclesAccrued"
 msgstr "Dodano czołgi"
 
@@ -2254,6 +2231,11 @@ msgstr "Usunięto czołgi"
 
 msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
 msgstr "Dodano wypożyczone pojazdy"
+
+msgid "serviceChannelMessages/invoiceReceived/vehiclesRented/bonus"
+msgstr ""
+"Uwaga! Dalsze przedłużenie okresu wypożyczenia będzie dla Ciebie dostępne ze "
+"zniżką."
 
 msgid "serviceChannelMessages/itemReceivedAsGift"
 msgstr "Otrzymano wyposażenie: %(typeName)s \"%(itemName)s\" - %(amount)d szt."
@@ -2283,15 +2265,6 @@ msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
 msgstr ""
 "Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy nagrody za Operacje "
 "świąteczne"
-
-msgid "serviceChannelMessages/lootBoxesGift/body"
-msgstr "Kliknij przycisk, by zobaczyć zawartość."
-
-msgid "serviceChannelMessages/lootBoxesGift/button"
-msgstr "Odbierz"
-
-msgid "serviceChannelMessages/lootBoxesGift/header"
-msgstr "Otrzymałeś paczkę:"
 
 msgid "serviceChannelMessages/notrecruitedTankman/button"
 msgstr "Do koszar"
@@ -2375,14 +2348,11 @@ msgid "serviceChannelMessages/recruitGift/header"
 msgstr "Nadeszły posiłki!"
 
 msgid "serviceChannelMessages/recruitGift/text"
-msgstr "Otrzymałeś członka załogi w %(event)s."
+msgstr "Otrzymałeś załogę na %(event)s."
 
 msgid "serviceChannelMessages/recruitReminder/text"
 msgstr ""
 "Masz niezrekrutowanych członków załogi: %(count)s. Zostaną usunięci %(date)s!"
-
-msgid "serviceChannelMessages/recruitReminderTermless/text"
-msgstr "Posiadasz niezrekrutowanych członków załogi: %(count)s"
 
 msgid "serviceChannelMessages/removedBadgeAchievement"
 msgstr "Usunięto odznaki"
@@ -2487,7 +2457,7 @@ msgid "serviceChannelMessages/sysMsg/customizations/sell"
 msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Otrzymano: %(money)s"
 
 msgid "serviceChannelMessages/sysMsg/titles/customization"
-msgstr "Indywidualizacja:"
+msgstr "Personalizacja:"
 
 msgid "serviceChannelMessages/sysMsg/titles/dismantling"
 msgstr "Zdemontowano:"
@@ -2550,6 +2520,9 @@ msgstr "Odblokowany. %(vehicleName)s dostępny do bitwy klanowej."
 
 msgid "serviceChannelMessages/vehicleReceivedAsGift"
 msgstr "Otrzymano czołg premium: %(vehicleName)s"
+
+msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
+msgstr "Nie można wypożyczyć pojazdu. Za mało środków."
 
 msgid "serviceChannelMessages/vehicleRented"
 msgstr ""
