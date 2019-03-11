@@ -1558,6 +1558,14 @@ msgstr "Nie można wyszkolić czołgisty. Spróbuj ponownie później."
 msgid "free_xp_to_tman_skill/success"
 msgstr "Udało się wyszkolić czołgistę. Zużyte Wolne Doświadczenie: %(freeXP)s."
 
+msgid "frontline_buy_vehicle/buy"
+msgstr ""
+"Data: %(date)s\n"
+"Potrącone punkty prestiżu: %(count)s"
+
+msgid "frontline_buy_vehicle/server_error"
+msgstr "Nie można kupić pojazdu %(veh_name)s"
+
 msgid "gameSessionControl/korea/midnightNotification"
 msgstr ""
 "Aby zapobiec uzależnieniu dzieci i nastolatków od gry, zakazane jest "
