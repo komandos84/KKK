@@ -71,7 +71,7 @@ msgid "chat_example/attention_to_cell"
 msgstr "Uwaga na <Sektor na minimapie>!"
 
 msgid "chat_example/attention_to_position"
-msgstr "Uwaga na lokalizację"
+msgstr "Uwaga na lokalizację!"
 
 msgid "chat_example/back_to_base"
 msgstr "Bronić bazę!"
@@ -183,10 +183,10 @@ msgid "chat_shortcuts/attention_to_objective_atk"
 msgstr "Zniszcz cel %(int32Arg1)s"
 
 msgid "chat_shortcuts/attention_to_objective_def"
-msgstr "Obrona celu %(int32Arg1)s"
+msgstr "Obroń cel %(int32Arg1)s"
 
 msgid "chat_shortcuts/attention_to_position"
-msgstr "Uwaga na lokalizację."
+msgstr "Uwaga na lokalizację!"
 
 msgid "chat_shortcuts/back_to_base"
 msgstr ""
