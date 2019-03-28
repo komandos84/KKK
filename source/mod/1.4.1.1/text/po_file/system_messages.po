@@ -937,7 +937,7 @@ msgid "connected"
 msgstr ""
 "Witaj\n"
 "na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!"
-"<br><font color='#BFE9FF'>KKK 1.4.1.0</font> <font "
+"<br><font color='#BFE9FF'>KKK 1.4.1.1</font> <font "
 "color='#FF3333'>Automatyk</font>"
 
 msgid "crewSkinsCompensation/success"
