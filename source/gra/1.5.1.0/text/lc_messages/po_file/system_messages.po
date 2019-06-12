@@ -866,6 +866,28 @@ msgstr ""
 "Witaj\n"
 "na serwerze World of Tanks '%s'!"
 
+msgid "crewBooks/failed"
+msgstr "Wystąpił błąd: nie można przeczytać podręcznika dla załogi."
+
+msgid "crewBooksNotification/bookUsed"
+msgstr "Zużyto: %(name)s"
+
+msgid "crewBooks_buy/server_error"
+msgstr ""
+"Nie można kupić podręcznika dla załogi ze względu na błąd serwera. Spróbuj "
+"ponownie później."
+
+msgid "crewBooks_buy/success"
+msgstr "%(name)s (%(count)s przedmiot(ów)). Wydano %(money)s."
+
+msgid "crewBooks_sell/server_error"
+msgstr ""
+"Nie można sprzedać podręcznika dla załogi ze względu na błąd serwera. "
+"Spróbuj ponownie później."
+
+msgid "crewBooks_sell/success"
+msgstr "%(name)s (%(count)s przedmiot(ów)). Otrzymano %(money)s."
+
 msgid "crewSkinsCompensation/success"
 msgstr ""
 "Wykryto kopie opcji wyglądu załogi.\n"
@@ -1030,8 +1052,8 @@ msgstr "Nie można dokonać modyfikacji. Pojazd zablokowany."
 
 msgid "daily_xp_bonus/switch_off/body"
 msgstr ""
-"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych. "
-"Spróbuj ponownie później."
+"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych.\n"
+"Przepraszamy za niedogodności."
 
 msgid "daily_xp_bonus/switch_off/title"
 msgstr "Zarządzany bonus do doświadczenia jest tymczasowo niedostępny"
@@ -1824,12 +1846,12 @@ msgstr "Operacja niedostępna. Zaczekaj na zakończenie obecnego procesu."
 msgid "maps_black_list/select/success"
 msgstr ""
 "Mapa %(mapName)s została wykluczona z bitew losowych dla typu bitew "
-"standardowych. Możesz zmienić swój wybór za %(time)s"
+"standardowych. Możesz zmienić swój wybór za %(time)s."
 
 msgid "maps_black_list/switch_off/body"
 msgstr ""
-"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych. "
-"Spróbuj ponownie później."
+"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych.\n"
+"Przepraszamy za niedogodności."
 
 msgid "maps_black_list/switch_off/title"
 msgstr "Wykluczanie map jest tymczasowo niedostępne"
@@ -2182,8 +2204,8 @@ msgstr "Zasoby rezerwowe są pełne, ale zostaną otwarte za %(timeValue)s"
 
 msgid "piggybank/switch_off/body"
 msgstr ""
-"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych. "
-"Spróbuj ponownie później."
+"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych.\n"
+"Przepraszamy za niedogodności."
 
 msgid "piggybank/switch_off/title"
 msgstr "Zasoby rezerwowe są tymczasowo niedostępne"
@@ -2192,7 +2214,7 @@ msgid "piggybank/switch_on/body"
 msgstr "Problemy techniczne zostały rozwiązane. Przepraszamy za niedogodności."
 
 msgid "piggybank/switch_on/title"
-msgstr "Zasoby rezerwowe są znowu dostępne"
+msgstr "Zasoby rezerwowe są ponownie dostępne"
 
 msgid "prebattle/hasLockedState"
 msgstr ""
@@ -2406,8 +2428,8 @@ msgstr "Operacja niedostępna. Zaczekaj na zakończenie obecnego procesu."
 
 msgid "premium_quests/switch_off/body"
 msgstr ""
-"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych. "
-"Spróbuj ponownie później."
+"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych.\n"
+"Przepraszamy za niedogodności."
 
 msgid "premium_quests/switch_off/title"
 msgstr "Misje premium są tymczasowo niedostępne"
@@ -2479,19 +2501,22 @@ msgid "ranked/notifications/bonusName/styles"
 msgstr "Otrzymano style:"
 
 msgid "ranked/notifications/bonusName/yearPoints"
-msgstr "Otrzymano żetony stopnia: %(yearPoints)s"
+msgstr "Otrzymane żetony stopnia: %(yearPoints)s"
 
 msgid "ranked/notifications/bonusValue/premiumDay"
-msgstr "Dni konta Wargaming premium"
+msgstr "Dni konta premium Wargaming"
 
 msgid "ranked/notifications/bonusValue/premiumDays"
-msgstr "Dni konta Wargaming premium (x%(daysCount)s)"
+msgstr "Dni konta premium Wargaming (x%(daysCount)s)"
 
 msgid "ranked/notifications/bonusValue/premiumPlusDay"
 msgstr "Dni konta premium WoT"
 
 msgid "ranked/notifications/bonusValue/premiumPlusDays"
 msgstr "Dni konta premium WoT (x%(daysCount)s)"
+
+msgid "ranked/notifications/cycleResults"
+msgstr "Wyniki etapu %(number)s"
 
 msgid "ranked/notifications/league"
 msgstr "Liga: %(leagueName)s"
@@ -2506,7 +2531,7 @@ msgid "ranked/notifications/league3"
 msgstr "Brązowa"
 
 msgid "ranked/notifications/leaguePoints"
-msgstr "Otrzymano żetony stopnia dla złotej ligi: %(points)s"
+msgstr "Otrzymane żetony stopnia dla złotej ligi: %(points)s"
 
 msgid "ranked/notifications/maxRank"
 msgstr "Maksymalny stopień: %(result)s"
@@ -2518,13 +2543,19 @@ msgid "ranked/notifications/position"
 msgstr "Miejsce w klasyfikacji: %(position)s"
 
 msgid "ranked/notifications/seasonPoints"
-msgstr "Otrzymano żetony stopnia dla sezonu: %(points)s"
+msgstr "Otrzymane żetony stopnia dla sezonu: %(points)s"
 
 msgid "ranked/notifications/seasonResults"
 msgstr "Wyniki bitew rankingowych, sezon %(seasonNumber)s"
 
 msgid "ranked/notifications/singleRank/text"
-msgstr "Osiągnąłeś %(rankName)s stopień (%(divisionName)s)"
+msgstr "Osiągnięto %(rankName)s stopień (%(divisionName)s)"
+
+msgid "ranked/notifications/sprinterImproved"
+msgstr "Otrzymano odznakę sprintera. Poprawiono nagrody."
+
+msgid "ranked/notifications/sprinterTop"
+msgstr "Otrzymano odznakę sprintera"
 
 msgid "recruit_window/FORBIDDEN"
 msgstr ""
@@ -2928,8 +2959,8 @@ msgstr ""
 
 msgid "squad_bonus/switch_off/body"
 msgstr ""
-"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych. "
-"Spróbuj ponownie później."
+"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych.\n"
+"Przepraszamy za niedogodności."
 
 msgid "squad_bonus/switch_off/title"
 msgstr "Bonus dla plutonu jest tymczasowo niedostępny"
