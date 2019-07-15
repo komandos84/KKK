@@ -1974,6 +1974,20 @@ msgstr "Pakiet bytowy „Echo”"
 msgid "rewardWindow/twitch3/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch4/btnLabel"
+msgstr "Rekrutuj!"
+
+msgid "rewardWindow/twitch4/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
+"Prime. A teraz dobrze go wykorzystaj."
+
+msgid "rewardWindow/twitch4/headerText"
+msgstr "Pakiet bytowy „Foxtrot”"
+
+msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/winHeaderText"
 msgstr "Gratulacje!"
 
