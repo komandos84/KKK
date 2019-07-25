@@ -928,8 +928,8 @@ msgstr ""
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"Tryb bitwy:\n"
-"Ciemny Front"
+"Typ bitwy:\n"
+"Ostatnia granica"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -1706,6 +1706,21 @@ msgstr "Remis"
 
 msgid "serviceChannelMessages/battleResults/ended"
 msgstr "Bitwa skończyła się"
+
+msgid "serviceChannelMessages/battleResults/eventFrontLevelReached"
+msgstr "Osiągnięto nowy poziom frontu!"
+
+msgid "serviceChannelMessages/battleResults/eventFrontReward"
+msgstr "Zdobyto nagrodę frontu!"
+
+msgid "serviceChannelMessages/battleResults/eventGeneralBuyReward"
+msgstr "Otrzymano nagrodę za zakup!"
+
+msgid "serviceChannelMessages/battleResults/eventGeneralLevelReached"
+msgstr "Osiągnięto nowy poziom dywizji!"
+
+msgid "serviceChannelMessages/battleResults/eventGeneralReward"
+msgstr "Zdobyto nagrodę dywizji!"
 
 msgid "serviceChannelMessages/battleResults/experience"
 msgstr "Doświadczenia"

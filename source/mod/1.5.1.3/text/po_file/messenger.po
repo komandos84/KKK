@@ -928,8 +928,8 @@ msgstr ""
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"Tryb bitwy:\n"
-"Ciemny Front"
+"Typ bitwy:\n"
+"Ostatnia granica"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -1728,6 +1728,21 @@ msgstr "Remis"
 msgid "serviceChannelMessages/battleResults/ended"
 msgstr "Bitwa skończyła się"
 
+msgid "serviceChannelMessages/battleResults/eventFrontLevelReached"
+msgstr "Osiągnięto nowy poziom frontu!"
+
+msgid "serviceChannelMessages/battleResults/eventFrontReward"
+msgstr "Zdobyto nagrodę frontu!"
+
+msgid "serviceChannelMessages/battleResults/eventGeneralBuyReward"
+msgstr "Otrzymano nagrodę za zakup!"
+
+msgid "serviceChannelMessages/battleResults/eventGeneralLevelReached"
+msgstr "Osiągnięto nowy poziom dywizji!"
+
+msgid "serviceChannelMessages/battleResults/eventGeneralReward"
+msgstr "Zdobyto nagrodę dywizji!"
+
 msgid "serviceChannelMessages/battleResults/experience"
 msgstr "Doświadczenia"
 
@@ -1991,6 +2006,9 @@ msgstr ""
 "Otrzymano kredytów: <font color='#FFFFFF'>%(credits)s</font>&nbsp;<img "
 "src='img://gui/maps/icons/library/Automatyk/CreditsIcon.png' width='16' "
 "height='16' align='baseline' vspace='-4'/>."
+
+msgid "serviceChannelMessages/crewBooksCount"
+msgstr "%(label)s x%(count)s"
 
 msgid "serviceChannelMessages/crewSkinsCount"
 msgstr "%(label)s x%(count)s"

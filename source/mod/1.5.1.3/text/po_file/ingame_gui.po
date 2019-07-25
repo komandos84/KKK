@@ -193,6 +193,47 @@ msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/defendbase.png' width='16' "
 "height='16' align='baseline' vspace='-4'> <font color='#fff09d'>Bronić bazę!"
 "</font>"
+msgid "chat_shortcuts/event_chat_1"
+msgstr "Wycofać się!"
+
+msgid "chat_shortcuts/event_chat_1_ex"
+msgstr "%(target)s, wycofaj się!"
+
+msgid "chat_shortcuts/event_chat_2"
+msgstr "Dobra robota!"
+
+msgid "chat_shortcuts/event_chat_2_ex"
+msgstr "%(target)s, dobra robota!"
+
+msgid "chat_shortcuts/event_chat_3"
+msgstr "Mój pojazd się przewrócił!"
+
+msgid "chat_shortcuts/event_chat_3_ex"
+msgstr "%(target)s, postaw mnie!"
+
+msgid "chat_shortcuts/event_chat_4"
+msgstr "Dzięki!"
+
+msgid "chat_shortcuts/event_chat_4_ex"
+msgstr "%(target)s, dzięki!"
+
+msgid "chat_shortcuts/event_chat_5"
+msgstr "Zostałem wykryty!"
+
+msgid "chat_shortcuts/event_chat_5_ex"
+msgstr "%(target)s, zostałem wykryty!"
+
+msgid "chat_shortcuts/event_chat_6"
+msgstr "Atakuję!"
+
+msgid "chat_shortcuts/event_chat_6_ex"
+msgstr "%(target)s, osłaniaj mnie! Atakuję!"
+
+msgid "chat_shortcuts/event_chat_7"
+msgstr "Nie wychylać się!"
+
+msgid "chat_shortcuts/event_chat_7_ex"
+msgstr "%(target)s, nie wychylaj się!"
 
 msgid "chat_shortcuts/follow_me"
 msgstr ""
@@ -816,8 +857,14 @@ msgstr ""
 "height='16' align='baseline' vspace='-4'> <font color='#00FF00'>Wsparcie "
 "lotnicze na miejscu w gotowości do bombardowania.</font>"
 
+msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER_ATTACK"
+msgstr "Samolot szturmowy nadlatuje i jest gotowy do nalotu."
+
 msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
 msgstr "Nasza załoga jest gotowa zainspirować innych wokół siebie."
+
+msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD"
+msgstr "Twoja załoga jest gotowa do położenia pola minowego."
 
 msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
 msgstr "Samolot nadlatuje i jest gotowy do wykrywania."
@@ -837,8 +884,14 @@ msgstr ""
 "height='16' align='baseline' vspace='-4'> <font color='#74C500'>%(player)"
 "s's</font> <font color='#E0E0E0'>bombowce są w drodze.</font>"
 
+msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER_ATTACK"
+msgstr "Samolot szturmowy gracza %(player)s rozpoczyna nalot."
+
 msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
 msgstr "%(player)s aktywuje Inspirację."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD"
+msgstr "%(player)s położył pole minowe."
 
 msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
 msgstr "Lot zwiadowczy gracza %(player)s w drodze."
@@ -1321,6 +1374,11 @@ msgstr ""
 "<font color='#74C500'>%(attacker)s</font> <img src='img://gui/maps/icons/"
 "library/Automatyk/bomber.png' width='29' height='16' align='baseline' "
 "vspace='-4'> <font color='#7D0800'>%(target)s.</font>"
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER_ATTACK"
+msgstr "Samolot szturmowy gracza %(attacker)s zniszczył %(target)s."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_MINEFIELD"
+msgstr "%(target)s trafił na miny, które położył %(attacker)s."
 
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
 msgstr ""
@@ -1447,6 +1505,11 @@ msgstr ""
 "height='16' align='middle' vspace='-4'> <font color='#929292'>Wróg</font> "
 "<font color='#7D0800'>%(target)s</font> <font color='#E0E0E0'>zniszczony "
 "przez nalot bombowy.</font>"
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER_ATTACK"
+msgstr "%(target)s został zniszczony przez nalot na małej wysokości."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_MINEFIELD"
+msgstr "%(target)s trafił na miny."
 
 msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
 msgstr ""
@@ -1603,6 +1666,11 @@ msgstr "Baza%s przeciwnika opanowana"
 
 msgid "player_messages/enemy_team_name"
 msgstr "Drużyna przeciwna"
+
+msgid "player_messages/event_userNoHasAmmo"
+msgstr ""
+"Brak amunicji.\n"
+"Znajdź pociski na mapie."
 
 msgid "player_messages/loader_intuition_was_used"
 msgstr "Użyto atutu \"Intuicja\"."
@@ -1804,6 +1872,18 @@ msgstr "Pojazd został rozbity."
 msgid "postmortem_messages/DEATH_UNKNOWN"
 msgstr "Twój pojazd został zniszczony"
 
+msgid "radialMenu/allies"
+msgstr "sojusznicy"
+
+msgid "radialMenu/chatAbout"
+msgstr "Rozmawiaj z"
+
+msgid "radialMenu/chatWith"
+msgstr "Rozmawiaj z"
+
+msgid "radialMenu/nextPage"
+msgstr "Następna strona"
+
 msgid "recovery/cooldown"
 msgstr "Pojazd można opuścić za %(cooldown)s sekund"
 
@@ -1986,6 +2066,20 @@ msgid "rewardWindow/twitch4/headerText"
 msgstr "Pakiet bytowy „Foxtrot”"
 
 msgid "rewardWindow/twitch4/subHeaderText"
+msgstr "Otrzymane nagrody"
+
+msgid "rewardWindow/twitch5/btnLabel"
+msgstr "Rekrutuj!"
+
+msgid "rewardWindow/twitch5/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
+"Prime. A teraz dobrze go wykorzystaj."
+
+msgid "rewardWindow/twitch5/headerText"
+msgstr "Pakiet bytowy „Golf”"
+
+msgid "rewardWindow/twitch5/subHeaderText"
 msgstr "Otrzymane nagrody"
 
 msgid "rewardWindow/winHeaderText"
