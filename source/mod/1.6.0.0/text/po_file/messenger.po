@@ -928,8 +928,8 @@ msgstr ""
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"Typ bitwy:\n"
-"Ostatnia granica"
+"Tryb bitwy:\n"
+"Ciemny Front"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -1728,21 +1728,6 @@ msgstr "Remis"
 msgid "serviceChannelMessages/battleResults/ended"
 msgstr "Bitwa skończyła się"
 
-msgid "serviceChannelMessages/battleResults/eventFrontLevelReached"
-msgstr "Osiągnięto nowy poziom frontu!"
-
-msgid "serviceChannelMessages/battleResults/eventFrontReward"
-msgstr "Zdobyto nagrodę frontu!"
-
-msgid "serviceChannelMessages/battleResults/eventGeneralBuyReward"
-msgstr "Otrzymano nagrodę za zakup!"
-
-msgid "serviceChannelMessages/battleResults/eventGeneralLevelReached"
-msgstr "Osiągnięto nowy poziom dywizji!"
-
-msgid "serviceChannelMessages/battleResults/eventGeneralReward"
-msgstr "Zdobyto nagrodę dywizji!"
-
 msgid "serviceChannelMessages/battleResults/experience"
 msgstr "Doświadczenia"
 
@@ -1813,6 +1798,9 @@ msgstr "Dodane kredyty"
 msgid "serviceChannelMessages/battleResults/quests/crystal"
 msgstr "Dodano obligacje"
 
+msgid "serviceChannelMessages/battleResults/quests/festivalTickets"
+msgstr "Dodano kupony"
+
 msgid "serviceChannelMessages/battleResults/quests/freeXP"
 msgstr "Dodane wolne doświadczenie"
 
@@ -1826,10 +1814,10 @@ msgid "serviceChannelMessages/battleResults/quests/items/name"
 msgstr "%(name)s (x%(count)s)"
 
 msgid "serviceChannelMessages/battleResults/quests/premium"
-msgstr "Dodane dni konta premium Wargaming:"
+msgstr "Dodane dni konta premium Wargaming"
 
 msgid "serviceChannelMessages/battleResults/quests/premium_plus"
-msgstr "Dodane dni konta premium WoT:"
+msgstr "Dodane dni konta premium WoT"
 
 msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
 msgstr "Dodano miejsca"
@@ -2244,10 +2232,16 @@ msgstr "Efekt"
 msgid "serviceChannelMessages/invoiceReceived/compensation/paint"
 msgstr "Farba"
 
-msgid "serviceChannelMessages/invoiceReceived/compensation/personal_number"
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_1"
+msgstr "Jednocyfrowy numer"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_2"
+msgstr "Dwucyfrowy numer"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/personalNumber_3"
 msgstr "Trzycyfrowy numer"
 
-msgid "serviceChannelMessages/invoiceReceived/compensation/projection_decal"
+msgid "serviceChannelMessages/invoiceReceived/compensation/projectionDecal"
 msgstr "Naklejka"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/style"
@@ -2294,6 +2288,18 @@ msgstr "Dodano nagrody"
 
 msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
 msgstr "Usunięto nagrody"
+
+msgid "serviceChannelMessages/invoiceReceived/festivalItemsAccrued"
+msgstr "Otrzymano elementy dla Twojego nieśmiertelnika: "
+
+msgid "serviceChannelMessages/invoiceReceived/festivalItemsDebited"
+msgstr "Usunięto elementy z Twojego nieśmiertelnika: "
+
+msgid "serviceChannelMessages/invoiceReceived/festivalTicketsAccrued"
+msgstr "Otrzymano kupony: "
+
+msgid "serviceChannelMessages/invoiceReceived/festivalTicketsDebited"
+msgstr "Usunięto kupony: "
 
 msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
 msgstr "Dodano rozkazy"
@@ -2344,10 +2350,10 @@ msgid "serviceChannelMessages/invoiceReceived/pieces"
 msgstr "szt."
 
 msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
-msgstr "Dodane dni konta premium Wargaming:"
+msgstr "Dodane dni konta premium Wargaming"
 
 msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
-msgstr "Odjęte dni konta premium Wargaming:"
+msgstr "Odjęte dni konta premium Wargaming"
 
 msgid "serviceChannelMessages/invoiceReceived/premium_account"
 msgstr "Konto premium Wargaming"
@@ -2365,10 +2371,10 @@ msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
 msgstr "Konto premium WoT"
 
 msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
-msgstr "Dodane dni konta premium WoT:"
+msgstr "Dodane dni konta premium WoT"
 
 msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
-msgstr "Odjęte dni konta premium WoT:"
+msgstr "Odjęte dni konta premium WoT"
 
 msgid "serviceChannelMessages/invoiceReceived/tankmen"
 msgstr "Rekruci"
@@ -2635,6 +2641,11 @@ msgstr "Odliczone złoto: %(gold)s"
 msgid "serviceChannelMessages/sysMsg/converter/inscriptions"
 msgstr "Zmieniono napisy"
 
+msgid "serviceChannelMessages/sysMsg/converter/projectionDecalsDemounted"
+msgstr ""
+"Po tej aktualizacji wszystkie naklejki zostały usunięte z pojazdów i wysłane "
+"do działu Wygląd w magazynie."
+
 msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
 msgstr "Dodane miejsca: %(slots)s"
 
@@ -2653,8 +2664,28 @@ msgstr "Usunięte pojazdy: %(vehicles)s"
 msgid "serviceChannelMessages/sysMsg/customizations/buy"
 msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Wydano: %(money)s"
 
+msgid "serviceChannelMessages/sysMsg/customizations/item"
+msgstr "%(itemType)s „%(itemName)s” (x%(count)s)"
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/desert"
+msgstr "Mapa pustynna: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/summer"
+msgstr "Mapa letnia: "
+
+msgid "serviceChannelMessages/sysMsg/customizations/map/winter"
+msgstr "Mapa zimowa: "
+
 msgid "serviceChannelMessages/sysMsg/customizations/sell"
 msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Otrzymano: %(money)s"
+
+msgid "serviceChannelMessages/sysMsg/openCustomization/button"
+msgstr "Wygląd zewnętrzny"
+
+msgid "serviceChannelMessages/sysMsg/removeCustomizations"
+msgstr ""
+"Ze względu na wymianę modułów, z pojazdu %(vehicle)s zostały usunięte "
+"następujące elementy dostosowania wyglądu zewnętrznego."
 
 msgid "serviceChannelMessages/sysMsg/titles/customization"
 msgstr ""
@@ -2718,7 +2749,7 @@ msgstr ""
 "height='16' align='baseline' vspace='-3'/>Sprzedano: "
 
 msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
-msgstr "Otrzymałeś konto premium WoT na %(days)d dzień/dni."
+msgstr "Otrzymano konto premium WoT na %(days)d dzień/dni."
 
 msgid "serviceChannelMessages/vehCamouflageTimedOut"
 msgstr ""

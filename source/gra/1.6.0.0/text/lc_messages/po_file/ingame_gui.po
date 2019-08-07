@@ -177,48 +177,6 @@ msgstr "Uwaga na lokalizację!"
 msgid "chat_shortcuts/back_to_base"
 msgstr "Bronić bazę!"
 
-msgid "chat_shortcuts/event_chat_1"
-msgstr "Wycofać się!"
-
-msgid "chat_shortcuts/event_chat_1_ex"
-msgstr "%(target)s, wycofaj się!"
-
-msgid "chat_shortcuts/event_chat_2"
-msgstr "Dobra robota!"
-
-msgid "chat_shortcuts/event_chat_2_ex"
-msgstr "%(target)s, dobra robota!"
-
-msgid "chat_shortcuts/event_chat_3"
-msgstr "Mój pojazd się przewrócił!"
-
-msgid "chat_shortcuts/event_chat_3_ex"
-msgstr "%(target)s, postaw mnie!"
-
-msgid "chat_shortcuts/event_chat_4"
-msgstr "Dzięki!"
-
-msgid "chat_shortcuts/event_chat_4_ex"
-msgstr "%(target)s, dzięki!"
-
-msgid "chat_shortcuts/event_chat_5"
-msgstr "Zostałem wykryty!"
-
-msgid "chat_shortcuts/event_chat_5_ex"
-msgstr "%(target)s, zostałem wykryty!"
-
-msgid "chat_shortcuts/event_chat_6"
-msgstr "Atakuję!"
-
-msgid "chat_shortcuts/event_chat_6_ex"
-msgstr "%(target)s, osłaniaj mnie! Atakuję!"
-
-msgid "chat_shortcuts/event_chat_7"
-msgstr "Nie wychylać się!"
-
-msgid "chat_shortcuts/event_chat_7_ex"
-msgstr "%(target)s, nie wychylaj się!"
-
 msgid "chat_shortcuts/follow_me"
 msgstr "%(target)s, za mną!"
 
@@ -781,14 +739,8 @@ msgstr "Bateria artylerii na pozycji i gotowa do ostrzału."
 msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
 msgstr "Wsparcie lotnicze na miejscu w gotowości do bombardowania."
 
-msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER_ATTACK"
-msgstr "Samolot szturmowy nadlatuje i jest gotowy do nalotu."
-
 msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
 msgstr "Nasza załoga jest gotowa zainspirować innych wokół siebie."
-
-msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD"
-msgstr "Twoja załoga jest gotowa do położenia pola minowego."
 
 msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
 msgstr "Samolot nadlatuje i jest gotowy do wykrywania."
@@ -802,14 +754,8 @@ msgstr "Bateria artylerii gracza %(player)s prowadzi ostrzał."
 msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
 msgstr "Bombowce gracza %(player)s są w drodze."
 
-msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER_ATTACK"
-msgstr "Samolot szturmowy gracza %(player)s rozpoczyna nalot."
-
 msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
 msgstr "%(player)s aktywuje Inspirację."
-
-msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD"
-msgstr "%(player)s położył pole minowe."
 
 msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
 msgstr "Lot zwiadowczy gracza %(player)s w drodze."
@@ -1101,12 +1047,6 @@ msgstr "Gracz %(attacker)s zniszczył gracza %(target)s ostrzałem artylerii."
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
 msgstr "Gracz %(attacker)s zniszczył gracza %(target)s nalotem bombowym."
 
-msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER_ATTACK"
-msgstr "Samolot szturmowy gracza %(attacker)s zniszczył %(target)s."
-
-msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_MINEFIELD"
-msgstr "%(target)s trafił na miny, które położył %(attacker)s."
-
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
 msgstr "Sojusznik: %(target)s zginął w bitwie."
 
@@ -1164,12 +1104,6 @@ msgstr "Gracz %(target)s zniszczony przez ostrzał artyleryjski."
 
 msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
 msgstr "Gracz %(target)s zniszczony przez nalot bombowy."
-
-msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER_ATTACK"
-msgstr "%(target)s został zniszczony przez nalot na małej wysokości."
-
-msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_MINEFIELD"
-msgstr "%(target)s trafił na miny."
 
 msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
 msgstr "Sojusznik %(attacker)s rozbił sojusznika %(target)s."
@@ -1283,11 +1217,6 @@ msgstr "Baza%s przeciwnika opanowana"
 
 msgid "player_messages/enemy_team_name"
 msgstr "Drużyna przeciwna"
-
-msgid "player_messages/event_userNoHasAmmo"
-msgstr ""
-"Brak amunicji.\n"
-"Znajdź pociski na mapie."
 
 msgid "player_messages/loader_intuition_was_used"
 msgstr "Użyto atutu \"Intuicja\"."
@@ -1433,7 +1362,7 @@ msgid "postmortem_messages/DEATH_FROM_DROWNING_SELF_SUICIDE"
 msgstr "Pojazd utonął"
 
 msgid "postmortem_messages/DEATH_FROM_FIRE"
-msgstr "Pojazd zniszczony przez pożar."
+msgstr "Pojazd został podpalony przez gracza"
 
 msgid "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_SHOT"
 msgstr "Załoga ogłuszona przez strzał gracza"
@@ -1488,18 +1417,6 @@ msgstr "Pojazd został rozbity."
 
 msgid "postmortem_messages/DEATH_UNKNOWN"
 msgstr "Twój pojazd został zniszczony"
-
-msgid "radialMenu/allies"
-msgstr "sojusznicy"
-
-msgid "radialMenu/chatAbout"
-msgstr "Rozmawiaj z"
-
-msgid "radialMenu/chatWith"
-msgstr "Rozmawiaj z"
-
-msgid "radialMenu/nextPage"
-msgstr "Następna strona"
 
 msgid "recovery/cooldown"
 msgstr "Pojazd można opuścić za %(cooldown)s sekund"
@@ -1608,7 +1525,7 @@ msgstr ""
 "napełniać swoje zasoby rezerwowe."
 
 msgid "rewardWindow/piggyBank/headerText"
-msgstr "Otrzymano kredyty."
+msgstr "Otrzymano kredyty"
 
 msgid "rewardWindow/piggyBank/subHeaderText"
 msgstr "Otwarto zasoby rezerwowe"

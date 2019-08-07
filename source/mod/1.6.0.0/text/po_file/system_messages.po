@@ -937,7 +937,7 @@ msgid "connected"
 msgstr ""
 "Witaj\n"
 "na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!"
-"<br><font color='#BFE9FF'>KKK 1.5.1.3</font> <font "
+"<br><font color='#BFE9FF'>KKK 1.6.0.0</font> <font "
 "color='#FF3333'>Automatyk</font>"
 msgid "crewBooks/failed"
 msgstr "Wystąpił błąd: nie można przeczytać podręcznika dla załogi."
@@ -1011,16 +1011,28 @@ msgstr "Dodano farbę „%s”"
 msgid "customization/added/paintValue"
 msgstr "Dodano farbę „%s”: (x%s)"
 
-msgid "customization/added/personal_number"
+msgid "customization/added/personalNumber_1"
+msgstr "Dodano jednocyfrowy numer „%s”"
+
+msgid "customization/added/personalNumber_1Value"
+msgstr "Dodano jednocyfrowy numer „%s”: (x%s)"
+
+msgid "customization/added/personalNumber_2"
+msgstr "Dodano dwucyfrowy numer „%s”"
+
+msgid "customization/added/personalNumber_2Value"
+msgstr "Dodano dwucyfrowy numer „%s”: (x%s)"
+
+msgid "customization/added/personalNumber_3"
 msgstr "Dodano trzycyfrowy numer „%s”"
 
-msgid "customization/added/personal_numberValue"
+msgid "customization/added/personalNumber_3Value"
 msgstr "Dodano trzycyfrowy numer „%s”: (x%s)"
 
-msgid "customization/added/projection_decal"
+msgid "customization/added/projectionDecal"
 msgstr "Dodano naklejkę „%s”"
 
-msgid "customization/added/projection_decalValue"
+msgid "customization/added/projectionDecalValue"
 msgstr "Dodano naklejkę „%s”: (x%s)"
 
 msgid "customization/added/style"
@@ -1044,7 +1056,7 @@ msgstr "Status IGR zmienił się. Bieżąca operacja anulowana."
 msgid "customization/personal_number_prohibited"
 msgstr ""
 "Numer %(value)s jest niedostępny.\n"
-"Trzycyfrowy numer %(itemName)s został usunięty z mapy %(seasonName)s."
+"%(itemType)s%(itemName)s został usunięty z mapy %(seasonName)s."
 
 msgid "customization/prohibited"
 msgstr "Nie można zastosować: %(itemName)s nie ma w magazynie."
@@ -1085,16 +1097,28 @@ msgstr "Usunięto farbę „%s”"
 msgid "customization/removed/paintValue"
 msgstr "Usunięto farbę „%s”: (x%s)"
 
-msgid "customization/removed/personal_number"
+msgid "customization/removed/personalNumber_1"
+msgstr "Usunięto jednocyfrowy numer „%s”"
+
+msgid "customization/removed/personalNumber_1Value"
+msgstr "Usunięto jednocyfrowy numer „%s”: (x%s)"
+
+msgid "customization/removed/personalNumber_2"
+msgstr "Usunięto dwucyfrowy numer „%s”"
+
+msgid "customization/removed/personalNumber_2Value"
+msgstr "Usunięto dwucyfrowy numer „%s”: (x%s)"
+
+msgid "customization/removed/personalNumber_3"
 msgstr "Usunięto trzycyfrowy numer „%s”"
 
-msgid "customization/removed/personal_numberValue"
+msgid "customization/removed/personalNumber_3Value"
 msgstr "Usunięto trzycyfrowy numer „%s”: (x%s)"
 
-msgid "customization/removed/projection_decal"
+msgid "customization/removed/projectionDecal"
 msgstr "Usunięto naklejkę „%s”"
 
-msgid "customization/removed/projection_decalValue"
+msgid "customization/removed/projectionDecalValue"
 msgstr "Usunięto naklejkę „%s”: (x%s)"
 
 msgid "customization/removed/style"
@@ -1253,6 +1277,15 @@ msgid "exchangeXP/wallet_not_available"
 msgstr ""
 "Operacja nie może być zrealizowana. Twoje złoto zostanie przywrócone, kiedy "
 "tylko Portfel WG powróci do działania."
+
+msgid "festival/buyItem/server_error"
+msgstr "Błąd serwera"
+
+msgid "festival/buyPackage/server_error"
+msgstr "Błąd serwera"
+
+msgid "festival/setItem/server_error"
+msgstr "Błąd serwera"
 
 msgid "fortification/addOrder"
 msgstr "Rozpoczęło się przygotowanie %(count)s rezerw. Pozostało: %(time)s."
@@ -1715,8 +1748,8 @@ msgstr "Pozostały czas sesji gry: %(timeLeft)s"
 
 msgid "gameSessionControl/korea/playTimeNotification"
 msgstr ""
-"Ваје игровое время заканчиваетјя. Нельзя начать новый бой. В %s вы бјдете "
-"отключены от јервера."
+"Ваше игровое время заканчивается. Нельзя начать новый бой. В %s вы будете "
+"отключены от сервера."
 
 msgid "gameSessionControl/korea/sessionTime"
 msgstr "Czas sesji gry: %(sessionTime)s"
@@ -2967,47 +3000,6 @@ msgstr ""
 msgid "rotation/vehicleIsLocked"
 msgstr "Pojazd jest zablokowany i niedostępny do bitew."
 
-msgid "se_april_2019/buy_energy_success"
-msgstr "Zatrudniono dywizję! Wydano: %(gold)s."
-
-msgid "se_april_2019/buy_general_level_success"
-msgstr "%(level)d poziom dywizji. Wydano: %(money)s"
-
-msgid "se_april_2019/buy_level_not_available"
-msgstr "Zakup tego poziomu jest niedostępny."
-
-msgid "se_april_2019/disabled"
-msgstr ""
-"Błąd podczas zakupu maksymalnego poziomu dywizji. Działanie niedostępne."
-
-msgid "se_april_2019/energy_not_exist"
-msgstr "Błąd podczas zatrudniania: nie znaleziono dywizji."
-
-msgid "se_april_2019/full_energy_already_reached"
-msgstr "Błąd podczas zatrudniania: zatrudniono już maksymalną liczbę dywizji."
-
-msgid "se_april_2019/gold_error"
-msgstr "Nie można kupić. Za mało złota."
-
-msgid "se_april_2019/gold_not_available"
-msgstr "Błąd podczas kupowania. Spróbuj ponownie później."
-
-msgid "se_april_2019/level_already_bought"
-msgstr "Już osiągnąłeś ten poziom."
-
-msgid "se_april_2019/max_general_level_already_reached"
-msgstr "Twoja dywizja osiągnęła już maksymalny poziom."
-
-msgid "se_april_2019/max_level_already_bought"
-msgstr "Kupiłeś już maksymalny poziom dywizji."
-
-msgid "se_april_2019/server_error"
-msgstr "Błąd podczas kupowania. Spróbuj ponownie później."
-
-msgid "se_april_2019/wallet_not_available"
-msgstr ""
-"Błąd podczas zakupu maksymalnego poziomu dywizji. Działanie niedostępne."
-
 msgid "securityMessage/bad_email"
 msgstr ""
 "Podany przez ciebie adres email znajduje się na podejrzanym serwerze. Zmień "
@@ -3201,11 +3193,6 @@ msgid "squad/notValidDeleted"
 msgstr ""
 "Pojazd %(vehName)s został wykluczony z plutonu, bo jego poziom nie odpowiada "
 "poziomowi pojazdu dowódcy plutonu. Wybierz pojazd tego samego poziomu."
-
-msgid "squad/notValidFrontDeleted"
-msgstr ""
-"Twój pojazd został wykluczony z plutonu: dowódca wybrał inny front. Wybierz "
-"pojazd z tego samego frontu, co pojazd dowódcy."
 
 msgid "squad/notValidMaxSpgDeleted"
 msgstr ""
