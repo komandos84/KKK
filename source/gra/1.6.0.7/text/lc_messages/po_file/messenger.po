@@ -846,9 +846,6 @@ msgstr "Znajdź użytkownika"
 msgid "dialogs/serviceChannel/title"
 msgstr "Kanał służbowy"
 
-msgid "dialogs/simpleSquad/battleRoyale/VehicleRestriction"
-msgstr "Wybierz pojazd specjalny"
-
 msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
 msgstr "Wybierz pojazd VIII poziomu"
 
@@ -864,6 +861,12 @@ msgstr "Wybierz pojazd %(level)s poziomu"
 msgid "dialogs/squad/event/vehicle"
 msgstr "Wybierz %(tankName)s"
 
+msgid "dialogs/squad/excludeBtn/tooltip/body"
+msgstr "Kliknij, aby usunąć gracza z plutonu."
+
+msgid "dialogs/squad/excludeBtn/tooltip/header"
+msgstr "Wyklucz z plutonu"
+
 msgid "dialogs/squad/message/allReady"
 msgstr "Kliknij, aby zgłosić brak gotowości."
 
@@ -872,9 +875,6 @@ msgstr "Kliknij, aby zgłosić brak gotowości."
 
 msgid "dialogs/squad/message/getReady"
 msgstr "Potwierdź gotowość do bitwy"
-
-msgid "dialogs/squad/message/invalidVehicle"
-msgstr "Niekompatybilny pojazd"
 
 msgid "dialogs/squad/message/invalidVehicleLevel"
 msgstr "Poziom jest niewłaściwy"
@@ -927,20 +927,13 @@ msgstr "Kanał chatu"
 msgid "dialogs/squadChannel/context/kickPlayer"
 msgstr "Wyklucz z plutonu"
 
-msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
-msgstr ""
-"Głównym celem jest\n"
-"zostać ostatnim aktywnym plutonem."
-
 msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
 msgstr ""
 "Linia frontu jest dostępna tylko\n"
 "dla pojazdów VIII poziomu."
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
-msgstr ""
-"Tryb bitwy:\n"
-"Ciemny Front"
+msgstr "Głównym celem jest zajęcie bazy na końcu toru."
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -1523,35 +1516,6 @@ msgstr "Niewłaściwe znaki w nazwie kanału."
 
 msgid "server_error/user_room_creation/WRONG_WORD"
 msgstr "Obraźliwe słowa w nazwie kanału."
-
-msgid "serviceChannelMessages/BRVehiclesInvoice/button"
-msgstr "Stalowy łowca"
-
-msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
-msgstr ""
-"To są pojazdy specjalne dla trybu „Stalowy łowca”. Wejdź do tego trybu, by "
-"przekonać się, do czego są zdolne."
-
-msgid "serviceChannelMessages/BRbattleResults/chevronsEarned"
-msgstr "Otrzymane szewrony"
-
-msgid "serviceChannelMessages/BRbattleResults/chevronsLost"
-msgstr "Utracone szewrony"
-
-msgid "serviceChannelMessages/BRbattleResults/chevronsSaved"
-msgstr "Szewrony bez zmian"
-
-msgid "serviceChannelMessages/BRbattleResults/ended"
-msgstr "Pojazd zniszczony"
-
-msgid "serviceChannelMessages/BRbattleResults/titleEarned"
-msgstr "Otrzymano stopień"
-
-msgid "serviceChannelMessages/BRbattleResults/titleLost"
-msgstr "Utracono stopień"
-
-msgid "serviceChannelMessages/BRbattleResults/victory"
-msgstr "Zwycięstwo"
 
 msgid "serviceChannelMessages/achievementReceived/message"
 msgstr "Przebieg służby"
