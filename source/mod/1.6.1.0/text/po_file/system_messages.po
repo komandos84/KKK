@@ -937,7 +937,7 @@ msgid "connected"
 msgstr ""
 "Witaj\n"
 "na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!"
-"<br><font color='#BFE9FF'>KKK 1.6.0.7</font> <font "
+"<br><font color='#BFE9FF'>KKK 1.6.1.0</font> <font "
 "color='#FF3333'>Automatyk</font>"
 msgid "crewBooks/failed"
 msgstr "Wystąpił błąd: nie można przeczytać podręcznika dla załogi."
@@ -1277,15 +1277,6 @@ msgid "exchangeXP/wallet_not_available"
 msgstr ""
 "Operacja nie może być zrealizowana. Twoje złoto zostanie przywrócone, kiedy "
 "tylko Portfel WG powróci do działania."
-
-msgid "festival/buyItem/server_error"
-msgstr "Błąd serwera"
-
-msgid "festival/buyPackage/server_error"
-msgstr "Błąd serwera"
-
-msgid "festival/setItem/server_error"
-msgstr "Błąd serwera"
 
 msgid "fortification/addOrder"
 msgstr "Rozpoczęło się przygotowanie %(count)s rezerw. Pozostało: %(time)s."
@@ -2226,6 +2217,18 @@ msgstr ""
 msgid "multipleSelling/success"
 msgstr "Otrzymano %(money)s"
 
+msgid "nation_change/FAILED"
+msgstr "Błąd przełączania konfiguracji"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Błąd przełączania konfiguracji"
+
+msgid "nation_change/error"
+msgstr "Błąd przełączania konfiguracji"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: zmieniono konfigurację narodową"
+
 msgid "notrecruit_window/success"
 msgstr ""
 "Udało się zrekrutować członka załogi.\n"
@@ -2729,6 +2732,9 @@ msgstr "%(rankName)s, %(divisionName)s"
 
 msgid "ranked/notifications/position"
 msgstr "Miejsce w klasyfikacji: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Ukończyłeś kwalifikacje"
 
 msgid "ranked/notifications/seasonPoints"
 msgstr "Otrzymane żetony stopnia dla sezonu: %(points)s"
@@ -3262,7 +3268,7 @@ msgstr ""
 
 msgid "telecom/notifications/vehicleRemoved/subcomment/default"
 msgstr ""
-"Причина: отключение на вајем аккајнте опции World of Tanks в тарифе "
+"Причина: отключение на вашем аккаунте опции World of Tanks в тарифе "
 "«%(tariff)s»."
 
 msgid "telecom/notifications/vehicleRemoved/title/default"

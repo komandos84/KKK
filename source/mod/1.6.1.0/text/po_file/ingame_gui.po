@@ -578,6 +578,9 @@ msgstr "Asysta za pomocą rezerwy bojowej"
 msgid "efficiencyRibbons/assistSpot"
 msgstr "Uszkodzenia po wykryciu"
 
+msgid "efficiencyRibbons/assistStun"
+msgstr "Uszkodzenia po ogłuszeniu przez Ciebie"
+
 msgid "efficiencyRibbons/assistTrack"
 msgstr "Gąsienica zniszczona"
 
@@ -816,9 +819,6 @@ msgstr ""
 "height='16' align='baseline' vspace='-4'> <font color='#00FF00'>Wsparcie "
 "lotnicze na miejscu w gotowości do bombardowania.</font>"
 
-msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER_ATTACK"
-msgstr "Samolot szturmowy nadlatuje i jest gotowy do nalotu."
-
 msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
 msgstr "Nasza załoga jest gotowa zainspirować innych wokół siebie."
 
@@ -839,9 +839,6 @@ msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/bomber.png' width='29' "
 "height='16' align='baseline' vspace='-4'> <font color='#74C500'>%(player)"
 "s's</font> <font color='#E0E0E0'>bombowce są w drodze.</font>"
-
-msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
-msgstr "%(player)s tworzy strefę regeneracji."
 
 msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
 msgstr "%(player)s aktywuje Inspirację."
@@ -1906,7 +1903,7 @@ msgstr ""
 "Prime. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/commander_marina/headerText"
-msgstr "Pakiet bytowy „Indie”"
+msgstr "Pakiet bytowy „India”"
 
 msgid "rewardWindow/commander_marina/subHeaderText"
 msgstr "Otrzymane nagrody"

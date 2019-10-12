@@ -861,12 +861,6 @@ msgstr "Wybierz pojazd %(level)s poziomu"
 msgid "dialogs/squad/event/vehicle"
 msgstr "Wybierz %(tankName)s"
 
-msgid "dialogs/squad/excludeBtn/tooltip/body"
-msgstr "Kliknij, aby usunąć gracza z plutonu."
-
-msgid "dialogs/squad/excludeBtn/tooltip/header"
-msgstr "Wyklucz z plutonu"
-
 msgid "dialogs/squad/message/allReady"
 msgstr "Kliknij, aby zgłosić brak gotowości."
 
@@ -933,7 +927,9 @@ msgstr ""
 "dla pojazdów VIII poziomu."
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
-msgstr "Głównym celem jest zajęcie bazy na końcu toru."
+msgstr ""
+"Tryb bitwy:\n"
+"Ciemny Front"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -1604,7 +1600,7 @@ msgstr ""
 "będzie dostępne automatycznie po przywróceniu funkcjonowania potrfela WG."
 
 msgid "serviceChannelMessages/autoRentStyleRentIsAlmostOver/button"
-msgstr "Przedłuż okres wypożyczenia"
+msgstr "Przedłuż wypożyczenie"
 
 msgid ""
 "serviceChannelMessages/autoRentStyleRentIsAlmostOverAutoprolongationOFF/text"
@@ -1779,9 +1775,6 @@ msgstr "Dodane kredyty"
 msgid "serviceChannelMessages/battleResults/quests/crystal"
 msgstr "Dodano obligacje"
 
-msgid "serviceChannelMessages/battleResults/quests/festivalTickets"
-msgstr "Dodano kupony"
-
 msgid "serviceChannelMessages/battleResults/quests/freeXP"
 msgstr "Dodane wolne doświadczenie"
 
@@ -1805,6 +1798,11 @@ msgstr "Dodano miejsca"
 
 msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
 msgstr "Otrzymane bonusowe bitwy"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/text"
+msgstr ""
+"Za wyniki w poprzedniej dywizji (lub w kwalifikacjach): %(divisionAmount)s\n"
+"Za liczbę szewronów w kwalifikacjach: %(qualificationAmount)s"
 
 msgid "serviceChannelMessages/battleResults/rankedProgress"
 msgstr "Zmiany w stopniach"
@@ -2017,6 +2015,15 @@ msgstr "Misja: %(missionName)s"
 
 msgid "serviceChannelMessages/failedPersonalMission/operation"
 msgstr "Operacja: %(operation)s"
+
+msgid "serviceChannelMessages/flExchange/quests"
+msgstr "Wymiana zakończona powodzeniem"
+
+msgid "serviceChannelMessages/flExchange/quests/points"
+msgstr "Wydane żetony stopnia"
+
+msgid "serviceChannelMessages/flExchange/quests/reward"
+msgstr "Otrzymano"
 
 msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
 msgstr ""
@@ -2258,18 +2265,6 @@ msgstr "Dodano nagrody"
 
 msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
 msgstr "Usunięto nagrody"
-
-msgid "serviceChannelMessages/invoiceReceived/festivalItemsAccrued"
-msgstr "Otrzymano elementy dla Twojego nieśmiertelnika: "
-
-msgid "serviceChannelMessages/invoiceReceived/festivalItemsDebited"
-msgstr "Usunięto elementy z Twojego nieśmiertelnika: "
-
-msgid "serviceChannelMessages/invoiceReceived/festivalTicketsAccrued"
-msgstr "Otrzymano kupony: "
-
-msgid "serviceChannelMessages/invoiceReceived/festivalTicketsDebited"
-msgstr "Usunięto kupony: "
 
 msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
 msgstr "Dodano rozkazy"

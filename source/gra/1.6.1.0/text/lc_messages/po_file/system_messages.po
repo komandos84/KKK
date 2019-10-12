@@ -1195,15 +1195,6 @@ msgstr ""
 "Operacja nie może być zrealizowana. Twoje złoto zostanie przywrócone, kiedy "
 "tylko Portfel WG powróci do działania."
 
-msgid "festival/buyItem/server_error"
-msgstr "Błąd serwera"
-
-msgid "festival/buyPackage/server_error"
-msgstr "Błąd serwera"
-
-msgid "festival/setItem/server_error"
-msgstr "Błąd serwera"
-
 msgid "fortification/addOrder"
 msgstr "Rozpoczęło się przygotowanie %(count)s rezerw. Pozostało: %(time)s."
 
@@ -2077,6 +2068,18 @@ msgstr "Moduł %(kind)s '%(name)s' (%(count)s sztuk). Otrzymano: %(money)s."
 msgid "multipleSelling/success"
 msgstr "Otrzymano %(money)s"
 
+msgid "nation_change/FAILED"
+msgstr "Błąd przełączania konfiguracji"
+
+msgid "nation_change/WRONG_ARG_VALUE"
+msgstr "Błąd przełączania konfiguracji"
+
+msgid "nation_change/error"
+msgstr "Błąd przełączania konfiguracji"
+
+msgid "nation_change/success"
+msgstr "%(veh_name)s: zmieniono konfigurację narodową"
+
 msgid "notrecruit_window/success"
 msgstr ""
 "Udało się zrekrutować członka załogi.\n"
@@ -2574,6 +2577,9 @@ msgstr "%(rankName)s, %(divisionName)s"
 
 msgid "ranked/notifications/position"
 msgstr "Miejsce w klasyfikacji: %(position)s"
+
+msgid "ranked/notifications/qualificationFinish"
+msgstr "Ukończyłeś kwalifikacje"
 
 msgid "ranked/notifications/seasonPoints"
 msgstr "Otrzymane żetony stopnia dla sezonu: %(points)s"

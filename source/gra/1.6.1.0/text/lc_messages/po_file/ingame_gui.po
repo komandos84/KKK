@@ -513,6 +513,9 @@ msgstr "Asysta za pomocą rezerwy bojowej"
 msgid "efficiencyRibbons/assistSpot"
 msgstr "Uszkodzenia po wykryciu"
 
+msgid "efficiencyRibbons/assistStun"
+msgstr "Uszkodzenia po ogłuszeniu przez Ciebie"
+
 msgid "efficiencyRibbons/assistTrack"
 msgstr "Gąsienica zniszczona"
 
@@ -574,7 +577,7 @@ msgid "efficiencyRibbons/spotted"
 msgstr "Wykryty"
 
 msgid "efficiencyRibbons/stun"
-msgstr "Uszkodzenia po ogłuszeniu przez Ciebie"
+msgstr "Ogłuszenie"
 
 msgid "efficiencyRibbons/vehicleRecovery"
 msgstr "Porzucono pojazd"
@@ -1507,7 +1510,7 @@ msgstr ""
 "Prime. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/commander_marina/headerText"
-msgstr "Pakiet bytowy „Indie”"
+msgstr "Pakiet bytowy „India”"
 
 msgid "rewardWindow/commander_marina/subHeaderText"
 msgstr "Otrzymane nagrody"
