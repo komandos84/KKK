@@ -642,7 +642,7 @@ msgid "efficiencyRibbons/spotted"
 msgstr "Wykryty"
 
 msgid "efficiencyRibbons/stun"
-msgstr "Uszkodzenia po ogłuszeniu przez Ciebie"
+msgstr "Ogłuszenie"
 
 msgid "efficiencyRibbons/vehicleRecovery"
 msgstr "Porzucono pojazd"
@@ -803,9 +803,6 @@ msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/warning.png' width='16' "
 "height='16' align='baseline' vspace='-4'> <font color='#E0E0E0'>Trafienie w "
 "sojusznika <font color='#74C500'>%(entity)s</font>!</font>"
-
-msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
-msgstr "[%(equipment)s] jest gotowy do użycia."
 
 msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
 msgstr ""
@@ -1327,9 +1324,6 @@ msgstr ""
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER_ATTACK"
 msgstr "Samolot szturmowy gracza %(attacker)s zniszczył %(target)s."
 
-msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_MINEFIELD"
-msgstr "%(target)s trafił na miny, które położył %(attacker)s."
-
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/resultdefeat.png' "
@@ -1455,8 +1449,6 @@ msgstr ""
 "height='16' align='middle' vspace='-4'> <font color='#929292'>Wróg</font> "
 "<font color='#7D0800'>%(target)s</font> <font color='#E0E0E0'>zniszczony "
 "przez nalot bombowy.</font>"
-msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER_ATTACK"
-msgstr "%(target)s został zniszczony przez nalot na małej wysokości."
 
 msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
 msgstr ""
@@ -1899,13 +1891,27 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/commander_marina/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
-"Prime. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/commander_marina/headerText"
 msgstr "Pakiet bytowy „India”"
 
 msgid "rewardWindow/commander_marina/subHeaderText"
+msgstr "Otrzymane nagrody"
+
+msgid "rewardWindow/commander_patrick/btnLabel"
+msgstr "Rekrutuj!"
+
+msgid "rewardWindow/commander_patrick/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
+" A teraz dobrze go wykorzystaj."
+
+msgid "rewardWindow/commander_patrick/headerText"
+msgstr "Pakiet bytowy Juliett"
+
+msgid "rewardWindow/commander_patrick/subHeaderText"
 msgstr "Otrzymane nagrody"
 
 msgid "rewardWindow/countLabel"
@@ -1989,8 +1995,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch3/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
-"Prime. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch3/headerText"
 msgstr "Pakiet bytowy „Echo”"
@@ -2003,8 +2009,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch4/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
-"Prime. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch4/headerText"
 msgstr "Pakiet bytowy „Foxtrot”"
@@ -2017,8 +2023,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch5/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
-"Prime. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch5/headerText"
 msgstr "Pakiet bytowy „Golf”"
@@ -2031,8 +2037,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch6/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
-"Prime. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch6/headerText"
 msgstr "Pakiet bytowy „Hotel”"
