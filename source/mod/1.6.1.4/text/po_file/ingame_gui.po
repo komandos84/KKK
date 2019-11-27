@@ -1891,8 +1891,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/commander_marina/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
+"Prime. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/commander_marina/headerText"
 msgstr "Pakiet bytowy „India”"
@@ -1905,8 +1905,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/commander_patrick/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
+"Prime. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/commander_patrick/headerText"
 msgstr "Pakiet bytowy Juliett"
@@ -1995,8 +1995,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch3/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
+"Prime. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch3/headerText"
 msgstr "Pakiet bytowy „Echo”"
@@ -2009,8 +2009,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch4/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
+"Prime. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch4/headerText"
 msgstr "Pakiet bytowy „Foxtrot”"
@@ -2023,8 +2023,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch5/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
+"Prime. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch5/headerText"
 msgstr "Pakiet bytowy „Golf”"
@@ -2037,13 +2037,27 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch6/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch Prime."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
+"Prime. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch6/headerText"
 msgstr "Pakiet bytowy „Hotel”"
 
 msgid "rewardWindow/twitch6/subHeaderText"
+msgstr "Otrzymane nagrody"
+
+msgid "rewardWindow/twitch7/btnLabel"
+msgstr "Rekrutuj!"
+
+msgid "rewardWindow/twitch7/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Twitch "
+"Prime. A teraz dobrze go wykorzystaj."
+
+msgid "rewardWindow/twitch7/headerText"
+msgstr "Pakiet bytowy „Kilo”"
+
+msgid "rewardWindow/twitch7/subHeaderText"
 msgstr "Otrzymane nagrody"
 
 msgid "rewardWindow/winHeaderText"
