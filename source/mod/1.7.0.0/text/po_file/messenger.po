@@ -205,6 +205,12 @@ msgstr "%(receiver)s dołączył do plutonu %(squadNum)s."
 msgid "client/dynSquad/inviteReceived"
 msgstr "%(creator)s zaprosił Cię do plutonu."
 
+msgid "client/dynSquad/inviteReceived/anonymized"
+msgstr ""
+"%(creator)s zaprosił Cię do plutonu.\n"
+"Uwaga! Twoja prawdziwa nazwa gracza i znacznik klanu będą widoczne dla "
+"członków plutonu."
+
 msgid "client/dynSquad/inviteSent"
 msgstr "%(receiver)s zaproszony do plutonu."
 
@@ -950,6 +956,11 @@ msgstr ""
 "mogą zaprosić trzeciego gracza\n"
 "do Plutonu."
 
+msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
+msgstr ""
+"Po przyjęciu zaproszenia przez graczy Twoja prawdziwa nazwa gracza i "
+"znacznik klanu będą dla nich widoczne na czas bitwy."
+
 msgid "dialogs/squadChannel/simpleChatName"
 msgstr "Kanał czatu"
 
@@ -1471,6 +1482,9 @@ msgstr "Wpisz hasło, aby połączyć się z kanałem"
 msgid "server/errors/passwordRequired/title"
 msgstr "Błąd dołączenia do kanału"
 
+msgid "server/errors/settingError/changeUnavailable/message"
+msgstr "Zmiana tego ustawienia jest obecnie niedostępna."
+
 msgid "server/errors/sqlError/message"
 msgstr "Błąd BD"
 
@@ -1530,8 +1544,8 @@ msgstr ""
 
 msgid "serviceChannelMessages/autoEquipBoosterDisabledOption"
 msgstr ""
-"Nie udało się uzupełnić materiałów eksploatacyjnych w: %s. Rozważ zakup "
-"materiałów eksploatacyjnych za złoto."
+"Nie udało się uzupełnić dyrektyw dla %s. Operacja jest tymczasowo "
+"niedostępna ze względu na prace konserwacyjne."
 
 msgid "serviceChannelMessages/autoEquipBoosterError"
 msgstr "Nie udało się uzupełnić dyrektywy w %s. Za mało funduszy."
@@ -1542,37 +1556,44 @@ msgstr ""
 "ręcznie."
 
 msgid "serviceChannelMessages/autoEquipBoosterSuccess"
-msgstr "Udało się uzupełnić materiały eksploatacyjne w %s. Wydałeś "
+msgstr "Udało się uzupełnić dyrektywę dla %s. Wydałeś "
 
 msgid "serviceChannelMessages/autoEquipDisabledOption"
 msgstr ""
-"Nie udało się uzupełnić materiałów eksploatacyjnych w: %s. Rozważ zakup "
-"materiałów eksploatacyjnych za złoto."
+"Nie udało się uzupełnić materiałów eksploatacyjnych w: <font color='#c5ab5d'>"
+"%s</font>. Rozważ zakup materiałów eksploatacyjnych za złoto."
 
 msgid "serviceChannelMessages/autoEquipError"
-msgstr "Nie udało się uzupełnić zapasów i sprzętu w czołgu %s. Brak środków."
+msgstr ""
+"Nie udało się uzupełnić zapasów i sprzętu w czołgu <font color='#c5ab5d'>%s</"
+"font>. Brak środków."
 
 msgid "serviceChannelMessages/autoEquipErrorNoWallet"
 msgstr ""
-"Nie udało się uzupełnić sprzętu eksploatacyjnego w pojeździe %s. Twoje złoto "
-"będzie do dyspozycji, kiedy tylko działanie Portfela WG zostanie "
-"automatycznie przywrócone."
+"Nie udało się uzupełnić sprzętu eksploatacyjnego w pojeździe <font "
+"color='#c5ab5d'>%s</font>. Twoje złoto będzie do dyspozycji, kiedy tylko "
+"działanie Portfela WG zostanie przywrócone."
 
 msgid "serviceChannelMessages/autoEquipSkipped"
 msgstr ""
-"Nie udało się uzupełnić materiałów eksploatacyjnych w %s automatycznie. "
-"Załaduj je ręcznie."
+"Nie udało się uzupełnić materiałów eksploatacyjnych w <font color='#c5ab5d'>"
+"%s</font> automatycznie. Załaduj je ręcznie."
 
 msgid "serviceChannelMessages/autoEquipSuccess"
-msgstr "Udało się uzupełnić materiały eksploatacyjne w %s. Wydałeś "
+msgstr ""
+"Udało się uzupełnić materiały eksploatacyjne w %s. Wydałeś <img src='img://"
+"gui/maps/icons/library/Automatyk/Equipment.png' width='35' height='22' "
+"align='baseline' vspace='-3'/>"
 
 msgid "serviceChannelMessages/autoLoadDisabledOption"
 msgstr ""
-"Nie udało się uzupełnić amunicji w: %s. Zastanów się, czy nie kupić pocisków "
-"za złoto."
+"Nie udało się uzupełnić amunicji w: <font color='#c5ab5d'>%s</font>. "
+"Zastanów się, czy nie kupić pocisków za złoto."
 
 msgid "serviceChannelMessages/autoLoadError"
-msgstr "Nie udało się uzupełnić amunicji w czołgu %s. Brak środków."
+msgstr ""
+"Nie udało się uzupełnić amunicji w czołgu <font color='#c5ab5d'>%s</font>. "
+"Brak środków."
 
 msgid "serviceChannelMessages/autoLoadErrorNoWallet"
 msgstr ""
@@ -1580,7 +1601,7 @@ msgstr ""
 "będzie do dyspozycji, kiedy tylko działanie Portfela WG zostanie przywrócone."
 
 msgid "serviceChannelMessages/autoLoadSkipped"
-msgstr "Nie udało się uzupełnić amunicji w %s."
+msgstr "Nie udało się uzupełnić amunicji w <font color='#c5ab5d'>%s</font>."
 
 msgid "serviceChannelMessages/autoLoadSuccess"
 msgstr "Amunicja w czołgu %s uzupełniona. Wydano "
@@ -1631,21 +1652,24 @@ msgid "serviceChannelMessages/autoRentStyleSuccess"
 msgstr "Udało się przedłużyć okres wypożyczenia stylu na %s. Wydano "
 
 msgid "serviceChannelMessages/autoRepairDisabledOption"
-msgstr "Failed to repair %s."
+msgstr "Failed to repair <font color='#c5ab5d'>%s</font>."
 
 msgid "serviceChannelMessages/autoRepairError"
-msgstr "Nie udało się naprawić czołgu %s. Brak środków."
+msgstr ""
+"Nie udało się naprawić czołgu <font color='#c5ab5d'>%s</font>. Brak środków."
 
 msgid "serviceChannelMessages/autoRepairErrorNoWallet"
 msgstr ""
-"Nie udało naprawić pojazdu %s. Twoje złoto będzie do dyspozycji, kiedy tylko "
-"działanie Portfela WG zostanie przywrócone."
+"Nie udało naprawić pojazdu <font color='#c5ab5d'>%s</font>. Twoje złoto "
+"będzie do dyspozycji, kiedy tylko działanie Portfela WG zostanie przywrócone."
 
 msgid "serviceChannelMessages/autoRepairSkipped"
-msgstr "Nie udało się naprawić pojazdu %s."
+msgstr "Nie udało się naprawić pojazdu <font color='#c5ab5d'>%s</font>."
 
 msgid "serviceChannelMessages/autoRepairSuccess"
-msgstr "Naprawiono czołg %s. Wydano "
+msgstr ""
+"Naprawiono czołg %s. Wydano <img src='img://gui/maps/icons/library/Automatyk/"
+"Repair.png' width='35' height='22' align='baseline' vspace='-3'/>"
 
 msgid "serviceChannelMessages/badgeAchievement"
 msgstr "Dodano odznaki"
@@ -1654,22 +1678,28 @@ msgid "serviceChannelMessages/battleResults/achieves"
 msgstr "Osiągnięcia w walce"
 
 msgid "serviceChannelMessages/battleResults/action"
-msgstr "Otrzymano %s w promocji '%s'"
+msgstr "Otrzymano %s w promocji <font color='#c5ab5d'>'%s'</font>"
 
 msgid "serviceChannelMessages/battleResults/actions"
-msgstr "Otrzymano %s w promocji '%s'"
+msgstr "Otrzymano %s w promocji <font color='#c5ab5d'>'%s'</font>"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
-msgstr "Kredyty: %s"
+msgstr ""
+"Kredyty: %s <img src='img://gui/maps/icons/library/Automatyk/CreditsIcon."
+"png' width='16' height='16' align='baseline' vspace='-4'/>"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
 msgstr "%s obligacji"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
-msgstr "Wolne doświadczenie: %s"
+msgstr ""
+"<font color='#ECBF7B'>%s</font><img src='img://gui/maps/icons/library/"
+"Automatyk/freexp.png' width='16' height='16' align='baseline' vspace='-3'/>"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsGold"
-msgstr "Złoto: %s"
+msgstr ""
+"%s <img src='img://gui/maps/icons/library/Automatyk/gold.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>"
 
 msgid "serviceChannelMessages/battleResults/battle"
 msgstr "Bitwa"
@@ -1678,7 +1708,10 @@ msgid "serviceChannelMessages/battleResults/button"
 msgstr "Szczegóły"
 
 msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
-msgstr "rekompensata za uszkodzenia zadane przez sojuszników: %s"
+msgstr ""
+"<img src='img://gui/maps/icons/library/Automatyk/compensation.png' "
+"width='12' height='12' align='baseline' vspace='-2'/> <font color='#66CC66'>+"
+"%s</font>"
 
 msgid "serviceChannelMessages/battleResults/credits"
 msgstr "Kredytów"
@@ -1699,7 +1732,9 @@ msgid "serviceChannelMessages/battleResults/divisions/silver"
 msgstr "II"
 
 msgid "serviceChannelMessages/battleResults/doubleXpFactor"
-msgstr "x%d za pierwsze zwycięstwo tego dnia"
+msgstr ""
+"<img src='img://gui/maps/icons/library/Automatyk/multyxp.png' width='16' "
+"height='16' align='baseline' vspace='-4'/><font color='#FDD7A5'>x%d</font>"
 
 msgid "serviceChannelMessages/battleResults/drawGame"
 msgstr "Remis"
@@ -1761,7 +1796,7 @@ msgid "serviceChannelMessages/battleResults/piggyBank"
 msgstr "Otrzymane zasoby rezerwowe"
 
 msgid "serviceChannelMessages/battleResults/quests"
-msgstr "Misja zrealizowana! Nagroda"
+msgstr "Warunki spełnione! Nagroda"
 
 msgid "serviceChannelMessages/battleResults/quests/achievements"
 msgstr "Przebieg służby"
@@ -1786,6 +1821,9 @@ msgstr "Dodano"
 
 msgid "serviceChannelMessages/battleResults/quests/items/name"
 msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/nyBoxes"
+msgstr "Otrzymano małe pudełko (x%(count)s)"
 
 msgid "serviceChannelMessages/battleResults/quests/premium"
 msgstr "Dodane dni konta premium Wargaming"
@@ -1961,10 +1999,18 @@ msgid "serviceChannelMessages/clan/LEFT_CLAN"
 msgstr "Opuściłeś lub zostałeś wyrzucony z klanu: "
 
 msgid "serviceChannelMessages/creditsAndGoldReceivedAsGift"
-msgstr "Otrzymano złota: %(gold)s i kredytów: %(credits)s."
+msgstr ""
+"Otrzymano złota: <font color='#FFE769'>%(gold)s</font>&nbsp;<img src='img://"
+"gui/maps/icons/library/Automatyk/gold.png' width='16' height='16' "
+"align='baseline' vspace='-3'/> i kredytów: <font color='#FFFFFF'>%(credits)"
+"s</font>&nbsp;<img src='img://gui/maps/icons/library/Automatyk/CreditsIcon."
+"png' width='16' height='16' align='baseline' vspace='-4'/>."
 
 msgid "serviceChannelMessages/creditsReceivedAsGift"
-msgstr "Otrzymano kredytów: %(credits)s."
+msgstr ""
+"Otrzymano kredytów: <font color='#FFFFFF'>%(credits)s</font>&nbsp;<img "
+"src='img://gui/maps/icons/library/Automatyk/CreditsIcon.png' width='16' "
+"height='16' align='baseline' vspace='-4'/>."
 
 msgid "serviceChannelMessages/crewBooksCount"
 msgstr "%(label)s x%(count)s"
@@ -2171,7 +2217,10 @@ msgstr ""
 "dowodzenia."
 
 msgid "serviceChannelMessages/goldReceivedAsGift"
-msgstr "Otrzymano złota: %(gold)s."
+msgstr ""
+"Otrzymano złota: <font color='#FFE769'>%(gold)s</font>&nbsp;<img src='img://"
+"gui/maps/icons/library/Automatyk/gold.png' width='16' height='16' "
+"align='baseline' vspace='-3'/>"
 
 msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
 msgstr "Dodano łóżka do koszar"
@@ -2311,6 +2360,24 @@ msgstr "Dodano fragmenty schematu pojazdów %(nationName)s"
 msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
 msgstr "Usunięto fragmenty schematu pojazdów %(nationName)s"
 
+msgid "serviceChannelMessages/invoiceReceived/nyFillersAccrued"
+msgstr "Dodano ładunki: "
+
+msgid "serviceChannelMessages/invoiceReceived/nyFillersDebited"
+msgstr "Usunięto ładunki: "
+
+msgid "serviceChannelMessages/invoiceReceived/nyFragmentsAccrued"
+msgstr "Dodano skorupki: "
+
+msgid "serviceChannelMessages/invoiceReceived/nyFragmentsDebited"
+msgstr "Usunięto skorupki: "
+
+msgid "serviceChannelMessages/invoiceReceived/nyToysAccruedInvoiceReceived"
+msgstr "Otrzymano dekoracje: "
+
+msgid "serviceChannelMessages/invoiceReceived/nyToysDebitedInvoiceReceived"
+msgstr "Usunięto dekoracje: "
+
 msgid "serviceChannelMessages/invoiceReceived/pieces"
 msgstr "szt."
 
@@ -2350,6 +2417,9 @@ msgstr "Dodano nierozdzielone doświadczenie członkom załogi"
 msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
 msgstr "Usunięto nierozdzielone doświadczenie członkom załogi"
 
+msgid "serviceChannelMessages/invoiceReceived/toyTypeWrapper"
+msgstr "%(name)s (x%(count)s)"
+
 msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
 msgstr "Dodano fragmenty schematu %(vehicleName)s"
 
@@ -2374,7 +2444,7 @@ msgid "serviceChannelMessages/itemReceivedAsGift"
 msgstr "Otrzymano wyposażenie: %(typeName)s \"%(itemName)s\" - %(amount)d szt."
 
 msgid "serviceChannelMessages/lootBoxes/button"
-msgstr "Do pudełek"
+msgstr "Odbierz"
 
 msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Kliknij przycisk, by zobaczyć zawartość."
@@ -2398,6 +2468,18 @@ msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
 msgstr ""
 "Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy nagrody za Operacje "
 "świąteczne"
+
+msgid "serviceChannelMessages/lootBoxesGift/body"
+msgstr "Kliknij przycisk, by zobaczyć zawartość."
+
+msgid "serviceChannelMessages/lootBoxesGift/button"
+msgstr "Odbierz"
+
+msgid "serviceChannelMessages/lootBoxesGift/header"
+msgstr "Otrzymałeś paczkę:"
+
+msgid "serviceChannelMessages/newYearTalisman/button"
+msgstr "Do Śnieżynek"
 
 msgid "serviceChannelMessages/notrecruitedTankman/button"
 msgstr "Do koszar"
@@ -2424,16 +2506,16 @@ msgid "serviceChannelMessages/prebattle/battleType/tournament"
 msgstr "Turniej"
 
 msgid "serviceChannelMessages/prebattle/finish/base/defeat"
-msgstr "Porażka"
+msgstr "<font color='#F02828'>Porażka</font>"
 
 msgid "serviceChannelMessages/prebattle/finish/base/draftGame"
-msgstr "Remis"
+msgstr "<font color='#FFCC00'>Remis</font>"
 
 msgid "serviceChannelMessages/prebattle/finish/base/undefined"
 msgstr "Wyniki nie ustalone"
 
 msgid "serviceChannelMessages/prebattle/finish/base/win"
-msgstr "Zwycięstwo!"
+msgstr "<font color='#66CC66'>Zwycięstwo!</font>"
 
 msgid "serviceChannelMessages/prebattle/finish/creatorLeft"
 msgstr "Usunięto założycielem"
@@ -2445,16 +2527,16 @@ msgid "serviceChannelMessages/prebattle/finish/playerKick"
 msgstr "Zostałeś wykluczony"
 
 msgid "serviceChannelMessages/prebattle/finish/technical/defeat"
-msgstr "Porażki techniczne"
+msgstr "<font color='#F02828'>Porażki techniczne</font>"
 
 msgid "serviceChannelMessages/prebattle/finish/technical/draftGame"
-msgstr "Techniczny remis"
+msgstr "<font color='#FFCC00'>Techniczny remis</font>"
 
 msgid "serviceChannelMessages/prebattle/finish/technical/undefined"
 msgstr "Wyniki nie ustalone"
 
 msgid "serviceChannelMessages/prebattle/finish/technical/win"
-msgstr "Zwycięstwo walkowerem"
+msgstr "<font color='#66CC66'>Zwycięstwo walkowerem</font>"
 
 msgid "serviceChannelMessages/prebattle/finish/timeout"
 msgstr "Czas minął. Opuściłeś pokój."
@@ -2513,7 +2595,7 @@ msgid "serviceChannelMessages/recruitGift/header"
 msgstr "Nadeszły posiłki!"
 
 msgid "serviceChannelMessages/recruitGift/text"
-msgstr "Otrzymałeś załogę na %(event)s."
+msgstr "Otrzymałeś załogę z %(event)s."
 
 msgid "serviceChannelMessages/recruitReminder/text"
 msgstr ""
@@ -2653,16 +2735,24 @@ msgstr ""
 "następujące elementy dostosowania wyglądu zewnętrznego."
 
 msgid "serviceChannelMessages/sysMsg/titles/customization"
-msgstr "Personalizacja:"
+msgstr ""
+"<img src='img://gui/maps/icons/library/Automatyk/DotBlue.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>Indywidualizacja: "
 
 msgid "serviceChannelMessages/sysMsg/titles/dismantling"
-msgstr "Zdemontowano:"
+msgstr ""
+"<img src='img://gui/maps/icons/library/Automatyk/DotBlue.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>Zdemontowano: "
 
 msgid "serviceChannelMessages/sysMsg/titles/error"
-msgstr "Błąd:"
+msgstr ""
+"<img src='img://gui/maps/icons/library/Automatyk/DotRed.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>Błąd: "
 
 msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
-msgstr "Transakcja finansowa:"
+msgstr ""
+"<img src='img://gui/maps/icons/library/Automatyk/DotYellow.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>Transakcja finansowa: "
 
 msgid "serviceChannelMessages/sysMsg/titles/multipleSelling"
 msgstr "Sprzedaż przedmiotów z magazynu:"
@@ -2674,13 +2764,17 @@ msgid "serviceChannelMessages/sysMsg/titles/paymentMethodUnlink"
 msgstr "Usunięto metodę płatności „%(method)s”"
 
 msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
-msgstr "Opracowano:"
+msgstr ""
+"<img src='img://gui/maps/icons/library/Automatyk/DotBlue.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>Opracowano:"
 
 msgid "serviceChannelMessages/sysMsg/titles/primeTime"
 msgstr "Zawieszenia broni"
 
 msgid "serviceChannelMessages/sysMsg/titles/purchase"
-msgstr "Zakupiono:"
+msgstr ""
+"<img src='img://gui/maps/icons/library/Automatyk/DotRed.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>Zakupiono: "
 
 msgid "serviceChannelMessages/sysMsg/titles/rankedBattlesAvailable"
 msgstr "Dostępne bitwy rankingowe"
@@ -2689,36 +2783,48 @@ msgid "serviceChannelMessages/sysMsg/titles/remove"
 msgstr "Usunięcie z Garażu:"
 
 msgid "serviceChannelMessages/sysMsg/titles/repair"
-msgstr "Naprawa:"
+msgstr ""
+"<img src='img://gui/maps/icons/library/Automatyk/DotRed.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>Naprawa: "
 
 msgid "serviceChannelMessages/sysMsg/titles/restore"
 msgstr "Odzyskano:"
 
 msgid "serviceChannelMessages/sysMsg/titles/selling"
-msgstr "Sprzedano:"
+msgstr ""
+"<img src='img://gui/maps/icons/library/Automatyk/DotGreen.png' width='16' "
+"height='16' align='baseline' vspace='-3'/>Sprzedano: "
 
 msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
 msgstr "Otrzymano konto premium WoT na %(days)d dzień/dni."
 
 msgid "serviceChannelMessages/vehCamouflageTimedOut"
-msgstr "Minął czas korzystania z kamuflażu na pojeździe %(vehicleName)s."
+msgstr ""
+"Minął czas korzystania z kamuflażu na pojeździe <font color='#c5ab5d'>"
+"%(vehicleName)s</font>."
 
 msgid "serviceChannelMessages/vehEmblemTimedOut"
-msgstr "Minął czas korzystania z emblematu na pojeździe %(vehicleName)s."
+msgstr ""
+"Minął czas korzystania z emblematu na pojeździe <font color='#c5ab5d'>"
+"%(vehicleName)s</font>."
 
 msgid "serviceChannelMessages/vehInscriptionTimedOut"
-msgstr "Minął czas korzystania z napisu na pojeździe %(vehicleName)s."
+msgstr ""
+"Minął czas korzystania z napisu na pojeździe <font color='#c5ab5d'>"
+"%(vehicleName)s</font>."
 
 msgid "serviceChannelMessages/vehicleLock"
 msgstr ""
-"Pojazd zniszczony. %(vehicleName)s  będzie niedostępny w bitwie klanowej do "
-"%(expireTime)s."
+"Pojazd zniszczony. <font color='#c5ab5d'>%(vehicleName)s</font>  będzie "
+"niedostępny w bitwie klanowej do <font color='#c5ab5d'>%(expireTime)s</font>."
 
 msgid "serviceChannelMessages/vehicleLockExpired"
-msgstr "Odblokowany. %(vehicleName)s dostępny do bitwy klanowej."
+msgstr ""
+"Odblokowany. <font color='#c5ab5d'>%(vehicleName)s</font> dostępny do bitwy "
+"klanowej."
 
 msgid "serviceChannelMessages/vehicleReceivedAsGift"
-msgstr "Otrzymano czołg premium: %(vehicleName)s"
+msgstr "Otrzymano czołg premium: <font color='#c5ab5d'>%(vehicleName)s</font>"
 
 msgid "serviceChannelMessages/vehicleRentError/notEnoughMoney"
 msgstr "Nie można wypożyczyć pojazdu. Za mało środków."
@@ -2732,13 +2838,26 @@ msgid "serviceChannelMessages/vehiclesAllLockExpired"
 msgstr "Blokada usunięta. Pojazdy są już gotowe na bitwę klanów."
 
 msgid "serviceChannelMessages/waresBoughtAsGold"
-msgstr "Gracz %(srcName)s przekazał %(srcWares)s złota na twoje konto."
+msgstr ""
+"<font color='#00bfff'>%(srcName)s</font> przekazał <font color='#FFE769'>"
+"%(srcWares)s</font>&nbsp;<img src='img://gui/maps/icons/library/Automatyk/"
+"gold.png' width='16' height='16' align='baseline' vspace='-3'/> złota na "
+"twoje konto."
 
 msgid "serviceChannelMessages/waresSoldAsGold"
-msgstr "%(srcWares)s złota przekazano dla gracza %(dstName)s. Opłata: %(fee)s."
+msgstr ""
+"<font color='#FFE769'>%(srcWares)s</font>&nbsp;<img src='img://gui/maps/"
+"icons/library/Automatyk/GoldIcon.png' width='16' height='16' "
+"align='baseline' vspace='-3'/> złota przekazano dla  <font color='#00bfff'>"
+"%(dstName)s</font>. Opłata: <font color='#FFE769'>%(fee)s</font>&nbsp;<img "
+"src='img://gui/maps/icons/library/Automatyk/gold.png' width='16' height='16' "
+"align='baseline' vspace='-3'/>."
 
 msgid "serviceChannelMessages/xpReceivedAsGift"
-msgstr "Wpłynęło %(freeXP)s pkt wolnego doświadczenia"
+msgstr ""
+"Wpłynęło <font color='#ECBF7B'>%(freeXP)s</font><img src='img://gui/maps/"
+"icons/library/Automatyk/FreeXp.png' width='16' height='16' align='baseline' "
+"vspace='-3'/> pkt wolnego doświadczenia"
 
 msgid "status/offline"
 msgstr "Offline"
