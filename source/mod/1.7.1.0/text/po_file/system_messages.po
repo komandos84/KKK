@@ -240,6 +240,8 @@ msgid "artefact_buy/wallet_not_available"
 msgstr ""
 "<font color='#929290'>Operacja nie może być zrealizowana. Twoje złoto "
 "zostanie przywrócone, kiedy tylko Portfel WG powróci do działania.</font>"
+msgid "artefact_demount/error_not_enough_resources"
+msgstr "'%(equipment)s' nie został zdemontowany. Za mało funduszy."
 
 msgid "artefact_destroy/invalid_vehicle"
 msgstr ""
@@ -257,11 +259,14 @@ msgstr ""
 "element został zniszczony przy demontażu.</font>"
 
 msgid "artefact_destroy/vehicle_locked"
+msgstr "Pojazd zablokowany. %(kind)s '%(name)s' nie został zniszczony."
+
+msgid "artefact_destroy/vehicle_need_repair"
 msgstr ""
 "<font color='#929290'>Pojazd zablokowany. %(kind)s <font "
 "color='#c5ab5d'>'%(name)s'</font> nie został zniszczony.</font>"
 
-msgid "artefact_destroy/vehicle_need_repair"
+msgid "artefact_remove/demount_kit_success"
 msgstr ""
 "<font color='#929290'>Pojazd uszkodzony. %(kind)s <font "
 "color='#c5ab5d'>'%(name)s'</font> nie został zniszczony. Napraw pojazd i "
@@ -695,12 +700,11 @@ msgstr ""
 
 msgid "charge/inventory_error"
 msgstr ""
-"<font color='#929290'>Nie udało się załadować amunicji. Spróbuj zrobić to "
-"ręcznie.</font>"
+"<font color='#929290'>Nie załadowano amunicji dla pojazdu %(vehicle)s. Załaduj amunicję ręcznie.</font>"
 
 msgid "charge/money_spent"
 msgstr ""
-"<font color='#c5ab5d'>Řącznie</font> <font color='#a3966e'>wydano <font "
+"<font color='#c5ab5d'>Łącznie</font> <font color='#a3966e'>wydano <font "
 "color='#FFFFFF'>%s</font> na zakup amunicji.</font>"
 
 msgid "charge/server_error"
@@ -956,7 +960,7 @@ msgid "connected"
 msgstr ""
 "Witaj\n"
 "na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!"
-"<br><font color='#BFE9FF'>KKK 1.7.0.2</font> <font "
+"<br><font color='#BFE9FF'>KKK 1.7.1.0</font> <font "
 "color='#FF3333'>Automatyk</font>"
 msgid "crewBooks/failed"
 msgstr "Wystąpił błąd: nie można przeczytać podręcznika dla załogi."
@@ -992,7 +996,7 @@ msgid "crewSkinsNotification/SkinGain"
 msgstr "Dodano opcje wyglądu załogi: %(count)s"
 
 msgid "current_vehicle_changed"
-msgstr "Aktualny pojazd został wymieniony na <font color='#c5ab5d'>'%s'</font>."
+msgstr "Aktualny pojazd został wymieniony na '%s'."
 
 msgid "customization/added/camouflage"
 msgstr "Dodano kamuflaż „%s”"
@@ -1179,6 +1183,17 @@ msgstr "Problemy techniczne zostały rozwiązane. Przepraszamy za niedogodności
 
 msgid "daily_xp_bonus/switch_on/title"
 msgstr "Zarządzany bonus do doświadczenia jest ponownie dostępny"
+
+msgid "demountKit_failed/switchedOff"
+msgstr ""
+"Działania z wykorzystaniem zestawu demontażowego są chwilowo niedostępne z "
+"powodu prac technicznych."
+
+msgid "demountKit_restored/switchedOn"
+msgstr ""
+"Działania z wykorzystaniem zestawu demontażowego są już dostępne. "
+"Przepraszamy za \n"
+"uniedogodnienia."
 
 msgid "denunciation/success"
 msgstr "Przyjęto skargę na: %(name)s za „%(topic)s”."
@@ -1746,9 +1761,8 @@ msgstr "Nie można kupić pojazdu %(veh_name)s"
 
 msgid "gameSessionControl/korea/midnightNotification"
 msgstr ""
-"Aby zapobiec uzależnieniu dzieci i nastolatków od gry, zakazane jest "
-"dołączanie do bitwy po godzinie %(preBlockTime)s. O %(blockTime)s zostaniesz "
-"rozłączony z serwerem."
+"Aby uchronić dzieci i młodzież przed uzależnieniem od gry, dołączanie do "
+"bitwy będzie ograniczone. Zostaniesz rozłączony z serwerem o %(blockTime)s."
 
 msgid "gameSessionControl/korea/note"
 msgstr "Nadmierne granie w gry komputerowe może kolidować z codziennym życiem."
@@ -1758,8 +1772,8 @@ msgstr "Pozostały czas sesji gry: %(timeLeft)s"
 
 msgid "gameSessionControl/korea/playTimeNotification"
 msgstr ""
-"Ваше игровое время заканчивается. Нельзя начать новый бой. В %s вы будете "
-"отключены от сервера."
+"Limit czasu dobiega końca, dlatego nie możesz wejść do nowej bitwy. "
+"Zostaniesz rozłączony z serwerem o %s."
 
 msgid "gameSessionControl/korea/sessionTime"
 msgstr "Czas sesji gry: %(sessionTime)s"
@@ -1964,15 +1978,15 @@ msgstr ""
 "wykorzystane do zalogowania się do gry World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Błąd podczas otwierania pudełka: błąd serwera."
+msgstr "Błąd odbierania prezentu: błąd serwera."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
 msgstr ""
-"Błąd podczas otwierania pudełka: prosimy zaczekać na zakończenie poprzedniej "
-"operacji."
+"Błąd podczas odbierania prezentu: prosimy poczekać na zakończenie "
+"poprzedniej operacji."
 
 msgid "lootboxes/open/server_error/DISABLED"
-msgstr "Błąd podczas otwierania pudełka: błąd serwera."
+msgstr "Operacja chwilowo niedostępna. Spróbuj później."
 
 msgid "maps_black_list/select/server_error"
 msgstr "Błąd serwera"
@@ -2247,48 +2261,6 @@ msgstr "Błąd przełączania konfiguracji"
 
 msgid "nation_change/success"
 msgstr "%(veh_name)s: zmieniono konfigurację narodową"
-
-msgid "newYear/addTalisman/server_error"
-msgstr "Błąd przy wyborze Śnieżynki: błąd serwera."
-
-msgid "newYear/applyVehicleDiscount/server_error"
-msgstr "Nie udało się aktywować zniżki: błąd serwera."
-
-msgid "newYear/applyVehicleDiscount/server_error/alreadyActive"
-msgstr "Nie można aktywować zniżki: zniżka na tym pojeździe już jest aktywna."
-
-msgid "newYear/applyVehicleDiscount/server_error/alreadyBought"
-msgstr "Błąd aktywacji zniżki: już kupiono ten pojazd."
-
-msgid "newYear/applyVehicleDiscount/server_error/noDiscountForVehicle"
-msgstr "Błąd aktywacji zniżki: nie znaleziono zniżki dla tego pojazdu."
-
-msgid "newYear/applyVehicleDiscount/server_error/noDiscounts"
-msgstr "Błąd aktywacji zniżki: nie znaleziono zniżek."
-
-msgid "newYear/applyVehicleDiscount/success"
-msgstr "Aktywowałeś zniżkę %(discount)s%% na %(vehName)s"
-
-msgid "newYear/breakToys/server_error"
-msgstr "Nie można rozbić dekoracji: błąd serwera."
-
-msgid "newYear/buyCollection/server_error"
-msgstr "Błąd zakupu kolekcji: błąd serwera."
-
-msgid "newYear/buyToy/server_error"
-msgstr "Nie udało się stworzyć dekoracji: błąd serwera."
-
-msgid "newYear/craftToy/server_error"
-msgstr "Nie udało się stworzyć dekoracji: błąd serwera."
-
-msgid "newYear/getTalismanToy/server_error"
-msgstr "Błąd przy odbiorze prezentu od Śnieżynki: błąd serwera."
-
-msgid "newYear/hangToy/server_error"
-msgstr "Błąd podczas umieszczania dekoracji: błąd serwera."
-
-msgid "newYear/setVehicleBranch/server_error"
-msgstr "Błąd podczas wybierania pojazdu do miejsca: błąd serwera."
 
 msgid "notrecruit_window/success"
 msgstr ""
@@ -2576,6 +2548,9 @@ msgstr "Pojazd nie nadaje się do tej bitwy."
 msgid "prebattle/teamInvalid/observers"
 msgstr "Wszyscy członkowie drużyny nie mogą być widzami."
 
+msgid "prebattle/vehicleInvalid/bobOnly"
+msgstr "Wybrany pojazd jest odpowiedni jedynie do Starcia Drużyn."
+
 msgid "prebattle/vehicleInvalid/epicOnly"
 msgstr "Wybrany pojazd jest odpowiedni tylko dla Linii frontu."
 
@@ -2659,7 +2634,7 @@ msgstr "Za mało złota na wykupienie konta premium na %(period)d dni."
 msgid "premium/post_battle_premium"
 msgstr ""
 "<font color='#929290'>Za zakup konta premium dostajesz <font color='#c5ab5d'>"
-"%(period)d</font> PD i <font color='#c5ab5d'>%(period)d</font> kredytów.</"
+"%(xpDiff)d</font> PD i <font color='#c5ab5d'>%(creditDiff)d</font> kredytów.</"
 "font>"
 
 msgid "premium/server_error"
@@ -3868,7 +3843,7 @@ msgstr ""
 "Operacja nie może być zrealizowana. Twoje złoto zostanie przywrócone, kiedy "
 "tylko Portfel WG powróci do działania."
 
-msgid "vehicle_remove/disabledService"
+msgid "vehicle_remove/demount_kit_disabled"
 msgstr "Nie można usunąć %(vehName)s. Spróbuj ponownie później."
 
 msgid "vehicle_remove/invalid_vehicle"
@@ -3898,6 +3873,9 @@ msgstr ""
 "taktycznych lub spróbuj ponownie później.</font>"
 
 msgid "vehicle_remove/success"
+msgstr "%(vehName)s został usunięty. Otrzymano %(money)s."
+
+msgid "vehicle_remove/success/with_demount_kit"
 msgstr ""
 "<font color='#929290'>Pomyślnie usunięto <font color='#c5ab5d'>'%(vehName)"
 "s'</font>. Otrzymano</font> %(money)s."
@@ -3907,6 +3885,11 @@ msgstr ""
 "<font color='#929290'>Pomyślnie usunięto <font color='#c5ab5d'>'%(vehName)"
 "s'</font>. Otrzymano</font> %(gainMoney)s. <font color='#929290'>Wydano</"
 "font> %(spendMoney)s."
+
+msgid "vehicle_remove/success_dismantling/with_demount_kit"
+msgstr ""
+"%(vehName)s został usunięty. Otrzymano %(gainMoney)s. Wykorzystano zestaw "
+"demontażowy (x%(countDK)s). Wydano %(spendMoney)s."
 
 msgid "vehicle_remove/vehicle_cannot_be_sold"
 msgstr ""
@@ -4027,6 +4010,9 @@ msgid "vehicle_restore/wallet_not_available"
 msgstr ""
 "Operacja nie może być zrealizowana. Twoje złoto zostanie przywrócone, kiedy "
 "tylko Portfel WG powróci do działania."
+msgid "vehicle_sell/demount_kit_disabled"
+msgstr "Nie udało się sprzedać '%(vehName)s'. Spróbuj później."
+
 
 msgid "vehicle_sell/disabledService"
 msgstr "Nie można sprzedać %(vehName)s. Spróbuj ponownie później."
@@ -4058,15 +4044,21 @@ msgstr ""
 "jest w żadnej jednostce taktycznej lub spróbować ponownie później.</font>"
 
 msgid "vehicle_sell/success"
+msgstr "%(vehName)s został sprzedany. Otrzymano %(money)s. %(restoreInfo)s"
+
+msgid "vehicle_sell/success/with_demount_kit"
 msgstr ""
-"<font color='#929290'>Sprzedano: <font color='#c5ab5d'>'%(vehName)s'</font>."
-"<br>Otrzymano:</font> %(money)s."
+"%(vehName)s został sprzedany. Otrzymano %(money)s. Wykorzystano zestaw "
+"demontażowy (x%(countDK)s). %(restoreInfo)s"
 
 msgid "vehicle_sell/success_dismantling"
 msgstr ""
-"<font color='#929290'>Sprzedano: <font color='#c5ab5d'>'%(vehName)s'</font>."
-"<br>Otrzymano: <font color='#ffffff'>%(gainMoney)s</font>.<br>Wydano: <font "
-"color='#FFE769'>%(spendMoney)s</font>.</font>"
+"<font color='#c5ab5d'>'%(vehName)s'</font> został sprzedany. <br>Otrzymano <font color='#ffffff'>%(gainMoney)s</font>. <br>Wydano "
+"<font color='#FFE769'>%(spendMoney)s</font>.%(spendMoney)s. %(restoreInfo)s"
+msgid "vehicle_sell/success_dismantling/with_demount_kit"
+msgstr ""
+"%(vehName)s został sprzedany. Otrzymano %(gainMoney)s. Wykorzystano zestaw "
+"demontażowy (x%(countDK)s). Wydano %(spendMoney)s. %(restoreInfo)s"
 
 msgid "vehicle_sell/vehicle_cannot_be_sold"
 msgstr ""

@@ -1940,9 +1940,7 @@ msgid "rewardWindow/lootbox/headerText"
 msgstr "Otrzymałeś pudełka!"
 
 msgid "rewardWindow/lootbox/isFreeDescText"
-msgstr ""
-"Otrzymałeś małe pudełka z cennymi nagrodami za ukończenie misji operacji "
-"świątecznych."
+msgstr "Otrzymałeś małe pudełka z cennymi nagrodami za ukończenie misji."
 
 msgid "rewardWindow/lootbox/winHeaderText"
 msgstr "Czas się dowiedzieć, co jest w pudełku!"
@@ -2087,6 +2085,20 @@ msgid "rewardWindow/twitch8/headerText"
 msgstr "Pakiet bytowy „Lima”"
 
 msgid "rewardWindow/twitch8/subHeaderText"
+msgstr "Otrzymane nagrody"
+
+msgid "rewardWindow/twitch9/btnLabel"
+msgstr "Rekrutuj"
+
+msgid "rewardWindow/twitch9/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Twitch Prime. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch9/headerText"
+msgstr "Pakiet bytowy „Mike”"
+
+msgid "rewardWindow/twitch9/subHeaderText"
 msgstr "Otrzymane nagrody"
 
 msgid "rewardWindow/winHeaderText"

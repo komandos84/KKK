@@ -84,6 +84,21 @@ msgstr "Sojusznik"
 msgid "battle/unknown/enemy"
 msgstr "Przeciwnik"
 
+msgid "chat/koreaMessage/curfew"
+msgstr ""
+"Zostaniesz odłączony od serwera o %(curfewTime)s. Sesja skończy się za "
+"%(timeLeft)s minut."
+
+msgid "chat/koreaMessage/dailyLimit"
+msgstr ""
+"Osiągnąłeś dzienny limit czasu gry. Twoja sesja skończy się za %(timeLeft)s "
+"minut."
+
+msgid "chat/koreaMessage/weeklyLimit"
+msgstr ""
+"Osiągnąłeś tygodniowy limit czasu gry. Twoja sesja skończy się za "
+"%(timeLeft)s minut."
+
 msgid "chat/personalMessage/warningBody"
 msgstr ""
 "Wiadomości od nieznanych graczy mogą zawierać niebezpieczne odnośniki. Nie "
@@ -1796,7 +1811,7 @@ msgid "serviceChannelMessages/battleResults/piggyBank"
 msgstr "Otrzymane zasoby rezerwowe"
 
 msgid "serviceChannelMessages/battleResults/quests"
-msgstr "Warunki spełnione! Nagroda"
+msgstr "Misja wypełniona! Nagroda"
 
 msgid "serviceChannelMessages/battleResults/quests/achievements"
 msgstr "Przebieg służby"
@@ -1821,9 +1836,6 @@ msgstr "Dodano"
 
 msgid "serviceChannelMessages/battleResults/quests/items/name"
 msgstr "%(name)s (x%(count)s)"
-
-msgid "serviceChannelMessages/battleResults/quests/nyBoxes"
-msgstr "Otrzymano małe pudełko (x%(count)s)"
 
 msgid "serviceChannelMessages/battleResults/quests/premium"
 msgstr "Dodane dni konta premium Wargaming"
@@ -2042,8 +2054,25 @@ msgstr "Otrzymano obligacje"
 msgid "serviceChannelMessages/currencyUpdate/received/gold"
 msgstr "Uzyskano złota"
 
+msgid "serviceChannelMessages/demountKitDisabled"
+msgstr ""
+"Działania z wykorzystaniem zestawu demontażowego są chwilowo niedostępne z "
+"powodu prac technicznych."
+
+msgid "serviceChannelMessages/demountKitEnabled"
+msgstr ""
+"Działania z wykorzystaniem zestawu demontażowego są już dostępne. "
+"Przepraszamy za \n"
+"uniedogodnienia."
+
 msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
 msgstr "Konto premium Wargaming wygasa %(expiryTime)s."
+
+msgid "serviceChannelMessages/enhancements/removed"
+msgstr "Wykorzystano moduł eksperymentalny"
+
+msgid "serviceChannelMessages/enhancements/wiped"
+msgstr "Usunięto wszystkie moduły eksperymentalne"
 
 msgid "serviceChannelMessages/failedPersonalMission"
 msgstr "Zerowanie postępów"
@@ -2306,6 +2335,9 @@ msgstr "Otrzymano obligacje"
 msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
 msgstr "Utracono obligacje"
 
+msgid "serviceChannelMessages/invoiceReceived/demountKits"
+msgstr "Materiały eksploatacyjne"
+
 msgid "serviceChannelMessages/invoiceReceived/discounts"
 msgstr "Osobista zniżka"
 
@@ -2314,6 +2346,12 @@ msgstr "Dodano nagrody"
 
 msgid "serviceChannelMessages/invoiceReceived/dossiersDebited"
 msgstr "Usunięto nagrody"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsAccrued"
+msgstr "Dodano moduły eksperymentalne"
+
+msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
+msgstr "Usunięto moduły eksperymentalne"
 
 msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
 msgstr "Dodano rozkazy"
@@ -2360,24 +2398,6 @@ msgstr "Dodano fragmenty schematu pojazdów %(nationName)s"
 msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
 msgstr "Usunięto fragmenty schematu pojazdów %(nationName)s"
 
-msgid "serviceChannelMessages/invoiceReceived/nyFillersAccrued"
-msgstr "Dodano ładunki: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyFillersDebited"
-msgstr "Usunięto ładunki: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyFragmentsAccrued"
-msgstr "Dodano skorupki: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyFragmentsDebited"
-msgstr "Usunięto skorupki: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyToysAccruedInvoiceReceived"
-msgstr "Otrzymano dekoracje: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyToysDebitedInvoiceReceived"
-msgstr "Usunięto dekoracje: "
-
 msgid "serviceChannelMessages/invoiceReceived/pieces"
 msgstr "szt."
 
@@ -2417,9 +2437,6 @@ msgstr "Dodano nierozdzielone doświadczenie członkom załogi"
 msgid "serviceChannelMessages/invoiceReceived/tankmenFreeXpDebited"
 msgstr "Usunięto nierozdzielone doświadczenie członkom załogi"
 
-msgid "serviceChannelMessages/invoiceReceived/toyTypeWrapper"
-msgstr "%(name)s (x%(count)s)"
-
 msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
 msgstr "Dodano fragmenty schematu %(vehicleName)s"
 
@@ -2444,7 +2461,7 @@ msgid "serviceChannelMessages/itemReceivedAsGift"
 msgstr "Otrzymano wyposażenie: %(typeName)s \"%(itemName)s\" - %(amount)d szt."
 
 msgid "serviceChannelMessages/lootBoxes/button"
-msgstr "Odbierz"
+msgstr "Do pudełek"
 
 msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Kliknij przycisk, by zobaczyć zawartość."
@@ -2468,18 +2485,6 @@ msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
 msgstr ""
 "Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy nagrody za Operacje "
 "świąteczne"
-
-msgid "serviceChannelMessages/lootBoxesGift/body"
-msgstr "Kliknij przycisk, by zobaczyć zawartość."
-
-msgid "serviceChannelMessages/lootBoxesGift/button"
-msgstr "Odbierz"
-
-msgid "serviceChannelMessages/lootBoxesGift/header"
-msgstr "Otrzymałeś paczkę:"
-
-msgid "serviceChannelMessages/newYearTalisman/button"
-msgstr "Do Śnieżynek"
 
 msgid "serviceChannelMessages/notrecruitedTankman/button"
 msgstr "Do koszar"
@@ -2600,6 +2605,9 @@ msgstr "Otrzymałeś załogę z %(event)s."
 msgid "serviceChannelMessages/recruitReminder/text"
 msgstr ""
 "Masz niezrekrutowanych członków załogi: %(count)s. Zostaną usunięci %(date)s!"
+
+msgid "serviceChannelMessages/recruitReminderNotRemain/text"
+msgstr "Masz niezrekrutowanych członków załogi"
 
 msgid "serviceChannelMessages/recruitReminderTermless/text"
 msgstr "Masz niezrekrutowanych członków załogi: %(count)s"
@@ -2733,6 +2741,9 @@ msgid "serviceChannelMessages/sysMsg/removeCustomizations"
 msgstr ""
 "Ze względu na wymianę modułów, z pojazdu %(vehicle)s zostały usunięte "
 "następujące elementy dostosowania wyglądu zewnętrznego."
+
+msgid "serviceChannelMessages/sysMsg/titles/bobBattlesAvailable"
+msgstr "Starcie Drużyn jest dostępne"
 
 msgid "serviceChannelMessages/sysMsg/titles/customization"
 msgstr ""
