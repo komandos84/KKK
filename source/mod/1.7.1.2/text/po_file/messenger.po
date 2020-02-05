@@ -2030,6 +2030,9 @@ msgstr "%(label)s x%(count)s"
 msgid "serviceChannelMessages/crewSkinsCount"
 msgstr "%(label)s x%(count)s"
 
+msgid "serviceChannelMessages/currencyUpdate/auction"
+msgstr "Aukcja"
+
 msgid "serviceChannelMessages/currencyUpdate/date"
 msgstr "Data"
 
@@ -2053,6 +2056,12 @@ msgstr "Otrzymano obligacje"
 
 msgid "serviceChannelMessages/currencyUpdate/received/gold"
 msgstr "Uzyskano złota"
+
+msgid "serviceChannelMessages/currencyUpdate/restored/credits"
+msgstr "Zwrócono kredytów"
+
+msgid "serviceChannelMessages/currencyUpdate/restored/gold"
+msgstr "Zwrócono złota"
 
 msgid "serviceChannelMessages/demountKitDisabled"
 msgstr ""
