@@ -330,6 +330,9 @@ msgstr "x%(multiplier)d"
 msgid "cruise_ctrl/speedMetric"
 msgstr "km/h"
 
+msgid "damageIndicator/friendlyFire/noDamageLabel"
+msgstr "- -"
+
 msgid "damageIndicator/multiplier"
 msgstr "x%(multiplier)s"
 
