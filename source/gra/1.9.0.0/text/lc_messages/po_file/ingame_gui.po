@@ -1607,6 +1607,34 @@ msgstr "Pakiet bytowy „Alfa”"
 msgid "rewardWindow/twitch1/subHeaderText"
 msgstr "Zostałeś nagrodzony!"
 
+msgid "rewardWindow/twitch10/btnLabel"
+msgstr "TAK JEST!"
+
+msgid "rewardWindow/twitch10/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Twitch Prime. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch10/headerText"
+msgstr "Pakiet bytowy „Przepustka bitewna”"
+
+msgid "rewardWindow/twitch10/subHeaderText"
+msgstr "Otrzymane nagrody"
+
+msgid "rewardWindow/twitch11/btnLabel"
+msgstr "TAK JEST!"
+
+msgid "rewardWindow/twitch11/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Twitch Prime. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch11/headerText"
+msgstr "Pakiet bytowy „Kosmiczny”"
+
+msgid "rewardWindow/twitch11/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch2/btnLabel"
 msgstr "TAK JEST!"
 
@@ -1750,6 +1778,9 @@ msgid "shells_kinds/params"
 msgstr ""
 "Uszkodzenia %(damage)s \n"
 "Przebicie %(piercingPower)s"
+
+msgid "shells_kinds/paramsNoPiercing"
+msgstr "Uszkodzenia %(damage)s"
 
 msgid "shells_kinds/stunParams"
 msgstr ""

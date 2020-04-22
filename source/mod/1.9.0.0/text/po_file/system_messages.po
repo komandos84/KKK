@@ -82,7 +82,7 @@ msgid "arena_start_errors/join/WRONG_BATTLE_ID"
 msgstr "Błąd przy dołączaniu: wybrana bitwa historyczna nie jest dostępna."
 
 msgid "arena_start_errors/join/WRONG_PERIPHERY_KNOWN"
-msgstr "Błąd połączenia. Proszę wybrać serwer: '%s'."
+msgstr "Błąd połączenia. Proszę wybrać serwer: %s."
 
 msgid "arena_start_errors/join/WRONG_PERIPHERY_UNKNOWN"
 msgstr "Błąd połączenia. Proszę wybrać inny serwer."
@@ -204,6 +204,8 @@ msgstr ""
 
 msgid "artefact_buy/not_enough_crystal"
 msgstr "Nie udało się kupić %(kind)s \"%(name)s\". Za mało obligacji."
+msgid "artefact_buy/not_enough_eventCoin"
+msgstr "Nie można kupić %(kind)s „%(name)s”. Za mało jubileuszowych monet."
 
 msgid "artefact_buy/not_enough_gold"
 msgstr ""
@@ -363,6 +365,9 @@ msgstr ""
 "%(kind)s \"%(name)s\" za dużo waży. Rozważ zmianę zawieszenia lub "
 "zmniejszenie wagi pojazdu."
 
+msgid "battleBooster_buy/eventCoin_error"
+msgstr "Nie można kupić %(kind)s „%(name)s”. Za mało jubileuszowych monet."
+
 msgid "battleBooster_buy/gold_error"
 msgstr "Nie udało się kupić %(kind)s „%(name)s”. Za mało złota."
 
@@ -378,6 +383,9 @@ msgstr "Nie udało się kupić %(kind)s \"%(name)s\". Za mało kredytów."
 
 msgid "battleBooster_buy/not_enough_crystal"
 msgstr "Nie udało się kupić %(kind)s \"%(name)s\". Za mało obligacji."
+
+msgid "battleBooster_buy/not_enough_eventCoin"
+msgstr "Nie można kupić %(kind)s „%(name)s”. Za mało jubileuszowych monet."
 
 msgid "battleBooster_buy/not_enough_gold"
 msgstr "Nie udało się kupić %(kind)s \"%(name)s\". Za mało złota."
@@ -420,35 +428,40 @@ msgid "battleBooster_sell/success"
 msgstr "%(kind)s „%(name)s” sprzedano (%(count)s szt.). Otrzymano: %(money)s."
 
 msgid "battlePass/badgeRemoved/text"
-msgstr "The %(badgeName)s badge removed due to the end of Battle Pass Season."
+msgstr ""
+"Usunięto odznakę %(badgeName)s ze względu na koniec sezonu Przepustki "
+"bitewnej."
 
 msgid "battlePass/switch_disable/body"
-msgstr "Season finished. See you next Season!"
+msgstr "Sezon zakończył się. Do zobaczenia w kolejnym sezonie!"
 
 msgid "battlePass/switch_disable/title"
-msgstr "Battle Pass Season 1."
+msgstr "Przepustka bitewna. Sezon 1."
 
 msgid "battlePass/switch_enabled/body"
 msgstr ""
-"Battle Pass is available again. We apologize for the inconvenience.\n"
-"Season extended until: %(expiryTime)s."
+"Przepustka bitewna jest znowu dostępna. Przepraszamy za niedogodności.\n"
+"Sezon przedłużony do: %(expiryTime)s."
 
 msgid "battlePass/switch_pause/body"
-msgstr "Battle Pass is temporarily unavailable due to maintenance."
+msgstr ""
+"Przepustka bitewna jest chwilowo niedostępna z powodu prac technicznych."
 
 msgid "battlePass/switch_started/body"
 msgstr ""
-"Commanders! It's time to fight to receive unique Battle Pass rewards: 3D "
-"styles, exclusive commanders, and much more!"
+"Dowódcy! Czas na walkę i zdobycie unikalnych nagród Przepustki bitewnej: "
+"stylów 3D, ekskluzywnych dowódców i nie tylko!"
 
 msgid "battlePass/switch_started/title"
-msgstr "Battle Pass Season 1."
+msgstr "Przepustka bitewna. Sezon 1."
 
 msgid "battlePassLevels_buy/server_error"
-msgstr "Error purchasing Main Progression Stages. Please try again."
+msgstr ""
+"Błąd podczas kupowania etapów głównego postępu. Spróbuj ponownie później."
 
 msgid "battlePass_buy/server_error"
-msgstr "Error purchasing the Improved Pass. Please try again."
+msgstr ""
+"Błąd podczas kupowania ulepszonej przepustki. Spróbuj ponownie później."
 
 msgid "battleResults/sharing/success"
 msgstr ""
@@ -765,7 +778,7 @@ msgid "checkout_error"
 msgstr "Błąd danych użytkownika. Prosimy spróbować raz jeszcze."
 
 msgid "choose_battlePass_reward/server_error"
-msgstr "Error selecting the reward. Please try again later."
+msgstr "Błąd podczas wybierania nagrody. Spróbuj ponownie później."
 
 msgid "clans/isClanProfileDisabled"
 msgstr "Operacja niedostępna. Spróbuj później."
@@ -859,8 +872,8 @@ msgstr "Działanie niedostępne. Gracz nie spełnia warunków rekrutacji."
 
 msgid "clans/request/errors/Account in cooldown"
 msgstr ""
-"Okres dwóch dni kary nałożonej za opuszczenie poprzedniego klanu jeszcze nie "
-"minął."
+"Okres jednego dnia kary nałożonej za opuszczenie poprzedniego klanu jeszcze "
+"nie minął."
 
 msgid "clans/request/errors/Account in unknown"
 msgstr "Działanie niedostępne. Niepoprawne konto."
@@ -956,7 +969,7 @@ msgid "clans/request/errors/user is in clan already"
 msgstr "%(userName)s jest już członkiem klanu."
 
 msgid "clientInstallError_not_for_this_vehicle_type"
-msgstr "%s '%s' nie pasuje do tego pojazdu."
+msgstr "%s „%s” nie pasuje do tego pojazdu."
 
 msgid "clientInstallError_too_heavy"
 msgstr ""
@@ -1001,11 +1014,23 @@ msgstr ""
 msgid "client_inactive"
 msgstr "Klient nieaktywny"
 
+msgid "collectorVehicle/switch_off/body"
+msgstr "Kolekcje są tymczasowo niedostępne z powodu prac technicznych."
+
+msgid "collectorVehicle/switch_off/title"
+msgstr "Kolekcje niedostępne"
+
+msgid "collectorVehicle/switch_on/body"
+msgstr "Problemy z kolekcjami zostały rozwiązane. Przepraszamy za utrudnienia."
+
+msgid "collectorVehicle/switch_on/title"
+msgstr "Kolekcje znów są dostępne"
+
 msgid "connected"
 msgstr ""
 "Witaj\n"
 "na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!"
-"<br><font color='#BFE9FF'>KKK 1.8.0.x</font> <font "
+"<br><font color='#BFE9FF'>KKK 1.9.0.x</font> <font "
 "color='#FF3333'>Automatyk</font>"
 msgid "crewBooks/failed"
 msgstr "Wystąpił błąd: nie można przeczytać podręcznika dla załogi."
@@ -1041,7 +1066,7 @@ msgid "crewSkinsNotification/SkinGain"
 msgstr "Dodano opcje wyglądu załogi: %(count)s"
 
 msgid "current_vehicle_changed"
-msgstr "Aktualny pojazd został wymieniony na '%s'."
+msgstr "Aktualny pojazd został wymieniony na %s."
 
 msgid "customization/added/camouflage"
 msgstr "Dodano kamuflaż „%s”"
@@ -1351,7 +1376,8 @@ msgstr "Błąd przy przenoszeniu czołgisty do pojazdu. Proszę naprawić pojazd
 msgid "event_progression_buy_vehicle/buy"
 msgstr ""
 "Data: %(date)s\n"
-"Odjęte żetony: %(count)s"
+"Udało się kupić %(veh_name)s, 100%% załogi i miejsce.\n"
+"Użyte żetony: %(count)s"
 
 msgid "event_progression_buy_vehicle/server_error"
 msgstr "Nie można kupić pojazdu %(veh_name)s"
@@ -1920,48 +1946,47 @@ msgstr "Zaproszenie do gracza %(name)s nie może być wysłane: niewłaściwy kl
 
 msgid "layout_apply/BUYING_GOLD_EQS_FOR_CREDITS_DISABLED"
 msgstr ""
-"Błąd usługi '%(vehName)s'. Nie udało się uzupełnić sprzętu eksploatacyjnego. "
-"Spróbuj ponownie później."
+"Błąd usługi „%(vehName)s”. Nie udało się uzupełnić materiałów "
+"eksploatacyjnych. Spróbuj później."
 
 msgid "layout_apply/BUYING_GOLD_SHELLS_FOR_CREDITS_DISABLED"
 msgstr ""
-"Błąd usługi '%(vehName)s'. Nie udało się uzupełnić sprzętu eksploatacyjnego. "
-"Spróbuj ponownie później."
+"Błąd usługi „%(vehName)s”. Nie udało się uzupełnić materiałów "
+"eksploatacyjnych. Spróbuj później."
 
 msgid "layout_apply/Cannot equip equipment"
 msgstr ""
-"Błąd usługi '%(vehName)s'. Nie udało się uzupełnić sprzętu eksploatacyjnego. "
-"Spróbuj ponownie później."
+"Błąd usługi „%(vehName)s”. Nie udało się uzupełnić materiałów "
+"eksploatacyjnych. Spróbuj później."
 
 msgid "layout_apply/Cannot equip shells"
 msgstr ""
-"Błąd usługi '%(vehName)s'. Nie udało się uzupełnić pocisków. Spróbuj "
-"ponownie później."
+"Błąd usługi „%(vehName)s”. Nie udało się uzupełnić pocisków. Spróbuj później."
 
 msgid "layout_apply/Cannot equip shells (maxAmmo limit exceeded)"
 msgstr ""
-"Błąd usługi '%(vehName)s'. Nie udało się uzupełnić pocisków. Załadowano już "
+"Błąd usługi „%(vehName)s”. Nie udało się uzupełnić pocisków. Załadowano już "
 "maksymalną liczbę pocisków."
 
 msgid "layout_apply/Component is not in shop"
 msgstr ""
-"Błąd usługi '%(vehName)s'. Nie udało się uzupełnić sprzętu eksploatacyjnego. "
-"Spróbuj ponownie później."
+"Błąd usługi „%(vehName)s”. Nie udało się uzupełnić materiałów "
+"eksploatacyjnych. Spróbuj później."
 
 msgid "layout_apply/EQS_NO_CREDITS"
 msgstr ""
-"Błąd usługi '%(vehName)s'. Za mało kredytów na zakup sprzętu "
-"eksploatacyjnego. Spróbuj ponownie później."
+"Błąd usługi „%(vehName)s”. Za mało kredytów na zakup materiałów "
+"eksploatacyjnych. Spróbuj później."
 
 msgid "layout_apply/EQS_NO_CRYSTAL"
 msgstr ""
-"Błąd obsługi: \"%(vehName)s\". Za mało obligacji na kupno materiałów "
+"Błąd usługi „%(vehName)s”. Za mało obligacji na kupno materiałów "
 "eksploatacyjnych."
 
 msgid "layout_apply/EQS_NO_GOLD"
 msgstr ""
-"Błąd usługi '%(vehName)s'. Za mało złota na zakup sprzętu eksploatacyjnego. "
-"Spróbuj ponownie później."
+"Błąd usługi „%(vehName)s”. Za mało złota na zakup materiałów "
+"eksploatacyjnych. Spróbuj później."
 
 msgid "layout_apply/EQS_NO_WALLET_SESSION"
 msgstr ""
@@ -1970,17 +1995,17 @@ msgstr ""
 
 msgid "layout_apply/NOT_RESEARCHED_ITEM"
 msgstr ""
-"Błąd usługi '%(vehName)s'. Nie udało się uzupełnić sprzętu eksploatacyjnego. "
-"Spróbuj ponownie później."
+"Błąd usługi „%(vehName)s”. Nie udało się uzupełnić materiałów "
+"eksploatacyjnych. Spróbuj później."
 
 msgid "layout_apply/No vehicle with given id"
-msgstr "Błąd usługi '%(vehName)s'. Nieprawidłowy pojazd."
+msgstr "Błąd usługi „%(vehName)s”. Nieodpowiedni pojazd."
 
 msgid "layout_apply/SHELLS_NO_CREDITS"
-msgstr "Błąd usługi '%(vehName)s'. Za mało kredytów na zakup pocisków."
+msgstr "Błąd usługi „%(vehName)s”. Za mało kredytów na zakup pocisków."
 
 msgid "layout_apply/SHELLS_NO_GOLD"
-msgstr "Błąd usługi '%(vehName)s'. Za mało złota na zakup pocisków."
+msgstr "Błąd usługi „%(vehName)s”. Za mało złota na zakup pocisków."
 
 msgid "layout_apply/SHELLS_NO_WALLET_SESSION"
 msgstr ""
@@ -1988,28 +2013,28 @@ msgstr ""
 "tylko Portfel WG powróci do działania."
 
 msgid "layout_apply/SHOP_DESYNC"
-msgstr "Błąd usługi '%(vehName)s'. Spróbuj ponownie później."
+msgstr "Błąd usługi „%(vehName)s”. Spróbuj później."
 
 msgid "layout_apply/Vehicle is locked"
-msgstr "Błąd usługi '%(vehName)s'. Pojazd jest zablokowany."
+msgstr "Błąd usługi „%(vehName)s”. Pojazd jest zablokowany."
 
 msgid "layout_apply/WRONG_ARGS_TYPE"
-msgstr "Błąd usługi '%(vehName)s'. Spróbuj ponownie później."
+msgstr "Błąd usługi „%(vehName)s”. Spróbuj później."
 
 msgid "layout_apply/WRONG_ARG_VALUE"
-msgstr "Błąd usługi '%(vehName)s'. Spróbuj ponownie później."
+msgstr "Błąd usługi „%(vehName)s”. Spróbuj później."
 
 msgid "layout_apply/invalid_vehicle"
-msgstr "Błąd usługi '%(vehName)s'. Nieprawidłowy pojazd."
+msgstr "Błąd usługi „%(vehName)s”. Nieodpowiedni pojazd."
 
 msgid "layout_apply/server_error"
-msgstr "Błąd usługi '%(vehName)s'. Spróbuj ponownie później."
+msgstr "Błąd usługi „%(vehName)s”. Spróbuj później."
 
 msgid "layout_apply/success_money_spent"
 msgstr "Całkowite wydatki na amunicję: %(money)s."
 
 msgid "layout_apply/vehicle_locked"
-msgstr "Błąd usługi '%(vehName)s'. Pojazd jest zablokowany."
+msgstr "Błąd usługi „%(vehName)s”. Pojazd jest zablokowany."
 
 msgid "layout_apply/wallet_not_available"
 msgstr ""
@@ -2113,7 +2138,7 @@ msgstr ""
 
 msgid "module_apply/error_need_gun"
 msgstr ""
-"Nie można zamontować elementu %(kind)s '%(name)s' w pojeździe z aktualnym "
+"Nie można zamontować elementu %(kind)s „%(name)s” w pojeździe z aktualnym "
 "działem."
 
 msgid "module_apply/error_need_turret"
@@ -2622,6 +2647,9 @@ msgstr "Pojazd nie nadaje się do tej bitwy."
 msgid "prebattle/teamInvalid/observers"
 msgstr "Wszyscy członkowie drużyny nie mogą być widzami."
 
+msgid "prebattle/vehicleInvalid/bobOnly"
+msgstr "Wybrany pojazd jest odpowiedni tylko dla trybu „Bijatyka”."
+
 msgid "prebattle/vehicleInvalid/epicOnly"
 msgstr "Wybrany pojazd jest odpowiedni tylko dla Linii frontu."
 
@@ -2768,8 +2796,8 @@ msgid "ranked/notification/congratulations"
 msgstr "Gratulacje!"
 
 msgid "ranked/notification/notAvailable"
-msgstr ""
-"Tryb bitew rankingowych jest niedostępny. Śledź wiadomości na portalu gry."
+msgstr "Bitwy rankingowe są niedostępne. Śledź informacje na portalu gry."
+
 msgid "ranked/notification/notSet"
 msgstr "Ten tryb jest niedostępny na wybranym serwerze."
 
@@ -2787,6 +2815,9 @@ msgstr "Otrzymane kredyty:"
 
 msgid "ranked/notifications/bonusName/crystal"
 msgstr "Otrzymane obligacje:"
+
+msgid "ranked/notifications/bonusName/eventCoin"
+msgstr "Otrzymano jubileuszowe monety:"
 
 msgid "ranked/notifications/bonusName/gold"
 msgstr "Otrzymane złoto:"
@@ -3327,6 +3358,15 @@ msgstr "Problemy techniczne zostały rozwiązane. Przepraszamy za niedogodności
 
 msgid "squad_bonus/switch_on/title"
 msgstr "Bonus dla plutonu jest ponownie dostępny"
+
+msgid "techtree/action/expireTime"
+msgstr "%(days)s dn."
+
+msgid "techtree/action/header"
+msgstr "Oferta specjalna „%(actionName)s”"
+
+msgid "techtree/action/text"
+msgstr "Oferta specjalna kończy się za "
 
 msgid "telecom/notifications/vehicleBlocked/comment/default"
 msgstr "%(vehicles)s"
@@ -3904,6 +3944,8 @@ msgid "vehicle_buy/not_enough_gold"
 msgstr ""
 "<font color='#929290'>Nie można kupić pojazdu: <font "
 "color='#c5ab5d'>'%(vehName)s'</font>. Za mało złota.</font>"
+msgid "vehicle_buy/not_unlocked_nation"
+msgstr "Operacja niedostępna. Pojazdy tej narodowości nie są zbadane."
 
 msgid "vehicle_buy/server_error"
 msgstr ""
@@ -3927,7 +3969,7 @@ msgstr ""
 "tylko Portfel WG powróci do działania."
 
 msgid "vehicle_remove/demount_kit_disabled"
-msgstr "Nie można usunąć %(vehName)s. Spróbuj ponownie później."
+msgstr "Nie można usunąć %(vehName)s. Spróbuj później."
 
 msgid "vehicle_remove/invalid_vehicle"
 msgstr ""
@@ -3960,8 +4002,8 @@ msgstr "%(vehName)s został usunięty. Otrzymano %(money)s."
 
 msgid "vehicle_remove/success/with_demount_kit"
 msgstr ""
-"<font color='#929290'>Pomyślnie usunięto <font color='#c5ab5d'>'%(vehName)"
-"s'</font>. Otrzymano</font> %(money)s."
+"%(vehName)s został usunięty. Otrzymano %(money)s. Wykorzystałeś zestaw "
+"demontażowy (x%(countDK)s)."
 
 msgid "vehicle_remove/success_dismantling"
 msgstr ""
@@ -4064,8 +4106,8 @@ msgstr "Odzyskiwanie pojazdów jest chwilowo niedostępne. Spróbuj później."
 
 msgid "vehicle_restore/disconnected_from_center"
 msgstr ""
-"Nie można odzyskać pojazdu '%(vehName)s'. Odzyskiwanie pojazdów jest "
-"chwilowo niedostępne."
+"Nie można odzyskać pojazdu %(vehName)s. Odzyskiwanie pojazdów jest chwilowo "
+"niedostępne."
 
 msgid "vehicle_restore/invalid_vehicle"
 msgstr "Nie można odzyskać %(vehName)s. Nieodpowiedni pojazd."
@@ -4077,14 +4119,12 @@ msgid "vehicle_restore/not_enough_gold"
 msgstr "Nie można odzyskać %(vehName)s. Za mało złota."
 
 msgid "vehicle_restore/server_error"
-msgstr ""
-"Nie można odzyskać %(vehName)sze względu na błąd serwera. Spróbuj ponownie "
-"później."
+msgstr "Nie można odzyskać %(vehName)sz powodu błędu serwera. Spróbuj później."
 
 msgid "vehicle_restore/server_error_centerDown"
 msgstr ""
-"Nie można odzyskać pojazdu '%(vehName)s'. Odzyskiwanie pojazdów jest "
-"chwilowo niedostępne."
+"Nie można odzyskać pojazdu %(vehName)s. Odzyskiwanie pojazdów jest chwilowo "
+"niedostępne."
 
 msgid "vehicle_restore/success"
 msgstr "Pojazd %(vehName)s został odzyskany. Wydano %(price)s."
@@ -4094,11 +4134,10 @@ msgstr ""
 "Operacja nie może być zrealizowana. Twoje złoto zostanie przywrócone, kiedy "
 "tylko Portfel WG powróci do działania."
 msgid "vehicle_sell/demount_kit_disabled"
-msgstr "Nie udało się sprzedać '%(vehName)s'. Spróbuj później."
-
+msgstr "Nie można sprzedać %(vehName)s. Spróbuj później."
 
 msgid "vehicle_sell/disabledService"
-msgstr "Nie można sprzedać %(vehName)s. Spróbuj ponownie później."
+msgstr "Nie można sprzedać %(vehName)s. Spróbuj później."
 
 msgid "vehicle_sell/invalid_vehicle"
 msgstr ""
@@ -4144,8 +4183,7 @@ msgstr ""
 "demontażowy (x%(countDK)s). Wydano %(spendMoney)s. %(restoreInfo)s"
 
 msgid "vehicle_sell/vehicle_cannot_be_sold"
-msgstr ""
-"Nie można sprzedać '%(vehName)s'. Ten pojazd będzie usunięty automatycznie."
+msgstr "Nie można sprzedać %(vehName)s. Pojazd będzie usunięty automatycznie."
 
 msgid "vehicle_sell/vehicle_locked"
 msgstr ""
@@ -4218,14 +4256,14 @@ msgstr ""
 "Nie udało się dokonać zamiany na %(vehName)s. Wybrano niepoprawny pojazd."
 
 msgid "vehicle_trade_in/not_enough_credits"
-msgstr "Nie udało się dokonać zamiany na %(vehName)s. Za mało kredytów."
+msgstr "Nie udało się dokonać zamiany za %(vehName)s. Za mało kredytów."
 
 msgid "vehicle_trade_in/not_enough_gold"
-msgstr "Nie udało się dokonać zamiany na %(vehName)s. Za mało złota."
+msgstr "Nie udało się dokonać zamiany za %(vehName)s. Za mało złota."
 
 msgid "vehicle_trade_in/not_enough_space"
 msgstr ""
-"Nie udało się dokonać zamiany pojazdu %(tradeOffVehName)s. Za mało miejsca w "
+"Nie udało się dokonać zamiany za %(tradeOffVehName)s. Za mało łóżek w "
 "koszarach."
 
 msgid "vehicle_trade_in/server_error"
@@ -4239,8 +4277,7 @@ msgstr ""
 "chwilowo niedostępny."
 
 msgid "vehicle_trade_in/success"
-msgstr ""
-"Usunięto pojazd %(tradeOffVehName)s. Kupiono pojazd %(vehName)s za %(price)s."
+msgstr "Usunięto %(tradeOffVehName)s. Kupiono %(vehName)s za %(price)s."
 
 msgid "vehicle_trade_in/vehicle_cannot_be_sold"
 msgstr ""
@@ -4254,23 +4291,21 @@ msgstr ""
 
 msgid "vehicle_trade_in/vehicle_cannot_trade_off"
 msgstr ""
-"Nie udało się dokonać zamiany pojazdu %(tradeOffVehName)s. Tego pojazdu nie "
-"można zamienić."
+"Nie udało się dokonać zamiany za %(tradeOffVehName)s. Tego pojazdu nie można "
+"zamienić."
 
 msgid "vehicle_trade_in/vehicle_locked"
 msgstr ""
-"Nie udało się dokonać zamiany pojazdu %(tradeOffVehName)s. Ten pojazd jest "
+"Nie udało się dokonać zamiany za %(tradeOffVehName)s. Ten pojazd jest "
 "niedostępny."
 
 msgid "vehicle_trade_in/vehicle_need_repair"
-msgstr ""
-"Nie udało się dokonać zamiany pojazdu %(tradeOffVehName)s. Ten pojazd wymaga "
-"naprawy."
+msgstr "Nie udało się dokonać zamiany za %(tradeOffVehName)s. Napraw pojazd."
 
 msgid "vehicle_trade_in/vehicle_not_found_in_inventory"
 msgstr ""
-"Nie udało się dokonać zamiany pojazdu %(tradeOffVehName)s. Tego pojazdu nie "
-"ma w garażu."
+"Nie udało się dokonać zamiany za %(tradeOffVehName)s. Pojazdu nie ma w "
+"magazynie."
 
 msgid "vehicle_trade_in/wallet_not_available"
 msgstr ""
