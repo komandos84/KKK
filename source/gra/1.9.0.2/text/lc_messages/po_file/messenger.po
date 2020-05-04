@@ -793,7 +793,7 @@ msgid "dialogs/createChannel/title"
 msgstr "Stwórz kanał"
 
 msgid "dialogs/eventSquad/vehicle"
-msgstr "Wybierz %(vehName)s"
+msgstr "Wybierz jednostkę"
 
 msgid "dialogs/falloutSquadChannel/vehicleNotify"
 msgstr "Wybierz pojazd %(level)s poziomu"
@@ -949,8 +949,8 @@ msgstr ""
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"Tryb bitwy:\n"
-"Ciemny Front"
+"Głównym celem jest pokonanie\n"
+"sił przeciwnika"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -2007,6 +2007,24 @@ msgstr ""
 " \n"
 "Otrzymane szewrony"
 
+msgid "serviceChannelMessages/battleResults/se20/battleGoalsDone"
+msgstr "Wypełnione misje"
+
+msgid "serviceChannelMessages/battleResults/se20/division"
+msgstr "Jednostka"
+
+msgid "serviceChannelMessages/battleResults/se20/divisionPointsGain"
+msgstr "Doświadczenie jednostki"
+
+msgid "serviceChannelMessages/battleResults/se20/gameMode"
+msgstr "Wydarzenie w grze"
+
+msgid "serviceChannelMessages/battleResults/se20/gameModeName"
+msgstr "Droga na Berlin"
+
+msgid "serviceChannelMessages/battleResults/se20/reputationPointsGain"
+msgstr "Punkty zwycięstwa"
+
 msgid "serviceChannelMessages/battleResults/tankman"
 msgstr "Rekrutuj"
 
@@ -2748,6 +2766,15 @@ msgstr "Dodano złoto za niewykorzystany czas wypożyczenia %(vehicleName)s"
 
 msgid "serviceChannelMessages/rentalsExpired"
 msgstr "Czas wypożyczenia %(vehicleName)s zakończył się."
+
+msgid "serviceChannelMessages/se20/buyBundleReward"
+msgstr "Otrzymano nagrodę za kupno:"
+
+msgid "serviceChannelMessages/se20/exhangeOrder/desc"
+msgstr "Udało się wymienić żeton."
+
+msgid "serviceChannelMessages/se20/exhangeOrder/header"
+msgstr "Wymień:"
 
 msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
 msgstr "Kamuflaż"

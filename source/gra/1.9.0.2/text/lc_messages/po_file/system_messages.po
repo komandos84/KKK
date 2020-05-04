@@ -52,6 +52,9 @@ msgstr ""
 "To wydarzenie jest w tej chwili niedostępne. Śledź najnowsze wiadomości na "
 "portalu gry."
 
+msgid "arena_start_errors/join/NOT_ENOUGH_ENERGY"
+msgstr "Nie można wejść do bitwy. Spróbuj ponownie później."
+
 msgid "arena_start_errors/join/NOT_FOUND"
 msgstr "Błąd przy dołączaniu do bitwy: zaproszenie nieaktualne."
 
@@ -2968,6 +2971,111 @@ msgstr ""
 
 msgid "rotation/vehicleIsLocked"
 msgstr "Pojazd jest zablokowany i niedostępny do bitew."
+
+msgid "se20/buy_general_level_success"
+msgstr "Poziom jednostki %(level)d. Wydano: %(money)s"
+
+msgid "se20/commander_level_complete/abilities"
+msgstr "Doładowania bojowe:"
+
+msgid "se20/commander_level_complete/body"
+msgstr "Osiągnięto %(level)s poziom"
+
+msgid "se20/commander_level_complete/currentVehicle"
+msgstr "Dostępne pojazdy:"
+
+msgid "se20/front_level_complete/awards"
+msgstr "Nagroda:"
+
+msgid "se20/front_level_complete/body"
+msgstr "Ukończono %(level)s etap"
+
+msgid "se20/front_level_complete/pieces"
+msgstr "szt."
+
+msgid "se20/front_level_complete/slots"
+msgstr "Dodano miejsca:"
+
+msgid "se20/front_level_complete/title"
+msgstr "Operacja"
+
+msgid "se20/general_orders_draw"
+msgstr ""
+"Użyłeś rozkazu „Atak!” (%(order)s) dla jednostki %(division)s (%(count)s "
+"szt.)"
+
+msgid "se20/general_orders_receive"
+msgstr ""
+"Otrzymałeś rozkazy „Atak!” (%(order)s) dla jednostki %(division)s (%(count)s "
+"szt.)"
+
+msgid "se20/max_general_level_already_reached"
+msgstr "Twoja jednostka już osiągnęła maksymalny poziom."
+
+msgid "se20/server_error"
+msgstr "Błąd podczas kupowania. Spróbuj ponownie później."
+
+msgid "se20_buy_energy/has_energy"
+msgstr "Błąd podczas kupowania. Odzyskiwanie nie jest wymagane."
+
+msgid "se20_buy_energy/server_error"
+msgstr ""
+"Nie można odzyskać.\n"
+"Za mało funduszy lub problem techniczny."
+
+msgid "se20_buy_energy/success"
+msgstr "Wydano: %(money)s"
+
+msgid "se20_buy_pack/success"
+msgstr "Kupiono: %(packTitle)s<br/>Wydane złoto: %(money)s"
+
+msgid "se20_shop_pack/se20_energy_general_0_bundle2_x10"
+msgstr "Zestaw asa pancernego"
+
+msgid "se20_shop_pack/se20_energy_general_0_bundle_x10"
+msgstr "Zestaw specjalisty"
+
+msgid "se20_shop_pack/se20_energy_general_0_x10"
+msgstr "Zestaw żółtodzioba"
+
+msgid "se20_shop_pack/se20_energy_general_1_bundle2_x10"
+msgstr "Zestaw asa pancernego"
+
+msgid "se20_shop_pack/se20_energy_general_1_bundle_x10"
+msgstr "Zestaw specjalisty"
+
+msgid "se20_shop_pack/se20_energy_general_1_x10"
+msgstr "Zestaw żółtodzioba"
+
+msgid "se20_shop_pack/se20_energy_general_2_bundle2_x10"
+msgstr "Zestaw asa pancernego"
+
+msgid "se20_shop_pack/se20_energy_general_2_bundle_x10"
+msgstr "Zestaw specjalisty"
+
+msgid "se20_shop_pack/se20_energy_general_2_x10"
+msgstr "Zestaw żółtodzioba"
+
+msgid "se20_shop_pack/se20_energy_general_3_bundle2_x10"
+msgstr "Zestaw asa pancernego"
+
+msgid "se20_shop_pack/se20_energy_general_3_bundle_x10"
+msgstr "Zestaw specjalisty"
+
+msgid "se20_shop_pack/se20_energy_general_3_x10"
+msgstr "Zestaw żółtodzioba"
+
+msgid "se20_shop_pack/se20_energy_general_4_bundle2_x10"
+msgstr "Zestaw asa pancernego"
+
+msgid "se20_shop_pack/se20_energy_general_4_bundle_x10"
+msgstr "Zestaw specjalisty"
+
+msgid "se20_shop_pack/se20_energy_general_4_x10"
+msgstr "Zestaw żółtodzioba"
+
+msgid "se20_shop_pack/se20_general_bundle_level_2"
+msgstr "Zestaw zwycięzcy"
 
 msgid "securityMessage/bad_email"
 msgstr ""
