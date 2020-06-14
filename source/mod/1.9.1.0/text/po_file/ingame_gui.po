@@ -191,48 +191,6 @@ msgstr "Uwaga na lokalizację!"
 msgid "chat_shortcuts/back_to_base"
 msgstr "Bronić bazę!"
 
-msgid "chat_shortcuts/event_chat_1"
-msgstr "Zaatakuj dowódców przeciwnika!"
-
-msgid "chat_shortcuts/event_chat_1_ex"
-msgstr "%(target)s, zaatakuj dowódców przeciwnika!"
-
-msgid "chat_shortcuts/event_chat_2"
-msgstr "Przeciwnicy wycofują się!"
-
-msgid "chat_shortcuts/event_chat_2_ex"
-msgstr "%(target)s, przeciwnicy wycofują się!"
-
-msgid "chat_shortcuts/event_chat_3"
-msgstr "Kończy się nam czas!"
-
-msgid "chat_shortcuts/event_chat_3_ex"
-msgstr "%(target)s, kończy się nam czas!"
-
-msgid "chat_shortcuts/event_chat_4"
-msgstr "Rozpoczynam atak!"
-
-msgid "chat_shortcuts/event_chat_4_ex"
-msgstr "%(target)s, rozpoczynam atak!"
-
-msgid "chat_shortcuts/event_chat_5"
-msgstr "Uważaj na siebie!"
-
-msgid "chat_shortcuts/event_chat_5_ex"
-msgstr "%(target)s, uważaj na siebie!"
-
-msgid "chat_shortcuts/event_chat_6"
-msgstr "Będę Cię osłaniał!"
-
-msgid "chat_shortcuts/event_chat_6_ex"
-msgstr "%(target)s, będę Cię osłaniał!"
-
-msgid "chat_shortcuts/event_chat_7"
-msgstr "Przeciwnicy atakują!"
-
-msgid "chat_shortcuts/event_chat_7_ex"
-msgstr "%(target)s, przeciwnicy atakują!"
-
 msgid "chat_shortcuts/follow_me"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/followme.png' width='16' "
@@ -657,12 +615,6 @@ msgstr "Uszkodzenie krytyczne"
 msgid "efficiencyRibbons/damage"
 msgstr "Zadane uszkodzenia"
 
-msgid "efficiencyRibbons/damageByAbility"
-msgstr "Uszkodzenia z doładowaniem bojowym"
-
-msgid "efficiencyRibbons/damageByDeathZone"
-msgstr "Uszkodzenia w niebezpiecznym obszarze"
-
 msgid "efficiencyRibbons/defence"
 msgstr "Odjęte punkty przejęcia"
 
@@ -786,9 +738,6 @@ msgstr "Naciśnij"
 msgid "hitMarker/blocked"
 msgstr "Nie przebito pancerza"
 
-msgid "hitMarker/boss"
-msgstr "Poddaj się!"
-
 msgid "hitMarker/critical"
 msgstr "Uszkodzenie krytyczne"
 
@@ -879,26 +828,14 @@ msgstr ""
 msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERYMORTAR"
 msgstr "Ostrzał moździerza jest gotowy"
 
-msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERYROCKET"
-msgstr "Wyrzutnie rakiet Katiusza są gotowe"
-
 msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/bomber.png' width='29' "
 "height='16' align='baseline' vspace='-4'> <font color='#00FF00'>Wsparcie "
 "lotnicze na miejscu w gotowości do bombardowania.</font>"
 
-msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBERCAS"
-msgstr "Samolot szturmowy jest gotowy"
-
 msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
 msgstr "Nasza załoga jest gotowa zainspirować innych wokół siebie."
-
-msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD"
-msgstr "Pole minowe jest gotowe"
-
-msgid "player_messages/COMBAT_EQUIPMENT_READY_NITRO"
-msgstr "Pełen gaz jest gotowy"
 
 msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
 msgstr "Samolot nadlatuje i jest gotowy do wykrywania."
@@ -906,19 +843,11 @@ msgstr "Samolot nadlatuje i jest gotowy do wykrywania."
 msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
 msgstr "Bateria dymna rozlokowana i gotowa do wystrzału."
 
-msgid "player_messages/COMBAT_EQUIPMENT_READY_SUPERSHELLFIREBALL"
-msgstr "Pociski zapalające są gotowe"
-
 msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/artillery.png' width='16' "
 "height='16' align='baseline' vspace='-4'> <font color='#74C500'>%(player)"
 "s's</font> <font color='#E0E0E0'>prowadzi ostrzał artyleryjski.</font>"
-msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERYMORTAR"
-msgstr "%(player)s aktywował Ostrzał moździerza"
-
-msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERYROCKET"
-msgstr "%(player)s aktywował Wyrzutnie rakiet Katiusza"
 
 msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
 msgstr ""
@@ -926,26 +855,14 @@ msgstr ""
 "height='16' align='baseline' vspace='-4'> <font color='#74C500'>%(player)"
 "s's</font> <font color='#E0E0E0'>bombowce są w drodze.</font>"
 
-msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBERCAS"
-msgstr "%(player)s aktywował Samolot szturmowy"
-
 msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
 msgstr "%(player)s aktywuje Inspirację."
-
-msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD"
-msgstr "%(player)s aktywował Pole minowe"
-
-msgid "player_messages/COMBAT_EQUIPMENT_USED_NITRO"
-msgstr "%(player)s aktywował Pełen gaz"
 
 msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
 msgstr "Lot zwiadowczy gracza %(player)s w drodze."
 
 msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
 msgstr "%(player)s uruchamia zasłonę dymną."
-
-msgid "player_messages/COMBAT_EQUIPMENT_USED_SUPERSHELLFIREBALL"
-msgstr "%(player)s aktywował Pociski zapalające"
 
 msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
 msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
@@ -979,9 +896,6 @@ msgstr "%(target)s został zniszczony przez nalot."
 
 msgid "player_messages/DEATH_FROM_BOMBER_ENEMY_SUICIDE"
 msgstr "%(target)s został zniszczony przez nalot."
-
-msgid "player_messages/DEATH_FROM_DEATH_ZONE"
-msgstr "Pojazd zniszczony"
 
 msgid "player_messages/DEATH_FROM_DEATH_ZONE_ALLY_ALLY"
 msgstr ""
@@ -1140,11 +1054,6 @@ msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/drown.png' width='32' "
 "height='16' align='middle' vspace='-4'> <font color='#E0E0E0'>Pojazd zatonął."
 "</font>"
-msgid "player_messages/DEATH_FROM_FIRE"
-msgstr "Czołg zniszczony przez pożar."
-
-msgid "player_messages/DEATH_FROM_FIRE_SELF_SUICIDE"
-msgstr "Pojazd zniszczony przez pożar spowodowany przez gracza"
 
 msgid "player_messages/DEATH_FROM_GAS_ATTACK_ALLY_ALLY"
 msgstr "Sojusznik %(target)s został zniszczony przez sojusznika %(attacker)s."
@@ -1389,9 +1298,6 @@ msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
 msgid "player_messages/DEATH_FROM_SECTOR_PROTECTION_UNKNOWN_ENEMY"
 msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
 
-msgid "player_messages/DEATH_FROM_SHOT"
-msgstr "Pojazd zniszczony"
-
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_ALLY"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/warning.png' width='16' "
@@ -1499,9 +1405,6 @@ msgstr ""
 "width='29' height='16' align='baseline' vspace='-4'> <font color='#7D0800'>"
 "%(target)s.</font>"
 
-msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SELF"
-msgstr "Pojazd zniszczony przez strzał przeciwnika"
-
 msgid "player_messages/DEATH_FROM_SHOT_ENEMY_SUICIDE"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/resultwin.png' width='16' "
@@ -1564,17 +1467,6 @@ msgstr ""
 "height='16' align='middle' vspace='-4'> <font color='#929292'>Wróg</font> "
 "<font color='#7D0800'>%(target)s</font> <font color='#E0E0E0'>zniszczony "
 "przez nalot bombowy.</font>"
-msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_MINEFIELD"
-msgstr "%(target)s został zniszczony przez Pole minowe"
-
-msgid "player_messages/DEATH_FROM_SHOT_SELF_SUICIDE"
-msgstr "Pojazd zniszczony przez gracza"
-
-msgid "player_messages/DEATH_FROM_SHOT_SELF_SUICIDE_ARTILLERY"
-msgstr "Pojazd zniszczony przez własny Ostrzał artyleryjski."
-
-msgid "player_messages/DEATH_FROM_SHOT_SELF_SUICIDE_BOMBER"
-msgstr "Pojazd zniszczony przez własny Nalot"
 
 msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
 msgstr ""
@@ -1667,17 +1559,11 @@ msgstr "Urządzenie [%(device)s] zostało uszkodzone przez pożar"
 msgid "player_messages/DEVICE_CRITICAL_AT_SHOT"
 msgstr "Strzał %(entity)s uszkodził [%(device)s]."
 
-msgid "player_messages/DEVICE_CRITICAL_AT_SHOT_IN_PERSONAL_DEATH_ZONE"
-msgstr "Moduł [%(device)s] został uszkodzony przez artylerię przeciwnika"
-
 msgid "player_messages/DEVICE_DESTROYED_AT_FIRE"
 msgstr "Urządzenie [%(device)s] zostało zniszczone przez pożar"
 
 msgid "player_messages/DEVICE_DESTROYED_AT_SHOT"
 msgstr "Urządzenie [%(device)s] zostało zniszczone przez gracza %(entity)s."
-
-msgid "player_messages/DEVICE_DESTROYED_AT_SHOT_IN_PERSONAL_DEATH_ZONE"
-msgstr "Moduł [%(device)s] został zniszczony przez artylerię przeciwnika"
 
 msgid "player_messages/DEVICE_REPAIRED"
 msgstr "Naprawiono: [%(device)s]"
@@ -1702,9 +1588,6 @@ msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
 msgstr ""
 "Usunięcie ograniczenia prędkości obrotu zniszczyło urządzenie: [%(device)s]"
 
-msgid "player_messages/EQUIPMENT_USAGE"
-msgstr "Aktywowano wyposażenie: %(equipment_name)s"
-
 msgid "player_messages/FIRE_STOPPED"
 msgstr "Pożar został ugaszony"
 
@@ -1713,9 +1596,6 @@ msgstr "Strzał z %(entity)s zranił [%(device)s]."
 
 msgid "player_messages/TANKMAN_RESTORED"
 msgstr "[%(device)s] znów działa"
-
-msgid "player_messages/TEAM_EQUIPMENT_USAGE"
-msgstr "%(player_name)s aktywuje wyposażenie %(equipment_name)s"
 
 msgid "player_messages/allied_team_name"
 msgstr "Nasza drużyna"
@@ -1788,9 +1668,6 @@ msgstr "Szybkość powtórki: %(speed)sx"
 
 msgid "player_messages/tank_in_fire"
 msgstr "Czołg się pali!"
-
-msgid "players_panel/info/title"
-msgstr "Zebrane przez drużynę"
 
 msgid "players_panel/state/large/body"
 msgstr "Pokaż nazwy graczy, zniszczone cele, oraz nazwy i ikony pojazdów"
@@ -1946,9 +1823,6 @@ msgstr "Pojazd został rozbity."
 
 msgid "postmortem_messages/DEATH_UNKNOWN"
 msgstr "Twój pojazd został zniszczony"
-
-msgid "postmortem_messages/EVENT_DEATH_FROM_SHOT"
-msgstr "Pojazd zniszczony strzałem"
 
 msgid "recovery/cooldown"
 msgstr "Pojazd można opuścić za %(cooldown)s sekund"
@@ -2162,6 +2036,20 @@ msgstr "Pakiet bytowy „Gwiaździsta noc”"
 msgid "rewardWindow/twitch12/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch13/btnLabel"
+msgstr "Więcej"
+
+msgid "rewardWindow/twitch13/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Twitch Prime. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch13/headerText"
+msgstr "Pakiet bytowy „Czerwiec”"
+
+msgid "rewardWindow/twitch13/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch2/btnLabel"
 msgstr "TAK JEST!"
 
@@ -2273,6 +2161,33 @@ msgstr "Pakiet bytowy „Mike”"
 
 msgid "rewardWindow/twitch9/subHeaderText"
 msgstr "Otrzymane nagrody"
+
+msgid "rewardWindow/wgcq_clan_reward/btnLabel"
+msgstr "Tak jest!"
+
+msgid "rewardWindow/wgcq_clan_reward/descText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/headerText"
+msgstr "Otrzymano nagrodę!"
+
+msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_clan_reward/winHeaderText"
+msgstr "Okres służby"
+
+msgid "rewardWindow/wgcq_player_reward/btnLabel"
+msgstr "Tak jest!"
+
+msgid "rewardWindow/wgcq_player_reward/headerText"
+msgstr "Otrzymano nagrodę!"
+
+msgid "rewardWindow/wgcq_player_reward/subHeaderText"
+msgstr " "
+
+msgid "rewardWindow/wgcq_player_reward/winHeaderText"
+msgstr "Okres służby"
 
 msgid "rewardWindow/winHeaderText"
 msgstr "Gratulacje!"

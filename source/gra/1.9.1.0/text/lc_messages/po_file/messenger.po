@@ -793,7 +793,7 @@ msgid "dialogs/createChannel/title"
 msgstr "Stwórz kanał"
 
 msgid "dialogs/eventSquad/vehicle"
-msgstr "Wybierz jednostkę"
+msgstr "Wybierz %(vehName)s"
 
 msgid "dialogs/falloutSquadChannel/vehicleNotify"
 msgstr "Wybierz pojazd %(level)s poziomu"
@@ -949,8 +949,8 @@ msgstr ""
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"Głównym celem jest pokonanie\n"
-"sił przeciwnika"
+"Tryb bitwy:\n"
+"Ciemny Front"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -978,6 +978,9 @@ msgstr ""
 
 msgid "dialogs/squadChannel/simpleChatName"
 msgstr "Kanał czatu"
+
+msgid "dialogs/squadChannel/tooltips/module"
+msgstr "Eksperymentalne moduły zamontowane na pojazdach: %(name)s"
 
 msgid "dialogs/squadChannel/tooltips/status/afk"
 msgstr "Status: Przerwa"
@@ -1902,6 +1905,9 @@ msgstr "Dodane kredyty"
 msgid "serviceChannelMessages/battleResults/quests/crystal"
 msgstr "Dodano obligacje"
 
+msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
+msgstr "(x%(count)s)"
+
 msgid "serviceChannelMessages/battleResults/quests/eventCoin"
 msgstr "Dodano jubileuszowe monety"
 
@@ -1923,16 +1929,42 @@ msgstr "Dodane dni konta premium Wargaming"
 msgid "serviceChannelMessages/battleResults/quests/premium_plus"
 msgstr "Dodane dni konta premium WoT"
 
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
+msgstr "Dodano bitwy bonusowe: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles/daily"
+msgstr "%(count)s dziennie"
+
+msgid ""
+"serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
+msgstr "standardowe w liczbie %(count)s"
+
 msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
 msgstr "Dodano miejsca"
 
 msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
-msgstr "Otrzymane bonusowe bitwy"
+msgstr "Dodano bitwy bonusowe"
 
-msgid "serviceChannelMessages/battleResults/rankedBonusBattles/text"
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/efficiency"
 msgstr ""
-"Za wyniki w poprzedniej dywizji (lub w kwalifikacjach): %(divisionAmount)s\n"
-"Za liczbę szewronów w kwalifikacjach: %(qualificationAmount)s"
+" \n"
+"Standardowe, za Twoje osiągnięcia w ukończonym etapie: %(amount)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/quests"
+msgstr ""
+" \n"
+"Za ukończenie misji: %(bonusBattles)s"
+
+msgid "serviceChannelMessages/battleResults/rankedBonusBattles/steps/daily"
+msgstr ""
+" \n"
+"Dziennie, za liczbę szewronów otrzymanych w kwalifikacji: %(amount)s"
+
+msgid ""
+"serviceChannelMessages/battleResults/rankedBonusBattles/steps/persistent"
+msgstr ""
+" \n"
+"Standardowe, za liczbę szewronów otrzymanych w kwalifikacji: %(amount)s"
 
 msgid "serviceChannelMessages/battleResults/rankedProgress"
 msgstr "Zmiany w stopniach"
@@ -2006,24 +2038,6 @@ msgid "serviceChannelMessages/battleResults/rankedState/stepsEarned"
 msgstr ""
 " \n"
 "Otrzymane szewrony"
-
-msgid "serviceChannelMessages/battleResults/se20/battleGoalsDone"
-msgstr "Wypełnione misje"
-
-msgid "serviceChannelMessages/battleResults/se20/division"
-msgstr "Jednostka"
-
-msgid "serviceChannelMessages/battleResults/se20/divisionPointsGain"
-msgstr "Doświadczenie jednostki"
-
-msgid "serviceChannelMessages/battleResults/se20/gameMode"
-msgstr "Wydarzenie w grze"
-
-msgid "serviceChannelMessages/battleResults/se20/gameModeName"
-msgstr "Droga na Berlin"
-
-msgid "serviceChannelMessages/battleResults/se20/reputationPointsGain"
-msgstr "Punkty zwycięstwa"
 
 msgid "serviceChannelMessages/battleResults/tankman"
 msgstr "Rekrutuj"
@@ -2172,6 +2186,9 @@ msgstr "Wykorzystano moduł eksperymentalny"
 
 msgid "serviceChannelMessages/enhancements/wiped"
 msgstr "Usunięto wszystkie moduły eksperymentalne"
+
+msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
+msgstr "Eksperymentalne moduły zdemontowane z następujących pojazdów"
 
 msgid "serviceChannelMessages/eventCoinReceivedAsGift"
 msgstr "Przyznano Ci jubileuszowe monety: %(eventCoin)s."
@@ -2455,6 +2472,12 @@ msgstr "Dodano moduły eksperymentalne"
 msgid "serviceChannelMessages/invoiceReceived/enhancementsDebited"
 msgstr "Usunięto moduły eksperymentalne"
 
+msgid "serviceChannelMessages/invoiceReceived/entitlementsAccrued"
+msgstr "Dodano"
+
+msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
+msgstr "Usunięto"
+
 msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
 msgstr "Dodano jubileuszowe monety"
 
@@ -2517,6 +2540,12 @@ msgstr "Odjęte dni konta premium Wargaming"
 
 msgid "serviceChannelMessages/invoiceReceived/premium_account"
 msgstr "Konto premium Wargaming"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
+msgstr "Dodano bitwy bonusowe"
+
+msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesDebited"
+msgstr "Usunięto bitwy bonusowe"
 
 msgid "serviceChannelMessages/invoiceReceived/rentDays"
 msgstr "dni wypożyczenia: "
@@ -2767,15 +2796,6 @@ msgstr "Dodano złoto za niewykorzystany czas wypożyczenia %(vehicleName)s"
 msgid "serviceChannelMessages/rentalsExpired"
 msgstr "Czas wypożyczenia %(vehicleName)s zakończył się."
 
-msgid "serviceChannelMessages/se20/buyBundleReward"
-msgstr "Otrzymano nagrodę za kupno:"
-
-msgid "serviceChannelMessages/se20/exhangeOrder/desc"
-msgstr "Udało się wymienić żeton."
-
-msgid "serviceChannelMessages/se20/exhangeOrder/header"
-msgstr "Wymień:"
-
 msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
 msgstr "Kamuflaż"
 
@@ -2892,6 +2912,54 @@ msgstr "Dodane pojazdy: %(vehicles)s"
 msgid "serviceChannelMessages/sysMsg/converter/vehiclesWithdrawn"
 msgstr "Usunięte pojazdy: %(vehicles)s"
 
+msgid "serviceChannelMessages/sysMsg/customization/buyMany"
+msgstr ""
+"Kupiono następujące elementy dostosowania wyglądu:\n"
+"%(items)s\n"
+"Wydano %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/buyOne"
+msgstr ""
+"Udało się kupić „%(itemName)s” %(itemType)s.\n"
+"Wydano %(money)s."
+
+msgid "serviceChannelMessages/sysMsg/customization/change"
+msgstr "Zmieniono elementy dostosowania wyglądu pojazdu."
+
+msgid "serviceChannelMessages/sysMsg/customization/item"
+msgstr "%(itemType)s „%(itemName)s” (%(count)s szt.)"
+
+msgid "serviceChannelMessages/sysMsg/customization/remove"
+msgstr "Elementy dostosowania wyglądu usunięto z pojazdu."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/editStyleUnlocked"
+msgstr ""
+"Gratulacje!\n"
+"Progresywne naklejki pozwalają Ci dostosować domyślne style dla "
+"%(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemReceived"
+msgstr ""
+"Gratulacje!\n"
+"Otrzymałeś naklejkę I poziomu „%(itemName)s” dla %(vehicleName)s."
+
+msgid ""
+"serviceChannelMessages/sysMsg/customizationProgress/itemReceivedNotAutoBound"
+msgstr ""
+"Gratulacje!\n"
+"Otrzymałeś naklejkę I poziomu „%(itemName)s”."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated"
+msgstr ""
+"Osiągnięto %(level)s poziom naklejki „%(itemName)s” dla %(vehicleName)s."
+
+msgid "serviceChannelMessages/sysMsg/customizationProgress/itemUpdated/button"
+msgstr "Wygląd"
+
+msgid ""
+"serviceChannelMessages/sysMsg/customizationProgress/itemUpdatedNotAutoBound"
+msgstr "Osiągnięto %(level)s poziom naklejki „%(itemName)s”."
+
 msgid "serviceChannelMessages/sysMsg/customizations/buy"
 msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Wydano: %(money)s"
 
@@ -2917,9 +2985,6 @@ msgid "serviceChannelMessages/sysMsg/removeCustomizations"
 msgstr ""
 "Ze względu na wymianę modułów, z pojazdu %(vehicle)s zostały usunięte "
 "następujące elementy dostosowania wyglądu zewnętrznego."
-
-msgid "serviceChannelMessages/sysMsg/titles/bobBattlesAvailable"
-msgstr "Bitwy Bijatyki są dostępne"
 
 msgid "serviceChannelMessages/sysMsg/titles/customization"
 msgstr "Personalizacja:"
