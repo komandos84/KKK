@@ -949,8 +949,8 @@ msgstr ""
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"Tryb bitwy:\n"
-"Ciemny Front"
+"Wybierz Sturmtiger,\n"
+"by wejść do bitwy."
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -2835,6 +2835,15 @@ msgstr "Nagroda specjalna"
 
 msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
 msgstr "Fragment schematu dla %(vehicleName)s (x%(fragmentsCount)s)"
+
+msgid "serviceChannelMessages/spgEvent/titles/available"
+msgstr "Tryb Przyczajony tygrys jest znów dostępny"
+
+msgid "serviceChannelMessages/spgEvent/titles/notSet"
+msgstr "Bitwy w Sturmtiger są niedostępne"
+
+msgid "serviceChannelMessages/spgEvent/titles/primeTime"
+msgstr "Cisza nocna"
 
 msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
 msgstr "Otrzymano rekompensatę za fragmenty schematów już zbadanych pojazdów:"
