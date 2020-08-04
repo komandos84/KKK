@@ -22,6 +22,12 @@ msgstr "Ostrzał artyleryjski"
 msgid "attackReason/bombers"
 msgstr "Nalot"
 
+msgid "battleCommunication/hint/description"
+msgstr ", aby wskazać pozycję lub postawić znacznik"
+
+msgid "battleCommunication/hint/press"
+msgstr "Naciśnij"
+
 msgid "battleEndWarning/text"
 msgstr "Bitwa kończy się za:"
 
@@ -61,23 +67,23 @@ msgstr "UWAGA, USZKODZENIE"
 msgid "burnout/hint/engineDamaged"
 msgstr "SILNIK USZKODZONY"
 
-msgid "chat_example/attack"
-msgstr "Do ataku!"
-
 msgid "chat_example/attack_enemy"
-msgstr "Atakuję <Nazwa przeciwnika>!"
+msgstr "Potrzebny ostrzał na <Enemy Name>!"
+
+msgid "chat_example/attack_enemy_with_SPG"
+msgstr "Atakuję <Enemy Name>!"
+
+msgid "chat_example/attention_to_base_atk"
+msgstr "Zająć bazę!"
+
+msgid "chat_example/attention_to_base_def"
+msgstr "Bronić bazę!"
 
 msgid "chat_example/attention_to_cell"
 msgstr "Uwaga na <Sektor na minimapie>!"
 
 msgid "chat_example/attention_to_position"
 msgstr "Uwaga na lokalizację!"
-
-msgid "chat_example/back_to_base"
-msgstr "Bronić bazę!"
-
-msgid "chat_example/follow_me"
-msgstr "<Nazwa sojusznika>, jedź na mną!"
 
 msgid "chat_example/global_msg/atk/focus_hq"
 msgstr "Zniszcz cele"
@@ -106,14 +112,14 @@ msgstr "Wzmocnij strefę"
 msgid "chat_example/global_msg/lane/west"
 msgstr "Wzmocnij strefę"
 
+msgid "chat_example/going_there"
+msgstr "Jadę tutaj!"
+
 msgid "chat_example/help_me"
 msgstr "Pomocy!"
 
 msgid "chat_example/help_me_ex"
 msgstr "<Nazwa sojusznika>, pomóż mi!"
-
-msgid "chat_example/negative"
-msgstr "Odmawiam!"
 
 msgid "chat_example/positive"
 msgstr "Tak jest!"
@@ -135,50 +141,62 @@ msgstr "Gotów do strzału! Pocisków w kasecie: <Liczba pocisków> szt."
 msgid "chat_example/reloading_unavailable"
 msgstr "Brak amunicji."
 
+msgid "chat_example/reply_to_player"
+msgstr "Przyjąłem!"
+
 msgid "chat_example/spg_aim_area"
 msgstr "Celuję w <sektor na minimapie>!"
 
-msgid "chat_example/stop"
-msgstr "<Nazwa sojusznika>, stój!"
+msgid "chat_example/supporting_ally"
+msgstr "<Ally Name>, pomogę Ci!"
 
-msgid "chat_example/support_me_with_fire"
-msgstr "Potrzebny ostrzał na <Nazwa przeciwnika>"
+msgid "chat_example/thanks"
+msgstr "<Ally Name>, dziękuję!"
 
 msgid "chat_example/turn_back"
 msgstr "<Nazwa sojusznika>, wycofaj się!"
 
-msgid "chat_shortcuts/attack"
-msgstr "Do ataku!"
-
 msgid "chat_shortcuts/attack_enemy"
+msgstr "Potrzebny ostrzał na %(target)s!"
+
+msgid "chat_shortcuts/attack_enemy_with_SPG"
 msgstr "Gotowy do strzału! Atakuję %(target)s!"
 
-msgid "chat_shortcuts/attack_enemy_reloading"
+msgid "chat_shortcuts/attack_enemy_with_SPG_reloading"
 msgstr "Atakuję %(target)s! Przeładowuję. Pozostało %(reloadTime)d s!"
 
+msgid "chat_shortcuts/attacking_base"
+msgstr "Zajmę bazę!"
+
+msgid "chat_shortcuts/attacking_enemy"
+msgstr "Atakuję %(target)s!"
+
 msgid "chat_shortcuts/attention_to_base_atk"
-msgstr "Zajęcie %(strArg1)s"
+msgstr "Zająć bazę!"
+
+msgid "chat_shortcuts/attention_to_base_atk_numbered"
+msgstr "Zająć bazę %(strArg1)s!"
 
 msgid "chat_shortcuts/attention_to_base_def"
-msgstr "Obrona %(strArg1)s"
+msgstr "Bronić bazę!"
+
+msgid "chat_shortcuts/attention_to_base_def_numbered"
+msgstr "Zająć bazę %(strArg1)s!"
 
 msgid "chat_shortcuts/attention_to_cell"
 msgstr "Uwaga na %(cellName)s!"
 
 msgid "chat_shortcuts/attention_to_objective_atk"
-msgstr "Zniszcz cel %(int32Arg1)s"
+msgstr "Zniszczyć cel %(int32Arg1)s!"
 
 msgid "chat_shortcuts/attention_to_objective_def"
 msgstr "Obroń cel %(int32Arg1)s"
 
 msgid "chat_shortcuts/attention_to_position"
-msgstr "Uwaga na lokalizację!"
+msgstr "Uwaga na pozycję!"
 
-msgid "chat_shortcuts/back_to_base"
-msgstr "Bronić bazę!"
-
-msgid "chat_shortcuts/follow_me"
-msgstr "%(target)s, za mną!"
+msgid "chat_shortcuts/defending_base"
+msgstr "Będę bronić bazę!"
 
 msgid "chat_shortcuts/global_msg/atk/focus_hq"
 msgstr "Zniszcz cele!"
@@ -207,17 +225,17 @@ msgstr "Strefa %(strArg1)s potrzebuje pomocy, wzmocnić ją!"
 msgid "chat_shortcuts/global_msg/lane/west"
 msgstr "Strefa %(strArg1)s potrzebuje pomocy, wzmocnić ją!"
 
+msgid "chat_shortcuts/going_there"
+msgstr "Jadę na pozycję!"
+
 msgid "chat_shortcuts/help_me"
 msgstr "Pomocy!"
 
 msgid "chat_shortcuts/help_me_ex"
 msgstr "%(target)s, pomocy!"
 
-msgid "chat_shortcuts/negative"
-msgstr "Odmawiam!"
-
 msgid "chat_shortcuts/positive"
-msgstr "Tak jest!"
+msgstr "%(target)s, tak jest!"
 
 msgid "chat_shortcuts/reloading_cassette"
 msgstr ""
@@ -236,16 +254,16 @@ msgid "chat_shortcuts/reloading_unavailable"
 msgstr "Brak amunicji."
 
 msgid "chat_shortcuts/spg_aim_area"
-msgstr "Celuję w %(cellName)s! Gotów do strzału!"
+msgstr "Celuję w pozycję. Gotowy do strzału!"
 
 msgid "chat_shortcuts/spg_aim_area_reloading"
-msgstr "Celuję w %(cellName)s! Przeładowuję. Pozostało %(reloadTime)d s!"
+msgstr "Celuję w pozycję. Przeładowuję, pozostało %(reloadTime)d s!"
 
-msgid "chat_shortcuts/stop"
-msgstr "%(target)s, stój!"
+msgid "chat_shortcuts/supporting_ally"
+msgstr "%(target)s, pomogę Ci!"
 
-msgid "chat_shortcuts/support_me_with_fire"
-msgstr "Potrzebny ostrzał na %(target)s"
+msgid "chat_shortcuts/thanks"
+msgstr "%(target)s, dziękuję!"
 
 msgid "chat_shortcuts/turn_back"
 msgstr "%(target)s, wycofaj się!"
@@ -535,6 +553,9 @@ msgstr "Uszkodzenia po ogłuszeniu przez Ciebie"
 msgid "efficiencyRibbons/assistTrack"
 msgstr "Gąsienica zniszczona"
 
+msgid "efficiencyRibbons/berserker"
+msgstr "Uszkodzenia od berserkera"
+
 msgid "efficiencyRibbons/bonusRibbon"
 msgstr "Doświadczenie roli"
 
@@ -549,6 +570,12 @@ msgstr "Uszkodzenie krytyczne"
 
 msgid "efficiencyRibbons/damage"
 msgstr "Zadane uszkodzenia"
+
+msgid "efficiencyRibbons/damageByMinefield"
+msgstr "Uszkodzenia od min"
+
+msgid "efficiencyRibbons/deathZone"
+msgstr "Uszkodzenie od strefy"
 
 msgid "efficiencyRibbons/defence"
 msgstr "Odjęte punkty przejęcia"
@@ -577,17 +604,29 @@ msgstr "Taranowanie"
 msgid "efficiencyRibbons/receivedBurn"
 msgstr "Uszkodzenia od ognia"
 
+msgid "efficiencyRibbons/receivedByMinefield"
+msgstr "Uszkodzenia od min"
+
+msgid "efficiencyRibbons/receivedBySmoke"
+msgstr "Uszkodzenia od żrącej mgły"
+
 msgid "efficiencyRibbons/receivedCrits"
 msgstr "Uszkodzenia krytyczne"
 
 msgid "efficiencyRibbons/receivedDamage"
 msgstr "Uszkodzenia od strzału"
 
+msgid "efficiencyRibbons/receivedDmgBySpawnedBot"
+msgstr "Uszkodzenie od kuli ognia"
+
 msgid "efficiencyRibbons/receivedRam"
 msgstr "Uszkodzenia od taranowania"
 
 msgid "efficiencyRibbons/receivedWorldCollision"
 msgstr "Uszkodzenia od kolizji"
+
+msgid "efficiencyRibbons/spawnedBotDmg"
+msgstr "Uszkodzenie od kuli ognia"
 
 msgid "efficiencyRibbons/spotted"
 msgstr "Wykryty"
@@ -679,8 +718,20 @@ msgstr "Uszkodzenie krytyczne"
 msgid "hitMarker/ricochet"
 msgstr "Rykoszet"
 
+msgid "levelProgress/maxLevel"
+msgstr "MAKSYMALNY POZIOM POJAZDU"
+
 msgid "marker/meters"
 msgstr "m"
+
+msgid "optDeviceResurrection/ammoBay"
+msgstr "Uniknięto wybuchu magazynu amunicji dzięki wyposażeniu %(device)s"
+
+msgid "optDeviceResurrection/engine"
+msgstr "Uniknięto zniszczenia silnika dzięki wyposażeniu %(device)s"
+
+msgid "optDeviceResurrection/fuelTank"
+msgstr "Uniknięto pożaru dzięki wyposażeniu %(device)s"
 
 msgid "personalMissions/tip/additionalHeader"
 msgstr "Warunek poboczny:"
@@ -742,6 +793,11 @@ msgstr "[%(entity)s] nie potrzebuje pomocy medycznej"
 msgid "player_errors/equipment/order/notReady"
 msgstr "Rezerwa nie jest jeszcze gotowa."
 
+msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
+msgstr ""
+"Moduły i dowódca mają pełne punkty wytrzymałości. Nie potrzeba napraw ani "
+"leczenia."
+
 msgid "player_errors/equipment/repairkit/allDevicesAreNotDamaged"
 msgstr ""
 "Naprawa nie jest wymagana: wszystkie urządzenia są w stanie nienaruszonym."
@@ -751,6 +807,9 @@ msgstr "[%(entity)s] jest w doskonałym stanie, nie wymaga napraw"
 
 msgid "player_messages/ALLY_HIT"
 msgstr "Trafienie w sojusznika - %(entity)s!"
+
+msgid "player_messages/COMBAT_BR_EQUIPMENT_READY"
+msgstr "[%(equipment)s] jest gotowy do użycia."
 
 msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERY"
 msgstr "Bateria artylerii na pozycji i gotowa do ostrzału."
@@ -772,6 +831,9 @@ msgstr "Bateria artylerii gracza %(player)s prowadzi ostrzał."
 
 msgid "player_messages/COMBAT_EQUIPMENT_USED_BOMBER"
 msgstr "Bombowce gracza %(player)s są w drodze."
+
+msgid "player_messages/COMBAT_EQUIPMENT_USED_HEALPOINT"
+msgstr "%(player)s tworzy strefę regeneracji."
 
 msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
 msgstr "%(player)s aktywuje Inspirację."
@@ -1204,6 +1266,9 @@ msgstr ""
 msgid "player_messages/FIRE_STOPPED"
 msgstr "Pożar został ugaszony"
 
+msgid "player_messages/OPT_DEVICE_USED"
+msgstr "%(message)s"
+
 msgid "player_messages/TANKMAN_HIT_AT_SHOT"
 msgstr "Strzał z %(entity)s zranił [%(device)s]."
 
@@ -1398,6 +1463,12 @@ msgid ""
 "postmortem_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
 msgstr "Załoga ogłuszona po silnym uderzeniu"
 
+msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
+msgstr "Zniszczenie przez kulę ognia"
+
+msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
+msgstr "Zniszczenie przez pole minowe"
+
 msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
 msgstr "Pojazd przewrócony przez sojusznika"
 
@@ -1436,6 +1507,171 @@ msgstr "Pojazd został rozbity."
 
 msgid "postmortem_messages/DEATH_UNKNOWN"
 msgstr "Twój pojazd został zniszczony"
+
+msgid "prebattlemarker/prebattlemarker_0"
+msgstr "Jar"
+
+msgid "prebattlemarker/prebattlemarker_1"
+msgstr "Obserwacja"
+
+msgid "prebattlemarker/prebattlemarker_10"
+msgstr "Las"
+
+msgid "prebattlemarker/prebattlemarker_11"
+msgstr "Ścieżka"
+
+msgid "prebattlemarker/prebattlemarker_12"
+msgstr "Ulica"
+
+msgid "prebattlemarker/prebattlemarker_13"
+msgstr "Ruiny"
+
+msgid "prebattlemarker/prebattlemarker_14"
+msgstr "Most"
+
+msgid "prebattlemarker/prebattlemarker_15"
+msgstr "Tory"
+
+msgid "prebattlemarker/prebattlemarker_16"
+msgstr "Miasto"
+
+msgid "prebattlemarker/prebattlemarker_17"
+msgstr "Wioska"
+
+msgid "prebattlemarker/prebattlemarker_18"
+msgstr "Plac"
+
+msgid "prebattlemarker/prebattlemarker_19"
+msgstr "Fabryka"
+
+msgid "prebattlemarker/prebattlemarker_2"
+msgstr "Wzgórze"
+
+msgid "prebattlemarker/prebattlemarker_20"
+msgstr "Latarnia"
+
+msgid "prebattlemarker/prebattlemarker_21"
+msgstr "Centrum"
+
+msgid "prebattlemarker/prebattlemarker_22"
+msgstr "Zamek"
+
+msgid "prebattlemarker/prebattlemarker_23"
+msgstr "Wiatrak"
+
+msgid "prebattlemarker/prebattlemarker_24"
+msgstr "Góry"
+
+msgid "prebattlemarker/prebattlemarker_25"
+msgstr "Trasa A"
+
+msgid "prebattlemarker/prebattlemarker_26"
+msgstr "Trasa B"
+
+msgid "prebattlemarker/prebattlemarker_27"
+msgstr "Trasa C"
+
+msgid "prebattlemarker/prebattlemarker_28"
+msgstr "Trasa D"
+
+msgid "prebattlemarker/prebattlemarker_29"
+msgstr "Trasa E"
+
+msgid "prebattlemarker/prebattlemarker_3"
+msgstr "Dolina"
+
+msgid "prebattlemarker/prebattlemarker_30"
+msgstr "Lodowiec"
+
+msgid "prebattlemarker/prebattlemarker_31"
+msgstr "Objazd"
+
+msgid "prebattlemarker/prebattlemarker_32"
+msgstr "Wzgórza"
+
+msgid "prebattlemarker/prebattlemarker_33"
+msgstr "Droga"
+
+msgid "prebattlemarker/prebattlemarker_34"
+msgstr "Góra"
+
+msgid "prebattlemarker/prebattlemarker_35"
+msgstr "Bunkier"
+
+msgid "prebattlemarker/prebattlemarker_36"
+msgstr "Aleja"
+
+msgid "prebattlemarker/prebattlemarker_37"
+msgstr "Ściana"
+
+msgid "prebattlemarker/prebattlemarker_38"
+msgstr "Głazy"
+
+msgid "prebattlemarker/prebattlemarker_39"
+msgstr "Warsztaty"
+
+msgid "prebattlemarker/prebattlemarker_4"
+msgstr "Pole"
+
+msgid "prebattlemarker/prebattlemarker_40"
+msgstr "Garaż"
+
+msgid "prebattlemarker/prebattlemarker_41"
+msgstr "Węgiel"
+
+msgid "prebattlemarker/prebattlemarker_42"
+msgstr "Statki"
+
+msgid "prebattlemarker/prebattlemarker_43"
+msgstr "Lotniskowiec"
+
+msgid "prebattlemarker/prebattlemarker_44"
+msgstr "Okopy"
+
+msgid "prebattlemarker/prebattlemarker_45"
+msgstr "Serpentyna"
+
+msgid "prebattlemarker/prebattlemarker_46"
+msgstr "Północ"
+
+msgid "prebattlemarker/prebattlemarker_47"
+msgstr "Południe"
+
+msgid "prebattlemarker/prebattlemarker_48"
+msgstr "Zachód"
+
+msgid "prebattlemarker/prebattlemarker_49"
+msgstr "Wschód"
+
+msgid "prebattlemarker/prebattlemarker_5"
+msgstr "Grań"
+
+msgid "prebattlemarker/prebattlemarker_50"
+msgstr "Sterowiec"
+
+msgid "prebattlemarker/prebattlemarker_51"
+msgstr "Magazyny"
+
+msgid "prebattlemarker/prebattlemarker_6"
+msgstr "Wybrzeże"
+
+msgid "prebattlemarker/prebattlemarker_7"
+msgstr "Rzeka"
+
+msgid "prebattlemarker/prebattlemarker_8"
+msgstr "Jezioro"
+
+msgid "prebattlemarker/prebattlemarker_9"
+msgstr "Moczary"
+
+msgid "quickReply/hint/press"
+msgstr "Naciśnij"
+
+msgid "quickReply/hint/toAcknowledge"
+msgstr ", aby potwierdzić"
+
+msgid "quickReply/hint/toHelp"
+msgstr ", aby asystować"
 
 msgid "recovery/cooldown"
 msgstr "Pojazd można opuścić za %(cooldown)s sekund"
@@ -1677,6 +1913,20 @@ msgstr "Pakiet bytowy „Lipiec”"
 msgid "rewardWindow/twitch14/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch15/btnLabel"
+msgstr "Więcej"
+
+msgid "rewardWindow/twitch15/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Twitch Prime. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch15/headerText"
+msgstr "Pakiet bytowy „Dycha”"
+
+msgid "rewardWindow/twitch15/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch2/btnLabel"
 msgstr "TAK JEST!"
 
@@ -1843,20 +2093,20 @@ msgstr "%(caliber)s mm pocisk odłamkowo-burzący %(userString)s"
 msgid "shells_kinds/HOLLOW_CHARGE"
 msgstr "%(caliber)s mm pocisk kumulacyjny %(userString)s"
 
-msgid "shells_kinds/params"
-msgstr ""
-"Uszkodzenia %(damage)s \n"
-"Przebicie %(piercingPower)s"
+msgid "shells_kinds/params/damage"
+msgstr "Średnie uszkodzenia: %(value)s PW"
 
-msgid "shells_kinds/paramsNoPiercing"
-msgstr "Uszkodzenia %(damage)s"
+msgid "shells_kinds/params/explosionRadius"
+msgstr "Promień wybuchu: %(value)s m"
 
-msgid "shells_kinds/stunParams"
-msgstr ""
-"Uszkodzenia %(damage)s\n"
-"Odsetek penetracji %(piercingPower)s\n"
-"Minimalny czas ogłuszenia %(stunMinDuration)s (s)\n"
-"Maksymalny czas ogłuszenia %(stunMaxDuration)s (s)"
+msgid "shells_kinds/params/piercingPower"
+msgstr "Średnia penetracja: %(value)s mm"
+
+msgid "shells_kinds/params/shotSpeed"
+msgstr "Początkowa prędkość pocisku: %(value)s m/s"
+
+msgid "shells_kinds/params/stunDuration"
+msgstr "Czas trwania ogłuszenia: %(minValue)s–%(maxValue)s s"
 
 msgid "siegeMode/hint/forMode/0"
 msgstr "aby przełączyć w tryb ostrzału"
@@ -1875,6 +2125,9 @@ msgstr "Główne klawisze nie są przypisane"
 
 msgid "siegeMode/hint/press"
 msgstr "Naciśnij"
+
+msgid "siegeMode/hint/turboshaftEngine"
+msgstr ", aby przełączyć pomiędzy trybami silnika"
 
 msgid "siegeMode/hint/wheeled"
 msgstr "aby przełączyć tryb poruszania się"

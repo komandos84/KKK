@@ -238,6 +238,9 @@ msgstr "Użycie polecenia \"%s\" zostało zawieszone na %s sek."
 msgid "client/error/commandInCooldown/unlimited"
 msgstr "Użycie polecenia %s zostało zawieszone."
 
+msgid "client/errors/commandInCooldown/suspendedText"
+msgstr "Wiadomość zawieszona. Poczekaj %s s."
+
 msgid "client/information/addToFriends/message"
 msgstr "Użytkownik %s został dodany do listy przyjaciół"
 
@@ -867,6 +870,9 @@ msgstr "Znajdź użytkownika"
 msgid "dialogs/serviceChannel/title"
 msgstr "Kanał służbowy"
 
+msgid "dialogs/simpleSquad/battleRoyale/VehicleRestriction"
+msgstr "Wybierz pojazd specjalny"
+
 msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
 msgstr "Wybierz pojazd VIII poziomu"
 
@@ -890,6 +896,9 @@ msgstr "Kliknij, aby zgłosić brak gotowości."
 
 msgid "dialogs/squad/message/getReady"
 msgstr "Potwierdź gotowość do bitwy"
+
+msgid "dialogs/squad/message/invalidVehicle"
+msgstr "Nieodpowiedni pojazd"
 
 msgid "dialogs/squad/message/invalidVehicleLevel"
 msgstr "Poziom jest niewłaściwy"
@@ -937,10 +946,15 @@ msgid "dialogs/squadChannel/buttons/recommend"
 msgstr "Poleć graczy"
 
 msgid "dialogs/squadChannel/chatName"
-msgstr "Kanał chatu"
+msgstr "Kanał czatu"
 
 msgid "dialogs/squadChannel/context/kickPlayer"
 msgstr "Wyklucz z plutonu"
+
+msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
+msgstr ""
+"Głównym celem jest\n"
+"zostać ostatnim aktywnym plutonem."
 
 msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
 msgstr ""
@@ -949,8 +963,8 @@ msgstr ""
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"Wybierz Sturmtiger,\n"
-"by wejść do bitwy."
+"+++ event +++\n"
+"+++ event +++"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -1398,6 +1412,9 @@ msgstr "Komenda %(command)s została zablokowana na %(cooldownPeriod)s s."
 msgid "server/errors/commandInCooldown/title"
 msgstr "Błąd czatu"
 
+msgid "server/errors/commandInTeamCooldown/message"
+msgstr "Wiadomość zawieszona. Za dużo wiadomości."
+
 msgid "server/errors/connectTimeout/message"
 msgstr "Minął czas oczekiwania na dołączenie do kanału"
 
@@ -1544,6 +1561,26 @@ msgstr "Niewłaściwe znaki w nazwie kanału."
 
 msgid "server_error/user_room_creation/WRONG_WORD"
 msgstr "Obraźliwe słowa w nazwie kanału."
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/button"
+msgstr "Stalowy łowca"
+
+msgid "serviceChannelMessages/BRVehiclesInvoice/descr"
+msgstr ""
+"To są pojazdy specjalne dla „Stalowego łowcy”. Wejdź do „Stalowego łowcy”, "
+"by przekonać się, do czego są zdolne."
+
+msgid "serviceChannelMessages/BRbattleResults/ended"
+msgstr "Pojazd zniszczony"
+
+msgid "serviceChannelMessages/BRbattleResults/levelEarned"
+msgstr "Osiągnięto poziom"
+
+msgid "serviceChannelMessages/BRbattleResults/pointsEarned"
+msgstr "Zdobyto punkty"
+
+msgid "serviceChannelMessages/BRbattleResults/victory"
+msgstr "Zwycięstwo"
 
 msgid "serviceChannelMessages/achievementReceived/message"
 msgstr "Przebieg służby"
@@ -2198,6 +2235,14 @@ msgstr "Otrzymano jubileuszowe monety"
 
 msgid "serviceChannelMessages/currencyUpdate/received/gold"
 msgstr "Uzyskano złota"
+
+msgid "serviceChannelMessages/dedicationReward/header"
+msgstr "Nagroda „Bohater naszych czasów”"
+
+msgid "serviceChannelMessages/dedicationReward/text"
+msgstr ""
+"Medal %(medalName)s przyznawany za rozegranie %(battlesCount)s bitew\n"
+"Naklejki otrzymane za rozegranie %(battlesCount)s bitew (x%(decalsCount)s)"
 
 msgid "serviceChannelMessages/demountKitDisabled"
 msgstr ""
@@ -2871,15 +2916,6 @@ msgstr "Nagroda specjalna"
 msgid "serviceChannelMessages/specialReward/vehicleBlueprints"
 msgstr "Fragment schematu dla %(vehicleName)s (x%(fragmentsCount)s)"
 
-msgid "serviceChannelMessages/spgEvent/titles/available"
-msgstr "Tryb Przyczajony tygrys jest znów dostępny"
-
-msgid "serviceChannelMessages/spgEvent/titles/notSet"
-msgstr "Bitwy w Sturmtiger są niedostępne"
-
-msgid "serviceChannelMessages/spgEvent/titles/primeTime"
-msgstr "Cisza nocna"
-
 msgid "serviceChannelMessages/sysMsg/converter/blueprintsReceived"
 msgstr "Otrzymano rekompensatę za fragmenty schematów już zbadanych pojazdów:"
 
@@ -3029,12 +3065,6 @@ msgid "serviceChannelMessages/sysMsg/removeCustomizations"
 msgstr ""
 "Ze względu na wymianę modułów, z pojazdu %(vehicle)s zostały usunięte "
 "następujące elementy dostosowania wyglądu zewnętrznego."
-
-msgid "serviceChannelMessages/sysMsg/titles/bobBattlesAvailable"
-msgstr "Tryb „Bijatyka” jest znów dostępny"
-
-msgid "serviceChannelMessages/sysMsg/titles/bobBattlesPrimeTime"
-msgstr "Cisza nocna"
 
 msgid "serviceChannelMessages/sysMsg/titles/customization"
 msgstr ""
