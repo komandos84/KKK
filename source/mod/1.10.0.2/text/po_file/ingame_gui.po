@@ -321,6 +321,9 @@ msgstr ""
 "align='baseline' vspace='-4'> <font color='#FF2414'>Przełądowuję,</font> "
 "<font color='#F7F7F7'>%(reloadTime)d</font> s"
 
+msgid "chat_shortcuts/spg_aim_area_reloading_gridInfo"
+msgstr "Celuję w %(gridId)s. Przeładowuję. Pozostało %(reloadTime)d s!"
+
 msgid "chat_shortcuts/supporting_ally"
 msgstr "%(target)s, pomogę Ci!"
 
