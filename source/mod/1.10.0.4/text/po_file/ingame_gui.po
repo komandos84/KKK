@@ -177,6 +177,9 @@ msgstr "Atakuję %(target)s! Przeładowuję. Pozostało %(reloadTime)d s!"
 msgid "chat_shortcuts/attacking_base"
 msgstr "Zajmę bazę!"
 
+msgid "chat_shortcuts/attacking_base_numbered"
+msgstr "?empty?"
+
 msgid "chat_shortcuts/attacking_enemy"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/attack.png' width='16' "
@@ -203,8 +206,14 @@ msgstr "Uwaga na %(cellName)s!"
 msgid "chat_shortcuts/attention_to_objective_atk"
 msgstr "Zniszczyć cel %(int32Arg1)s!"
 
+msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
+msgstr "?empty?"
+
 msgid "chat_shortcuts/attention_to_objective_def"
 msgstr "Obroń cel %(int32Arg1)s"
+
+msgid "chat_shortcuts/attention_to_objective_def_autocommit"
+msgstr "?empty?"
 
 msgid "chat_shortcuts/attention_to_position"
 msgstr "Uwaga na pozycję!"
@@ -214,6 +223,9 @@ msgstr "Uwaga na %(gridId)s"
 
 msgid "chat_shortcuts/defending_base"
 msgstr "Będę bronić bazę!"
+
+msgid "chat_shortcuts/defending_base_numbered"
+msgstr "?empty?"
 
 msgid "chat_shortcuts/global_msg/atk/focus_hq"
 msgstr "Zniszcz cele!"

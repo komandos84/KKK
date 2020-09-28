@@ -912,6 +912,9 @@ msgstr "Pluton posiada maksymalną liczbę dział samobieżnych"
 msgid "dialogs/squad/message/vehicles/differentLevels"
 msgstr "Kara do doświadczenia za niepoprawny skład plutonu!"
 
+msgid "dialogs/squad/message/whiteTigerForbidden"
+msgstr "Wybierz T-55 Thunderbolt"
+
 msgid "dialogs/squadChannel/battleType"
 msgstr "Tryb bitwy:"
 
@@ -2132,6 +2135,21 @@ msgstr "Poligon"
 msgid "serviceChannelMessages/battleResults/victory"
 msgstr "Zwycięstwo"
 
+msgid "serviceChannelMessages/battleResults/wt_event/gameMode"
+msgstr "Wydarzenie w grze"
+
+msgid "serviceChannelMessages/battleResults/wt_event/gameModeName"
+msgstr "Ostatni Waffenträger"
+
+msgid "serviceChannelMessages/battleResults/wt_event/side"
+msgstr "Strona"
+
+msgid "serviceChannelMessages/battleResults/wt_event/side/boss"
+msgstr "Inżynier"
+
+msgid "serviceChannelMessages/battleResults/wt_event/side/hunter"
+msgstr "Brygada Chartów"
+
 msgid "serviceChannelMessages/battleTutorial/reasons/extermination"
 msgstr "Pojazd zniszczony"
 
@@ -2702,19 +2720,27 @@ msgstr "Otrzymałeś paczkę:"
 msgid "serviceChannelMessages/lootBoxes/item/name"
 msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
 
+msgid "serviceChannelMessages/lootBoxesAutoOpen/boxes"
+msgstr "Otwarte szafki: %(boxes)s"
+
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
 msgstr "Obejrzyj"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
+msgstr "%(boxName)s (x%(count)d)"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
-msgstr "Otrzymano nagrody"
+msgstr "Otwieranie szafek"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/rewards"
+msgstr ""
+"Otrzymane przedmioty:\n"
+"%(rewards)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
 msgstr ""
-"Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy nagrody za Operacje "
-"świąteczne"
+"Otworzyliśmy wszystkie Twoje szafki i dodaliśmy ich zawartość do Twojego "
+"konta:"
 
 msgid "serviceChannelMessages/nonSelectedDevices/button"
 msgstr "Wybierz"
@@ -3222,6 +3248,17 @@ msgstr ""
 "%(dstName)s</font>. Opłata: <font color='#FFE769'>%(fee)s</font>&nbsp;<img "
 "src='img://gui/maps/icons/library/Automatyk/gold.png' width='16' height='16' "
 "align='baseline' vspace='-3'/>."
+msgid "serviceChannelMessages/wt_event/boxesEarned"
+msgstr "Otrzymane szafki:"
+
+msgid "serviceChannelMessages/wt_event/completedQuests"
+msgstr "Wypełnione misje:"
+
+msgid "serviceChannelMessages/wt_event/specialBoxesEarned"
+msgstr "Otrzymane specjalne szafki:"
+
+msgid "serviceChannelMessages/wt_event/ticket"
+msgstr "Otrzymane klucze:"
 
 msgid "serviceChannelMessages/xpReceivedAsGift"
 msgstr ""

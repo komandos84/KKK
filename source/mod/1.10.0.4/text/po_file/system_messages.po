@@ -1044,7 +1044,7 @@ msgstr "Kolekcje znów są dostępne"
 msgid "connected"
 "Witaj\n"
 "na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!"
-"<br><font color='#BFE9FF'>KKK 1.10.0.x</font> <font "
+"<br><font color='#BFE9FF'>KKK 1.10.0.4</font> <font "
 "color='#FF3333'>Automatyk</font>"
 
 msgid "consumables_apply/error"
@@ -1402,14 +1402,20 @@ msgstr "Błąd przy przenoszeniu czołgisty do pojazdu. Pojazd zablokowany."
 msgid "equip_tankman/vehicle_need_repair"
 msgstr "Błąd przy przenoszeniu czołgisty do pojazdu. Proszę naprawić pojazd."
 
-msgid "event_progression_buy_vehicle/buy"
+msgid "event_progression_buy_style/server_error"
+msgstr "?empty?"
+
+msgid "event_progression_buy_style/success"
+msgstr "?empty?"
+
+msgid "event_progression_buy_vehicle/server_error"
+msgstr "Nie można kupić pojazdu %(name)s"
+
+msgid "event_progression_buy_vehicle/success"
 msgstr ""
 "Data: %(date)s\n"
 "Udało się kupić %(veh_name)s, 100%% załogi i miejsce.\n"
 "Użyte żetony: %(count)s"
-
-msgid "event_progression_buy_vehicle/server_error"
-msgstr "Nie można kupić pojazdu %(veh_name)s"
 
 msgid "exchange/not_enough_gold"
 msgstr "Masz zbyt mało złota na wymianę."
@@ -4439,6 +4445,56 @@ msgid "window/buttons/close"
 msgstr "Zamknij"
 
 msgid "wrong_slot"
+msgstr "%s „%s” nie pasuje do miejsca %s."
+
+msgid "wt_event/details/button"
+msgstr "Szczegóły"
+
+msgid "wt_event/event/disabled"
 msgstr ""
-"<font color='#929290'>Moduł %s %s <font color='#c5ab5d'>'%s'</font> nie "
-"pasuje do miejsca %s.</font>"
+"Wydarzenie „Ostatni Waffenträger” zakończyło się.\n"
+"1.Usunięto specjalne pojazdy i załogę.\n"
+"2. Zdobyte doświadczenie bojowe dodano do MS-1.\n"
+"3. Dostępne szafki otwarto, a ich zawartość dodano do konta."
+
+msgid "wt_event/event/enabled"
+msgstr ""
+"Wydarzenie „Ostatni Waffenträger” rozpoczęło się.\n"
+"Zobacz legendarny\n"
+"pojazd Waffenträger auf E 110!"
+
+msgid "wt_event/lootboxes/button"
+msgstr "O szafkach"
+
+msgid "wt_event/lootboxes/disabled"
+msgstr ""
+"Operacja jest tymczasowo niedostępna ze względu na prace konserwacyjne.\n"
+"Nadal będziesz otrzymywać i gromadzić szafki."
+
+msgid "wt_event/lootboxes/enabled"
+msgstr "Funkcjonalność przywrócona"
+
+msgid "wt_event/lootboxes/header"
+msgstr "Otwieranie szafek"
+
+msgid "wt_event/opened_box"
+msgstr "Oczekujące nagrody z otwartej szafki."
+
+msgid "wt_event/ticket/buy"
+msgstr "Do zakupu"
+
+msgid "wt_event/ticket/free"
+msgstr ""
+"Rozegrałeś bitwę w Waffenträger auf E 110 tym razem bez Klucza! Klucze można "
+"otrzymać w nagrodę za wypełnianie misji lub kupić w specjalnych zestawach w "
+"sklepie."
+
+msgid "wt_event/ticket/owned"
+msgstr ""
+"Usunięto klucz za walkę w Waffenträger auf E 110.\n"
+" Klucze można otrzymać w nagrodę za wypełnianie misji lub kupić w "
+"specjalnych zestawach w sklepie.\n"
+"Pozostałe klucze: %(count)s"
+
+msgid "wt_event/ticket/tasks"
+msgstr "Do misji"
