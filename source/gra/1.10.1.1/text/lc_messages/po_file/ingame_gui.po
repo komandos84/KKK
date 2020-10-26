@@ -1,14 +1,19 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: World Of Tanks\n"
+"Project-Id-Version: ingame_gui.mo conversion\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2010-07-06 18:34+0200\n"
-"Last-Translator: i_maliavko <noreply@wargaming.net>\n"
-"Language-Team: WoT Team <noreply@wargaming.net>\n"
+"POT-Creation-Date: 2020-10-26 15:40+0100\n"
+"PO-Revision-Date: 2020-10-26 15:40+0100\n"
+"Last-Translator: \n"
+"Language-Team: WoT Team\n"
+"Language: gui\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: pl-PL\n"
+"X-Loco-Api-Version: 1.0.25 20201015-1"
 
 msgid "aim/zoom"
 msgstr "x%(zoom)d"
@@ -147,9 +152,6 @@ msgstr "Gotów do strzału! Pocisków w kasecie: <Liczba pocisków> szt."
 msgid "chat_example/reloading_unavailable"
 msgstr "Brak amunicji."
 
-msgid "chat_example/reply_to_player"
-msgstr "Przyjąłem!"
-
 msgid "chat_example/spg_aim_area"
 msgstr "Celuję w <sektor na minimapie>!"
 
@@ -178,7 +180,7 @@ msgid "chat_shortcuts/attacking_base"
 msgstr "Zajmę bazę!"
 
 msgid "chat_shortcuts/attacking_base_numbered"
-msgstr "?empty?"
+msgstr "Zajmuję bazę %(strArg1)s!"
 
 msgid "chat_shortcuts/attacking_enemy"
 msgstr "Atakuję %(target)s!"
@@ -193,7 +195,7 @@ msgid "chat_shortcuts/attention_to_base_def"
 msgstr "Bronić bazę!"
 
 msgid "chat_shortcuts/attention_to_base_def_numbered"
-msgstr "Zająć bazę %(strArg1)s!"
+msgstr "Bronić bazę %(strArg1)s!"
 
 msgid "chat_shortcuts/attention_to_cell"
 msgstr "Uwaga na %(cellName)s!"
@@ -202,13 +204,13 @@ msgid "chat_shortcuts/attention_to_objective_atk"
 msgstr "Zniszczyć cel %(int32Arg1)s!"
 
 msgid "chat_shortcuts/attention_to_objective_atk_autocommit"
-msgstr "?empty?"
+msgstr "Atakuję cel %(int32Arg1)s!"
 
 msgid "chat_shortcuts/attention_to_objective_def"
 msgstr "Obroń cel %(int32Arg1)s"
 
 msgid "chat_shortcuts/attention_to_objective_def_autocommit"
-msgstr "?empty?"
+msgstr "Bronię cel %(int32Arg1)s!"
 
 msgid "chat_shortcuts/attention_to_position"
 msgstr "Uwaga na pozycję!"
@@ -220,7 +222,7 @@ msgid "chat_shortcuts/defending_base"
 msgstr "Będę bronić bazę!"
 
 msgid "chat_shortcuts/defending_base_numbered"
-msgstr "?empty?"
+msgstr "Bronię bazę %(strArg1)s!"
 
 msgid "chat_shortcuts/global_msg/atk/focus_hq"
 msgstr "Zniszcz cele!"
@@ -260,6 +262,18 @@ msgstr "Pomocy!"
 
 msgid "chat_shortcuts/help_me_ex"
 msgstr "%(target)s, pomocy!"
+
+msgid "chat_shortcuts/moveto_camp"
+msgstr "Do strefy!"
+
+msgid "chat_shortcuts/moveto_collector"
+msgstr "Do Magnusa!"
+
+msgid "chat_shortcuts/moving_to_camp"
+msgstr "Jadę do strefy!"
+
+msgid "chat_shortcuts/moving_to_collector"
+msgstr "Jadę do Magnusa!"
 
 msgid "chat_shortcuts/negative"
 msgstr "Odmawiam!"
@@ -631,6 +645,9 @@ msgstr "Cel obroniony"
 msgid "efficiencyRibbons/enemySectorCaptured"
 msgstr "Strefa zajęta"
 
+msgid "efficiencyRibbons/eventDeathOnPhaseChange"
+msgstr "Pojazd zniszczony"
+
 msgid "efficiencyRibbons/kill"
 msgstr "Zniszczenia"
 
@@ -748,6 +765,9 @@ msgstr "Naciśnij"
 msgid "hitMarker/blocked"
 msgstr "Nie przebito pancerza"
 
+msgid "hitMarker/boss"
+msgstr "Poddaj się!"
+
 msgid "hitMarker/critical"
 msgstr "Uszkodzenie krytyczne"
 
@@ -816,6 +836,12 @@ msgstr "[%(name)s] jest już aktywny."
 
 msgid "player_errors/equipment/extinguisher/doesNotActivated"
 msgstr "[%(name)s] nie są w użyciu. Nie ma pożaru"
+
+msgid "player_errors/equipment/hpRepairAndCrewHeal/notRequired"
+msgstr "Pojazd jest nienaruszony."
+
+msgid "player_errors/equipment/instantReload/notRequired"
+msgstr "Działo jest załadowane."
 
 msgid "player_errors/equipment/isInCooldown"
 msgstr "[%(name)s] jest niedostępny podczas przygotowania."
@@ -1299,17 +1325,35 @@ msgid "player_messages/ENGINE_DESTROYED_AT_UNLIMITED_RPM"
 msgstr ""
 "Usunięcie ograniczenia prędkości obrotu zniszczyło urządzenie: [%(device)s]"
 
+msgid "player_messages/EQUIPMENT_USAGE"
+msgstr "Aktywowano wyposażenie %(equipment_name)s"
+
+msgid "player_messages/EVENT_DEATH_FROM_BOSS_AURA_ENEMY_ALLY"
+msgstr "Sojusznik %(target)s zniszczony przez aurę przeciwnika."
+
+msgid "player_messages/EVENT_DEATH_FROM_BOSS_AURA_ENEMY_SELF"
+msgstr "Pojazd zniszczony przez aurę przeciwnika."
+
 msgid "player_messages/FIRE_STOPPED"
 msgstr "Pożar został ugaszony"
 
 msgid "player_messages/OPT_DEVICE_USED"
 msgstr "%(message)s"
 
+msgid "player_messages/PICKUP_LORE_ITEM"
+msgstr "Zebrałeś %(value)s fragmentów świadectwa"
+
+msgid "player_messages/PICKUP_SOULS"
+msgstr "Zebrałeś %(souls)s sztuk Mirium"
+
 msgid "player_messages/TANKMAN_HIT_AT_SHOT"
 msgstr "Strzał z %(entity)s zranił [%(device)s]."
 
 msgid "player_messages/TANKMAN_RESTORED"
 msgstr "[%(device)s] znów działa"
+
+msgid "player_messages/TEAM_EQUIPMENT_USAGE"
+msgstr "%(player_name)s aktywuje wyposażenie %(equipment_name)s."
 
 msgid "player_messages/allied_team_name"
 msgstr "Nasza drużyna"
@@ -1383,6 +1427,15 @@ msgstr "Szybkość powtórki: %(speed)sx"
 msgid "player_messages/tank_in_fire"
 msgstr "Czołg się pali!"
 
+msgid "players_panel/info/collector"
+msgstr "Pozostało do dostarczenia do Magnusa"
+
+msgid "players_panel/info/collector_full"
+msgstr "Magnus jest pełen"
+
+msgid "players_panel/info/team"
+msgstr "Zebrane przez drużynę"
+
 msgid "players_panel/state/large/body"
 msgstr "Pokaż nazwy graczy, zniszczone cele, oraz nazwy i ikony pojazdów"
 
@@ -1450,6 +1503,12 @@ msgid "postmortem/tips/exitHangar/text"
 msgstr ""
 "Esc > Powrót do garażu.\n"
 "Stocz bitwę w innym pojeździe."
+
+msgid "postmortem/tips/hint/desc"
+msgstr "jeśli Twoja drużyna zdoła wejść do kolejnej fazy bitwy"
+
+msgid "postmortem/tips/hint/title"
+msgstr "ODRODZISZ SIĘ"
 
 msgid "postmortem/tips/observerMode/label"
 msgstr "Tryb obserwatora"
@@ -1543,6 +1602,21 @@ msgstr "Pojazd został rozbity."
 
 msgid "postmortem_messages/DEATH_UNKNOWN"
 msgstr "Twój pojazd został zniszczony"
+
+msgid "postmortem_messages/EVENT_DEATH_FROM_BOSS_AURA"
+msgstr "Pojazd zniszczony przez aurę przeciwnika"
+
+msgid "postmortem_messages/EVENT_DEATH_FROM_DEATH_ZONE"
+msgstr "Pojazd został rozbity"
+
+msgid "postmortem_messages/EVENT_DEATH_FROM_SHOT"
+msgstr "Pojazd zniszczony przez strzał przeciwnika"
+
+msgid "postmortem_messages/EVENT_DEATH_ON_PHASE_CHANGE"
+msgstr "Pojazd zniszczony. Magnus nie jest pełen."
+
+msgid "postmortem_messages/EVENT_DEATH_ON_PHASE_CHANGE_FULL_SC"
+msgstr "Pojazd zniszczony poza obszarem napełnionego Magnusa."
 
 msgid "prebattlemarker/prebattlemarker_0"
 msgstr "Jar"
@@ -1794,8 +1868,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/commander_marina/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
-"Gaming. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/commander_marina/headerText"
 msgstr "Pakiet bytowy „India”"
@@ -1808,8 +1882,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/commander_patrick/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
-"Gaming. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/commander_patrick/headerText"
 msgstr "Pakiet bytowy Juliett"
@@ -1819,6 +1893,20 @@ msgstr "Otrzymane nagrody"
 
 msgid "rewardWindow/countLabel"
 msgstr "x{count}"
+
+msgid "rewardWindow/hw19_commanders/btnLabel"
+msgstr "Rekrut"
+
+msgid "rewardWindow/hw19_commanders/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś unikalnego członka załogi i inne nagrody za zakup "
+"tego zestawu."
+
+msgid "rewardWindow/hw19_commanders/headerText"
+msgstr "Jeden z bohaterów Mirny-13"
+
+msgid "rewardWindow/hw19_commanders/subHeaderText"
+msgstr "Otrzymane nagrody"
 
 msgid "rewardWindow/lootbox/btnLabel"
 msgstr "Przejdź do pudełek"
@@ -1977,6 +2065,20 @@ msgstr "World of Tanks: Zestaw Starlight"
 msgid "rewardWindow/twitch16/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch17/btnLabel"
+msgstr "Rekrutuj"
+
+msgid "rewardWindow/twitch17/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Prime Gaming. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch17/headerText"
+msgstr "Zestaw Queen Maeve"
+
+msgid "rewardWindow/twitch17/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch2/btnLabel"
 msgstr "TAK JEST!"
 
@@ -1996,8 +2098,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch3/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
-"Gaming. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch3/headerText"
 msgstr "Pakiet bytowy „Echo”"
@@ -2010,8 +2112,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch4/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
-"Gaming. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch4/headerText"
 msgstr "Pakiet bytowy „Foxtrot”"
@@ -2024,8 +2126,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch5/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
-"Gaming. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch5/headerText"
 msgstr "Pakiet bytowy „Golf”"
@@ -2038,8 +2140,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch6/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
-"Gaming. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch6/headerText"
 msgstr "Pakiet bytowy „Hotel”"
@@ -2052,8 +2154,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch7/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
-"Gaming. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch7/headerText"
 msgstr "Pakiet bytowy „Kilo”"
@@ -2066,8 +2168,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch8/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
-"Gaming. A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
+" A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch8/headerText"
 msgstr "Pakiet bytowy „Lima”"
@@ -2093,10 +2195,15 @@ msgid "rewardWindow/wgcq_clan_reward/btnLabel"
 msgstr "Tak jest!"
 
 msgid "rewardWindow/wgcq_clan_reward/descText"
-msgstr " "
+msgstr ""
+"Członkowie Twojego klanu polegają na Twoich\n"
+"postępach w Okresie służby."
 
 msgid "rewardWindow/wgcq_clan_reward/headerText"
 msgstr "Otrzymano nagrodę!"
+
+msgid "rewardWindow/wgcq_clan_reward/secondBtnLabel"
+msgstr "Do Okresu służby"
 
 msgid "rewardWindow/wgcq_clan_reward/subHeaderText"
 msgstr " "
@@ -2107,8 +2214,16 @@ msgstr "Okres służby"
 msgid "rewardWindow/wgcq_player_reward/btnLabel"
 msgstr "Tak jest!"
 
+msgid "rewardWindow/wgcq_player_reward/descText"
+msgstr ""
+"Członkowie Twojego klanu polegają na Twoich\n"
+"postępach w Okresie służby."
+
 msgid "rewardWindow/wgcq_player_reward/headerText"
 msgstr "Otrzymano nagrodę!"
+
+msgid "rewardWindow/wgcq_player_reward/secondBtnLabel"
+msgstr "Do Okresu służby"
 
 msgid "rewardWindow/wgcq_player_reward/subHeaderText"
 msgstr " "

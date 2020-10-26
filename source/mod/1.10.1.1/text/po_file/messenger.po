@@ -96,8 +96,8 @@ msgstr ""
 
 msgid "chat/koreaMessage/weeklyLimit"
 msgstr ""
-"Osiągnąłeś tygodniowy limit czasu gry. Twoja sesja skończy się za "
-"%(timeLeft)s minut."
+"Osiągnąłeś tygodniowy limit czasu gry. Twoja sesja skończy się za %(timeLeft)"
+"s minut."
 
 msgid "chat/personalMessage/warningBody"
 msgstr ""
@@ -164,8 +164,8 @@ msgstr ""
 
 msgid "client/dynSquad/created/owner/specifyVOIP"
 msgstr ""
-"Utworzono pluton %(squadNum)s. Czat plutonu i czat głosowy są teraz "
-"dostępne. Przypisz klawisz do włączania/wyłączania czatu głosowego."
+"Utworzono pluton %(squadNum)s. Czat plutonu i czat głosowy są teraz dostępne."
+" Przypisz klawisz do włączania/wyłączania czatu głosowego."
 
 msgid "client/dynSquad/created/owner/withoutVOIP"
 msgstr "Stworzono pluton %(squadNum)s. Udostępniono czat plutonowy."
@@ -271,6 +271,12 @@ msgstr "Użytkownik %s nie może wysyłać do ciebie wiadomości głosowych."
 
 msgid "client/information/unsetMuted/message"
 msgstr "%s może wysyłać do ciebie wiadomości głosowe."
+
+msgid "client/warning/AFKWarning/message"
+msgstr ""
+"Bezczynność jest uważana za dezercję\n"
+"i będzie surowo karana! Zwycięstwo wymaga\n"
+"udziału wszystkich członków drużyny!"
 
 msgid "client/warning/emptyUserSearchToken/message"
 msgstr "Puste zapytanie"
@@ -912,9 +918,6 @@ msgstr "Pluton posiada maksymalną liczbę dział samobieżnych"
 msgid "dialogs/squad/message/vehicles/differentLevels"
 msgstr "Kara do doświadczenia za niepoprawny skład plutonu!"
 
-msgid "dialogs/squad/message/whiteTigerForbidden"
-msgstr "Wybierz T-55 Thunderbolt"
-
 msgid "dialogs/squadChannel/battleType"
 msgstr "Tryb bitwy:"
 
@@ -966,8 +969,8 @@ msgstr ""
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"+++ event +++\n"
-"+++ event +++"
+"Tryb bitwy:\n"
+"Mirny-13"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -1710,7 +1713,7 @@ msgid "serviceChannelMessages/autoRentStyleSuccess"
 msgstr "Udało się przedłużyć okres wypożyczenia stylu na %s. Wydano "
 
 msgid "serviceChannelMessages/autoRepairDisabledOption"
-msgstr "Failed to repair <font color='#c5ab5d'>%s</font>."
+msgstr "Błąd naprawy <font color='#c5ab5d'>%s</font>."
 
 msgid "serviceChannelMessages/autoRepairError"
 msgstr ""
@@ -1860,6 +1863,9 @@ msgstr "Otrzymane punkty postępu: %(pointsDiff)s"
 msgid "serviceChannelMessages/battleResults/button"
 msgstr "Szczegóły"
 
+msgid "serviceChannelMessages/battleResults/commanderPoints"
+msgstr "Otrzymano doświadczenie dowódcy"
+
 msgid "serviceChannelMessages/battleResults/contributionForDamageAllies"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/compensation.png' "
@@ -1928,11 +1934,6 @@ msgstr "Otrzymujesz darmowe doświadczenie"
 msgid "serviceChannelMessages/battleResults/gold"
 msgstr "Uzyskano złota"
 
-msgid "serviceChannelMessages/battleResults/lowTierRewardsQuests"
-msgstr ""
-"Z okazji urodzin!\n"
-"Nagroda"
-
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "grzywna za uszkodzenia spowodowane u sojuszników: %s"
 
@@ -1997,6 +1998,9 @@ msgstr "Dodano"
 
 msgid "serviceChannelMessages/battleResults/quests/items/name"
 msgstr "%(name)s (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/items/singleName"
+msgstr "%(name)s"
 
 msgid "serviceChannelMessages/battleResults/quests/premium"
 msgstr "Dodane dni konta premium Wargaming"
@@ -2135,21 +2139,6 @@ msgstr "Poligon"
 msgid "serviceChannelMessages/battleResults/victory"
 msgstr "Zwycięstwo"
 
-msgid "serviceChannelMessages/battleResults/wt_event/gameMode"
-msgstr "Wydarzenie w grze"
-
-msgid "serviceChannelMessages/battleResults/wt_event/gameModeName"
-msgstr "Ostatni Waffenträger"
-
-msgid "serviceChannelMessages/battleResults/wt_event/side"
-msgstr "Strona"
-
-msgid "serviceChannelMessages/battleResults/wt_event/side/boss"
-msgstr "Inżynier"
-
-msgid "serviceChannelMessages/battleResults/wt_event/side/hunter"
-msgstr "Brygada Chartów"
-
 msgid "serviceChannelMessages/battleTutorial/reasons/extermination"
 msgstr "Pojazd zniszczony"
 
@@ -2283,6 +2272,21 @@ msgstr ""
 "Działania z wykorzystaniem zestawu demontażowego są już dostępne. "
 "Przepraszamy za \n"
 "uniedogodnienia."
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
+msgstr "osiągnięto poziom"
+
+msgid "serviceChannelMessages/dogTags/gradingMessage/title"
+msgstr "Nowy poziom"
+
+msgid "serviceChannelMessages/dogTags/unlockMessage/title"
+msgstr "Odblokowano"
+
+msgid "serviceChannelMessages/dogTags/viewType/background"
+msgstr "Tło"
+
+msgid "serviceChannelMessages/dogTags/viewType/engraving"
+msgstr "Grawerunek"
 
 msgid "serviceChannelMessages/durationOfPremiumAccountExpires"
 msgstr "Konto premium Wargaming wygasa %(expiryTime)s."
@@ -2462,8 +2466,8 @@ msgstr ""
 msgid "serviceChannelMessages/fort/VACATION_STARTED"
 msgstr ""
 "Twoja Twierdza zadeklarowała neutralność.\n"
-"Inne klany nie mogą Cię teraz atakować. Koniec okresu neutralności: "
-"%(finish)s."
+"Inne klany nie mogą Cię teraz atakować. Koniec okresu neutralności: %(finish)"
+"s."
 
 msgid "serviceChannelMessages/fortificationStartUp"
 msgstr ""
@@ -2475,6 +2479,33 @@ msgstr ""
 "Otrzymano złota: <font color='#FFE769'>%(gold)s</font>&nbsp;<img src='img://"
 "gui/maps/icons/library/Automatyk/gold.png' width='16' height='16' "
 "align='baseline' vspace='-3'/>"
+msgid "serviceChannelMessages/halloweenHangar/bestdealBought"
+msgstr "Kupiono zestaw"
+
+msgid "serviceChannelMessages/halloweenHangar/buyShopItem"
+msgstr "Kupiono przedmiot"
+
+msgid "serviceChannelMessages/halloweenHangar/halloweenCommanderLevelReached"
+msgstr "Osiągnąłeś %(level)s poziom. Otrzymane nagrody:"
+
+msgid "serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReached"
+msgstr "Dostępny nowy poziom trudności: %(stars)s"
+
+msgid ""
+"serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReachedText"
+msgstr "Możesz wybrać nowy poziom trudności w odpowiednim dziale menu."
+
+msgid "serviceChannelMessages/halloweenHangar/spentCoins"
+msgstr "Monety: %(coins)s"
+
+msgid "serviceChannelMessages/halloweenHangar/styleBought"
+msgstr "Kupiono styl"
+
+msgid "serviceChannelMessages/halloweenHangar/styleBundleBought"
+msgstr "Kupiono zestaw stylów"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleRent"
+msgstr "Kupiono pojazd"
 
 msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
 msgstr "Dodano łóżka do koszar"
@@ -2720,27 +2751,38 @@ msgstr "Otrzymałeś paczkę:"
 msgid "serviceChannelMessages/lootBoxes/item/name"
 msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
 
-msgid "serviceChannelMessages/lootBoxesAutoOpen/boxes"
-msgstr "Otwarte szafki: %(boxes)s"
-
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
 msgstr "Obejrzyj"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
+msgstr "Otwarte szafki: %(boxes)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/counter"
 msgstr "%(boxName)s (x%(count)d)"
 
-msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/header"
 msgstr "Otwieranie szafek"
 
-msgid "serviceChannelMessages/lootBoxesAutoOpen/rewards"
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/rewards"
 msgstr ""
 "Otrzymane przedmioty:\n"
 "%(rewards)s"
 
-msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgid "serviceChannelMessages/lootBoxesAutoOpen/event/text"
 msgstr ""
 "Otworzyliśmy wszystkie Twoje szafki i dodaliśmy ich zawartość do Twojego "
 "konta:"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
+msgstr "Otrzymano nagrody"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr ""
+"Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy nagrody za Operacje "
+"świąteczne"
 
 msgid "serviceChannelMessages/nonSelectedDevices/button"
 msgstr "Wybierz"
@@ -2828,6 +2870,9 @@ msgstr "Wynik"
 msgid "serviceChannelMessages/premiumBought"
 msgstr "Otrzymano konto premium Wargaming. Wygasa %(expiryTime)s."
 
+msgid "serviceChannelMessages/premiumChanged"
+msgstr "Zmieniono konto premium Wargaming. Wygasa %(expiryTime)s."
+
 msgid "serviceChannelMessages/premiumExpired"
 msgstr "Konto premium Wargaming wygasło."
 
@@ -2836,6 +2881,9 @@ msgstr "Przedłużono konto premium Wargaming. Wygasa %(expiryTime)s."
 
 msgid "serviceChannelMessages/premiumPlusBought"
 msgstr "Otrzymano konto premium WoT. Wygasa %(expiryTime)s."
+
+msgid "serviceChannelMessages/premiumPlusChanged"
+msgstr "Zmieniono konto premium WoT. Wygasa %(expiryTime)s."
 
 msgid "serviceChannelMessages/premiumPlusExpired"
 msgstr "Konto premium WoT wygasło."
@@ -3106,6 +3154,12 @@ msgstr "Mapa zimowa: "
 msgid "serviceChannelMessages/sysMsg/customizations/sell"
 msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Otrzymano: %(money)s"
 
+msgid "serviceChannelMessages/sysMsg/message/eventBooster"
+msgstr "Doładowanie doświadczenia dowódcy (1 sztuka)"
+
+msgid "serviceChannelMessages/sysMsg/message/eventRepair"
+msgstr "Odzyskanie sił przez dowódcę (1 sztuka)"
+
 msgid "serviceChannelMessages/sysMsg/openCustomization/button"
 msgstr "Wygląd zewnętrzny"
 
@@ -3113,9 +3167,6 @@ msgid "serviceChannelMessages/sysMsg/removeCustomizations"
 msgstr ""
 "Ze względu na wymianę modułów, z pojazdu %(vehicle)s zostały usunięte "
 "następujące elementy dostosowania wyglądu zewnętrznego."
-
-msgid "serviceChannelMessages/sysMsg/titles/bobBattlesAvailable"
-msgstr "Bitwy Bijatyki są dostępne"
 
 msgid "serviceChannelMessages/sysMsg/titles/customization"
 msgstr ""
@@ -3131,6 +3182,21 @@ msgid "serviceChannelMessages/sysMsg/titles/error"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/DotRed.png' width='16' "
 "height='16' align='baseline' vspace='-3'/>Błąd: "
+msgid "serviceChannelMessages/sysMsg/titles/eventBooster"
+msgstr "Zakupiono:"
+
+msgid "serviceChannelMessages/sysMsg/titles/eventBoosterActivated"
+msgstr "Aktywowano doładowanie 2x do doświadczenia dla dowódcy"
+
+msgid "serviceChannelMessages/sysMsg/titles/eventHealingAll"
+msgstr ""
+"Wszyscy dowódcy odzyskali siły i są gotowi do nowych operacji w Mirny-13"
+
+msgid "serviceChannelMessages/sysMsg/titles/eventRepair"
+msgstr "Zakupiono:"
+
+msgid "serviceChannelMessages/sysMsg/titles/eventRestore"
+msgstr "Dowódca pojazdu odzyskał siły."
 
 msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
 msgstr ""
@@ -3248,17 +3314,6 @@ msgstr ""
 "%(dstName)s</font>. Opłata: <font color='#FFE769'>%(fee)s</font>&nbsp;<img "
 "src='img://gui/maps/icons/library/Automatyk/gold.png' width='16' height='16' "
 "align='baseline' vspace='-3'/>."
-msgid "serviceChannelMessages/wt_event/boxesEarned"
-msgstr "Otrzymane szafki:"
-
-msgid "serviceChannelMessages/wt_event/completedQuests"
-msgstr "Wypełnione misje:"
-
-msgid "serviceChannelMessages/wt_event/specialBoxesEarned"
-msgstr "Otrzymane specjalne szafki:"
-
-msgid "serviceChannelMessages/wt_event/ticket"
-msgstr "Otrzymane klucze:"
 
 msgid "serviceChannelMessages/xpReceivedAsGift"
 msgstr ""
@@ -3278,7 +3333,7 @@ msgstr ""
 "ponownie później."
 
 msgid "xmpp_error/simple"
-msgstr "Kod błędu %(strArg1)s. Spróbuj ponownie później."
+msgstr "Spróbuj ponownie później."
 
 msgid "xmpp_error/user_room_creation"
 msgstr "Nie można utworzyć kanału gracza „%(strArg1)s”."

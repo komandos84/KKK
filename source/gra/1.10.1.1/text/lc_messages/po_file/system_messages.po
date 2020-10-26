@@ -1,14 +1,20 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: World Of Tanks\n"
+"Project-Id-Version: system_messages.mo conversion\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-01 10:00+0300\n"
-"PO-Revision-Date: 2010-06-10 19:30+0200\n"
-"Last-Translator: i_maliavko <i_maliavko@wargaming.net>\n"
-"Language-Team: WoT Team <noreply@wargaming.net>\n"
+"POT-Creation-Date: 2020-10-26 15:41+0100\n"
+"PO-Revision-Date: 2020-10-26 15:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: Polish (Poland)\n"
+"Language: pl-PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10 >= 2 && n%10<=4 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz\n"
+"X-Loco-Source-Locale: pl-PL\n"
+"X-Loco-Api-Version: 1.0.25 20201015-1"
 
 msgid "account_was_restored"
 msgstr "Udało się odzyskać twoje konto"
@@ -51,6 +57,9 @@ msgid "arena_start_errors/join/EVENT_DISABLED"
 msgstr ""
 "To wydarzenie jest w tej chwili niedostępne. Śledź najnowsze wiadomości na "
 "portalu gry."
+
+msgid "arena_start_errors/join/NOT_ENOUGH_ENERGY"
+msgstr "Nie można dołączyć do bitwy. Dowódca wymaga regeneracji."
 
 msgid "arena_start_errors/join/NOT_FOUND"
 msgstr "Błąd przy dołączaniu do bitwy: zaproszenie nieaktualne."
@@ -366,8 +375,8 @@ msgstr ""
 
 msgid "battleBooster_buy/vehicle_locked"
 msgstr ""
-"Pojazd jest zablokowany. Nie udało się kupić i zamontować %(kind)s \"%(name)s"
-"\"."
+"Pojazd jest zablokowany. Nie udało się kupić i zamontować %(kind)s \"%(name)"
+"s\"."
 
 msgid "battleBooster_buy/vehicle_need_repair"
 msgstr ""
@@ -407,7 +416,7 @@ msgid "battlePass/switch_disable/body"
 msgstr "Sezon zakończył się. Do zobaczenia w kolejnym sezonie!"
 
 msgid "battlePass/switch_disable/title"
-msgstr "Przepustka bitewna. Sezon 2."
+msgstr "Przepustka bitewna. Sezon 3."
 
 msgid "battlePass/switch_enabled/body"
 msgstr ""
@@ -436,8 +445,8 @@ msgstr ""
 
 msgid "battleResults/sharing/success"
 msgstr ""
-"Skopiowano odnośnik do schowka. Możesz go wkleić do czatu, naciskając Ctrl"
-"+V, albo użyć poza klientem gry."
+"Skopiowano odnośnik do schowka. Możesz go wkleić do czatu, naciskając Ctrl+V,"
+" albo użyć poza klientem gry."
 
 msgid "battleSession/kickedFromQueue"
 msgstr ""
@@ -743,6 +752,9 @@ msgstr "Operacja niedostępna. Spróbuj później."
 
 msgid "clans/notifications/accept"
 msgstr "Akceptuj"
+
+msgid "clans/notifications/alreadyInviteSent"
+msgstr "Zaproszenie do klanu już wysłano do %(userName)s."
 
 msgid "clans/notifications/decline"
 msgstr "Odrzuć"
@@ -1274,6 +1286,20 @@ msgstr "Błąd przy zwalnianiu czołgisty. Pojazd jest zablokowany."
 msgid "dismiss_tankman/vehicle_need_repair"
 msgstr "Błąd przy zwalnianiu czołgisty. Napraw swój pojazd."
 
+msgid "dog_tags/switch_off/body"
+msgstr ""
+"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych.\n"
+"Przepraszamy za niedogodności."
+
+msgid "dog_tags/switch_off/title"
+msgstr "Nieśmiertelniki są tymczasowo niedostępne"
+
+msgid "dog_tags/switch_on/body"
+msgstr "Problemy techniczne zostały rozwiązane. Przepraszamy za niedogodności."
+
+msgid "dog_tags/switch_on/title"
+msgstr "Nieśmiertelniki są znowu dostępne."
+
 msgid "dossiers_unavailable"
 msgstr "Konto nie jest gotowe (DOSSIERS_UNAVAILABLE)"
 
@@ -1326,20 +1352,62 @@ msgstr "Błąd przy przenoszeniu czołgisty do pojazdu. Pojazd zablokowany."
 msgid "equip_tankman/vehicle_need_repair"
 msgstr "Błąd przy przenoszeniu czołgisty do pojazdu. Proszę naprawić pojazd."
 
-msgid "event_progression_buy_style/server_error"
-msgstr "?empty?"
+msgid "event/afk/ban/body"
+msgstr ""
+"Dostęp do bitew o Mirny-13 jest zamknięty, okres zawieszenia zakończy się "
+"%(pardonDate)s"
 
-msgid "event_progression_buy_style/success"
-msgstr "?empty?"
+msgid "event/afk/ban/header"
+msgstr "Mirny-13, zawieszenie:"
 
-msgid "event_progression_buy_vehicle/server_error"
-msgstr "Nie można kupić pojazdu %(name)s"
+msgid "event/afk/button"
+msgstr "Szczegóły"
 
-msgid "event_progression_buy_vehicle/success"
+msgid "event/afk/error/body"
+msgstr "Operacja jest aktualnie niedostępna. Spróbuj ponownie później."
+
+msgid "event/afk/error/header"
+msgstr "Błąd:"
+
+msgid "event/afk/quest/body"
+msgstr "Dostępna jest nowa misja specjalna: %(questName)s"
+
+msgid "event/afk/quest/button"
+msgstr "Do misji"
+
+msgid "event/afk/quest/header"
+msgstr "Wykorzystaj szansę"
+
+msgid "event/afk/quest/questName"
+msgstr "%(questName)s"
+
+msgid "event/afk/questUnban/body"
+msgstr "Otrzymano nakaz przywrócenia: bitwy o Mirny-13 są znowu dostępne."
+
+msgid "event/afk/questUnban/header"
+msgstr "Wycofano zawieszenie"
+
+msgid "event/afk/unban/body"
+msgstr ""
+"Upłynął okres zawieszenia w wydarzeniu: bitwy o Mirny-13 są znowu dostępne."
+
+msgid "event/afk/unban/header"
+msgstr "Wycofano zawieszenie"
+
+msgid "event/afk/warning/body"
+msgstr "Otrzymałeś ostrzeżenie za bezczynność lub dezercję z pola bitwy."
+
+msgid "event/afk/warning/header"
+msgstr "Mirny-13, ostrzeżenie:"
+
+msgid "event_progression_buy_vehicle/buy"
 msgstr ""
 "Data: %(date)s\n"
-"Udało się kupić %(name)s, 100%% załogi i miejsce.\n"
+"Udało się kupić %(veh_name)s, 100%% załogi i miejsce.\n"
 "Użyte żetony: %(count)s"
+
+msgid "event_progression_buy_vehicle/server_error"
+msgstr "Nie można kupić pojazdu %(veh_name)s"
 
 msgid "exchange/not_enough_gold"
 msgstr "Masz zbyt mało złota na wymianę."
@@ -1841,6 +1909,86 @@ msgid "graficsPresetFail"
 msgstr ""
 "Nie udało się zastosować ustawienia grafiki. Konflikt karty graficznej."
 
+msgid "hw19/server_error"
+msgstr ""
+"Błąd zakupu.\n"
+"Błąd techniczny lub za mało funduszy."
+
+msgid "hw19_bestdeal/NO_CREDITS"
+msgstr "Za mało kredytów, by kupić."
+
+msgid "hw19_bestdeal/NO_GOLD"
+msgstr "Za mało złota, by kupić."
+
+msgid "hw19_buy_energy/booster_already_activated"
+msgstr "Błąd aktywacji. Doładowanie już zostało aktywowane."
+
+msgid "hw19_buy_energy/server_error"
+msgstr ""
+"Błąd odzyskania sił.\n"
+"Błąd techniczny lub za mało funduszy."
+
+msgid "hw19_buy_energy/success"
+msgstr "Wydano: %(money)s"
+
+msgid "hw19_buy_energy/vehicle_already_has_energy"
+msgstr "Błąd operacji. Dowódca jest gotowy do bitwy."
+
+msgid "hw19_buy_energy/vehicle_can_not_have_energy"
+msgstr "Błąd operacji. Dowódca nie może odzyskać sił."
+
+msgid "hw19_buy_energy/vehicle_in_battle"
+msgstr "Błąd aktywacji. Pojazd jest w bitwie."
+
+msgid "hw19_draw_energy/account_does_not_have_healing_items"
+msgstr "Błąd operacji. Nie masz wymaganych przedmiotów."
+
+msgid "hw19_draw_energy/server_error"
+msgstr ""
+"Błąd odzyskania sił.\n"
+"Błąd techniczny lub za mało funduszy."
+
+msgid "hw19_draw_energy/success"
+msgstr "%(vehicle)s"
+
+msgid "hw19_draw_energy/vehicle_already_has_energy"
+msgstr "Błąd operacji. Dowódca jest już gotowy do bitwy."
+
+msgid "hw19_draw_energy/vehicle_in_battle"
+msgstr "Błąd dekontaminacji. Pojazd jest w bitwie."
+
+msgid "hw19_lock_energy/account_does_not_have_booster_items"
+msgstr "Błąd aktywacji. Nie masz wymaganych przedmiotów."
+
+msgid "hw19_lock_energy/booster_already_activated"
+msgstr "Błąd aktywacji. Doładowanie już zostało aktywowane."
+
+msgid "hw19_lock_energy/server_error"
+msgstr ""
+"Błąd aktywacji.\n"
+"Błąd techniczny lub za mało funduszy."
+
+msgid "hw19_lock_energy/success"
+msgstr "%(vehicle)s"
+
+msgid "hw19_lock_energy/vehicle_in_battle"
+msgstr "Błąd aktywacji. Pojazd jest w bitwie."
+
+msgid "hw19_shop/buy_coins_success"
+msgstr "Kupiono monety."
+
+msgid "hw19_shop/sell_coins_success"
+msgstr "Sprzedano monety."
+
+msgid "hw19_token/award"
+msgstr "Gratulacje! Otrzymałeś monety w ilości: %(count)s."
+
+msgid "hw19_vehicle/already_bought"
+msgstr "Już kupiłeś ten pojazd."
+
+msgid "hw19_vehicle/buy_success"
+msgstr "Kupiono pojazd. Wydano: %(money)s."
+
 msgid "igr/customization/begin"
 msgstr "Darmowe kamuflaże, napisy i emblematy są dostępne w %(igrIcon)s."
 
@@ -2062,6 +2210,15 @@ msgid "memory_critical/tex_was_lowered_to_min"
 msgstr ""
 "Za mało pamięci. Zmieniono ustawienia grafiki. Proszę uruchomić ponownie grę."
 
+msgid "missingEvents/button"
+msgstr "Otwórz"
+
+msgid "missingEvents/header"
+msgstr "Wydarzenia"
+
+msgid "missingEvents/text"
+msgstr "Ważne wydarzenia, które przegapiłeś: "
+
 msgid "module_apply/error_is_current"
 msgstr "Moduł %(kind)s „%(name)s” jest już zamontowany."
 
@@ -2258,6 +2415,9 @@ msgstr "Promocja niedostępna."
 msgid "optionalDevices_apply/error"
 msgstr "Błąd konfiguracji wyposażenia. Spróbuj ponownie później."
 
+msgid "optionalDevices_apply/error_too_heavy"
+msgstr "Za mała ładowność: rozważ odciążenie pojazdu."
+
 msgid "optionalDevices_apply/not_enough_money"
 msgstr "Błąd konfiguracji wyposażenia. Za mało funduszy, aby dokonać zakupu."
 
@@ -2268,6 +2428,9 @@ msgstr ""
 
 msgid "optionalDevices_remove/error"
 msgstr "Błąd konfiguracji wyposażenia. Spróbuj ponownie później."
+
+msgid "optionalDevices_remove/error_too_heavy"
+msgstr "Za mała ładowność: rozważ odciążenie pojazdu."
 
 msgid "periphery/errors/isNotAvailable"
 msgstr "Przeniesienie nie jest dostępne. Nie można określić serwera."
@@ -2548,9 +2711,6 @@ msgstr "Pojazd nie nadaje się do tej bitwy."
 
 msgid "prebattle/teamInvalid/observers"
 msgstr "Wszyscy członkowie drużyny nie mogą być widzami."
-
-msgid "prebattle/vehicleInvalid/bobOnly"
-msgstr "Wybrany pojazd jest odpowiedni tylko dla trybu „Bijatyka”."
 
 msgid "prebattle/vehicleInvalid/epicOnly"
 msgstr "Wybrany pojazd jest odpowiedni tylko dla Linii frontu."
@@ -3342,8 +3502,8 @@ msgstr "Błąd pokoju szkoleniowego. Spróbuj ponownie później."
 
 msgid "training/error/selectObserver"
 msgstr ""
-"Błąd pokoju treningowego. Maksymalna liczba graczy w drużynie: "
-"%(numPlayers)s."
+"Błąd pokoju treningowego. Maksymalna liczba graczy w drużynie: %(numPlayers)"
+"s."
 
 msgid "training/error/swapTeams"
 msgstr ""
@@ -3419,6 +3579,10 @@ msgstr "Brak uprawnień do wykonania tej operacji."
 
 msgid "unit/errors/JOIN_CTX_LOCK"
 msgstr "Konto zostało zablokowane."
+
+msgid "unit/errors/MISSING_DIFFICULTY_LEVEL"
+msgstr ""
+"Działanie niedostępne. Członek plutonu nie odblokował tego poziomu trudności."
 
 msgid "unit/errors/NOT_IDLE"
 msgstr "Drużyna jest w kolejce lub w wynikach wyszukiwania."
@@ -3510,6 +3674,11 @@ msgstr "Operacja niedostępna. Pojazd nie spełnia wymagań."
 msgid "unit/errors/VEHICLE_NOT_CHOSEN"
 msgstr "Operacja niedostępna. Najpierw wybierz pojazd."
 
+msgid "unit/errors/WRONG_DIFFICULTY_LEVEL"
+msgstr ""
+"Działanie niedostępne. Pluton składa się z graczy z różnymi poziomami "
+"trudności."
+
 msgid "unit/errors/WRONG_UNIT_REQUISITES"
 msgstr "Drużyna nie istnieje."
 
@@ -3531,8 +3700,18 @@ msgstr "Mistrzowska"
 msgid "unit/notification/divisionType/MIDDLE"
 msgstr "Średnia"
 
+msgid "unit/notification/eventPlayerAdded"
+msgstr "%(userName)s dołączył do plutonu do Mirny-13."
+
+msgid "unit/notification/eventPlayerRemoved"
+msgstr "%(userName)s opuścił pluton do Mirny-13."
+
 msgid "unit/notification/giveLeadership"
 msgstr "%(userName)s został wyznaczony na dowódcę drużyny."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr ""
+"Gracz %(userName)s nie jest gotowy. Poziom trudności %(level)s jest dostępny."
 
 msgid "unit/notification/playerAdded"
 msgstr "%(userName)s dołączył do oddziału."
@@ -3545,6 +3724,9 @@ msgstr "Połączenie z graczem %(userName)s zostało wznowione."
 
 msgid "unit/notification/playerRemoved"
 msgstr "%(userName)s opuścił oddział."
+
+msgid "unit/notification/selectedDifficultyLevel"
+msgstr "Gracz %(userName)s zmienił poziom trudności na %(level)s."
 
 msgid "unit/warnings/ALREADY_INVITED"
 msgstr "Zaproszenie zostało już wysłane."
@@ -3876,8 +4058,8 @@ msgstr ""
 
 msgid "vehicle_rent/success"
 msgstr ""
-"Wypożyczono: %(vehName)s %(rentPackageName)s. Wydano: %(price)s. "
-"%(buyOption)s"
+"Wypożyczono: %(vehName)s %(rentPackageName)s. Wydano: %(price)s. %(buyOption)"
+"s"
 
 msgid "vehicle_rent/timeRent"
 msgstr "przez %(days)d d."
@@ -3965,8 +4147,8 @@ msgstr ""
 
 msgid "vehicle_sell/success_dismantling"
 msgstr ""
-"%(vehName)s został sprzedany. Otrzymano %(gainMoney)s. Wydano "
-"%(spendMoney)s. %(restoreInfo)s"
+"%(vehName)s został sprzedany. Otrzymano %(gainMoney)s. Wydano %(spendMoney)s."
+" %(restoreInfo)s"
 
 msgid "vehicle_sell/success_dismantling/with_demount_kit"
 msgstr ""
@@ -4096,8 +4278,8 @@ msgstr "Błąd odtwarzania wideo. Kod błędu: %(code)s."
 
 msgid "wallet/available"
 msgstr ""
-"Synchronizacja z Portfelem WG zakończona powodzeniem. Twoje złoto, "
-"obligacje, kredyty i wolne doświadczenie są już dostępne."
+"Synchronizacja z Portfelem WG zakończona powodzeniem. Twoje złoto, obligacje,"
+" kredyty i wolne doświadczenie są już dostępne."
 
 msgid "wallet/available_freexp"
 msgstr ""
@@ -4129,55 +4311,3 @@ msgstr "Zamknij"
 
 msgid "wrong_slot"
 msgstr "%s „%s” nie pasuje do miejsca %s."
-
-msgid "wt_event/details/button"
-msgstr "Szczegóły"
-
-msgid "wt_event/event/disabled"
-msgstr ""
-"Wydarzenie „Ostatni Waffenträger” zakończyło się.\n"
-"1.Usunięto specjalne pojazdy i załogę.\n"
-"2. Zdobyte doświadczenie bojowe dodano do MS-1.\n"
-"3. Dostępne szafki otwarto, a ich zawartość dodano do konta."
-
-msgid "wt_event/event/enabled"
-msgstr ""
-"Wydarzenie „Ostatni Waffenträger” rozpoczęło się.\n"
-"Zobacz legendarny\n"
-"pojazd Waffenträger auf E 110!"
-
-msgid "wt_event/lootboxes/button"
-msgstr "O szafkach"
-
-msgid "wt_event/lootboxes/disabled"
-msgstr ""
-"Operacja jest tymczasowo niedostępna ze względu na prace konserwacyjne.\n"
-"Nadal będziesz otrzymywać i gromadzić szafki."
-
-msgid "wt_event/lootboxes/enabled"
-msgstr "Funkcjonalność przywrócona"
-
-msgid "wt_event/lootboxes/header"
-msgstr "Otwieranie szafek"
-
-msgid "wt_event/opened_box"
-msgstr "Oczekujące nagrody z otwartej szafki."
-
-msgid "wt_event/ticket/buy"
-msgstr "Do zakupu"
-
-msgid "wt_event/ticket/free"
-msgstr ""
-"Rozegrałeś bitwę w Waffenträger auf E 110 tym razem bez Klucza! Klucze można "
-"otrzymać w nagrodę za wypełnianie misji lub kupić w specjalnych zestawach w "
-"sklepie."
-
-msgid "wt_event/ticket/owned"
-msgstr ""
-"Usunięto klucz za walkę w Waffenträger auf E 110.\n"
-" Klucze można otrzymać w nagrodę za wypełnianie misji lub kupić w "
-"specjalnych zestawach w sklepie.\n"
-"Pozostałe klucze: %(count)s"
-
-msgid "wt_event/ticket/tasks"
-msgstr "Do misji"
