@@ -615,6 +615,12 @@ msgstr ""
 "Zaproszenie zostało wysłane do gracza.\n"
 "Jeśli je przyjmie, dołączy do Twojego plutonu po zakończeniu bitwy."
 
+msgid "dynamicSquad/hint/voipToggleKeyLeft"
+msgstr "Naciśnij"
+
+msgid "dynamicSquad/hint/voipToggleKeyRight"
+msgstr ", by włączyć czat głosowy"
+
 msgid "dynamicSquad/invite"
 msgstr "Zaproszenie do plutonu"
 
@@ -2075,6 +2081,9 @@ msgstr ", aby potwierdzić"
 msgid "quickReply/hint/toHelp"
 msgstr ", aby asystować"
 
+msgid "quickReply/hint/toThank"
+msgstr ", by podziękować"
+
 msgid "recovery/cooldown"
 msgstr "Pojazd można opuścić za %(cooldown)s sekund"
 
@@ -2160,8 +2169,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/commander_marina/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
+"Gaming. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/commander_marina/headerText"
 msgstr "Pakiet bytowy „India”"
@@ -2174,8 +2183,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/commander_patrick/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
+"Gaming. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/commander_patrick/headerText"
 msgstr "Pakiet bytowy Juliett"
@@ -2187,7 +2196,7 @@ msgid "rewardWindow/countLabel"
 msgstr "x{count}"
 
 msgid "rewardWindow/lootbox/btnLabel"
-msgstr "Do pudełek"
+msgstr "Przejdź do pudełek"
 
 msgid "rewardWindow/lootbox/descText"
 msgstr "Otrzymałeś duże pudełka z cennymi nagrodami."
@@ -2196,9 +2205,7 @@ msgid "rewardWindow/lootbox/headerText"
 msgstr "Otrzymałeś pudełka!"
 
 msgid "rewardWindow/lootbox/isFreeDescText"
-msgstr ""
-"Otrzymałeś małe pudełka z cennymi nagrodami za ukończenie misji operacji "
-"świątecznych."
+msgstr "Otrzymałeś małe pudełka z cennymi nagrodami za ukończenie misji."
 
 msgid "rewardWindow/lootbox/winHeaderText"
 msgstr "Czas się dowiedzieć, co jest w pudełku!"
@@ -2359,6 +2366,20 @@ msgstr "Zestaw Queen Maeve"
 msgid "rewardWindow/twitch17/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch18/btnLabel"
+msgstr "Rekrutuj"
+
+msgid "rewardWindow/twitch18/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Prime Gaming. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch18/headerText"
+msgstr "Kolekcja jemiołowa"
+
+msgid "rewardWindow/twitch18/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch2/btnLabel"
 msgstr "TAK JEST!"
 
@@ -2378,8 +2399,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch3/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
+"Gaming. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch3/headerText"
 msgstr "Pakiet bytowy „Echo”"
@@ -2392,8 +2413,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch4/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
+"Gaming. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch4/headerText"
 msgstr "Pakiet bytowy „Foxtrot”"
@@ -2406,8 +2427,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch5/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
+"Gaming. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch5/headerText"
 msgstr "Pakiet bytowy „Golf”"
@@ -2420,8 +2441,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch6/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
+"Gaming. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch6/headerText"
 msgstr "Pakiet bytowy „Hotel”"
@@ -2434,8 +2455,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch7/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
+"Gaming. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch7/headerText"
 msgstr "Pakiet bytowy „Kilo”"
@@ -2448,8 +2469,8 @@ msgstr "Rekrutuj!"
 
 msgid "rewardWindow/twitch8/descText"
 msgstr ""
-"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime Gaming."
-" A teraz dobrze go wykorzystaj."
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia powiązany z Prime "
+"Gaming. A teraz dobrze go wykorzystaj."
 
 msgid "rewardWindow/twitch8/headerText"
 msgstr "Pakiet bytowy „Lima”"
