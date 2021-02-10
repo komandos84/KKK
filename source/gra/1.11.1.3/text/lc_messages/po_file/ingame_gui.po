@@ -2014,6 +2014,20 @@ msgstr "Kolekcja jemiołowa"
 msgid "rewardWindow/twitch18/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch19/btnLabel"
+msgstr "Więcej"
+
+msgid "rewardWindow/twitch19/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Prime Gaming. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch19/headerText"
+msgstr "Kolekcja „Duża zdobycz”"
+
+msgid "rewardWindow/twitch19/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch2/btnLabel"
 msgstr "TAK JEST!"
 
