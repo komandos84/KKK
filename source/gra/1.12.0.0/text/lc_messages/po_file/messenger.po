@@ -877,9 +877,7 @@ msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
 msgstr "Wybierz pojazd VIII poziomu"
 
 msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
-msgstr ""
-"Głównym celem jest\n"
-"zostać ostatnim aktywnym plutonem."
+msgstr "Głównym celem jest zostać ostatnim aktywnym plutonem."
 
 msgid "dialogs/squadChannel/headerMsg/epicBattleFormationRestriction"
 msgstr ""
@@ -1480,6 +1478,9 @@ msgstr ""
 "To są pojazdy specjalne dla „Stalowego łowcy”. Wejdź do „Stalowego łowcy”, "
 "by przekonać się, do czego są zdolne."
 
+msgid "serviceChannelMessages/BRbattleResults/battlePass"
+msgstr "Otrzymane punkty przepustki bitewnej: %(pointsDiff)s"
+
 msgid "serviceChannelMessages/BRbattleResults/ended"
 msgstr "Pojazd zniszczony"
 
@@ -1649,31 +1650,33 @@ msgstr ""
 "Nagroda za osiągnięcie limitu punktów: %(bonusPoints)s.\n"
 "Walcz w innym pojeździe, aby nadal zdobywać punkty."
 
+msgid "serviceChannelMessages/battlePass/styleChoiceAvailable/button"
+msgstr "Wybierz styl"
+
+msgid "serviceChannelMessages/battlePass/styleChoiceAvailable/text"
+msgstr ""
+"Wybierz styl w rozdziale %(chapter)s. Można go zastosować na pojeździe "
+"bezzwłocznie i ulepszyć podczas postępów w Przepustce bitewnej."
+
+msgid "serviceChannelMessages/battlePass/styleChosen/header"
+msgstr "Gratulacje!"
+
+msgid "serviceChannelMessages/battlePass/styleChosen/text"
+msgstr ""
+"Otrzymano styl %(name)s. Można go zastosować na pojeździe bezzwłocznie i "
+"ulepszyć podczas postępów w Przepustce bitewnej."
+
 msgid "serviceChannelMessages/battlePass/trophySelectToken"
 msgstr "Wyposażenie z nagród do wyboru"
 
-msgid "serviceChannelMessages/battlePassReward/battle/base/text"
-msgstr ""
-"Ukończyłeś etap głównego postępu %(newLevel)s.\n"
-"Otrzymana nagroda:"
-
-msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
-msgstr "Do zobaczenia w kolejnym sezonie Przepustki bitewnej."
-
 msgid "serviceChannelMessages/battlePassReward/battle/final/text"
 msgstr ""
-"Ukończyłeś ostatni etap elitarnego postępu!\n"
+"Ukończyłeś wszystkie rozdziały %(season)s sezonu Przepustki bitewnej!\n"
 "Otrzymana nagroda:"
 
-msgid "serviceChannelMessages/battlePassReward/battle/finalBase/additionalText"
-msgstr "Dodatkowo masz teraz dostęp do elitarnego postępu."
-
-msgid "serviceChannelMessages/battlePassReward/battle/finalBase/text"
-msgstr "Ukończyłeś główny postęp. Czas wybrać Twoją nagrodę!"
-
-msgid "serviceChannelMessages/battlePassReward/battle/post/text"
+msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
 msgstr ""
-"Ukończyłeś etap elitarnego postępu %(newLevel)s.\n"
+"Ukończyłeś %(newLevel)s etap postępu.\n"
 "Otrzymana nagroda:"
 
 msgid "serviceChannelMessages/battlePassReward/button"
@@ -1682,23 +1685,27 @@ msgstr "Szczegóły"
 msgid "serviceChannelMessages/battlePassReward/buy/gold"
 msgstr "Wydane złoto:"
 
-msgid "serviceChannelMessages/battlePassReward/buyProgress/postText"
+msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
 msgstr ""
-"Dodane etapy: %(countLevels)s\n"
-"Osiągnąłeś etap elitarnego postępu %(currentLevel)s.\n"
-"Otrzymane nagrody:"
+"Otrzymasz teraz podstawowe i ulepszone nagrody za wszystkie rozdziały sezonu."
 
 msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
 msgstr ""
-"Dodane etapy: %(countLevels)s\n"
-"Osiągnąłeś etap %(currentLevel)s.\n"
+"Etapy dodane w %(chapter)s rozdziale: %(levelCount)s\n"
+"Osiągnąłeś %(currentLevel)s etap.\n"
 "Otrzymane nagrody:"
+
+msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
+msgstr "Ta ulepszona przepustka działa tylko dla %(chapter)s rozdziału."
 
 msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
 msgstr "Otrzymałeś nagrody za ukończone wcześniej etapy Przepustki bitewnej:"
 
 msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
-msgstr "Teraz będziesz otrzymywać zarówno podstawowe, jak i ulepszone nagrody."
+msgstr ""
+"Otrzymasz teraz nagrody ze ścieżek podstawowych i ulepszonych nagród w "
+"rozdziale %(chapter)s.\n"
+"Ta ulepszona przepustka działa tylko dla %(chapter)s rozdziału."
 
 msgid "serviceChannelMessages/battlePassReward/header/buyBP"
 msgstr "Kupiono ulepszoną przepustkę"
@@ -1715,9 +1722,6 @@ msgstr "Przyznano nagrodę"
 msgid "serviceChannelMessages/battlePassReward/tman"
 msgstr "Członek załogi:"
 
-msgid "serviceChannelMessages/battlePassReward/voting/text"
-msgstr "Za ukończenie ostatniego etapu głównego postępu otrzymałeś:"
-
 msgid "serviceChannelMessages/battleResults/achieves"
 msgstr "Osiągnięcia w walce"
 
@@ -1726,6 +1730,9 @@ msgstr "Otrzymano %s w promocji '%s'"
 
 msgid "serviceChannelMessages/battleResults/actions"
 msgstr "Otrzymano %s w promocji '%s'"
+
+msgid "serviceChannelMessages/battleResults/actionsResultsBpcoin"
+msgstr "%s żetonów"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsCredits"
 msgstr "Kredyty: %s"
@@ -1746,7 +1753,10 @@ msgid "serviceChannelMessages/battleResults/battle"
 msgstr "Bitwa"
 
 msgid "serviceChannelMessages/battleResults/battlePass"
-msgstr "Otrzymane punkty postępu: %(pointsDiff)s"
+msgstr "Otrzymane punkty Przepustki bitewnej: %(pointsDiff)s"
+
+msgid "serviceChannelMessages/battleResults/bpcoin"
+msgstr "Otrzymane żetony"
 
 msgid "serviceChannelMessages/battleResults/button"
 msgstr "Szczegóły"
@@ -1849,8 +1859,14 @@ msgstr "Misja zrealizowana! Nagroda"
 msgid "serviceChannelMessages/battleResults/quests/achievements"
 msgstr "Przebieg służby"
 
+msgid "serviceChannelMessages/battleResults/quests/battlePassPoints"
+msgstr "Otrzymane punkty przepustki bitewnej: %(value)s"
+
 msgid "serviceChannelMessages/battleResults/quests/berths"
 msgstr "W koszarach dodano łóżka"
+
+msgid "serviceChannelMessages/battleResults/quests/bpcoin"
+msgstr "Dodane żetony"
 
 msgid "serviceChannelMessages/battleResults/quests/credits"
 msgstr "Dodane kredyty"
@@ -2055,6 +2071,52 @@ msgstr ""
 "Usunięto jedno miejsce na wykluczone mapy. Mapa %(mapNames)s jest z powrotem "
 "w obiegu."
 
+msgid "serviceChannelMessages/blackMarketItemAutoOpen/header"
+msgstr "Предложения акции"
+
+msgid "serviceChannelMessages/blackMarketItemAutoOpen/text"
+msgstr "Начислено предложение из текущей акции"
+
+msgid "serviceChannelMessages/blackMarketItemFirstOpen/text"
+msgstr "Товар куплен. Скоро он подъедет"
+
+msgid "serviceChannelMessages/blackMarketItemNextOpen/header"
+msgstr "Новое предложение"
+
+msgid "serviceChannelMessages/blackMarketItemNextOpen/text"
+msgstr "Потрачено средств"
+
+msgid "serviceChannelMessages/blackMarketItemReceived/header"
+msgstr "Товар приобретён"
+
+msgid "serviceChannelMessages/blackMarketItemReceived/text"
+msgstr ""
+"Дата: %(date)s\n"
+"Товар приобретён. Теперь можно зайти в ангар и посмотреть машину"
+
+msgid "serviceChannelMessages/blackMarketItemSysMessage/text"
+msgstr "Обрати внимание на то, что товар можно просмотреть в предпросмотре"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/begin"
+msgstr ""
+"Promocja rozpoczęta!\n"
+"Tylko przez 10 dni, wymieniaj swoje schematy na inne wartościowe przedmioty."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/button"
+msgstr "Szczegóły"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/end"
+msgstr "Promocja zakończona"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/header"
+msgstr "Wymień swoje schematy"
+
+msgid "serviceChannelMessages/blueprintsConvertSale/pause"
+msgstr "Wymiana schematów jest niedostępna ze względu na prace techniczne."
+
+msgid "serviceChannelMessages/blueprintsConvertSale/restore"
+msgstr "Wymiana schematów przywrócona."
+
 msgid "serviceChannelMessages/boosterDisabled"
 msgstr ""
 "Rezerwa osobista \"%(boosterName)s\" została wyłączona z powodów "
@@ -2102,6 +2164,9 @@ msgstr "Aukcja"
 msgid "serviceChannelMessages/currencyUpdate/date"
 msgstr "Data"
 
+msgid "serviceChannelMessages/currencyUpdate/debited/bpcoin"
+msgstr "Usunięte żetony"
+
 msgid "serviceChannelMessages/currencyUpdate/debited/credits"
 msgstr "Odliczono kredyty"
 
@@ -2116,6 +2181,9 @@ msgstr "Potrącono złota"
 
 msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
 msgstr "Transakcja finansowa"
+
+msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
+msgstr "Otrzymane żetony"
 
 msgid "serviceChannelMessages/currencyUpdate/received/credits"
 msgstr "Kredytów"
@@ -2361,8 +2429,17 @@ msgstr "Usunięto łóżka z koszar"
 msgid "serviceChannelMessages/invoiceReceived/boosters"
 msgstr "Rezerwy osobiste"
 
+msgid "serviceChannelMessages/invoiceReceived/bpcoinAccrued"
+msgstr "Dodane żetony"
+
+msgid "serviceChannelMessages/invoiceReceived/bpcoinDebited"
+msgstr "Usunięte żetony"
+
 msgid "serviceChannelMessages/invoiceReceived/compensation"
 msgstr "Kompensacja za"
+
+msgid "serviceChannelMessages/invoiceReceived/compensation/bpcoin"
+msgstr "żetonami"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/camouflage"
 msgstr "Kamuflaż"
@@ -2944,11 +3021,19 @@ msgstr ""
 "Udało się kupić „%(itemName)s” %(itemType)s.\n"
 "Wydano %(money)s."
 
+msgid "serviceChannelMessages/sysMsg/customization/buyProgressionStyle"
+msgstr ""
+"Zakupiono styl %(name)s %(level)s poziomu.\n"
+"Wydano %(money)s."
+
 msgid "serviceChannelMessages/sysMsg/customization/change"
 msgstr "Zmieniono elementy dostosowania wyglądu pojazdu."
 
 msgid "serviceChannelMessages/sysMsg/customization/item"
 msgstr "%(itemType)s „%(itemName)s” (%(count)s szt.)"
+
+msgid "serviceChannelMessages/sysMsg/customization/item/progressionStyle"
+msgstr "Poziom %(level)s stylu %(styleName)s"
 
 msgid "serviceChannelMessages/sysMsg/customization/remove"
 msgstr "Elementy dostosowania wyglądu usunięto z pojazdu."
@@ -3006,9 +3091,6 @@ msgid "serviceChannelMessages/sysMsg/removeCustomizations"
 msgstr ""
 "Ze względu na wymianę modułów, z pojazdu %(vehicle)s zostały usunięte "
 "następujące elementy dostosowania wyglądu zewnętrznego."
-
-msgid "serviceChannelMessages/sysMsg/titles/bobBattlesAvailable"
-msgstr "Bitwy Starcia Drużyn są dostępne"
 
 msgid "serviceChannelMessages/sysMsg/titles/customization"
 msgstr "Personalizacja:"
