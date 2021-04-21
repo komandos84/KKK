@@ -3304,6 +3304,12 @@ msgstr "Problemy techniczne zostały rozwiązane. Przepraszamy za niedogodności
 msgid "squad_bonus/switch_on/title"
 msgstr "Bonus dla plutonu jest ponownie dostępny"
 
+msgid "steam_login_not_allowed"
+msgstr ""
+"Nie możesz wykorzystać tej aplikacji do gry: Twoje konto Steam jest już "
+"połączone z kontem Wargaming.net. Więcej informacji znajdziesz we Wsparciu "
+"gracza."
+
 msgid "techtree/action/expireTime"
 msgstr "%(days)s dn."
 
@@ -3325,9 +3331,7 @@ msgstr ""
 "stan swojej subskrypcji Prime Gaming."
 
 msgid "telecom/notifications/vehicleBlocked/subcomment/default"
-msgstr ""
-"Причина: блокировка услуги провайдером. Проверьте статус услуги в личном "
-"кабинете %(provider)s."
+msgstr "?empty?"
 
 msgid "telecom/notifications/vehicleBlocked/title/default"
 msgstr "Pojazd niedostępny"
@@ -3366,7 +3370,7 @@ msgstr ""
 msgid "telecom/notifications/vehicleRemoved/subcomment/default"
 msgstr ""
 "Причина: отключение на вашем аккаунте опции World of Tanks в тарифе "
-"«%(tariff)s»."
+"«Игровой»."
 
 msgid "telecom/notifications/vehicleRemoved/title/default"
 msgstr "Usunięto czołgi"
