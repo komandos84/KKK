@@ -3123,6 +3123,9 @@ msgstr "Sprzedano:"
 msgid "serviceChannelMessages/sysMsg/titles/upgrade"
 msgstr "Ulepszenie wyposażenia"
 
+msgid "serviceChannelMessages/sysMsg/titles/weekendBrawlAvailable"
+msgstr "Bitwy Bijatyki są dostępne"
+
 msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
 msgstr "Otrzymano konto premium WoT na %(days)d dzień/dni."
 
