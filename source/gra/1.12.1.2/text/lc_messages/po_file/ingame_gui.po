@@ -2079,6 +2079,20 @@ msgstr "Zestaw „G.I. JOE: Cobra”"
 msgid "rewardWindow/twitch21/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch22/btnLabel"
+msgstr "Więcej"
+
+msgid "rewardWindow/twitch22/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Prime Gaming. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch22/headerText"
+msgstr "Zestaw Rock Out!"
+
+msgid "rewardWindow/twitch22/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch3/btnLabel"
 msgstr "Rekrutuj!"
 
