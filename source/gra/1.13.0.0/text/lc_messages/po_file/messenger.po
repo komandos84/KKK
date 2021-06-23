@@ -1689,6 +1689,9 @@ msgid "serviceChannelMessages/battlePassReward/buyMultiple/text"
 msgstr ""
 "Otrzymasz teraz podstawowe i ulepszone nagrody za wszystkie rozdziały sezonu."
 
+msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
+msgstr "końcowy"
+
 msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
 msgstr ""
 "Etapy dodane w %(chapter)s rozdziale: %(levelCount)s\n"
@@ -2583,6 +2586,15 @@ msgstr "Odjęte dni konta premium Wargaming"
 msgid "serviceChannelMessages/invoiceReceived/premium_account"
 msgstr "Konto premium Wargaming"
 
+msgid "serviceChannelMessages/invoiceReceived/purchase/received_from"
+msgstr "Przedmioty z"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_dlc"
+msgstr "DLC na Steam"
+
+msgid "serviceChannelMessages/invoiceReceived/purchase/title/steam_inventory"
+msgstr "Ekwipuneku na Steam"
+
 msgid "serviceChannelMessages/invoiceReceived/rankedBonusBattlesAccrued"
 msgstr "Dodano bitwy bonusowe"
 
@@ -2688,6 +2700,55 @@ msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
 msgstr ""
 "Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy nagrody za Operacje "
 "świąteczne"
+
+msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
+msgstr "Do ankiety"
+
+msgid "serviceChannelMessages/mapbox/congrats/title"
+msgstr "Gratulacje!"
+
+msgid "serviceChannelMessages/mapbox/crewbookRequestError"
+msgstr "Błąd podczas wybierania nagród. Spróbuj ponownie."
+
+msgid "serviceChannelMessages/mapbox/eventEnded/text"
+msgstr ""
+"Misja zwiadowcza zakończyła się. Wszystkie nagrody nieodebrane w czasie "
+"wydarzenia zostały dodane do Twojego konta:"
+
+msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
+msgstr ""
+"Misja zwiadowcza zakończyła się.\n"
+"\n"
+"Dziękujemy za Twój wkład w rozwój nowych map!"
+
+msgid "serviceChannelMessages/mapbox/eventStarted"
+msgstr ""
+"Misja zwiadowcza rozpoczęła się.\n"
+"\n"
+"Walcz na projektowanych mapach, wybierz najlepszą i otrzymaj nagrody!"
+
+msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
+msgstr "Nagroda finałowa:"
+
+msgid "serviceChannelMessages/mapbox/progressionStageCompleted"
+msgstr ""
+"Liczba rozegranych przez Ciebie bitew w trakcie Misji zwiadowczej: "
+"%(battles)s."
+
+msgid "serviceChannelMessages/mapbox/rewardReceived"
+msgstr "Otrzymano nagrodę:"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
+msgstr "Możesz zagłosować na najlepszą mapę w Misji zwiadowczej."
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
+msgstr "Ankieta jest dostępna"
+
+msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
+msgstr "Możesz wypełnić ankietę na temat mapy %(mapName)s w Misji zwiadowczej."
+
+msgid "serviceChannelMessages/mapbox/surveyRequest"
+msgstr "Pamiętaj, aby podzielić się swoją opinią w ankietach."
 
 msgid "serviceChannelMessages/nonSelectedDevices/button"
 msgstr "Wybierz"
@@ -2816,6 +2877,9 @@ msgstr ""
 "Walcz w bitwach i zdobywaj nagrody. Im więcej walczysz, tym bliżej jesteś "
 "nagrody."
 
+msgid "serviceChannelMessages/quotedTextTemplate"
+msgstr "„%(text)s”"
+
 msgid "serviceChannelMessages/rankedFinaleAwardsNotification/big/awardsTitle"
 msgstr "Otrzymano zaawansowaną nagrodę:"
 
@@ -2873,6 +2937,12 @@ msgstr "Dodano złoto za niewykorzystany czas wypożyczenia %(vehicleName)s"
 
 msgid "serviceChannelMessages/rentalsExpired"
 msgstr "Czas wypożyczenia %(vehicleName)s zakończył się."
+
+msgid "serviceChannelMessages/selectableCrewbook/brochure"
+msgstr "Książeczki szkoleniowe do wyboru"
+
+msgid "serviceChannelMessages/selectableCrewbook/guide"
+msgstr "Przewodniki szkoleniowe do wyboru"
 
 msgid "serviceChannelMessages/serverDowntimeCompensation/camouflages"
 msgstr "Kamuflaż"
@@ -3122,9 +3192,6 @@ msgstr "Sprzedano:"
 
 msgid "serviceChannelMessages/sysMsg/titles/upgrade"
 msgstr "Ulepszenie wyposażenia"
-
-msgid "serviceChannelMessages/sysMsg/titles/weekendBrawlAvailable"
-msgstr "Bitwy Bijatyki są dostępne"
 
 msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
 msgstr "Otrzymano konto premium WoT na %(days)d dzień/dni."

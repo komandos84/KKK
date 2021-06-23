@@ -403,6 +403,24 @@ msgstr ""
 "Usunięto odznakę %(badgeName)s ze względu na koniec sezonu Przepustki "
 "bitewnej."
 
+msgid "battlePass/gameModeEnabled/body/22"
+msgstr ""
+"Dowódcy! Pamiętajcie, że możecie zdobywać punkty Przepustki bitewnej w "
+"bitwach rankingowych!"
+
+msgid "battlePass/gameModeEnabled/body/27"
+msgstr ""
+"Dowódcy! Pamiętajcie, że możecie zdobywać punkty Przepustki bitewnej na "
+"Linii frontu!"
+
+msgid "battlePass/gameModeEnabled/body/37"
+msgstr ""
+"Dowódcy! Pamiętajcie, że możecie zdobywać punkty Przepustki bitewnej w Misji "
+"zwiadowczej!"
+
+msgid "battlePass/gameModeEnabled/header"
+msgstr "Przepustka bitewna, sezon %(seasonNum)d"
+
 msgid "battlePass/ranked/disabled"
 msgstr ""
 "Przepustka bitewna jest chwilowo niedostępna w bitwach rankingowych z powodu "
@@ -415,6 +433,26 @@ msgstr ""
 
 msgid "battlePass/rewardChoice/error"
 msgstr "Błąd przy wybieraniu nagród. Spróbuj ponownie."
+
+msgid "battlePass/seasonEnd/rewards/blueprints"
+msgstr "Otrzymano schematy: %(name)s"
+
+msgid "battlePass/seasonEnd/rewards/crewBook"
+msgstr "Otrzymano %(name)s"
+
+msgid "battlePass/seasonEnd/rewards/device"
+msgstr "Otrzymano wyposażenie standardowe: %(name)s"
+
+msgid "battlePass/seasonEnd/rewards/style"
+msgstr "Otrzymano styl: %(name)s"
+
+msgid "battlePass/seasonEnd/rewards/trophy"
+msgstr "Otrzymano wyposażenie z nagród: %(name)s"
+
+msgid "battlePass/seasonEnd/text"
+msgstr ""
+"Sezon Przepustki bitewnej skończył się. Wszystkie niewybrane w trakcie "
+"sezonu nagrody, zostały Ci przyznane domyślnie:"
 
 msgid "battlePass/switch_disable/battle_royale/body"
 msgstr ""
@@ -2063,6 +2101,9 @@ msgstr ""
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Działanie jest tymczasowo niedostępne. Spróbuj ponownie później."
 
+msgid "mapbox/notification/primeTime"
+msgstr "Misja zwiadowcza jest niedostępna do czasu zakończenia ciszy nocnej."
+
 msgid "maps_black_list/select/server_error"
 msgstr "Błąd serwera"
 
@@ -2612,9 +2653,6 @@ msgstr "Pojazd nie nadaje się do tej bitwy."
 msgid "prebattle/teamInvalid/observers"
 msgstr "Wszyscy członkowie drużyny nie mogą być widzami."
 
-msgid "prebattle/vehicleInvalid/bobOnly"
-msgstr "Wybrany pojazd jest odpowiedni wyłącznie do Starcia Drużyn."
-
 msgid "prebattle/vehicleInvalid/epicOnly"
 msgstr "Wybrany pojazd jest odpowiedni tylko dla Linii frontu."
 
@@ -2671,9 +2709,6 @@ msgstr "Nie można dołączyć do drużyny."
 
 msgid "prebattle/vehicleInvalid/vehicleNotSupported"
 msgstr "Niekompatybilny pojazd"
-
-msgid "prebattle/vehicleInvalid/weekendBrawlOnly"
-msgstr "Wybrany pojazd jest odpowiedni tylko dla trybu „Bijatyka”."
 
 msgid "prebattle_start_failed/kickedFromQueue/deafult"
 msgstr ""
