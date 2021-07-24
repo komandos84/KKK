@@ -2798,6 +2798,9 @@ msgstr "Do koszar"
 msgid "serviceChannelMessages/notrecruitedTankman/removedTankmen"
 msgstr "Usunięci członkowie załogi: %(count)s"
 
+msgid "serviceChannelMessages/offerTokenBonus/title"
+msgstr "Zaopatrzenie Ostatniej granicy"
+
 msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
 msgstr "Rozpoczął się nowy cykl zbierania."
 
