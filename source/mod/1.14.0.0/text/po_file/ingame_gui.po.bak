@@ -867,9 +867,6 @@ msgstr "Unieruchomienie: cała załoga ranna"
 msgid "player_errors/cant_move/engine_damaged"
 msgstr "Unieruchomienie: silnik uszkodzony"
 
-msgid "player_errors/cant_move/vehicle_destroyed"
-msgstr "Unieruchomiony: pojazd zniszczony."
-
 msgid "player_errors/cant_shoot/crew_inactive"
 msgstr "Brak możliwości oddania strzału: cała załoga ranna"
 
@@ -947,20 +944,11 @@ msgstr ""
 msgid "player_messages/COMBAT_EQUIPMENT_READY_INSPIRE"
 msgstr "Nasza załoga jest gotowa zainspirować innych wokół siebie."
 
-msgid "player_messages/COMBAT_EQUIPMENT_READY_MINEFIELD_EPIC"
-msgstr "Pole minowe jest gotowe do rozłożenia."
-
 msgid "player_messages/COMBAT_EQUIPMENT_READY_RECON"
 msgstr "Samolot nadlatuje i jest gotowy do wykrywania."
 
-msgid "player_messages/COMBAT_EQUIPMENT_READY_REGENERATION_KIT_EPIC"
-msgstr "Naprawa polowa jest gotowa do użycia."
-
 msgid "player_messages/COMBAT_EQUIPMENT_READY_SMOKE"
 msgstr "Bateria dymna rozlokowana i gotowa do wystrzału."
-
-msgid "player_messages/COMBAT_EQUIPMENT_READY_STEALTH_RADAR"
-msgstr "Stróż jest gotowy do użycia."
 
 msgid "player_messages/COMBAT_EQUIPMENT_USED_ARTILLERY"
 msgstr ""
@@ -980,20 +968,11 @@ msgstr "%(player)s tworzy strefę regeneracji."
 msgid "player_messages/COMBAT_EQUIPMENT_USED_INSPIRE"
 msgstr "%(player)s aktywuje Inspirację."
 
-msgid "player_messages/COMBAT_EQUIPMENT_USED_MINEFIELD_EPIC"
-msgstr "%(player)s położył pole minowe."
-
 msgid "player_messages/COMBAT_EQUIPMENT_USED_RECON"
 msgstr "Lot zwiadowczy gracza %(player)s w drodze."
 
-msgid "player_messages/COMBAT_EQUIPMENT_USED_REGENERATION_KIT_EPIC"
-msgstr "%(player)s użył naprawy polowej."
-
 msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
 msgstr "%(player)s uruchamia zasłonę dymną."
-
-msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
-msgstr "%(player)s jest zamaskowany."
 
 msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
 msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
@@ -1969,23 +1948,6 @@ msgstr "Pojazd został rozbity."
 
 msgid "postmortem_messages/DEATH_UNKNOWN"
 msgstr "Twój pojazd został zniszczony"
-
-msgid "prebattleAmmunitionPanel/currentSetup"
-msgstr "Wybrana konfiguracja jest używana w bitwie:"
-
-msgid "prebattleAmmunitionPanel/footer"
-msgstr ""
-"Wybierz konfigurację, która będzie użyta w bitwie, zanim skończy się "
-"odliczanie."
-
-msgid "prebattleAmmunitionPanel/header"
-msgstr "Wybierz konfigurację"
-
-msgid "prebattleAmmunitionPanel/loadingTimer"
-msgstr "Wybór konfiguracji: {seconds} s"
-
-msgid "prebattleAmmunitionPanel/waitinForPlayers"
-msgstr "Wybór konfiguracji:"
 
 msgid "prebattlemarker/prebattlemarker_0"
 msgstr "Jar"
