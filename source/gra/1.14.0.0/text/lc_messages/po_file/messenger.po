@@ -1744,7 +1744,7 @@ msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
 msgstr "%s obligacji"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
-msgstr "%s jubileuszowych monet"
+msgstr "%s kuponów na prezent"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
 msgstr "Wolne doświadczenie: %s"
@@ -1797,11 +1797,8 @@ msgstr "Bitwa skończyła się"
 msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
 msgstr "Punkty rezerw bojowych"
 
-msgid "serviceChannelMessages/battleResults/epicRewardPoints"
-msgstr "Żetony"
-
 msgid "serviceChannelMessages/battleResults/eventCoin"
-msgstr "Otrzymano jubileuszowe monety"
+msgstr "Otrzymano kupony na prezent"
 
 msgid "serviceChannelMessages/battleResults/experience"
 msgstr "Doświadczenia"
@@ -1884,7 +1881,7 @@ msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
 msgstr " (%(count)s)"
 
 msgid "serviceChannelMessages/battleResults/quests/eventCoin"
-msgstr "Dodano jubileuszowe monety"
+msgstr "Dodano kupony na prezent"
 
 msgid "serviceChannelMessages/battleResults/quests/freeXP"
 msgstr "Dodane wolne doświadczenie"
@@ -2151,7 +2148,7 @@ msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
 msgstr "Utracono obligacje"
 
 msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
-msgstr "Usunięto jubileuszowe monety"
+msgstr "Usunięto kupony na prezent"
 
 msgid "serviceChannelMessages/currencyUpdate/debited/gold"
 msgstr "Potrącono złota"
@@ -2169,7 +2166,7 @@ msgid "serviceChannelMessages/currencyUpdate/received/crystal"
 msgstr "Otrzymano obligacje"
 
 msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
-msgstr "Otrzymano jubileuszowe monety"
+msgstr "Otrzymano kupony na prezent"
 
 msgid "serviceChannelMessages/currencyUpdate/received/gold"
 msgstr "Uzyskano złota"
@@ -2227,7 +2224,7 @@ msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
 msgstr "Eksperymentalne moduły zdemontowane z następujących pojazdów"
 
 msgid "serviceChannelMessages/eventCoinReceivedAsGift"
-msgstr "Przyznano Ci jubileuszowe monety: %(eventCoin)s."
+msgstr "Przyznano Ci kupony na prezent: %(eventCoin)s."
 
 msgid "serviceChannelMessages/failedPersonalMission"
 msgstr "Zerowanie postępów"
@@ -2245,15 +2242,6 @@ msgstr "Misja: %(missionName)s"
 
 msgid "serviceChannelMessages/failedPersonalMission/operation"
 msgstr "Operacja: %(operation)s"
-
-msgid "serviceChannelMessages/flExchange/quests"
-msgstr "Wymiana zakończona powodzeniem"
-
-msgid "serviceChannelMessages/flExchange/quests/points"
-msgstr "Wydane żetony stopnia"
-
-msgid "serviceChannelMessages/flExchange/quests/reward"
-msgstr "Otrzymano"
 
 msgid "serviceChannelMessages/fort/ATTACK_PLANNED"
 msgstr ""
@@ -2437,7 +2425,7 @@ msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
 msgstr "Emblemat"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
-msgstr "z jubileuszowymi monetami"
+msgstr "z kuponami na prezent"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
 msgstr "złota"
@@ -2524,10 +2512,10 @@ msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
 msgstr "Usunięto"
 
 msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
-msgstr "Dodano jubileuszowe monety"
+msgstr "Dodano kupony na prezent"
 
 msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
-msgstr "Usunięto jubileuszowe monety"
+msgstr "Usunięto kupony na prezent"
 
 msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
 msgstr "Dodano rozkazy"
@@ -2908,7 +2896,7 @@ msgid "serviceChannelMessages/rankedFinaleAwardsNotification/small/awardsTitle"
 msgstr "Otrzymano małą nagrodę:"
 
 msgid "serviceChannelMessages/rankedFinaleAwardsNotification/text"
-msgstr "Zdobyte żetony stopnia w 2020–2021: %(points)s."
+msgstr "Zdobyto %(points)s żeton(ów) stopnia w latach 2021–2022."
 
 msgid "serviceChannelMessages/rankedFinaleAwardsNotification/title"
 msgstr "Nagroda roczna"
@@ -3017,10 +3005,10 @@ msgid "serviceChannelMessages/sysMsg/converter/emblems"
 msgstr "Zmieniono emblematy"
 
 msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
-msgstr "Dodane jubileuszowe monety: %(eventCoin)s"
+msgstr "Dodano kupony na prezent: %(eventCoin)s"
 
 msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
-msgstr "Usunięte jubileuszowe monety: %(eventCoin)s"
+msgstr "Usunięto kupony na prezent: %(eventCoin)s"
 
 msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
 msgstr "Otrzymane darmowe doświadczenie: %(freeXP)s"
@@ -3170,7 +3158,7 @@ msgid "serviceChannelMessages/sysMsg/titles/powerlevel"
 msgstr "Opracowano:"
 
 msgid "serviceChannelMessages/sysMsg/titles/primeTime"
-msgstr "Zawieszenia broni"
+msgstr "Zawieszenie broni"
 
 msgid "serviceChannelMessages/sysMsg/titles/purchase"
 msgstr "Zakupiono:"
@@ -3224,6 +3212,16 @@ msgstr ""
 
 msgid "serviceChannelMessages/vehicleLockExpired"
 msgstr "Odblokowany. %(vehicleName)s dostępny do bitwy klanowej."
+
+msgid ""
+"serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/"
+"body"
+msgstr "Dwojakie modyfikacje dla %(vehicle)s anulowane."
+
+msgid ""
+"serviceChannelMessages/vehiclePostProgression/discardAllPairsModification/"
+"title"
+msgstr "Modyfikacja anulowana"
 
 msgid "serviceChannelMessages/vehicleReceivedAsGift"
 msgstr "Otrzymano czołg premium: %(vehicleName)s"
