@@ -205,7 +205,7 @@ msgid "artefact_buy/not_enough_crystal"
 msgstr "Nie można kupić %(kind)s „%(name)s”. Za mało obligacji."
 
 msgid "artefact_buy/not_enough_eventCoin"
-msgstr "Nie można kupić %(kind)s „%(name)s”. Za mało kuponów na prezent."
+msgstr "Nie można kupić %(kind)s „%(name)s”. Za mało jubileuszowych monet."
 
 msgid "artefact_buy/not_enough_gold"
 msgstr ""
@@ -338,13 +338,6 @@ msgstr ""
 "Udało się ulepszyć %(kind)s „%(name)s”. Poprawiono charakterystyki. Wydano: "
 "%(money)s."
 
-msgid "artefact_upgrade/success/analogWasDemounted"
-msgstr ""
-"Udało się ulepszyć %(name)s%(kind)s i charakterystyki się poprawiły. Wydano "
-"%(money)s. \n"
-"\n"
-"Podobne wyposażenie z innego zestawu wysłano do magazynu."
-
 msgid "artefact_upgrade/vehicle_need_repair"
 msgstr ""
 "<font color='#929290'>%(kind)s <font color='#C5AB5D'>'%(name)s'</font> "
@@ -378,7 +371,7 @@ msgstr ""
 "zmniejszenie wagi pojazdu."
 
 msgid "battleBooster_buy/eventCoin_error"
-msgstr "Nie można kupić %(kind)s „%(name)s”. Za mało kuponów na prezent."
+msgstr "Nie można kupić %(kind)s „%(name)s”. Za mało jubileuszowych monet."
 
 msgid "battleBooster_buy/gold_error"
 msgstr "Nie udało się kupić %(kind)s „%(name)s”. Za mało złota."
@@ -397,7 +390,7 @@ msgid "battleBooster_buy/not_enough_crystal"
 msgstr "Nie udało się kupić %(kind)s \"%(name)s\". Za mało obligacji."
 
 msgid "battleBooster_buy/not_enough_eventCoin"
-msgstr "Nie można kupić %(kind)s „%(name)s”. Za mało kuponów na prezent."
+msgstr "Nie można kupić %(kind)s „%(name)s”. Za mało jubileuszowych monet."
 
 msgid "battleBooster_buy/not_enough_gold"
 msgstr "Nie udało się kupić %(kind)s \"%(name)s\". Za mało złota."
@@ -473,6 +466,16 @@ msgstr ""
 msgid "battlePass/gameModeEnabled/header"
 msgstr "Przepustka bitewna, sezon %(seasonNum)d"
 
+msgid "battlePass/ranked/disabled"
+msgstr ""
+"Przepustka bitewna jest chwilowo niedostępna w bitwach rankingowych z powodu "
+"prac technicznych."
+
+msgid "battlePass/ranked/enabled"
+msgstr ""
+"Przepustka bitewna jest znowu dostępna w bitwach rankingowych. Przepraszamy "
+"za niedogodności."
+
 msgid "battlePass/rewardChoice/error"
 msgstr "Błąd przy wybieraniu nagród. Spróbuj ponownie."
 
@@ -509,16 +512,6 @@ msgstr ""
 "Sezon skończył się, ale spotkamy się ponownie w następnym!\n"
 "Styl %(styleName)s można ulepszyć na ekranie Wygląd."
 
-msgid "battlePass/switch_disable/epicBattle/body"
-msgstr ""
-"Przepustka bitewna jest chwilowo niedostępna w bitwach Linii frontu z powodu "
-"prac technicznych."
-
-msgid "battlePass/switch_disable/ranked/body"
-msgstr ""
-"Przepustka bitewna jest chwilowo niedostępna w bitwach rankingowych z powodu "
-"prac technicznych."
-
 msgid "battlePass/switch_disable/title"
 msgstr "Przepustka bitewna, sezon %(seasonNum)d"
 
@@ -526,16 +519,6 @@ msgid "battlePass/switch_enabled/body"
 msgstr ""
 "Przepustka bitewna jest znowu dostępna. Przepraszamy za niedogodności.\n"
 "Sezon przedłużony do %(expiryTime)s."
-
-msgid "battlePass/switch_enabled/epicBattle/body"
-msgstr ""
-"Przepustka bitewna jest znowu dostępna w bitwach Linii frontu. Przepraszamy "
-"za niedogodności."
-
-msgid "battlePass/switch_enabled/ranked/body"
-msgstr ""
-"Przepustka bitewna jest znowu dostępna w bitwach rankingowych. Przepraszamy "
-"za niedogodności."
 
 msgid "battlePass/switch_pause/body"
 msgstr ""
@@ -1123,7 +1106,7 @@ msgstr "Kolekcje znów są dostępne"
 msgid "connected"
 msgstr ""
 "Witaj\n"
-" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.14.0.0</font> <font color='#FF3333'>Automatyk</font>"
+" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.13.0.1</font> <font color='#FF3333'>Automatyk</font>"
 
 msgid "consumables_apply/error"
 msgstr ""
@@ -1475,6 +1458,11 @@ msgstr "Rozdzielczość dynamiczna zwiększona do %(scale)d%%."
 msgid "epicBattles/notification/notAvailable"
 msgstr "Linia frontu jest niedostępna. Śledź wiadomości na portalu gry."
 
+msgid "epicBattles/prestigeTrigger/error"
+msgstr ""
+"Nie można zwiększyć prestiżu ze względu na niski poziom. Spróbuj ponownie "
+"później."
+
 msgid "equip_tankman/FORBIDDEN"
 msgstr ""
 "Nie można przenieść członka załogi, bo ten czołg ma unikalną stałą załogę."
@@ -1494,6 +1482,24 @@ msgstr "Błąd przy przenoszeniu czołgisty do pojazdu. Pojazd zablokowany."
 
 msgid "equip_tankman/vehicle_need_repair"
 msgstr "Błąd przy przenoszeniu czołgisty do pojazdu. Proszę naprawić pojazd."
+
+msgid "event_progression_buy_style/server_error"
+msgstr "Nie można kupić stylu %(name)s"
+
+msgid "event_progression_buy_style/success"
+msgstr ""
+"Data: %(date)s\n"
+"Kupiono styl: %(name)s.\n"
+"Pobrane żetony: %(count)s"
+
+msgid "event_progression_buy_vehicle/server_error"
+msgstr "Nie można kupić %(name)s"
+
+msgid "event_progression_buy_vehicle/success"
+msgstr ""
+"Data: %(date)s\n"
+"Kupiono %(name)s, 100%% załogi oraz miejsce w garażu.\n"
+"Pobrane żetony: %(count)s"
 
 msgid "exchange/not_enough_gold"
 msgstr "Masz zbyt mało złota na wymianę."
@@ -2219,15 +2225,6 @@ msgstr "Problemy techniczne zostały rozwiązane. Przepraszamy za niedogodności
 msgid "maps_black_list/switch_on/title"
 msgstr "Wykluczanie map jest ponownie dostępne"
 
-msgid "maps_training/switch/title"
-msgstr "Topografia"
-
-msgid "maps_training/switch_off/body"
-msgstr "Tryb jest wyłączony."
-
-msgid "maps_training/switch_on/body"
-msgstr "Tryb jest włączony."
-
 msgid "memberRosterChangedMain"
 msgstr "%s promował do drużyny %s."
 
@@ -2861,9 +2858,6 @@ msgstr "Nie można dołączyć do drużyny."
 msgid "prebattle/vehicleInvalid/vehicleNotSupported"
 msgstr "Niekompatybilny pojazd"
 
-msgid "prebattle/vehicleInvalid/willBeUnlockedInBattle"
-msgstr "Wybrany pojazd zostanie odblokowany w czasie bitwy."
-
 msgid "prebattle_start_failed/kickedFromQueue/deafult"
 msgstr ""
 "Nie udało się znaleźć odpowiedniego przeciwnika. Rozważ reorganizację swojej "
@@ -2990,7 +2984,7 @@ msgid "ranked/notifications/bonusName/crystal"
 msgstr "Otrzymane obligacje:"
 
 msgid "ranked/notifications/bonusName/eventCoin"
-msgstr "Otrzymano kupony na prezent:"
+msgstr "Otrzymano jubileuszowe monety:"
 
 msgid "ranked/notifications/bonusName/gold"
 msgstr "Otrzymane złoto:"
@@ -3862,11 +3856,6 @@ msgstr "%(userName)s został wyznaczony na dowódcę drużyny."
 msgid "unit/notification/playerAdded"
 msgstr "%(userName)s dołączył do oddziału."
 
-msgid "unit/notification/playerAddedWithFilter"
-msgstr ""
-"%(userName)s dołączył do plutonu, aby walczyć w pojeździe %(tierRange)s "
-"poziomu."
-
 msgid "unit/notification/playerOffline"
 msgstr "Połącznie z %(userName)s zostało przerwane."
 
@@ -4147,108 +4136,24 @@ msgstr ""
 "%(userString)s</font> potrzebujesz jeszcze </font>%(price)s."
 
 msgid "vehicleComponents/vehicle_not_found_in_inventory"
-msgstr "Pojazdu o nazwie: %(userString)s nie ma w magazynie."
+msgstr ""
+"<font color='#929290'>Pojazdu o nazwie: <font color='#c5ab5d'>%(userString)"
+"s</font> nie ma w magazynie.</font>"
 
 msgid "vehicleComponents/vehicle_not_found_in_shop"
-msgstr "Pojazdu o nazwie: %(userString)s nie ma w sklepie. Spróbuj później."
+msgstr ""
+"<font color='#929290'>Pojazdu o nazwie: <font color='#c5ab5d'>%(userString)"
+"s</font> nie ma w sklepie. Spróbuj później.</font>"
 
 msgid "vehicleComponents/vehicle_unlock_success"
 msgstr ""
-"Czołg %(userString)s został opracowany. Wydano doświadczenia: %(unspentXP)s "
-"pkt., wolnego doświadczenia %(freeXP)s pkt."
-
-msgid "vehiclePostProgression/buyPairModification/body"
-msgstr "Zakupiono modyfikację %(modification)s dla %(vehicle)s."
-
-msgid "vehiclePostProgression/buyPairModification/title"
-msgstr "Zakupiono modyfikację"
-
-msgid "vehiclePostProgression/changeSlotCategory/body"
-msgstr "Nadano kategorię %(category)s dla drugiego miejsca w %(vehicle)s."
-
-msgid "vehiclePostProgression/changeSlotCategory/title"
-msgstr "Nadanie kategorii miejsca"
-
-msgid "vehiclePostProgression/creditsSpent"
-msgstr "Wydane kredyty: %(value)s."
-
-msgid "vehiclePostProgression/discardAllPairsModification/body"
-msgstr "Dwojakie modyfikacje dla %(vehicle)s anulowane."
-
-msgid "vehiclePostProgression/discardPairModification/body"
-msgstr "Anulowano modyfikację %(modification)s dla %(vehicle)s."
-
-msgid "vehiclePostProgression/discardPairModification/title"
-msgstr "Modyfikacja anulowana"
-
-msgid "vehiclePostProgression/discardPairsModification/body"
-msgstr "Anulowano modyfikacje %(modifications)s dla %(vehicle)s."
-
-msgid "vehiclePostProgression/discardPairsModification/modifications/separator"
-msgstr ", "
-
-msgid "vehiclePostProgression/experienceSpent"
-msgstr "Wydane doświadczenie bojowe: %(value)s."
-
-msgid "vehiclePostProgression/freeExperienceSpent"
-msgstr "Wydane wolne doświadczenie: %(value)s."
-
-msgid "vehiclePostProgression/modificationProcessorError/body"
-msgstr "Błąd drzewa modyfikacji. Spróbuj ponownie później."
-
-msgid "vehiclePostProgression/modificationProcessorError/title"
-msgstr "Błąd"
-
-msgid "vehiclePostProgression/researchStep/body"
-msgstr ""
-"Zbadano i kupiono poziom %(level)s standardowej modyfikacji dla %(vehicle)s."
-
-msgid "vehicleComponents/vehicle_not_found_in_shop"
-msgstr ""
-"Zbadano i kupiono poziomy %(levels)s standardowej modyfikacji dla "
-"%(vehicle)s."
-
-msgid "vehiclePostProgression/researchSteps/levels/separator"
-msgstr ", "
-
-msgid "vehiclePostProgression/researchSteps/title"
-msgstr "Zbadano modyfikację"
-
-msgid "vehiclePostProgression/setSlotCategory/body"
-msgstr "Nadano kategorię %(category)s dla drugiego miejsca w %(vehicle)s."
-
-msgid "vehiclePostProgression/setSlotCategory/title"
-msgstr "Nadanie kategorii miejsca"
-
-msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/body"
-msgstr "Wyposażenie pomocnicze dla %(vehicle)s jest już dostępne."
-
-msgid "vehiclePostProgression/unlockFeature/opt_dev_boosters_switch/title"
-msgstr "Wyposażenie pomocnicze"
-
-msgid "vehiclePostProgression/unlockFeature/roleSlot/body"
-msgstr "Nadanie kategorii drugiego miejsca w %(vehicle)s jest już możliwe."
-
-msgid "vehiclePostProgression/unlockFeature/roleSlot/title"
-msgstr "Dostępność kategorii miejsca"
-
-msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/body"
-msgstr "Wyposażenie podstawowe dla %(vehicle)s jest już dostępne."
-
-msgid "vehiclePostProgression/unlockFeature/shells_consumables_switch/title"
-msgstr "Wyposażenie podstawowe"
-
-msgid "vehiclePostProgression/vehiclesUnlockPostProgression/single/body"
-msgstr "Drzewo modyfikacji dla %(vehicle)s jest już dostępne."
-
-msgid "vehiclePostProgression/vehiclesUnlockPostProgression/title"
-msgstr "Ulepszenie polowe"
-
-msgid "vehiclePostProgression/vehiclesUnlockPostProgression/welcomeUnlock/body"
-msgstr ""
-"Drzewo modyfikacji dla pojazdu jest dostępne. Możesz skonfigurować swoje "
-"pojazdy zgodnie z ich rolami i zmieniać ich charakterystyki, używając "
-"różnych modyfikacji."
+"Czołg <font color='#c5ab5d'>%(userString)s</font> został opracowany."
+"<br>Wydano doświadczenia: <font color='#909090'><b>%(unspentXP)s</b></"
+"font>&nbsp;<img src='img://gui/maps/icons/library/Automatyk/XpIcon.png' "
+"width='16' height='16' align='baseline' vspace='-3'/> pkt.,<br>wolnego "
+"doświadczenia %<font color='#ECBF7B'><b>%(freeXP)s</b></font>&nbsp;<img "
+"src='img://gui/maps/icons/library/Automatyk/freexp.png' width='16' "
+"height='16' align='baseline' vspace='-3'/> pkt."
 
 msgid "vehicle_buy/invalid_vehicle"
 msgstr ""
