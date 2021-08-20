@@ -935,8 +935,6 @@ msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/artillery.png' width='16' "
 "height='16' align='baseline' vspace='-4'> <font color='#00FF00'>Bateria "
 "artylerii na pozycji i gotowa do ostrzału</font>"
-msgid "player_messages/COMBAT_EQUIPMENT_READY_ARTILLERYMORTAR"
-msgstr "Ostrzał moździerza jest gotowy"
 
 msgid "player_messages/COMBAT_EQUIPMENT_READY_BOMBER"
 msgstr ""
@@ -1470,8 +1468,6 @@ msgstr ""
 "<font color='#74C500'>%(attacker)s</font> <img src='img://gui/maps/icons/"
 "library/Automatyk/bomber.png' width='29' height='16' align='baseline' "
 "vspace='-4'> <font color='#7D0800'>%(target)s.</font>"
-msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER_ATTACK"
-msgstr "Samolot szturmowy gracza %(attacker)s zniszczył %(target)s."
 
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
 msgstr ""
@@ -2547,6 +2543,20 @@ msgid "rewardWindow/twitch24/headerText"
 msgstr "Zestaw Nowy wygląd"
 
 msgid "rewardWindow/twitch24/subHeaderText"
+msgstr "Otrzymane nagrody"
+
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Więcej"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Prime Gaming. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Zestaw Letnie wibracje"
+
+msgid "rewardWindow/twitch25/subHeaderText"
 msgstr "Otrzymane nagrody"
 
 msgid "rewardWindow/twitch3/btnLabel"

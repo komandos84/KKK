@@ -777,6 +777,9 @@ msgstr "Zamknij"
 msgid "dialogs/createChannel/buttons/create"
 msgstr "Stwórz"
 
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Zostanie utworzona automatycznie"
+
 msgid "dialogs/createChannel/labels/fillPassword"
 msgstr "Wpisz hasło"
 
@@ -1755,7 +1758,7 @@ msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
 msgstr "%s obligacji"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
-msgstr "%s jubileuszowych monet"
+msgstr "%s kuponów na prezent"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
 msgstr ""
@@ -3230,9 +3233,6 @@ msgstr ""
 
 msgid "serviceChannelMessages/sysMsg/titles/upgrade"
 msgstr "Ulepszenie wyposażenia"
-
-msgid "serviceChannelMessages/sysMsg/titles/weekendBrawlAvailable"
-msgstr "Bitwy Bijatyki są dostępne"
 
 msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
 msgstr "Otrzymano konto premium WoT na %(days)d dzień/dni."
