@@ -2183,6 +2183,20 @@ msgstr "Zestaw Nowy wygląd"
 msgid "rewardWindow/twitch24/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch25/btnLabel"
+msgstr "Więcej"
+
+msgid "rewardWindow/twitch25/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Prime Gaming. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch25/headerText"
+msgstr "Zestaw Letnie wibracje"
+
+msgid "rewardWindow/twitch25/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch3/btnLabel"
 msgstr "Rekrutuj!"
 

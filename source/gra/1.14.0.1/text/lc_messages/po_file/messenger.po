@@ -777,6 +777,9 @@ msgstr "Zamknij"
 msgid "dialogs/createChannel/buttons/create"
 msgstr "Stwórz"
 
+msgid "dialogs/createChannel/labels/autoName"
+msgstr "Zostanie utworzona automatycznie"
+
 msgid "dialogs/createChannel/labels/fillPassword"
 msgstr "Wpisz hasło"
 
