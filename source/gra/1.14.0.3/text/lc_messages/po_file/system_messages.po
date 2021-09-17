@@ -542,6 +542,9 @@ msgstr "Błąd. Maksymalna liczba widzów w drużynie: %(numPlayers)s."
 msgid "battlesession/error/AddPlayer"
 msgstr "Błąd. Maksymalna liczba graczy w drużynie: %(numPlayers)s."
 
+msgid "battlesession/error/InsufficientRole"
+msgstr "Błąd. Niewystarczające upoważnienia, by przenosić graczy."
+
 msgid "battlesession/error/Limits"
 msgstr "Błąd. Przekroczono maksymalną liczbę graczy w drużynie."
 

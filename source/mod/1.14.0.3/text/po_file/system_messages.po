@@ -587,6 +587,9 @@ msgstr "Błąd. Maksymalna liczba widzów w drużynie: %(numPlayers)s."
 msgid "battlesession/error/AddPlayer"
 msgstr "Błąd. Maksymalna liczba graczy w drużynie: %(numPlayers)s."
 
+msgid "battlesession/error/InsufficientRole"
+msgstr "Błąd. Niewystarczające upoważnienia, by przenosić graczy."
+
 msgid "battlesession/error/Limits"
 msgstr "Błąd. Przekroczono maksymalną liczbę graczy w drużynie."
 
@@ -1123,7 +1126,7 @@ msgstr "Kolekcje znów są dostępne"
 msgid "connected"
 msgstr ""
 "Witaj\n"
-" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.14.0.2</font> <font color='#FF3333'>Automatyk</font>"
+" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.14.0.3</font> <font color='#FF3333'>Automatyk</font>"
 
 msgid "consumables_apply/error"
 msgstr ""
