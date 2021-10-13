@@ -1758,7 +1758,7 @@ msgid "serviceChannelMessages/battleResults/actionsResultsCrystal"
 msgstr "%s obligacji"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsEventCoin"
-msgstr "%s kuponów na prezent"
+msgstr "%s jubileuszowych monet"
 
 msgid "serviceChannelMessages/battleResults/actionsResultsFreeXP"
 msgstr ""
@@ -1821,7 +1821,7 @@ msgid "serviceChannelMessages/battleResults/epicAbilityPoints"
 msgstr "Punkty rezerw bojowych"
 
 msgid "serviceChannelMessages/battleResults/eventCoin"
-msgstr "Otrzymano kupony na prezent"
+msgstr "Otrzymano jubileuszowe monety"
 
 msgid "serviceChannelMessages/battleResults/experience"
 msgstr "Doświadczenia"
@@ -1874,7 +1874,7 @@ msgstr ""
 "nagrody"
 
 msgid "serviceChannelMessages/battleResults/piggyBank"
-msgstr "Otrzymane zasoby rezerwowe"
+msgstr "Dodaj do Rezerwy kredytów"
 
 msgid "serviceChannelMessages/battleResults/quests"
 msgstr "Misja zrealizowana! Nagroda"
@@ -1904,7 +1904,7 @@ msgid "serviceChannelMessages/battleResults/quests/entitlements/multiplier"
 msgstr " (%(count)s)"
 
 msgid "serviceChannelMessages/battleResults/quests/eventCoin"
-msgstr "Dodano kupony na prezent"
+msgstr "Dodano jubileuszowe monety"
 
 msgid "serviceChannelMessages/battleResults/quests/freeXP"
 msgstr "Dodane wolne doświadczenie"
@@ -2179,7 +2179,7 @@ msgid "serviceChannelMessages/currencyUpdate/debited/crystal"
 msgstr "Utracono obligacje"
 
 msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
-msgstr "Usunięto kupony na prezent"
+msgstr "Usunięto jubileuszowe monety"
 
 msgid "serviceChannelMessages/currencyUpdate/debited/gold"
 msgstr "Potrącono złota"
@@ -2197,7 +2197,7 @@ msgid "serviceChannelMessages/currencyUpdate/received/crystal"
 msgstr "Otrzymano obligacje"
 
 msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
-msgstr "Otrzymano kupony na prezent"
+msgstr "Otrzymano jubileuszowe monety"
 
 msgid "serviceChannelMessages/currencyUpdate/received/gold"
 msgstr "Uzyskano złota"
@@ -2254,14 +2254,8 @@ msgstr "Usunięto wszystkie moduły eksperymentalne"
 msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
 msgstr "Eksperymentalne moduły zdemontowane z następujących pojazdów"
 
-msgid "serviceChannelMessages/event/lootboxes"
-msgstr "Otrzymane Rozruszniki:"
-
-msgid "serviceChannelMessages/event/tickets"
-msgstr "Otrzymane Klucze:"
-
 msgid "serviceChannelMessages/eventCoinReceivedAsGift"
-msgstr "Przyznano Ci kupony na prezent: %(eventCoin)s."
+msgstr "Przyznano Ci jubileuszowe monety: %(eventCoin)s."
 
 msgid "serviceChannelMessages/failedPersonalMission"
 msgstr "Zerowanie postępów"
@@ -2465,7 +2459,7 @@ msgid "serviceChannelMessages/invoiceReceived/compensation/emblem"
 msgstr "Emblemat"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/eventCoin"
-msgstr "z kuponami na prezent"
+msgstr "z jubileuszowymi monetami"
 
 msgid "serviceChannelMessages/invoiceReceived/compensation/gold"
 msgstr "złota"
@@ -2552,10 +2546,10 @@ msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
 msgstr "Usunięto"
 
 msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
-msgstr "Dodano kupony na prezent"
+msgstr "Dodano jubileuszowe monety"
 
 msgid "serviceChannelMessages/invoiceReceived/eventCoinDebited"
-msgstr "Usunięto kupony na prezent"
+msgstr "Usunięto jubileuszowe monety"
 
 msgid "serviceChannelMessages/invoiceReceived/freeAwardListsAccrued"
 msgstr "Dodano rozkazy"
@@ -2674,11 +2668,6 @@ msgstr "Usunięto czołgi"
 msgid "serviceChannelMessages/invoiceReceived/vehiclesRented"
 msgstr "Dodano wypożyczone pojazdy"
 
-msgid "serviceChannelMessages/invoiceReceived/vehiclesRented/bonus"
-msgstr ""
-"Uwaga! Dalsze przedłużenie okresu wypożyczenia będzie dla Ciebie dostępne ze "
-"zniżką."
-
 msgid "serviceChannelMessages/itemReceivedAsGift"
 msgstr ""
 "Otrzymano materiały eksploatacyjne: %(typeName)s „%(itemName)s” - %(amount)d "
@@ -2695,6 +2684,9 @@ msgstr "Otrzymałeś paczkę:"
 
 msgid "serviceChannelMessages/lootBoxes/item/name"
 msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
+msgstr "Obejrzyj"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
 msgstr "x%(count)s"
@@ -2799,10 +2791,10 @@ msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
 msgstr "Rozpoczął się nowy cykl zbierania."
 
 msgid "serviceChannelMessages/piggyBank/onPause"
-msgstr "Zawieszono gromadzenie kredytów w zasobach rezerwowych."
+msgstr "Zawieszono gromadzenie kredytów w Rezerwie kredytów."
 
 msgid "serviceChannelMessages/piggyBank/title"
-msgstr "Zasoby rezerwowe są otwarte!"
+msgstr "Rezerwa kredytów jest otwarta!"
 
 msgid "serviceChannelMessages/prebattle/battleType/clan"
 msgstr "Bitwa klanowa"
@@ -3042,10 +3034,10 @@ msgid "serviceChannelMessages/sysMsg/converter/emblems"
 msgstr "Zmieniono emblematy"
 
 msgid "serviceChannelMessages/sysMsg/converter/eventCoinReceived"
-msgstr "Dodano kupony na prezent: %(eventCoin)s"
+msgstr "Dodane jubileuszowe monety: %(eventCoin)s"
 
 msgid "serviceChannelMessages/sysMsg/converter/eventCoinWithdrawn"
-msgstr "Usunięto kupony na prezent: %(eventCoin)s"
+msgstr "Usunięte jubileuszowe monety: %(eventCoin)s"
 
 msgid "serviceChannelMessages/sysMsg/converter/freeXPReceived"
 msgstr "Otrzymane darmowe doświadczenie: %(freeXP)s"
@@ -3204,19 +3196,10 @@ msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/DotBlue.png' width='16' "
 "height='16' align='baseline' vspace='-3'/>Opracowano:"
 
-msgid "serviceChannelMessages/sysMsg/titles/primeTime"
-msgstr "Zawieszenie broni"
-
 msgid "serviceChannelMessages/sysMsg/titles/purchase"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/DotRed.png' width='16' "
 "height='16' align='baseline' vspace='-3'/>Zakupiono: "
-
-msgid "serviceChannelMessages/sysMsg/titles/rankedBattlesAvailable"
-msgstr "Dostępne bitwy rankingowe"
-
-msgid "serviceChannelMessages/sysMsg/titles/rankedBattlesNotSet"
-msgstr "Bitwy rankingowe są niedostępne"
 
 msgid "serviceChannelMessages/sysMsg/titles/remove"
 msgstr "Usunięcie z Garażu:"
@@ -3282,6 +3265,28 @@ msgid ""
 "title"
 msgstr "Modyfikacja anulowana"
 
+msgid ""
+"serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/disabled"
+msgstr "wyłączone"
+
+msgid ""
+"serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/enabled"
+msgstr "włączone"
+
+msgid ""
+"serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/"
+"opt_dev_boosters_switch"
+msgstr ""
+"Przełączanie się między zestawami wyposażenia i dyrektyw podczas odliczania "
+"przed bitwą dla %(tankName)s jest %(state)s."
+
+msgid ""
+"serviceChannelMessages/vehiclePostProgression/prebattleSwitchToggled/"
+"shells_consumables_switch"
+msgstr ""
+"Przełączanie się między zestawami pocisków i materiałów eksploatacyjnych "
+"podczas odliczania przed bitwą dla %(tankName)s jest %(state)s."
+
 msgid "serviceChannelMessages/vehicleReceivedAsGift"
 msgstr "Otrzymano czołg premium: <font color='#c5ab5d'>%(vehicleName)s</font>"
 
@@ -3311,6 +3316,90 @@ msgstr ""
 "%(dstName)s</font>. Opłata: <font color='#FFE769'>%(fee)s</font>&nbsp;<img "
 "src='img://gui/maps/icons/library/Automatyk/gold.png' width='16' height='16' "
 "align='baseline' vspace='-3'/>."
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/text"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/expireMessage/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/freeDirectives/isDisabled/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/freeDirectives/isEnabled/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/freeDirectives/received/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/renewMessage/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/rental/end/text"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/rental/end/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isDisabled/text"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isDisabled/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isEnabled/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
+msgstr "?empty?"
 
 msgid "serviceChannelMessages/xpReceivedAsGift"
 msgstr ""
