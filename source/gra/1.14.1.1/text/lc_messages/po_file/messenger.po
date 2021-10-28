@@ -272,6 +272,12 @@ msgstr "Użytkownik %s nie może wysyłać do ciebie wiadomości głosowych."
 msgid "client/information/unsetMuted/message"
 msgstr "%s może wysyłać do ciebie wiadomości głosowe."
 
+msgid "client/warning/AFKWarning/message"
+msgstr ""
+"Bezczynność jest uznawana za dezercję\n"
+"i będzie surowo karana! Zwycięstwo wymaga\n"
+"udziału wszystkich członków drużyny!"
+
 msgid "client/warning/emptyUserSearchToken/message"
 msgstr "Puste zapytanie"
 
@@ -879,6 +885,45 @@ msgstr "Wybierz pojazd specjalny"
 msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
 msgstr "Wybierz pojazd VIII poziomu"
 
+msgid "dialogs/simpleSquad/recommendationLevel"
+msgstr "Poleć graczy"
+
+msgid "dialogs/squadChannel/battleType"
+msgstr "Tryb bitwy:"
+
+msgid "dialogs/squadChannel/battleTypeDomination"
+msgstr "Bitwa losowa"
+
+msgid "dialogs/squadChannel/bonuses/credits"
+msgstr "Do kredytów"
+
+msgid "dialogs/squadChannel/bonuses/experience"
+msgstr "Do doświadczenia"
+
+msgid "dialogs/squadChannel/buttons/afk"
+msgstr "Przerwa"
+
+msgid "dialogs/squadChannel/buttons/dismiss"
+msgstr "Opuść pluton"
+
+msgid "dialogs/squadChannel/buttons/invite"
+msgstr "Zaproś graczy"
+
+msgid "dialogs/squadChannel/buttons/leave"
+msgstr "Opuść pluton"
+
+msgid "dialogs/squadChannel/buttons/notReady"
+msgstr "Niegotowy"
+
+msgid "dialogs/squadChannel/buttons/ready"
+msgstr "Gotów!"
+
+msgid "dialogs/squadChannel/buttons/recommend"
+msgstr "Poleć graczy"
+
+msgid "dialogs/squadChannel/context/kickPlayer"
+msgstr "Wyklucz z plutonu"
+
 msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
 msgstr "Głównym celem jest zostać ostatnim aktywnym plutonem."
 
@@ -889,8 +934,8 @@ msgstr ""
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"+++ wydarzenie +++\n"
-"+++ wydarzenie +++"
+"Tryb bitwy:\n"
+"Mirny: Nadzieja"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -901,6 +946,12 @@ msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
 msgstr ""
 "Grajcie w pojazdach tego samego poziomu,\n"
 "zaczynając od IV poziomu, a otrzymacie dodatkowe doświadczenie"
+
+msgid "dialogs/squadChannel/messege/noPremium"
+msgstr ""
+"Tylko gracze z kontem premium WoT\n"
+"mogą zaprosić trzeciego gracza\n"
+"do Plutonu."
 
 msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
 msgstr ""
@@ -1898,6 +1949,9 @@ msgstr "Dodano"
 msgid "serviceChannelMessages/battleResults/quests/items/name"
 msgstr "%(name)s (x%(count)s)"
 
+msgid "serviceChannelMessages/battleResults/quests/items/singleName"
+msgstr "%(name)s"
+
 msgid "serviceChannelMessages/battleResults/quests/premium"
 msgstr "Dodane dni konta premium Wargaming"
 
@@ -2393,6 +2447,50 @@ msgstr ""
 
 msgid "serviceChannelMessages/goldReceivedAsGift"
 msgstr "Otrzymano złota: %(gold)s."
+
+msgid "serviceChannelMessages/halloweenHangar/bestdealBought"
+msgstr "Kupiono zestaw"
+
+msgid "serviceChannelMessages/halloweenHangar/buyShopItem"
+msgstr "Kupiono przedmiot"
+
+msgid "serviceChannelMessages/halloweenHangar/eventTokenBought"
+msgstr "Otrzymane klucze deszyfrujące: %(count)s"
+
+msgid "serviceChannelMessages/halloweenHangar/eventVehicleAcquired"
+msgstr "Pojazd %(vehicle)s jest dostępny do gry w wydarzeniu Mirny: Nadzieja."
+
+msgid "serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReached"
+msgstr "Dostępny nowy poziom trudności"
+
+msgid ""
+"serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReachedText"
+msgstr "Możesz wybrać nowy poziom trudności w garażu"
+
+msgid "serviceChannelMessages/halloweenHangar/purchased/bundle/gold"
+msgstr ""
+"%(purchaseName)s został kupiony.\n"
+"Pobrano %(price)s."
+
+msgid "serviceChannelMessages/halloweenHangar/purchased/c11nItem/gold"
+msgstr ""
+"Styl %(purchaseName)s został kupiony.\n"
+"Pobrano %(price)s."
+
+msgid ""
+"serviceChannelMessages/halloweenHangar/purchased/c11nItem/hw_rewardBoxKey"
+msgstr ""
+"Udało się kupić %(purchaseName)s.\n"
+"Pobrane klucze deszyfrujące: %(price)s."
+
+msgid "serviceChannelMessages/halloweenHangar/styleBought"
+msgstr "Kupiono styl"
+
+msgid "serviceChannelMessages/halloweenHangar/styleBundleBought"
+msgstr "Kupiono zestaw stylów"
+
+msgid "serviceChannelMessages/halloweenHangar/vehicleRent"
+msgstr "Kupiono pojazd"
 
 msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
 msgstr "Dodano łóżka do koszar"
@@ -2951,6 +3049,9 @@ msgstr "Konto premium Wargaming"
 msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
 msgstr "Konto premium WoT"
 
+msgid "serviceChannelMessages/serverDowntimeCompensation/premium_subs"
+msgstr "?empty?"
+
 msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
 msgstr "Wypożyczenie"
 
@@ -3123,6 +3224,9 @@ msgstr "Mapa zimowa: "
 msgid "serviceChannelMessages/sysMsg/customizations/sell"
 msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Otrzymano: %(money)s"
 
+msgid "serviceChannelMessages/sysMsg/message/eventOpenedRewardBox"
+msgstr "Dekodowanie szpuli."
+
 msgid "serviceChannelMessages/sysMsg/openCustomization/button"
 msgstr "Wygląd zewnętrzny"
 
@@ -3139,6 +3243,9 @@ msgstr "Zdemontowano:"
 
 msgid "serviceChannelMessages/sysMsg/titles/error"
 msgstr "Błąd:"
+
+msgid "serviceChannelMessages/sysMsg/titles/eventOpenedRewardBox"
+msgstr "Zakupiono:"
 
 msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
 msgstr "Transakcja finansowa:"

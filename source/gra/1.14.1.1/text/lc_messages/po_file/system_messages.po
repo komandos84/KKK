@@ -208,7 +208,8 @@ msgstr ""
 
 msgid "artefact_buy/success"
 msgstr ""
-"Udało się kupić %(kind)s „%(name)s” (ilość: %(count)s). Wydano: %(money)s."
+"Udało się kupić %(kind)s „%(name)s” (%(count)s szt.).\n"
+"Wydano %(money)s."
 
 msgid "artefact_buy/vehicle_locked"
 msgstr "Pojazd zablokowany. Nie można kupić i zamontować %(kind)s „%(name)s”."
@@ -1426,6 +1427,91 @@ msgstr "Błąd przy przenoszeniu czołgisty do pojazdu. Pojazd zablokowany."
 msgid "equip_tankman/vehicle_need_repair"
 msgstr "Błąd przy przenoszeniu czołgisty do pojazdu. Proszę naprawić pojazd."
 
+msgid "event/afk/ban/body"
+msgstr ""
+"Bitwy Mirny są niedostępne. Zawieszenie zostanie zniesione %(pardonDate)s"
+
+msgid "event/afk/ban/header"
+msgstr "Mirny: Nadzieja, Zawieszenie"
+
+msgid "event/afk/button"
+msgstr "Szczegóły"
+
+msgid "event/afk/error/body"
+msgstr "Operacja jest aktualnie niedostępna. Spróbuj ponownie później."
+
+msgid "event/afk/error/header"
+msgstr "Błąd:"
+
+msgid "event/afk/quest/body"
+msgstr "Dostępna jest nowa misja specjalna: %(questName)s"
+
+msgid "event/afk/quest/button"
+msgstr "Do misji"
+
+msgid "event/afk/quest/header"
+msgstr "Wykorzystaj szansę"
+
+msgid "event/afk/quest/questName"
+msgstr "%(questName)s"
+
+msgid "event/afk/questUnban/body"
+msgstr "Otrzymano nakaz przywrócenia: bitwy o Mirny są znowu dostępne."
+
+msgid "event/afk/questUnban/header"
+msgstr "Wycofano zawieszenie"
+
+msgid "event/afk/unban/body"
+msgstr ""
+"Upłynął okres zawieszenia w wydarzeniu: bitwy o Mirny są znowu dostępne."
+
+msgid "event/afk/unban/header"
+msgstr "Wycofano zawieszenie"
+
+msgid "event/afk/warning/body"
+msgstr "Otrzymałeś ostrzeżenie za bezczynność lub dezercję z pola bitwy."
+
+msgid "event/afk/warning/header"
+msgstr "Mirny: Nadzieja, Ostrzeżenie"
+
+msgid "event_progression_buy_style/server_error"
+msgstr "Nie można kupić stylu „%(name)s”"
+
+msgid "event_progression_buy_style/success"
+msgstr ""
+"Data: %(date)s\n"
+"Udało się kupić styl „%(name)s”.\n"
+"Pobrane żetony: %(count)s."
+
+msgid "event_progression_buy_vehicle/buy"
+msgstr ""
+"Data: %(date)s\n"
+"Udało się kupić %(veh_name)s, załogę wyszkoloną w 100%% i miejsce.\n"
+"Pobrane żetony: %(count)s."
+
+msgid "event_progression_buy_vehicle/server_error"
+msgstr "Nie można kupić %(name)s"
+
+msgid "event_progression_buy_vehicle/success"
+msgstr ""
+"Data: %(date)s\n"
+"Udało się kupić %(name)s, załogę wyszkoloną w 100%% i miejsce.\n"
+"Pobrane żetony: %(count)s"
+
+msgid "event_progression_reward_box_achieved/body"
+msgstr "Masz dostęp do nowej szpuli do odkodowania."
+
+msgid "event_progression_reward_box_achieved/final/body"
+msgstr ""
+"%(vehicle)s\n"
+"dodano do Twojego konta i czeka na Ciebie w garażu!"
+
+msgid "event_progression_reward_box_achieved/final/title"
+msgstr "Otrzymano główną nagrodę!"
+
+msgid "event_progression_reward_box_achieved/title"
+msgstr "Zaszyfrowana szpula"
+
 msgid "exchange/not_enough_gold"
 msgstr "Masz zbyt mało złota na wymianę."
 
@@ -1925,6 +2011,41 @@ msgstr ""
 msgid "graficsPresetFail"
 msgstr ""
 "Nie udało się zastosować ustawienia grafiki. Konflikt karty graficznej."
+
+msgid "hw19_draw_energy/server_error"
+msgstr ""
+"Błąd odzyskania.\n"
+"Błąd techniczny lub za mało funduszy."
+
+msgid "hw19_lock_energy/server_error"
+msgstr ""
+"Błąd aktywacji.\n"
+"Błąd techniczny lub za mało funduszy."
+
+msgid "hw19_open_interrogation/account_has_no_requested_rewardbox"
+msgstr "Błąd dekodowania. Nie masz wymaganej szpuli."
+
+msgid "hw19_open_interrogation/not_enough_tokens_to_open_rewardbox"
+msgstr ""
+"Błąd dekodowania.\n"
+"Masz za mało kluczy deszyfrujących do odkodowania szpuli."
+
+msgid ""
+"hw19_open_interrogation/quest_skip_for_requested_rewardbox_is_not_allowed"
+msgstr "Błąd dekodowania. Musisz spełnić wymagany główny warunek."
+
+msgid "hw19_open_interrogation/server_error"
+msgstr ""
+"Błąd operacji.\n"
+"Za mało kluczy deszyfrujących do odkodowania szpuli lub błąd techniczny."
+
+msgid "hw19_open_interrogation/success"
+msgstr "Wydano kluczy: %(money)s"
+
+msgid "hw21/server_error"
+msgstr ""
+"Błąd zakupu.\n"
+"Błąd techniczny lub za mało funduszy."
 
 msgid "igr/customization/begin"
 msgstr "Darmowe kamuflaże, napisy i emblematy są dostępne w %(igrIcon)s."
@@ -3556,6 +3677,10 @@ msgstr "Brak uprawnień do wykonania tej operacji."
 msgid "unit/errors/JOIN_CTX_LOCK"
 msgstr "Konto zostało zablokowane."
 
+msgid "unit/errors/MISSING_DIFFICULTY_LEVEL"
+msgstr ""
+"Działanie niedostępne. Członek plutonu nie odblokował tego poziomu trudności."
+
 msgid "unit/errors/NOT_IDLE"
 msgstr "Drużyna jest w kolejce lub w wynikach wyszukiwania."
 
@@ -3646,6 +3771,11 @@ msgstr "Operacja niedostępna. Pojazd nie spełnia wymagań."
 msgid "unit/errors/VEHICLE_NOT_CHOSEN"
 msgstr "Operacja niedostępna. Najpierw wybierz pojazd."
 
+msgid "unit/errors/WRONG_DIFFICULTY_LEVEL"
+msgstr ""
+"Działanie niedostępne. Pluton składa się z graczy z różnymi poziomami "
+"trudności."
+
 msgid "unit/errors/WRONG_UNIT_REQUISITES"
 msgstr "Drużyna nie istnieje."
 
@@ -3667,8 +3797,19 @@ msgstr "Mistrzowska"
 msgid "unit/notification/divisionType/MIDDLE"
 msgstr "Średnia"
 
+msgid "unit/notification/eventPlayerAdded"
+msgstr ""
+"Gracz %(userName)s dołączył do oddziału zwiadowczego trybu Mirny: Nadzieja."
+
+msgid "unit/notification/eventPlayerRemoved"
+msgstr "Gracz %(userName)s opuścił oddział zwiadowczy trybu Mirny: Nadzieja."
+
 msgid "unit/notification/giveLeadership"
 msgstr "%(userName)s został wyznaczony na dowódcę drużyny."
+
+msgid "unit/notification/notReadyDifficultyLevel"
+msgstr ""
+"Gracz %(userName)s nie jest gotowy. Poziom trudności %(level)s jest dostępny."
 
 msgid "unit/notification/playerAdded"
 msgstr "%(userName)s dołączył do oddziału."
@@ -3686,6 +3827,9 @@ msgstr "Połączenie z graczem %(userName)s zostało wznowione."
 
 msgid "unit/notification/playerRemoved"
 msgstr "%(userName)s opuścił oddział."
+
+msgid "unit/notification/selectedDifficultyLevel"
+msgstr "Gracz %(userName)s zmienił poziom trudności na %(level)s."
 
 msgid "unit/warnings/ALREADY_INVITED"
 msgstr "Zaproszenie zostało już wysłane."
