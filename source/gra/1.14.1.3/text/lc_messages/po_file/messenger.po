@@ -2445,6 +2445,9 @@ msgstr ""
 "%(defResCount)s jednostek surowców przemysłowych dodano do magazynu centrum "
 "dowodzenia."
 
+msgid "serviceChannelMessages/goToEventButton"
+msgstr "?empty?"
+
 msgid "serviceChannelMessages/goldReceivedAsGift"
 msgstr "Otrzymano złota: %(gold)s."
 
@@ -3061,6 +3064,21 @@ msgstr "Serwer gry będzie wyłączony o %(date)s."
 msgid "serviceChannelMessages/serverRebootCancelled"
 msgstr ""
 "Wyłączenie serwera gry zostało przesunięte, zaplanowano je na %(date)s."
+
+msgid "serviceChannelMessages/shopSalesEvent/activePhaseFinished"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/shopSalesEvent/activePhaseStarted"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/shopSalesEvent/disabledBySwitch"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/shopSalesEvent/enabledBySwitch"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/shopSalesEvent/eventFinished"
+msgstr "?empty?"
 
 msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
 msgstr "Fragment uniwersalny (x%(fragmentsCount)s)"
