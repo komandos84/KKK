@@ -3578,6 +3578,18 @@ msgstr " "
 msgid "telecom/notifications/vehicleUnblocked/title/default"
 msgstr "Ten pojazd jest znowu dostępny"
 
+msgid "telecom_rentals/switch_off/body"
+msgstr "Wybór pojazdu i wypożyczenie są zawieszone."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Wypożyczenie pojazdu jest obecnie niedostępne"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Wypożyczenie pojazdu jest dostępne"
+
 msgid "tokens/notification/mark_acquired"
 msgstr "Gratulacje! Otrzymałeś %(count)s żeton(y/ów)."
 

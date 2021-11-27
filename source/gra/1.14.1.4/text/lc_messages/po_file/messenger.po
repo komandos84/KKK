@@ -1294,6 +1294,12 @@ msgstr "Ustawienia"
 msgid "personalMissions/completionTokenGain"
 msgstr "Dodano części"
 
+msgid "platformCurrencyMsg/debited/sacoin"
+msgstr "Zabrane żetony za lata służby"
+
+msgid "platformCurrencyMsg/received/sacoin"
+msgstr "Przyznane żetony za lata służby"
+
 msgid "prebattle/addAllBtn/tooltip/body"
 msgstr "Dodaj wszystkie kontakty do listy odbiorców."
 
@@ -2857,6 +2863,15 @@ msgstr "Usunięci członkowie załogi: %(count)s"
 msgid "serviceChannelMessages/offerTokenBonus/title"
 msgstr "Zaopatrzenie Ostatniej granicy"
 
+msgid "serviceChannelMessages/payerSeniority/coins/body"
+msgstr "Masz trochę niewykorzystanych żetonów za lata służby."
+
+msgid "serviceChannelMessages/payerSeniority/coins/button"
+msgstr "Do nagród"
+
+msgid "serviceChannelMessages/payerSeniority/coins/header"
+msgstr "Zasłużona nagroda"
+
 msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
 msgstr "Rozpoczął się nowy cykl zbierania."
 
@@ -3455,10 +3470,10 @@ msgid "serviceChannelMessages/wotPlus/tankRental/isEnabled/title"
 msgstr "?empty?"
 
 msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
-msgstr "?empty?"
+msgstr "%(vehicle)s zostanie wkrótce dodany do Twojego konta."
 
 msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
-msgstr "?empty?"
+msgstr "Wypożyczony!"
 
 msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
 msgstr "?empty?"
