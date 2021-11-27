@@ -2691,6 +2691,20 @@ msgstr "Zestaw „Cukierek albo psikus”"
 msgid "rewardWindow/twitch27/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch28/btnLabel"
+msgstr "Rekrutuj"
+
+msgid "rewardWindow/twitch28/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Prime Gaming. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch28/headerText"
+msgstr "Zestaw Czas na najazd"
+
+msgid "rewardWindow/twitch28/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch3/btnLabel"
 msgstr "Rekrutuj!"
 

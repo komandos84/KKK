@@ -1131,7 +1131,7 @@ msgstr "Kolekcje znów są dostępne"
 msgid "connected"
 msgstr ""
 "Witaj\n"
-" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.14.1.3</font> <font color='#FF3333'>Automatyk</font>"
+" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.14.1.4</font> <font color='#FF3333'>Automatyk</font>"
 
 msgid "consumables_apply/error"
 msgstr ""
@@ -3785,6 +3785,18 @@ msgstr " "
 
 msgid "telecom/notifications/vehicleUnblocked/title/default"
 msgstr "Ten pojazd jest znowu dostępny"
+
+msgid "telecom_rentals/switch_off/body"
+msgstr "Wybór pojazdu i wypożyczenie są zawieszone."
+
+msgid "telecom_rentals/switch_off/title"
+msgstr "Wypożyczenie pojazdu jest obecnie niedostępne"
+
+msgid "telecom_rentals/switch_on/body"
+msgstr "?empty?"
+
+msgid "telecom_rentals/switch_on/title"
+msgstr "Wypożyczenie pojazdu jest dostępne"
 
 msgid "tokens/notification/mark_acquired"
 msgstr "Gratulacje! Otrzymałeś %(count)s żeton(y/ów)."
