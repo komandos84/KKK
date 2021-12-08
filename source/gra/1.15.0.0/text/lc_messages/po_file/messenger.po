@@ -10,9 +10,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-msgid "battle/hints/changeReceiver"
-msgstr "..."
-
 msgid "battle/history/downMessage"
 msgstr "Zobacz nowe wiadomości"
 
@@ -271,12 +268,6 @@ msgstr "Użytkownik %s nie może wysyłać do ciebie wiadomości głosowych."
 
 msgid "client/information/unsetMuted/message"
 msgstr "%s może wysyłać do ciebie wiadomości głosowe."
-
-msgid "client/warning/AFKWarning/message"
-msgstr ""
-"Bezczynność jest uznawana za dezercję\n"
-"i będzie surowo karana! Zwycięstwo wymaga\n"
-"udziału wszystkich członków drużyny!"
 
 msgid "client/warning/emptyUserSearchToken/message"
 msgstr "Puste zapytanie"
@@ -885,45 +876,6 @@ msgstr "Wybierz pojazd specjalny"
 msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
 msgstr "Wybierz pojazd VIII poziomu"
 
-msgid "dialogs/simpleSquad/recommendationLevel"
-msgstr "Poleć graczy"
-
-msgid "dialogs/squadChannel/battleType"
-msgstr "Tryb bitwy:"
-
-msgid "dialogs/squadChannel/battleTypeDomination"
-msgstr "Bitwa losowa"
-
-msgid "dialogs/squadChannel/bonuses/credits"
-msgstr "Do kredytów"
-
-msgid "dialogs/squadChannel/bonuses/experience"
-msgstr "Do doświadczenia"
-
-msgid "dialogs/squadChannel/buttons/afk"
-msgstr "Przerwa"
-
-msgid "dialogs/squadChannel/buttons/dismiss"
-msgstr "Opuść pluton"
-
-msgid "dialogs/squadChannel/buttons/invite"
-msgstr "Zaproś graczy"
-
-msgid "dialogs/squadChannel/buttons/leave"
-msgstr "Opuść pluton"
-
-msgid "dialogs/squadChannel/buttons/notReady"
-msgstr "Niegotowy"
-
-msgid "dialogs/squadChannel/buttons/ready"
-msgstr "Gotów!"
-
-msgid "dialogs/squadChannel/buttons/recommend"
-msgstr "Poleć graczy"
-
-msgid "dialogs/squadChannel/context/kickPlayer"
-msgstr "Wyklucz z plutonu"
-
 msgid "dialogs/squadChannel/headerMsg/battleRoyaleHint"
 msgstr "Głównym celem jest zostać ostatnim aktywnym plutonem."
 
@@ -934,8 +886,8 @@ msgstr ""
 
 msgid "dialogs/squadChannel/headerMsg/eventFormationRestriction"
 msgstr ""
-"Tryb bitwy:\n"
-"Mirny: Nadzieja"
+"+++ wydarzenie +++\n"
+"+++ wydarzenie +++"
 
 msgid "dialogs/squadChannel/headerMsg/squadFormation"
 msgstr ""
@@ -946,12 +898,6 @@ msgid "dialogs/squadChannel/headerMsg/squadFormationRestriction"
 msgstr ""
 "Grajcie w pojazdach tego samego poziomu,\n"
 "zaczynając od IV poziomu, a otrzymacie dodatkowe doświadczenie"
-
-msgid "dialogs/squadChannel/messege/noPremium"
-msgstr ""
-"Tylko gracze z kontem premium WoT\n"
-"mogą zaprosić trzeciego gracza\n"
-"do Plutonu."
 
 msgid "dialogs/squadChannel/simpleChatAlert/anonymizer"
 msgstr ""
@@ -1294,10 +1240,19 @@ msgstr "Ustawienia"
 msgid "personalMissions/completionTokenGain"
 msgstr "Dodano części"
 
-msgid "platformCurrencyMsg/debited/sacoin"
-msgstr "Zabrane żetony za lata służby"
+msgid "platformCurrencyMsg/currencyUpdate/debited/sacoin"
+msgstr "Pobrane żetony za lata służby"
 
-msgid "platformCurrencyMsg/received/sacoin"
+msgid "platformCurrencyMsg/currencyUpdate/received/sacoin"
+msgstr "Przyznane żetony za lata służby"
+
+msgid "platformCurrencyMsg/invoice/accrued/sacoin"
+msgstr "Przyznane żetony za lata służby"
+
+msgid "platformCurrencyMsg/invoice/debited/sacoin"
+msgstr "Pobrane żetony za lata służby"
+
+msgid "platformCurrencyMsg/sacoin"
 msgstr "Przyznane żetony za lata służby"
 
 msgid "prebattle/addAllBtn/tooltip/body"
@@ -1955,8 +1910,11 @@ msgstr "Dodano"
 msgid "serviceChannelMessages/battleResults/quests/items/name"
 msgstr "%(name)s (x%(count)s)"
 
-msgid "serviceChannelMessages/battleResults/quests/items/singleName"
-msgstr "%(name)s"
+msgid "serviceChannelMessages/battleResults/quests/nyBoxes"
+msgstr "Małe pudełka: (x%(count)s)"
+
+msgid "serviceChannelMessages/battleResults/quests/nyGiftStamps"
+msgstr "Świąteczne znaczki: (x%(count)s)"
 
 msgid "serviceChannelMessages/battleResults/quests/premium"
 msgstr "Dodane dni konta premium Wargaming"
@@ -1973,6 +1931,9 @@ msgstr "%(count)s dziennie"
 msgid ""
 "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
 msgstr "standardowe w liczbie %(count)s"
+
+msgid "serviceChannelMessages/battleResults/quests/variadicDiscount"
+msgstr "Otrzymano %(discount)s%% zniżki na pojazdy %(level)s poziomu"
 
 msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
 msgstr "Dodano miejsca"
@@ -2198,6 +2159,9 @@ msgstr "%(label)s x%(count)s"
 msgid "serviceChannelMessages/currencyUpdate/auction"
 msgstr "Aukcja"
 
+msgid "serviceChannelMessages/currencyUpdate/battlepass"
+msgstr "Przepustka bitewna"
+
 msgid "serviceChannelMessages/currencyUpdate/date"
 msgstr "Data"
 
@@ -2212,6 +2176,9 @@ msgstr "Utracono obligacje"
 
 msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
 msgstr "Usunięto jubileuszowe monety"
+
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXp"
+msgstr "Spisano wolnego doświadczenia"
 
 msgid "serviceChannelMessages/currencyUpdate/debited/gold"
 msgstr "Potrącono złota"
@@ -2230,6 +2197,9 @@ msgstr "Otrzymano obligacje"
 
 msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
 msgstr "Otrzymano jubileuszowe monety"
+
+msgid "serviceChannelMessages/currencyUpdate/received/freeXp"
+msgstr "Otrzymujesz darmowe doświadczenie"
 
 msgid "serviceChannelMessages/currencyUpdate/received/gold"
 msgstr "Uzyskano złota"
@@ -2451,55 +2421,8 @@ msgstr ""
 "%(defResCount)s jednostek surowców przemysłowych dodano do magazynu centrum "
 "dowodzenia."
 
-msgid "serviceChannelMessages/goToEventButton"
-msgstr "?empty?"
-
 msgid "serviceChannelMessages/goldReceivedAsGift"
 msgstr "Otrzymano złota: %(gold)s."
-
-msgid "serviceChannelMessages/halloweenHangar/bestdealBought"
-msgstr "Kupiono zestaw"
-
-msgid "serviceChannelMessages/halloweenHangar/buyShopItem"
-msgstr "Kupiono przedmiot"
-
-msgid "serviceChannelMessages/halloweenHangar/eventTokenBought"
-msgstr "Otrzymane klucze deszyfrujące: %(count)s"
-
-msgid "serviceChannelMessages/halloweenHangar/eventVehicleAcquired"
-msgstr "Pojazd %(vehicle)s jest dostępny do gry w wydarzeniu Mirny: Nadzieja."
-
-msgid "serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReached"
-msgstr "Dostępny nowy poziom trudności"
-
-msgid ""
-"serviceChannelMessages/halloweenHangar/halloweenDifficultyLevelReachedText"
-msgstr "Możesz wybrać nowy poziom trudności w garażu"
-
-msgid "serviceChannelMessages/halloweenHangar/purchased/bundle/gold"
-msgstr ""
-"%(purchaseName)s został kupiony.\n"
-"Pobrano %(price)s."
-
-msgid "serviceChannelMessages/halloweenHangar/purchased/c11nItem/gold"
-msgstr ""
-"Styl %(purchaseName)s został kupiony.\n"
-"Pobrano %(price)s."
-
-msgid ""
-"serviceChannelMessages/halloweenHangar/purchased/c11nItem/hw_rewardBoxKey"
-msgstr ""
-"Udało się kupić %(purchaseName)s.\n"
-"Pobrane klucze deszyfrujące: %(price)s."
-
-msgid "serviceChannelMessages/halloweenHangar/styleBought"
-msgstr "Kupiono styl"
-
-msgid "serviceChannelMessages/halloweenHangar/styleBundleBought"
-msgstr "Kupiono zestaw stylów"
-
-msgid "serviceChannelMessages/halloweenHangar/vehicleRent"
-msgstr "Kupiono pojazd"
 
 msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
 msgstr "Dodano łóżka do koszar"
@@ -2672,6 +2595,28 @@ msgstr "Dodano fragmenty schematu pojazdów %(nationName)s"
 msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
 msgstr "Usunięto fragmenty schematu pojazdów %(nationName)s"
 
+msgid "serviceChannelMessages/invoiceReceived/nyFillersAccrued"
+msgstr "Dodano ładunki: "
+
+msgid "serviceChannelMessages/invoiceReceived/nyFillersDebited"
+msgstr "Usunięto ładunki: "
+
+msgid "serviceChannelMessages/invoiceReceived/nyFragmentsAccrued"
+msgstr "Dodano skorupki: "
+
+msgid "serviceChannelMessages/invoiceReceived/nyFragmentsDebited"
+msgstr "Usunięto skorupki: "
+
+msgid ""
+"serviceChannelMessages/invoiceReceived/nyFragmentsDebitedForAntiduplicator"
+msgstr "Skorupki pobrane za użycie Antyduplikatora: %(count)s"
+
+msgid "serviceChannelMessages/invoiceReceived/nyToysAccruedInvoiceReceived"
+msgstr "Dodano dekoracje: "
+
+msgid "serviceChannelMessages/invoiceReceived/nyToysDebitedInvoiceReceived"
+msgstr "Usunięto dekoracje: "
+
 msgid "serviceChannelMessages/invoiceReceived/pieces"
 msgstr "szt."
 
@@ -2729,6 +2674,9 @@ msgstr "Usunięto nierozdzielone doświadczenie członkom załogi"
 msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
 msgstr "Zwolnieni"
 
+msgid "serviceChannelMessages/invoiceReceived/toyTypeWrapper"
+msgstr "%(name)s (x%(count)s)"
+
 msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
 msgstr "Dodano fragmenty schematu %(vehicleName)s"
 
@@ -2750,7 +2698,7 @@ msgstr ""
 "szt."
 
 msgid "serviceChannelMessages/lootBoxes/button"
-msgstr "Do pudełek"
+msgstr "Odbierz"
 
 msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Kliknij przycisk, by zobaczyć zawartość."
@@ -2763,9 +2711,6 @@ msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
 msgstr "Obejrzyj"
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
-msgstr "x%(count)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Aktywowane portale: %(boxes)s"
@@ -2791,8 +2736,8 @@ msgstr "Otrzymano nagrody"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
 msgstr ""
-"Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy nagrody za Operacje "
-"świąteczne"
+"Otworzyliśmy wszystkie pudełka i paczki od Twoich znajomych i dodaliśmy "
+"nagrody za Operacje świąteczne."
 
 msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
 msgstr "Do ankiety"
@@ -3080,21 +3025,6 @@ msgid "serviceChannelMessages/serverRebootCancelled"
 msgstr ""
 "Wyłączenie serwera gry zostało przesunięte, zaplanowano je na %(date)s."
 
-msgid "serviceChannelMessages/shopSalesEvent/activePhaseFinished"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/shopSalesEvent/activePhaseStarted"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/shopSalesEvent/disabledBySwitch"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/shopSalesEvent/enabledBySwitch"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/shopSalesEvent/eventFinished"
-msgstr "?empty?"
-
 msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
 msgstr "Fragment uniwersalny (x%(fragmentsCount)s)"
 
@@ -3257,9 +3187,6 @@ msgstr "Mapa zimowa: "
 msgid "serviceChannelMessages/sysMsg/customizations/sell"
 msgstr "%(itemType)s \"%(itemName)s\" x%(count)s. Otrzymano: %(money)s"
 
-msgid "serviceChannelMessages/sysMsg/message/eventOpenedRewardBox"
-msgstr "Dekodowanie szpuli."
-
 msgid "serviceChannelMessages/sysMsg/openCustomization/button"
 msgstr "Wygląd zewnętrzny"
 
@@ -3276,9 +3203,6 @@ msgstr "Zdemontowano:"
 
 msgid "serviceChannelMessages/sysMsg/titles/error"
 msgstr "Błąd:"
-
-msgid "serviceChannelMessages/sysMsg/titles/eventOpenedRewardBox"
-msgstr "Zakupiono:"
 
 msgid "serviceChannelMessages/sysMsg/titles/financialTransaction"
 msgstr "Transakcja finansowa:"
