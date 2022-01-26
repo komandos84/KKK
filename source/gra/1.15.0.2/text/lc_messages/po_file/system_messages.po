@@ -542,16 +542,16 @@ msgid "battleSession/memberReady"
 msgstr "%s jest gotowy do bitwy."
 
 msgid "battlesession/error/AddObserver"
-msgstr "Błąd. Maksymalna liczba widzów w drużynie: %(numPlayers)s."
+msgstr "Maksymalna liczba widzów w drużynie: %(numPlayers)s."
 
 msgid "battlesession/error/AddPlayer"
-msgstr "Błąd. Maksymalna liczba graczy w drużynie: %(numPlayers)s."
+msgstr "Maksymalna liczba graczy w drużynie: %(numPlayers)s."
 
 msgid "battlesession/error/InsufficientRole"
-msgstr "Błąd. Niewystarczające upoważnienia, by przenosić graczy."
+msgstr "Niewystarczające upoważnienia, by przenosić graczy."
 
 msgid "battlesession/error/Limits"
-msgstr "Błąd. Przekroczono maksymalną liczbę graczy w drużynie."
+msgstr "Przekroczono maksymalną liczbę graczy w drużynie."
 
 msgid "blueprints/conversion/disable"
 msgstr "Brak fragmentów do zamiany."
@@ -2419,6 +2419,12 @@ msgstr ""
 
 msgid "offers/server_error"
 msgstr "Błąd odbierania prezentu: błąd serwera."
+
+msgid "offers/server_error/COOLDOWN"
+msgstr "?empty?"
+
+msgid "offers/server_error/DISABLED"
+msgstr "Działanie jest tymczasowo niedostępne. Spróbuj ponownie później."
 
 msgid "offers/switch_off/body"
 msgstr "Usługa Zaopatrzenie Ostatniej granicy jest aktualnie niedostępna."
