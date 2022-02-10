@@ -2421,6 +2421,9 @@ msgstr ""
 "%(defResCount)s jednostek surowców przemysłowych dodano do magazynu centrum "
 "dowodzenia."
 
+msgid "serviceChannelMessages/goToEventButton"
+msgstr "Przejdź do wydarzenia"
+
 msgid "serviceChannelMessages/goldReceivedAsGift"
 msgstr "Otrzymano złota: %(gold)s."
 
@@ -3024,6 +3027,25 @@ msgstr "Serwer gry będzie wyłączony o %(date)s."
 msgid "serviceChannelMessages/serverRebootCancelled"
 msgstr ""
 "Wyłączenie serwera gry zostało przesunięte, zaplanowano je na %(date)s."
+
+msgid "serviceChannelMessages/shopSalesEvent/activePhaseFinished"
+msgstr ""
+"Zakończyła się aktywna faza Karawany handlowej. Wciąż możesz kupić swoje "
+"zachowane zestawy."
+
+msgid "serviceChannelMessages/shopSalesEvent/activePhaseStarted"
+msgstr "Zaczęła się Karawana handlowa. Kup zestawy, na które masz ochotę!"
+
+msgid "serviceChannelMessages/shopSalesEvent/disabledBySwitch"
+msgstr "Karawana handlowa jest tymczasowo niedostępna z przyczyn technicznych."
+
+msgid "serviceChannelMessages/shopSalesEvent/enabledBySwitch"
+msgstr ""
+"Karawana handlowa jest ponownie dostępna. Przepraszamy za wszelkie "
+"niedogodności."
+
+msgid "serviceChannelMessages/shopSalesEvent/eventFinished"
+msgstr "Karawana handlowa zakończyła się."
 
 msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
 msgstr "Fragment uniwersalny (x%(fragmentsCount)s)"
