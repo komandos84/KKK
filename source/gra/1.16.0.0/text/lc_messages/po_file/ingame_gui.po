@@ -1922,7 +1922,7 @@ msgid "rewardWindow/countLabel"
 msgstr "x{count}"
 
 msgid "rewardWindow/lootbox/btnLabel"
-msgstr "Do pudełek"
+msgstr "Przejdź do pudełek"
 
 msgid "rewardWindow/lootbox/descText"
 msgstr "Otrzymałeś duże pudełka z cennymi nagrodami."
@@ -1931,9 +1931,7 @@ msgid "rewardWindow/lootbox/headerText"
 msgstr "Otrzymałeś pudełka!"
 
 msgid "rewardWindow/lootbox/isFreeDescText"
-msgstr ""
-"Otrzymałeś małe pudełka z cennymi nagrodami za ukończenie misji operacji "
-"świątecznych."
+msgstr "Otrzymałeś małe pudełka z cennymi nagrodami za ukończenie misji."
 
 msgid "rewardWindow/lootbox/winHeaderText"
 msgstr "Czas się dowiedzieć, co jest w pudełku!"
@@ -2271,7 +2269,7 @@ msgstr ""
 "dobrze go wykorzystaj!"
 
 msgid "rewardWindow/twitch29/headerText"
-msgstr "Zestaw Postanowienie noworoczne"
+msgstr "Zestaw Nowy początek"
 
 msgid "rewardWindow/twitch29/subHeaderText"
 msgstr "Otrzymane nagrody"
