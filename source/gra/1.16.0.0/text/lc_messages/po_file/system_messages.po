@@ -410,6 +410,9 @@ msgstr ""
 "Operacja niedostępna. Twoje złoto zostanie przywrócone, kiedy tylko Portfel "
 "WG powróci do działania."
 
+msgid "battlePass/activateChapter/success"
+msgstr "Aktywowano rozdział %(chapter)s"
+
 msgid "battlePass/badgeRemoved/text"
 msgstr ""
 "Usunięto odznakę %(badgeName)s ze względu na koniec sezonu Przepustki "
@@ -456,6 +459,18 @@ msgstr ""
 "Sezon Przepustki bitewnej skończył się. Wszystkie niewybrane w trakcie "
 "sezonu nagrody, zostały Ci przyznane domyślnie:"
 
+msgid "battlePass/switchChapter/error"
+msgstr "Błąd podczas wybierania rozdziału. Spróbuj ponownie."
+
+msgid "battlePass/switchChapter/reminder"
+msgstr ""
+"Wybierz rozdział. Możesz przełączyć się na inne rozdziały w dowolnym "
+"momencie."
+
+msgid "battlePass/switchChapter/success"
+msgstr ""
+"Przełączyłeś się na inny rozdział. Rozdział %(chapter)s jest teraz aktywny."
+
 msgid "battlePass/switch_disable/battle_royale/body"
 msgstr ""
 "Przepustka bitewna jest chwilowo niedostępna w trybie Stalowy łowca z powodu "
@@ -464,15 +479,13 @@ msgstr ""
 msgid "battlePass/switch_disable/body"
 msgstr "Sezon zakończył się. Do zobaczenia w kolejnym sezonie!"
 
-msgid "battlePass/switch_disable/body/incompleteStyle"
-msgstr ""
-"Sezon skończył się, ale spotkamy się ponownie w następnym!\n"
-"Styl %(styleName)s można ulepszyć na ekranie Wygląd."
-
 msgid "battlePass/switch_disable/epicBattle/body"
 msgstr ""
 "Przepustka bitewna jest chwilowo niedostępna w bitwach Linii frontu z powodu "
 "prac technicznych."
+
+msgid "battlePass/switch_disable/incompleteStyle"
+msgstr "Styl %(styleName)s można ulepszać na ekranie Wygląd."
 
 msgid "battlePass/switch_disable/ranked/body"
 msgstr ""
@@ -1073,7 +1086,7 @@ msgstr ""
 "WG powróci do działania."
 
 msgid "crewBooks/failed"
-msgstr "Wystąpił błąd: nie można przeczytać podręcznika dla załogi."
+msgstr "Błąd czytania podręcznika dla załogi."
 
 msgid "crewBooksNotification/bookUsed"
 msgstr "Zużyto: %(name)s"
@@ -2093,15 +2106,15 @@ msgstr ""
 "wykorzystane do zalogowania się do gry World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Błąd podczas otwierania pudełka: błąd serwera."
+msgstr "Błąd odbierania prezentu: błąd serwera."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
 msgstr ""
-"Błąd podczas otwierania pudełka: prosimy zaczekać na zakończenie poprzedniej "
-"operacji."
+"Błąd podczas otrzymywania prezentu: prosimy zaczekać na zakończenie "
+"poprzedniej operacji."
 
 msgid "lootboxes/open/server_error/DISABLED"
-msgstr "Błąd podczas otwierania pudełka: błąd serwera."
+msgstr "Działanie jest tymczasowo niedostępne. Spróbuj ponownie później."
 
 msgid "mapbox/notification/primeTime"
 msgstr "Misja zwiadowcza jest niedostępna do czasu zakończenia ciszy nocnej."
@@ -2346,85 +2359,22 @@ msgstr "Błąd przełączania konfiguracji"
 msgid "nation_change/success"
 msgstr "%(veh_name)s: zmieniono konfigurację narodową"
 
-msgid "newYear/applyVehicleDiscount/server_error"
-msgstr "Błąd aktywacji zniżki: błąd serwera."
-
-msgid "newYear/applyVehicleDiscount/server_error/alreadyActive"
-msgstr "Błąd aktywacji zniżki: zniżka na ten pojazd już jest aktywna."
-
-msgid "newYear/applyVehicleDiscount/server_error/alreadyBought"
-msgstr "Błąd aktywacji zniżki: już kupiono ten pojazd."
-
-msgid "newYear/applyVehicleDiscount/server_error/noDiscountForVehicle"
-msgstr "Błąd aktywacji zniżki: nie znaleziono zniżki na ten pojazd."
-
-msgid "newYear/applyVehicleDiscount/server_error/noDiscounts"
-msgstr "Błąd aktywacji zniżki: nie znaleziono zniżki."
-
-msgid "newYear/applyVehicleDiscount/success"
-msgstr "Aktywowałeś zniżkę %(discount)s%% na %(vehName)s"
-
-msgid "newYear/breakToys/server_error"
-msgstr "Błąd rozbicia dekoracji: błąd serwera."
-
-msgid "newYear/buyCollection/server_error"
-msgstr "Błąd zakupu kolekcji: błąd serwera."
-
-msgid "newYear/buyMegaToy/server_error"
-msgstr "Błąd zakupu dużej dekoracji: błąd serwera."
-
-msgid "newYear/buyToy/server_error"
-msgstr "Błąd zakupu dekoracji: błąd serwera."
-
-msgid "newYear/celebrityChallenge/congratulations"
-msgstr "Gratulacje!"
-
-msgid "newYear/celebrityChallenge/progressReward"
-msgstr "Ukończone misje od Arniego: %(value)s! Nagroda:"
-
-msgid "newYear/celebrityChallenge/questReward"
-msgstr "Ukończono misję od Arniego! Nagroda:"
-
-msgid "newYear/celebrityChallenge/simplification/message"
-msgstr "Skorupki pobrane za uproszczenie misji od Arniego: %(value)s"
-
-msgid "newYear/celebrityChallenge/simplification/title"
-msgstr "Uproszczono misję od Arniego"
-
-msgid "newYear/craftToy/server_error"
-msgstr "Błąd tworzenia dekoracji: błąd serwera."
-
-msgid "newYear/hangToy/server_error"
-msgstr "Błąd umieszczania dekoracji: błąd serwera."
-
-msgid "newYear/resetLootboxStatistics/server_error"
-msgstr ""
-"Nie można zresetować statystyk – spróbuj później. Pracujemy nad tym "
-"problemem."
-
-msgid "newYear/resetLootboxStatistics/server_error/header"
-msgstr "Nie udało się..."
-
-msgid "newYear/setVehicleBranch/server_error"
-msgstr "Błąd wybierania pojazdu do miejsca: błąd serwera."
-
-msgid "newYear/setVehicleBranchSlotBonus/server_error"
-msgstr "Błąd zmiany bonusu: błąd serwera."
-
 msgid "notrecruit_window/success"
 msgstr ""
 "Udało się zrekrutować członka załogi.\n"
 "%(colorTagOpen)s%(rank)s %(fullName)s\n"
 "(%(role)s, %(vehicleName)s, %(roleLevel)d%%)%(colorTagClose)s"
 
-msgid "offers/server_error"
-msgstr "Błąd odbierania prezentu: błąd serwera."
-
 msgid "offers/server_error/COOLDOWN"
 msgstr "?empty?"
 
 msgid "offers/server_error/DISABLED"
 msgstr "Działanie jest tymczasowo niedostępne. Spróbuj ponownie później."
+
+msgid "offers/server_error/MULTI_ERROR"
+msgstr ""
+"Błąd podczas otrzymywania prezentu: Odbiór niektórych z nagród jest "
+"opóźniony – spróbuj odebrać je później."
 
 msgid "offers/switch_off/body"
 msgstr "Usługa Zaopatrzenie Ostatniej granicy jest aktualnie niedostępna."
@@ -2620,6 +2570,10 @@ msgstr "Problemy techniczne zostały rozwiązane. Przepraszamy za niedogodności
 
 msgid "piggybank/switch_on/title"
 msgstr "Rezerwa kredytów jest ponownie dostępna"
+
+msgid "prebattle/bootcamp/inOtherQueue"
+msgstr ""
+"Nie możesz rozpocząć wypełniania unitarki, bo jesteś już w kolejce do bitwy."
 
 msgid "prebattle/hasLockedState"
 msgstr ""
@@ -2931,6 +2885,9 @@ msgstr "Otrzymano jubileuszowe monety:"
 
 msgid "ranked/notifications/bonusName/gold"
 msgstr "Otrzymane złoto:"
+
+msgid "ranked/notifications/bonusName/selectableReward"
+msgstr "Dodano ulepszone wyposażenie do wyboru: %(selectableRewardCount)s"
 
 msgid "ranked/notifications/bonusName/style"
 msgstr "Otrzymano styl:"
@@ -3382,17 +3339,6 @@ msgstr ""
 "Aktualizacja interfejsu w dniu: %(date)s (%(time)s) w związku ze zmianami na "
 "serwerze."
 
-msgid "shop_sales_event/error"
-msgstr "Błąd tasowania zestawu. Spróbuj ponownie później."
-
-msgid "shop_sales_event/success"
-msgstr ""
-"Użyto płatnego tasowania, aby zmienić zestaw. Wydano następującą ilość "
-"%(money)s."
-
-msgid "shop_sales_event/success_free"
-msgstr "Użyto darmowego tasowania, aby zmienić zestaw."
-
 msgid "squad/createError"
 msgstr "Tworzenie plutonów jest dostępne tylko dla graczy z kontem premium."
 
@@ -3535,6 +3481,61 @@ msgstr " "
 
 msgid "telecom/notifications/vehicleUnblocked/title/default"
 msgstr "Ten pojazd jest znowu dostępny"
+
+msgid "telecomMergeResults/body/accrualMsg"
+msgstr "Dodano czołg T-44-100 Igrovoy. Usunięto: %(tanks)s."
+
+msgid "telecomMergeResults/body/battleQuestsMsg"
+msgstr "Można teraz wypełniać misje w czołgu T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/conjunction"
+msgstr " i "
+
+msgid "telecomMergeResults/body/credits"
+msgstr "%(value)s kredytów"
+
+msgid "telecomMergeResults/body/crewRetrainingMsg"
+msgstr ""
+"Wszystkich członków załogi czołgu %(tanks)s przeszkolono do T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/demountMsg"
+msgstr ""
+"Wyposażenie zdemontowano i wysłano do magazynu.\n"
+"Elementy dostosowania wyglądu wysłano do magazynu.\n"
+"Pociski i dyrektywy wysłano do magazynu."
+
+msgid "telecomMergeResults/body/equipAndStatisticMovedMsg"
+msgstr ""
+"Wyposażenie, elementy dostosowania wyglądu, doświadczenie bojowe, statystyki "
+"i nagrody przeniesiono z czołgu %(mergedTank)s na T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/freeXP"
+msgstr "%(value)s punktów wolnego doświadczenia"
+
+msgid "telecomMergeResults/body/listSeparator"
+msgstr ", "
+
+msgid "telecomMergeResults/body/postprogressionMsg"
+msgstr ""
+"Zrekompensowano doświadczenie za Ulepszenie polowe: dodano %(compensation)s."
+
+msgid "telecomMergeResults/body/progressDecalesCompens"
+msgstr ""
+"Zrekompensowano kupione progresywne naklejki: dodano %(value)s szt. złota."
+
+msgid "telecomMergeResults/body/statisticMovedMsg"
+msgstr ""
+"Statystyki gry i nagrody z czołgu %(mergedTank)s przeniesiono na T-44-100 "
+"Igrovoy."
+
+msgid "telecomMergeResults/body/tankXPMsg"
+msgstr "Doświadczenie bojowe zsumowano i przeniesiono na T-44-100 Igrovoy."
+
+msgid "telecomMergeResults/body/wishMsg"
+msgstr "Powodzenia na polu bitwy!"
+
+msgid "telecomMergeResults/title"
+msgstr "Zmiany w taryfie „Igrovoy”"
 
 msgid "telecom_rentals/switch_off/body"
 msgstr "Wybór pojazdu i wypożyczenie są zawieszone."

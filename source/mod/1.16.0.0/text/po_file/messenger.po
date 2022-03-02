@@ -1240,19 +1240,16 @@ msgstr "Ustawienia"
 msgid "personalMissions/completionTokenGain"
 msgstr "Dodano części"
 
-msgid "platformCurrencyMsg/currencyUpdate/debited/sacoin"
+msgid "platformCurrencyMsg/debited/bpbit"
+msgstr "Usunięto punkty Przepustki bitewnej"
+
+msgid "platformCurrencyMsg/debited/sacoin"
 msgstr "Pobrane żetony za lata służby"
 
-msgid "platformCurrencyMsg/currencyUpdate/received/sacoin"
-msgstr "Przyznane żetony za lata służby"
+msgid "platformCurrencyMsg/received/bpbit"
+msgstr "Dodano punkty Przepustki bitewnej"
 
-msgid "platformCurrencyMsg/invoice/accrued/sacoin"
-msgstr "Przyznane żetony za lata służby"
-
-msgid "platformCurrencyMsg/invoice/debited/sacoin"
-msgstr "Pobrane żetony za lata służby"
-
-msgid "platformCurrencyMsg/sacoin"
+msgid "platformCurrencyMsg/received/sacoin"
 msgstr "Przyznane żetony za lata służby"
 
 msgid "prebattle/addAllBtn/tooltip/body"
@@ -1663,6 +1660,12 @@ msgstr ""
 "Usunięto odznakę %(badgeName)s ze względu na koniec sezonu Przepustki "
 "bitewnej."
 
+msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
+msgstr "Użyto niewydanych punktów"
+
+msgid "serviceChannelMessages/battlePass/freePointsUsed/text"
+msgstr "Użyto niewydanych punktów: %(points)s dla rozdziału %(chapter)s."
+
 msgid "serviceChannelMessages/battlePass/newDeviceToken"
 msgstr "Standardowe wyposażenie do wyboru"
 
@@ -1675,14 +1678,6 @@ msgstr ""
 "Nagroda za osiągnięcie limitu punktów: %(bonusPoints)s.\n"
 "Walcz w innym pojeździe, aby nadal zdobywać punkty."
 
-msgid "serviceChannelMessages/battlePass/styleChoiceAvailable/button"
-msgstr "Wybierz styl"
-
-msgid "serviceChannelMessages/battlePass/styleChoiceAvailable/text"
-msgstr ""
-"Wybierz styl w rozdziale %(chapter)s. Można go zastosować na pojeździe "
-"bezzwłocznie i ulepszyć podczas postępów w Przepustce bitewnej."
-
 msgid "serviceChannelMessages/battlePass/styleChosen/header"
 msgstr "Gratulacje!"
 
@@ -1694,6 +1689,17 @@ msgstr ""
 msgid "serviceChannelMessages/battlePass/trophySelectToken"
 msgstr "Wyposażenie z nagród do wyboru"
 
+msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
+msgstr "Otrzymałeś nagrody za ukończone etapy przy użyciu niewydanych punktów:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
+msgstr ""
+"Ukończyłeś rozdział %(chapter)s!\n"
+"Otrzymano nagrodę:"
+
+msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
+msgstr "Walcz dalej i zdobywaj punkty!"
+
 msgid "serviceChannelMessages/battlePassReward/battle/final/text"
 msgstr ""
 "Ukończyłeś wszystkie rozdziały %(season)s sezonu Przepustki bitewnej!\n"
@@ -1701,8 +1707,8 @@ msgstr ""
 
 msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
 msgstr ""
-"Ukończyłeś %(newLevel)s etap postępu.\n"
-"Otrzymana nagroda:"
+"Ukończyłeś etap postępu %(newLevel)s rozdziału %(chapter)s.\n"
+"Otrzymano nagrodę:"
 
 msgid "serviceChannelMessages/battlePassReward/button"
 msgstr "Szczegóły"
@@ -1715,7 +1721,7 @@ msgstr ""
 "Otrzymasz teraz podstawowe i ulepszone nagrody za wszystkie rozdziały sezonu."
 
 msgid "serviceChannelMessages/battlePassReward/buyProgress/finalText"
-msgstr "końcowy"
+msgstr "50"
 
 msgid "serviceChannelMessages/battlePassReward/buyProgress/text"
 msgstr ""
@@ -1724,16 +1730,16 @@ msgstr ""
 "Otrzymane nagrody:"
 
 msgid "serviceChannelMessages/battlePassReward/buyWithRewards/additionalText"
-msgstr "Ta ulepszona przepustka działa tylko dla %(chapter)s rozdziału."
+msgstr "Ulepszona przepustka dotyczy tylko rozdziału %(chapter)s."
 
 msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
 msgstr "Otrzymałeś nagrody za ukończone wcześniej etapy Przepustki bitewnej:"
 
 msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
 msgstr ""
-"Otrzymasz teraz nagrody ze ścieżek podstawowych i ulepszonych nagród w "
-"rozdziale %(chapter)s.\n"
-"Ta ulepszona przepustka działa tylko dla %(chapter)s rozdziału."
+"Będziesz teraz otrzymywać nagrody ze ścieżek nagród podstawowych i "
+"ulepszonych w rozdziale %(chapter)s.\n"
+"Ta Ulepszona przepustka dotyczy tylko rozdziału %(chapter)s."
 
 msgid "serviceChannelMessages/battlePassReward/header/buyBP"
 msgstr "Kupiono ulepszoną przepustkę"
@@ -1931,12 +1937,6 @@ msgstr "Dodano"
 msgid "serviceChannelMessages/battleResults/quests/items/name"
 msgstr "%(name)s (x%(count)s)"
 
-msgid "serviceChannelMessages/battleResults/quests/nyBoxes"
-msgstr "Małe pudełka: (x%(count)s)"
-
-msgid "serviceChannelMessages/battleResults/quests/nyGiftStamps"
-msgstr "Świąteczne znaczki: (x%(count)s)"
-
 msgid "serviceChannelMessages/battleResults/quests/premium"
 msgstr "Dodane dni konta premium Wargaming"
 
@@ -1952,9 +1952,6 @@ msgstr "%(count)s dziennie"
 msgid ""
 "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
 msgstr "standardowe w liczbie %(count)s"
-
-msgid "serviceChannelMessages/battleResults/quests/variadicDiscount"
-msgstr "Otrzymano %(discount)s%% zniżki na pojazdy %(level)s poziomu"
 
 msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
 msgstr "Dodano miejsca"
@@ -2186,7 +2183,7 @@ msgid "serviceChannelMessages/crewSkinsCount"
 msgstr "%(label)s x%(count)s"
 
 msgid "serviceChannelMessages/currencyUpdate/auction"
-msgstr "Aukcja „Licytacja!”"
+msgstr "Aukcja"
 
 msgid "serviceChannelMessages/currencyUpdate/battlepass"
 msgstr "Przepustka bitewna"
@@ -2450,9 +2447,6 @@ msgstr ""
 "%(defResCount)s jednostek surowców przemysłowych dodano do magazynu centrum "
 "dowodzenia."
 
-msgid "serviceChannelMessages/goToEventButton"
-msgstr "Przejdź do wydarzenia"
-
 msgid "serviceChannelMessages/goldReceivedAsGift"
 msgstr "Otrzymano złota: %(gold)s."
 
@@ -2627,28 +2621,6 @@ msgstr "Dodano fragmenty schematu pojazdów %(nationName)s"
 msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
 msgstr "Usunięto fragmenty schematu pojazdów %(nationName)s"
 
-msgid "serviceChannelMessages/invoiceReceived/nyFillersAccrued"
-msgstr "Dodano ładunki: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyFillersDebited"
-msgstr "Usunięto ładunki: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyFragmentsAccrued"
-msgstr "Dodano skorupki: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyFragmentsDebited"
-msgstr "Usunięto skorupki: "
-
-msgid ""
-"serviceChannelMessages/invoiceReceived/nyFragmentsDebitedForAntiduplicator"
-msgstr "Skorupki pobrane za użycie Antyduplikatora: %(count)s"
-
-msgid "serviceChannelMessages/invoiceReceived/nyToysAccruedInvoiceReceived"
-msgstr "Dodano dekoracje: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyToysDebitedInvoiceReceived"
-msgstr "Usunięto dekoracje: "
-
 msgid "serviceChannelMessages/invoiceReceived/pieces"
 msgstr "szt."
 
@@ -2706,9 +2678,6 @@ msgstr "Usunięto nierozdzielone doświadczenie członkom załogi"
 msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
 msgstr "Zwolnieni"
 
-msgid "serviceChannelMessages/invoiceReceived/toyTypeWrapper"
-msgstr "%(name)s (x%(count)s)"
-
 msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
 msgstr "Dodano fragmenty schematu %(vehicleName)s"
 
@@ -2730,7 +2699,7 @@ msgstr ""
 "szt."
 
 msgid "serviceChannelMessages/lootBoxes/button"
-msgstr "Odbierz"
+msgstr "Do pudełek"
 
 msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Kliknij przycisk, by zobaczyć zawartość."
@@ -2743,6 +2712,9 @@ msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
 msgstr "Obejrzyj"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "x%(count)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Aktywowane portale: %(boxes)s"
@@ -2768,8 +2740,20 @@ msgstr "Otrzymano nagrody"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
 msgstr ""
-"Otworzyliśmy wszystkie pudełka i paczki od Twoich znajomych i dodaliśmy "
-"nagrody za Operacje świąteczne."
+"Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy nagrody za Operacje "
+"świąteczne"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
+msgstr "?empty?"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/header"
+msgstr "Otrzymane nagrody"
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/many/projection_decal"
+msgstr "Dodane naklejki: "
+
+msgid "serviceChannelMessages/lunarBoxesAutoOpen/projection_decal"
+msgstr "Dodana naklejka: "
 
 msgid "serviceChannelMessages/mapbox/buttons/toSurvey"
 msgstr "Do ankiety"
@@ -2820,16 +2804,8 @@ msgstr "Możesz wypełnić ankietę na temat mapy %(mapName)s w Misji zwiadowcze
 msgid "serviceChannelMessages/mapbox/surveyRequest"
 msgstr "Pamiętaj, aby podzielić się swoją opinią w ankietach."
 
-msgid "serviceChannelMessages/nonSelectedDevices/button"
-msgstr "Wybierz"
-
-msgid ""
-"serviceChannelMessages/nonSelectedDevices/text/battlePassNewDeviceGiftToken"
-msgstr "Standardowe wyposażenie dostępne do wyboru: %(count)s"
-
-msgid ""
-"serviceChannelMessages/nonSelectedDevices/text/battlePassTrophyGiftToken"
-msgstr "Wyposażenie z nagród dostępne do wyboru: %(count)s"
+msgid "serviceChannelMessages/multiplier"
+msgstr " (x%(count)s)"
 
 msgid "serviceChannelMessages/notrecruitedTankman/button"
 msgstr "Do koszar"
@@ -3056,25 +3032,6 @@ msgstr "Serwer gry będzie wyłączony o %(date)s."
 msgid "serviceChannelMessages/serverRebootCancelled"
 msgstr ""
 "Wyłączenie serwera gry zostało przesunięte, zaplanowano je na %(date)s."
-
-msgid "serviceChannelMessages/shopSalesEvent/activePhaseFinished"
-msgstr ""
-"Zakończyła się aktywna faza Karawany handlowej. Wciąż możesz kupić swoje "
-"zachowane zestawy."
-
-msgid "serviceChannelMessages/shopSalesEvent/activePhaseStarted"
-msgstr "Zaczęła się Karawana handlowa. Kup zestawy, na które masz ochotę!"
-
-msgid "serviceChannelMessages/shopSalesEvent/disabledBySwitch"
-msgstr "Karawana handlowa jest tymczasowo niedostępna z przyczyn technicznych."
-
-msgid "serviceChannelMessages/shopSalesEvent/enabledBySwitch"
-msgstr ""
-"Karawana handlowa jest ponownie dostępna. Przepraszamy za wszelkie "
-"niedogodności."
-
-msgid "serviceChannelMessages/shopSalesEvent/eventFinished"
-msgstr "Karawana handlowa zakończyła się."
 
 msgid "serviceChannelMessages/specialReward/intelligenceBlueprints"
 msgstr "Fragment uniwersalny (x%(fragmentsCount)s)"
