@@ -1505,6 +1505,21 @@ msgstr "Zdobyto punkty"
 msgid "serviceChannelMessages/BRbattleResults/victory"
 msgstr "Zwycięstwo"
 
+msgid "serviceChannelMessages/RTS/passAccured"
+msgstr "Rozegrałeś bitwę jako Strateg, nie wydając informacji."
+
+msgid "serviceChannelMessages/RTS/rts1x1CurrencyDebited"
+msgstr "Odjęto rozkaz za grę jako Strateg (1 na 1): %(count)s"
+
+msgid "serviceChannelMessages/RTS/rts1x7CurrencyDebited"
+msgstr "Odjęto informację za grę jako Strateg (1 na 7): %(count)s"
+
+msgid "serviceChannelMessages/RTS/rts1x7PassDebited"
+msgstr ""
+"Tym razem możesz rozegrać bitwę jako Strateg za darmo! Aby rozegrać więcej "
+"bitew jako Strateg, będziesz potrzebować informacji i rozkazów. Aby je "
+"zdobyć, graj jako Czołgista."
+
 msgid "serviceChannelMessages/achievementReceived/message"
 msgstr "Przebieg służby"
 
@@ -1688,6 +1703,12 @@ msgstr ""
 
 msgid "serviceChannelMessages/battlePass/trophySelectToken"
 msgstr "Wyposażenie z nagród do wyboru"
+
+msgid "serviceChannelMessages/battlePassExtraStart/button"
+msgstr "Szczegóły"
+
+msgid "serviceChannelMessages/battlePassExtraWillEndSoon/button"
+msgstr "Szczegóły"
 
 msgid "serviceChannelMessages/battlePassReward/activateChapter/text"
 msgstr "Otrzymałeś nagrody za ukończone etapy przy użyciu niewydanych punktów:"

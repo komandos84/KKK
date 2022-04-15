@@ -52,6 +52,9 @@ msgstr ""
 "To wydarzenie jest w tej chwili niedostępne. Śledź najnowsze wiadomości na "
 "portalu gry."
 
+msgid "arena_start_errors/join/INSUFFICIENT_FUNDS"
+msgstr "Nie można dołączyć do bitwy: potrzeba więcej informacji / rozkazów."
+
 msgid "arena_start_errors/join/NOT_FOUND"
 msgstr "Błąd przy dołączaniu do bitwy: zaproszenie nieaktualne."
 
@@ -462,6 +465,26 @@ msgid "battlePass/badgeRemoved/text"
 msgstr ""
 "Usunięto odznakę %(badgeName)s ze względu na koniec sezonu Przepustki "
 "bitewnej."
+
+msgid "battlePass/extraFinish/body"
+msgstr "Wydarzenie %(name)s dobiegło końca. Dziękujemy za udział!"
+
+msgid "battlePass/extraFinish/header"
+msgstr "Przepustka bitewna: rozdział %(name)s"
+
+msgid "battlePass/extraStarted/body"
+msgstr ""
+"Dowódco! W VII sezonie Przepustki bitewnej rozpoczęło się wydarzenie "
+"%(name)s, w którym można zdobyć nowy pojazd i jego styl 3D."
+
+msgid "battlePass/extraStarted/header"
+msgstr "Przepustka bitewna: dostępny jest nowy rozdział!"
+
+msgid "battlePass/extraWillEndSoon/body"
+msgstr "Dowódco! Rozdział %(name)s już niedługo dobiegnie końca. Pospiesz się!"
+
+msgid "battlePass/extraWillEndSoon/header"
+msgstr "Przepustka bitewna: rozdział %(name)s"
 
 msgid "battlePass/gameModeEnabled/body/22"
 msgstr ""
@@ -1144,7 +1167,7 @@ msgstr "Kolekcje znów są dostępne"
 msgid "connected"
 msgstr ""
 "Witaj\n"
-" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.16.0.0</font> <font color='#FF3333'>Automatyk</font>"
+" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.16.1.0</font> <font color='#FF3333'>Automatyk</font>"
 
 msgid "consumables_apply/error"
 msgstr ""
@@ -3376,6 +3399,30 @@ msgstr "Zawieszenie broni"
 msgid "royale/notifications/singleLevel/text"
 msgstr "Osiągnięto poziom: %(level)s"
 
+msgid "rts/notification/available"
+msgstr "Bitwy wydarzenia Sztuka strategii są znowu dostępne na tym serwerze."
+
+msgid "rts/notification/available/title"
+msgstr "Bitwy dostępne"
+
+msgid "rts/notification/notAvailable"
+msgstr ""
+"Wydarzenie Sztuka strategii jest niedostępne. Śledź informacje na portalu "
+"gry."
+
+msgid "rts/notification/notSet"
+msgstr "Bitwy Sztuki strategii są niedostępne na wybranym serwerze."
+
+msgid "rts/notification/notSet/title"
+msgstr "Bitwy są niedostępne"
+
+msgid "rts/notification/primeTime"
+msgstr ""
+"Trwa zawieszenie broni. Bitwy Sztuki strategii są tymczasowo niedostępne."
+
+msgid "rts/notification/primeTime/title"
+msgstr "Zawieszenie broni"
+
 msgid "securityMessage/bad_email"
 msgstr ""
 "Podany przez ciebie adres email znajduje się na podejrzanym serwerze. Zmień "
@@ -3608,6 +3655,9 @@ msgstr "Problemy techniczne zostały rozwiązane. Przepraszamy za niedogodności
 
 msgid "squad_bonus/switch_on/title"
 msgstr "Bonus dla plutonu jest ponownie dostępny"
+
+msgid "ssr/unavailable"
+msgstr "Nie można pobrać powtórki"
 
 msgid "steam_login_not_allowed"
 msgstr ""
@@ -4708,6 +4758,12 @@ msgid "vehicle_trade_in/not_enough_space"
 msgstr ""
 "Nie udało się dokonać zamiany za %(tradeOffVehName)s. Za mało łóżek w "
 "koszarach."
+
+msgid "vehicle_trade_in/offer_available"
+msgstr "Oferta wymiany jest dostępna!"
+
+msgid "vehicle_trade_in/offer_unavailable"
+msgstr "Oferta wymiany nie jest już dostępna!"
 
 msgid "vehicle_trade_in/server_error"
 msgstr ""

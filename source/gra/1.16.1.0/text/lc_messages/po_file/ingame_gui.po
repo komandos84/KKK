@@ -784,9 +784,6 @@ msgstr "aby zobaczyć charakterystyki pojazdu"
 msgid "helpScreen/hint/press"
 msgstr "Naciśnij"
 
-msgid "helpScreen/spgHint/description"
-msgstr "aby zobaczyć nowe funkcjonalności w aktualizacji"
-
 msgid "hitMarker/blocked"
 msgstr "Nie przebito pancerza"
 
@@ -953,7 +950,7 @@ msgid "player_messages/COMBAT_EQUIPMENT_USED_SMOKE"
 msgstr "%(player)s uruchamia zasłonę dymną."
 
 msgid "player_messages/COMBAT_EQUIPMENT_USED_STEALTH_RADAR"
-msgstr "%(player)s jest zamaskowany."
+msgstr "%(player)s uaktywnił Stróża."
 
 msgid "player_messages/DEATH_FROM_ARTILLERY_ALLY_ALLY"
 msgstr "%(target)s został zniszczony przez ostrzał artyleryjski."
@@ -1297,6 +1294,12 @@ msgstr "Gracz %(target)s zniszczony przez ostrzał artyleryjski."
 msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
 msgstr "Gracz %(target)s zniszczony przez nalot bombowy."
 
+msgid "player_messages/DEATH_FROM_SUPPLY_SHOT_ALLY_ENEMY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
+msgid "player_messages/DEATH_FROM_SUPPLY_SHOT_ENEMY_ALLY"
+msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
+
 msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
 msgstr "Sojusznik %(attacker)s rozbił sojusznika %(target)s."
 
@@ -1379,6 +1382,9 @@ msgstr "Pożar został ugaszony"
 
 msgid "player_messages/OPT_DEVICE_USED"
 msgstr "%(message)s"
+
+msgid "player_messages/SPAWN"
+msgstr "Przybyły posiłki w postaci %(entity)s!"
 
 msgid "player_messages/TANKMAN_HIT_AT_SHOT"
 msgstr "Strzał z %(entity)s zranił [%(device)s]."
@@ -1612,6 +1618,9 @@ msgstr "Pojazd zniszczony przez ostrzał artyleryjski"
 
 msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
 msgstr "Pojazd zniszczony przez bombardowanie"
+
+msgid "postmortem_messages/DEATH_FROM_SUPPLY_SHOT"
+msgstr "Pojazd zniszczony przez siły obronne gracza"
 
 msgid "postmortem_messages/DEATH_FROM_WORLD_COLLISION_ALLY_SELF"
 msgstr "Pojazd został rozbity przez sojusznika"
@@ -2443,7 +2452,7 @@ msgid "shells_kinds/params/damage"
 msgstr "Średnie uszkodzenia: %(value)s PW"
 
 msgid "shells_kinds/params/explosionRadius"
-msgstr "Promień wybuchu: %(value)s m"
+msgstr "Promień uszkodzeń: %(value)s m"
 
 msgid "shells_kinds/params/piercingPower"
 msgstr "Średnia penetracja: %(value)s mm"
