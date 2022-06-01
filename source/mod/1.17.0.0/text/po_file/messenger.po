@@ -239,7 +239,7 @@ msgid "client/errors/commandInCooldown/suspendedText"
 msgstr "Wiadomość zawieszona. Poczekaj %s s."
 
 msgid "client/information/addToFriends/message"
-msgstr "Użytkownik %s został dodany do listy przyjaciół"
+msgstr "Zapisano żądanie dodania gracza %s do Twojej listy znajomych."
 
 msgid "client/information/addToIgnored/message"
 msgstr ""
@@ -253,7 +253,7 @@ msgid "client/information/emptySearchResult/message"
 msgstr "Nic nie znaleziono"
 
 msgid "client/information/removeFromFriends/message"
-msgstr "Użytkownik %s został usunięty z listy przyjaciół"
+msgstr "Zapisano żądanie usunięcia gracza %s z Twojej listy znajomych."
 
 msgid "client/information/removeFromIgnored/message"
 msgstr ""
@@ -870,9 +870,6 @@ msgstr "Znajdź użytkownika"
 msgid "dialogs/serviceChannel/title"
 msgstr "Kanał służbowy"
 
-msgid "dialogs/simpleSquad/battleRoyale/VehicleRestriction"
-msgstr "Wybierz pojazd specjalny"
-
 msgid "dialogs/simpleSquad/epicBattle/VehicleRestriction"
 msgstr "Wybierz pojazd VIII poziomu"
 
@@ -1243,11 +1240,17 @@ msgstr "Dodano części"
 msgid "platformCurrencyMsg/debited/bpbit"
 msgstr "Usunięto punkty Przepustki bitewnej"
 
+msgid "platformCurrencyMsg/debited/brcoin"
+msgstr "Usunięto Stalowe pieczęcie"
+
 msgid "platformCurrencyMsg/debited/sacoin"
 msgstr "Pobrane żetony za lata służby"
 
 msgid "platformCurrencyMsg/received/bpbit"
 msgstr "Dodano punkty Przepustki bitewnej"
+
+msgid "platformCurrencyMsg/received/brcoin"
+msgstr "Dodano Stalowe pieczęcie"
 
 msgid "platformCurrencyMsg/received/sacoin"
 msgstr "Przyznane żetony za lata służby"
@@ -1493,6 +1496,9 @@ msgstr ""
 msgid "serviceChannelMessages/BRbattleResults/battlePass"
 msgstr "Otrzymane punkty przepustki bitewnej: %(pointsDiff)s"
 
+msgid "serviceChannelMessages/BRbattleResults/battleRoyaleBrCoin"
+msgstr "Otrzymano Stalowe pieczęcie: %(value)s"
+
 msgid "serviceChannelMessages/BRbattleResults/ended"
 msgstr "Pojazd zniszczony"
 
@@ -1504,21 +1510,6 @@ msgstr "Zdobyto punkty"
 
 msgid "serviceChannelMessages/BRbattleResults/victory"
 msgstr "Zwycięstwo"
-
-msgid "serviceChannelMessages/RTS/passAccured"
-msgstr "Rozegrałeś bitwę jako Strateg, nie wydając informacji."
-
-msgid "serviceChannelMessages/RTS/rts1x1CurrencyDebited"
-msgstr "Odjęto rozkaz za grę jako Strateg (1 na 1): %(count)s"
-
-msgid "serviceChannelMessages/RTS/rts1x7CurrencyDebited"
-msgstr "Odjęto informację za grę jako Strateg (1 na 7): %(count)s"
-
-msgid "serviceChannelMessages/RTS/rts1x7PassDebited"
-msgstr ""
-"Tym razem możesz rozegrać bitwę jako Strateg za darmo! Aby rozegrać więcej "
-"bitew jako Strateg, będziesz potrzebować informacji i rozkazów. Aby je "
-"zdobyć, graj jako Czołgista."
 
 msgid "serviceChannelMessages/achievementReceived/message"
 msgstr "Przebieg służby"
@@ -1776,6 +1767,9 @@ msgstr "Przyznano nagrodę"
 
 msgid "serviceChannelMessages/battlePassReward/tman"
 msgstr "Członek załogi:"
+
+msgid "serviceChannelMessages/battleResults/DBPoints"
+msgstr "?empty?"
 
 msgid "serviceChannelMessages/battleResults/achieves"
 msgstr "Osiągnięcia w walce"
@@ -2787,8 +2781,8 @@ msgstr "Błąd podczas wybierania nagród. Spróbuj ponownie."
 
 msgid "serviceChannelMessages/mapbox/eventEnded/text"
 msgstr ""
-"Misja zwiadowcza zakończyła się. Wszystkie nagrody nieodebrane w czasie "
-"wydarzenia zostały dodane do Twojego konta:"
+"Misja zwiadowcza zakończyła się. Dziękujemy za Twój wkład w rozwój nowych "
+"map!"
 
 msgid "serviceChannelMessages/mapbox/eventEndedNoRewards"
 msgstr ""
@@ -2800,7 +2794,8 @@ msgid "serviceChannelMessages/mapbox/eventStarted"
 msgstr ""
 "Misja zwiadowcza rozpoczęła się.\n"
 "\n"
-"Walcz na projektowanych mapach, wybierz najlepszą i otrzymaj nagrody!"
+"Walcz na mapach w fazie rozwoju w pojazdach poziomów VIII–X, podziel się "
+"swoją opinią w ankiecie i odbierz nagrody!"
 
 msgid "serviceChannelMessages/mapbox/progressionFinalRewardReceived"
 msgstr "Nagroda finałowa:"
