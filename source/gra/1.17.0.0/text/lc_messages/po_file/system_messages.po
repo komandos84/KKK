@@ -52,9 +52,6 @@ msgstr ""
 "To wydarzenie jest w tej chwili niedostępne. Śledź najnowsze wiadomości na "
 "portalu gry."
 
-msgid "arena_start_errors/join/INSUFFICIENT_FUNDS"
-msgstr "Nie można dołączyć do bitwy: potrzeba więcej informacji / rozkazów."
-
 msgid "arena_start_errors/join/NOT_FOUND"
 msgstr "Błąd przy dołączaniu do bitwy: zaproszenie nieaktualne."
 
@@ -537,12 +534,21 @@ msgid "battlePass/switch_pause/body"
 msgstr ""
 "Przepustka bitewna jest chwilowo niedostępna z powodu prac technicznych."
 
-msgid "battlePass/switch_started/body"
+msgid "battlePass/switch_started/style/body"
 msgstr ""
-"Dowódcy! Ponownie nadszedł czas na walkę i zdobywanie unikalnych nagród "
-"Przepustki bitewnej: stylów progresywnych, ekskluzywnych postaci i nie tylko!"
+"Dowódcy! Nadszedł znowu czas, by walczyć o unikalne nagrody Przepustki "
+"bitewnej, a wśród nich style progresywne, żetony, wyjątkowe postaci i wiele "
+"więcej!"
 
-msgid "battlePass/switch_started/title"
+msgid "battlePass/switch_started/style/title"
+msgstr "Przepustka bitewna, sezon %(seasonNum)d"
+
+msgid "battlePass/switch_started/tankman/body"
+msgstr ""
+"Dowódcy! Nadszedł znowu czas, by walczyć o unikalne nagrody Przepustki "
+"bitewnej, a wśród nich żetony, wyjątkowe postaci i wiele więcej!"
+
+msgid "battlePass/switch_started/tankman/title"
 msgstr "Przepustka bitewna, sezon %(seasonNum)d"
 
 msgid "battlePassLevels_buy/server_error"
@@ -1417,6 +1423,18 @@ msgstr "Nieśmiertelniki są znowu dostępne."
 
 msgid "dossiers_unavailable"
 msgstr "Konto nie jest gotowe (DOSSIERS_UNAVAILABLE)"
+
+msgid "dragonBoat/finalAward/header"
+msgstr "?empty?"
+
+msgid "dragonBoat/paused"
+msgstr "?empty?"
+
+msgid "dragonBoat/restored"
+msgstr "?empty?"
+
+msgid "dragonBoat/stageAward/header"
+msgstr "?empty?"
 
 msgid "drop_tankman_skill/invalid_vehicle"
 msgstr "Błąd przy zerowaniu umiejętności. Niewłaściwy pojazd."
