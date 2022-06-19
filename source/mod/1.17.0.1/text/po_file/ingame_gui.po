@@ -1637,12 +1637,6 @@ msgstr ""
 "<font color='#7D0800'>%(target)s</font> <font color='#E0E0E0'>zniszczony "
 "przez nalot bombowy.</font>"
 
-msgid "player_messages/DEATH_FROM_SUPPLY_SHOT_ALLY_ENEMY"
-msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
-
-msgid "player_messages/DEATH_FROM_SUPPLY_SHOT_ENEMY_ALLY"
-msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
-
 msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
 msgstr ""
 "<img src='img://gui/maps/icons/library/Automatyk/warning.png' width='16' "

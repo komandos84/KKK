@@ -2817,9 +2817,6 @@ msgstr "Ankieta jest dostępna"
 msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
 msgstr "Możesz wypełnić ankietę na temat mapy %(mapName)s w Misji zwiadowczej."
 
-msgid "serviceChannelMessages/mapbox/surveyRequest"
-msgstr "Pamiętaj, aby podzielić się swoją opinią w ankietach."
-
 msgid "serviceChannelMessages/multiplier"
 msgstr " (x%(count)s)"
 
