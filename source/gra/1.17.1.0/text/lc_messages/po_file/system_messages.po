@@ -1424,18 +1424,6 @@ msgstr "Nieśmiertelniki są znowu dostępne."
 msgid "dossiers_unavailable"
 msgstr "Konto nie jest gotowe (DOSSIERS_UNAVAILABLE)"
 
-msgid "dragonBoat/finalAward/header"
-msgstr "?empty?"
-
-msgid "dragonBoat/paused"
-msgstr "?empty?"
-
-msgid "dragonBoat/restored"
-msgstr "?empty?"
-
-msgid "dragonBoat/stageAward/header"
-msgstr "?empty?"
-
 msgid "drop_tankman_skill/invalid_vehicle"
 msgstr "Błąd przy zerowaniu umiejętności. Niewłaściwy pojazd."
 
@@ -1443,7 +1431,8 @@ msgid "drop_tankman_skill/server_error"
 msgstr "Nie udało się wyzerować umiejętności. Spróbuj później."
 
 msgid "drop_tankman_skill/success"
-msgstr "Wszystkie umiejętności i atuty zostały wyzerowane. Wydano: %(money)s"
+msgstr ""
+"Udało się zresetować wszystkie umiejętności i atuty. Wydałeś %(money)s."
 
 msgid "drop_tankman_skill/vehicle_locked"
 msgstr "Błąd przy zerowaniu umiejętności. Pojazd zablokowany."
@@ -1457,8 +1446,35 @@ msgstr "Rozdzielczość dynamiczna zmniejszona do %(scale)d%%."
 msgid "drr_scale/step_up"
 msgstr "Rozdzielczość dynamiczna zwiększona do %(scale)d%%."
 
+msgid "epicBattles/levelUp/awards"
+msgstr "Otrzymano nagrodę:"
+
+msgid "epicBattles/levelUp/body/levelCongrats"
+msgstr ""
+"Osiągnąłeś <font color='#E9E2BF'>%(tier)s</font> poziom postępu Linii frontu."
+
+msgid "epicBattles/levelUp/title"
+msgstr "Gratulacje!"
+
 msgid "epicBattles/notification/notAvailable"
 msgstr "Linia frontu jest niedostępna. Śledź wiadomości na portalu gry."
+
+msgid "epicBattles/rewardChoice/error"
+msgstr "Błąd podczas wybierania nagród. Spróbuj ponownie."
+
+msgid "epicBattles/seasonEnd/rewards/crewBook"
+msgstr "Otrzymano %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/equipment"
+msgstr "Otrzymano dyrektywy na wyposażenie: %(name)s"
+
+msgid "epicBattles/seasonEnd/text"
+msgstr ""
+"Sezon Linii frontu zakończył się.<br>Wszystkie niewybrane w trakcie sezonu "
+"nagrody, zostały Ci przyznane domyślnie:"
+
+msgid "epicBattles/seasonEnd/title"
+msgstr "Linia frontu"
 
 msgid "equip_tankman/FORBIDDEN"
 msgstr ""
@@ -1949,6 +1965,25 @@ msgstr "Nie można wyszkolić czołgisty. Spróbuj ponownie później."
 msgid "free_xp_to_tman_skill/success"
 msgstr "Udało się wyszkolić czołgistę. Zużyte Wolne Doświadczenie: %(freeXP)s."
 
+msgid "funRandom/notification/available"
+msgstr "Bitwy Automatu do gier są znowu dostępne."
+
+msgid "funRandom/notification/available/title"
+msgstr "Zawieszenie broni"
+
+msgid "funRandom/notification/notSet"
+msgstr "Bitwy Automatu do gier nie są dostępne na wybranym serwerze."
+
+msgid "funRandom/notification/notSet/title"
+msgstr "Zawieszenie broni"
+
+msgid "funRandom/notification/primeTime"
+msgstr ""
+"Trwa zawieszenie broni. Bitwy Automatu do gier są tymczasowo niedostępne."
+
+msgid "funRandom/notification/primeTime/title"
+msgstr "Zawieszenie broni"
+
 msgid "gameSessionControl/korea/midnightNotification"
 msgstr ""
 "Aby uchronić dzieci i młodzież przed uzależnieniem od gry, dołączanie do "
@@ -1970,6 +2005,20 @@ msgstr "Czas sesji gry: %(sessionTime)s"
 
 msgid "gameSessionControl/korea/timeTillMidnight"
 msgstr "Czas do północy: %(timeLeft)s"
+
+msgid "gameSessionControl/parentControl/kickTime"
+msgstr ""
+"Osiągnąłeś limit czasu gry. Nie możesz wejść do nowej bitwy. Zostaniesz "
+"rozłączony z serwerem o %(kickTime)s."
+
+msgid "gameSessionControl/parentControl/noTimeLimit"
+msgstr "Limit czasu gry został usunięty z Twojego konta"
+
+msgid "gameSessionControl/parentControl/settingsChanged"
+msgstr "Ustawienia ochrony rodzicielskiej zostały zmienione."
+
+msgid "gameSessionControl/parentControl/timeLimit"
+msgstr "Zostaniesz wylogowany z serwera o %(timeLimit)s."
 
 msgid "graficsOptionsFail"
 msgstr ""
@@ -2158,7 +2207,7 @@ msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Działanie jest tymczasowo niedostępne. Spróbuj ponownie później."
 
 msgid "mapbox/notification/primeTime"
-msgstr "Misja zwiadowcza jest niedostępna do czasu zakończenia ciszy nocnej."
+msgstr "Misja zwiadowcza jest niedostępna do zakończenia zawieszenia broni."
 
 msgid "maps_black_list/select/server_error"
 msgstr "Błąd serwera"
@@ -2445,6 +2494,15 @@ msgstr "Błąd konfiguracji wyposażenia. Spróbuj ponownie później."
 
 msgid "optionalDevices_remove/error_too_heavy"
 msgstr "Za mała ładowność: rozważ odciążenie pojazdu."
+
+msgid "parentControl/linkText"
+msgstr "Podaj datę"
+
+msgid "parentControl/mainText"
+msgstr "Proszę podać datę swoich urodzin."
+
+msgid "parentControl/title"
+msgstr "Potwierdzenie wieku"
 
 msgid "periphery/errors/isNotAvailable"
 msgstr "Przeniesienie nie jest dostępne. Nie można określić serwera."
@@ -3096,6 +3154,12 @@ msgstr "Błąd przy zmianie danych osobowych. Napraw pojazd."
 
 msgid "request/isInCoolDown"
 msgstr "Operacja \"%(request)s\" została zablokowana na %(coolDown)s s."
+
+msgid "resourceWell/resourcesLoadingError"
+msgstr "Błąd przy wydawaniu zasobów. Spróbuj ponownie."
+
+msgid "resourceWell/resourcesReturnError"
+msgstr "Błąd przy zwracaniu zasobów. Spróbuj ponownie."
 
 msgid "restoreController/hasLimitedRestoreVehicles"
 msgstr ""

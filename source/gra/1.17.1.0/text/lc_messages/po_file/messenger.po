@@ -96,6 +96,10 @@ msgstr ""
 "Osiągnąłeś tygodniowy limit czasu gry. Twoja sesja skończy się za "
 "%(timeLeft)s minut."
 
+msgid "chat/parentControlMessage/timeLimit"
+msgstr ""
+"Osiągnąłeś limit czasu gry. Twoja sesja zakończy się za %(timeLeft)s minut."
+
 msgid "chat/personalMessage/warningBody"
 msgstr ""
 "Wiadomości od nieznanych graczy mogą zawierać niebezpieczne odnośniki. Nie "
@@ -1758,9 +1762,6 @@ msgstr "Przyznano nagrodę"
 msgid "serviceChannelMessages/battlePassReward/tman"
 msgstr "Członek załogi:"
 
-msgid "serviceChannelMessages/battleResults/DBPoints"
-msgstr "?empty?"
-
 msgid "serviceChannelMessages/battleResults/achieves"
 msgstr "Osiągnięcia w walce"
 
@@ -2268,6 +2269,24 @@ msgstr "Usunięto wszystkie moduły eksperymentalne"
 msgid "serviceChannelMessages/enhancements/wipedOnVehicles"
 msgstr "Eksperymentalne moduły zdemontowane z następujących pojazdów"
 
+msgid "serviceChannelMessages/epicReward/battleBooster_gift"
+msgstr "• Dyrektywy na wyposażenie do wyboru"
+
+msgid "serviceChannelMessages/epicReward/battlePassPoints"
+msgstr "• Punkty Przepustki bitewnej"
+
+msgid "serviceChannelMessages/epicReward/brochure_gift"
+msgstr "• Podręcznik uniwersalny"
+
+msgid "serviceChannelMessages/epicReward/crystal"
+msgstr "• Obligacje"
+
+msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
+msgstr "• Punkty rezerw bojowych"
+
+msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
+msgstr "• Rozkazy przekwalifikowania"
+
 msgid "serviceChannelMessages/eventCoinReceivedAsGift"
 msgstr "Przyznano Ci jubileuszowe monety: %(eventCoin)s."
 
@@ -2532,9 +2551,6 @@ msgstr "Otrzymano obligacje"
 msgid "serviceChannelMessages/invoiceReceived/crystalDebited"
 msgstr "Utracono obligacje"
 
-msgid "serviceChannelMessages/invoiceReceived/demountKits"
-msgstr "Materiały eksploatacyjne"
-
 msgid "serviceChannelMessages/invoiceReceived/discounts"
 msgstr "Osobista zniżka"
 
@@ -2555,6 +2571,9 @@ msgstr "Dodano"
 
 msgid "serviceChannelMessages/invoiceReceived/entitlementsDebited"
 msgstr "Usunięto"
+
+msgid "serviceChannelMessages/invoiceReceived/equipment"
+msgstr "Materiały eksploatacyjne"
 
 msgid "serviceChannelMessages/invoiceReceived/eventCoinAccrued"
 msgstr "Dodano jubileuszowe monety"
@@ -2979,6 +2998,107 @@ msgstr "Dodano złoto za niewykorzystany czas wypożyczenia %(vehicleName)s"
 
 msgid "serviceChannelMessages/rentalsExpired"
 msgstr "Czas wypożyczenia %(vehicleName)s zakończył się."
+
+msgid "serviceChannelMessages/resourceWell/blueprintCount"
+msgstr " x%(count)s"
+
+msgid "serviceChannelMessages/resourceWell/blueprints"
+msgstr "Fragmenty schematu: "
+
+msgid "serviceChannelMessages/resourceWell/breakLine"
+msgstr "<br/>"
+
+msgid "serviceChannelMessages/resourceWell/credits"
+msgstr "Kredyty: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/crystal"
+msgstr "Obligacje: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/enabled/text"
+msgstr "Warsztat jest znowu otwarty!"
+
+msgid "serviceChannelMessages/resourceWell/end/text"
+msgstr ""
+"Rozpoczynamy prace nad kolejnym projektem. Damy znać, kiedy je ukończymy. Do "
+"zobaczenia wkrótce!"
+
+msgid "serviceChannelMessages/resourceWell/end/title"
+msgstr "Warsztat kończy pracę"
+
+msgid "serviceChannelMessages/resourceWell/freeXP"
+msgstr "Wolne PD: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/gold"
+msgstr "Złoto: %(count)s"
+
+msgid "serviceChannelMessages/resourceWell/intelligence"
+msgstr "uniwersalne fragmenty"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/button"
+msgstr "Wydane zasoby"
+
+msgid "serviceChannelMessages/resourceWell/noSerialVehicles/text"
+msgstr ""
+"Dostawa pojazdów z numerami skończona. Rozpoczynamy składanie %(vehicle)s w "
+"standardowej konfiguracji. Pospiesz się – liczba pojazdów jest ograniczona!"
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/text"
+msgstr ""
+"Składanie pojazdów zakończone. Wszystkie pojazdy dostarczono do ich "
+"właścicieli."
+
+msgid "serviceChannelMessages/resourceWell/noVehicles/title"
+msgstr "Raport warsztatowy"
+
+msgid "serviceChannelMessages/resourceWell/noVehiclesWithReturn/text"
+msgstr ""
+"Składanie pojazdów zakończone. Wszystkie pojazdy dostarczono do ich "
+"właścicieli. Wszystkie wydane zasoby zostaną wkrótce zwrócone na Twoje konto."
+
+msgid "serviceChannelMessages/resourceWell/pause/text"
+msgstr ""
+"Warsztat jest tymczasowo niedostępny ze względu na prace konserwacyjne."
+
+msgid "serviceChannelMessages/resourceWell/progress"
+msgstr "Aktualny postęp: %(progress)d"
+
+msgid "serviceChannelMessages/resourceWell/put/text"
+msgstr "Zasoby wydane na projekt warsztatu:"
+
+msgid "serviceChannelMessages/resourceWell/put/title"
+msgstr "Wydane zasoby"
+
+msgid "serviceChannelMessages/resourceWell/regularReward/text"
+msgstr "Otrzymano z warsztatu %(vehicle)s."
+
+msgid "serviceChannelMessages/resourceWell/regularReward/title"
+msgstr "Otrzymano %(vehicle)s!"
+
+msgid "serviceChannelMessages/resourceWell/start/button"
+msgstr "Szczegóły"
+
+msgid "serviceChannelMessages/resourceWell/start/text"
+msgstr ""
+"Dowódco, masz szansę stać się właścicielem %(vehicle)s ze stylem 3D z "
+"numerem. Liczba pojazdów jest ograniczona!"
+
+msgid "serviceChannelMessages/resourceWell/start/title"
+msgstr "Warsztat rozpoczyna pracę"
+
+msgid "serviceChannelMessages/resourceWell/take/text"
+msgstr "Zasoby zwrócone przez warsztat:"
+
+msgid "serviceChannelMessages/resourceWell/take/title"
+msgstr "Powracające zasoby"
+
+msgid "serviceChannelMessages/resourceWell/topReward/additionalText"
+msgstr "Numer stylu: %(serialNumber)s"
+
+msgid "serviceChannelMessages/resourceWell/topReward/text"
+msgstr "Otrzymano z warsztatu unikalny %(vehicle)s."
+
+msgid "serviceChannelMessages/resourceWell/topReward/title"
+msgstr "Otrzymano %(vehicle)s!"
 
 msgid "serviceChannelMessages/selectableCrewbook/brochure"
 msgstr "Książeczki szkoleniowe do wyboru"
