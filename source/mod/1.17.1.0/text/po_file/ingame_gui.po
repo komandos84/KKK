@@ -1912,9 +1912,6 @@ msgstr "Tryb obserwatora"
 msgid "postmortem/tips/observerMode/text"
 msgstr "Przełącz się między pojazdami sojuszników."
 
-msgid "postmortem_messages/DEATH_FROM_AIRSTRIKE"
-msgstr "Pojazd zniszczony przez Ostrzał artyleryjski."
-
 msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
 msgstr "Pojazd zniszczony przez ostrzał artyleryjski."
 
@@ -2001,6 +1998,9 @@ msgstr "Pojazd zniszczony przez ostrzał artyleryjski."
 
 msgid "postmortem_messages/DEATH_FROM_SHOT"
 msgstr "Pojazd zniszczony przez strzał gracza"
+
+msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
+msgstr "Pojazd zniszczony przez Ostrzał artyleryjski."
 
 msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
 msgstr "Pojazd zniszczony przez ostrzał artyleryjski"
@@ -2684,6 +2684,20 @@ msgid "rewardWindow/twitch3/headerText"
 msgstr "Pakiet bytowy „Echo”"
 
 msgid "rewardWindow/twitch3/subHeaderText"
+msgstr "Otrzymane nagrody"
+
+msgid "rewardWindow/twitch30/btnLabel"
+msgstr "Więcej"
+
+msgid "rewardWindow/twitch30/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Prime Gaming. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch30/headerText"
+msgstr "Retrofale"
+
+msgid "rewardWindow/twitch30/subHeaderText"
 msgstr "Otrzymane nagrody"
 
 msgid "rewardWindow/twitch4/btnLabel"
