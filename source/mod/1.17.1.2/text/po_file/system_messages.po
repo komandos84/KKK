@@ -1173,7 +1173,7 @@ msgstr "Kolekcje znów są dostępne"
 msgid "connected"
 msgstr ""
 "Witaj\n"
-" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.17.1.0</font> <font color='#FF3333'>Automatyk</font>"
+" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.17.1.2</font> <font color='#FF3333'>Automatyk</font>"
 
 msgid "consumables_apply/error"
 msgstr ""
@@ -4927,6 +4927,26 @@ msgstr ""
 
 msgid "window/buttons/close"
 msgstr "Zamknij"
+
+msgid "wotAnniversary/award/header"
+msgstr "Gratulacje!"
+
+msgid "wotAnniversary/eventWillEndSoon/body"
+msgstr ""
+"Po wydarzeniu wszystkie jubileuszowe monety zostaną usunięte z Twojego konta."
+
+msgid "wotAnniversary/eventWillEndSoon/header"
+msgstr "Uwaga!"
+
+msgid "wotAnniversary/switch_disable/body"
+msgstr ""
+"Wydarzenie z okazji 12. jubileuszu zakończyło się. Dziękujemy za Twój udział!"
+
+msgid "wotAnniversary/switch_enabled/body"
+msgstr "Wydarzenie z okazji 12. jubileuszu zostało wznowione."
+
+msgid "wotAnniversary/switch_pause/body"
+msgstr "Wydarzenie z okazji 12. jubileuszu jest tymczasowo zawieszone."
 
 msgid "wrong_slot"
 msgstr "%s „%s” nie pasuje do miejsca %s."
