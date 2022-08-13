@@ -2700,6 +2700,20 @@ msgstr "Retrofale"
 msgid "rewardWindow/twitch30/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch31/btnLabel"
+msgstr "Rekrutuj"
+
+msgid "rewardWindow/twitch31/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Prime Gaming. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch31/headerText"
+msgstr "Adepta Sororitas"
+
+msgid "rewardWindow/twitch31/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch4/btnLabel"
 msgstr "Rekrutuj!"
 
