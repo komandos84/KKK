@@ -1247,6 +1247,9 @@ msgstr "Usunięto punkty Przepustki bitewnej"
 msgid "platformCurrencyMsg/debited/brcoin"
 msgstr "Usunięto Stalowe pieczęcie"
 
+msgid "platformCurrencyMsg/debited/freeXP"
+msgstr "Spisano wolnego doświadczenia"
+
 msgid "platformCurrencyMsg/debited/sacoin"
 msgstr "Pobrane żetony za lata służby"
 
@@ -1255,6 +1258,9 @@ msgstr "Dodano punkty Przepustki bitewnej"
 
 msgid "platformCurrencyMsg/received/brcoin"
 msgstr "Dodano Stalowe pieczęcie"
+
+msgid "platformCurrencyMsg/received/freeXP"
+msgstr "Otrzymujesz darmowe doświadczenie"
 
 msgid "platformCurrencyMsg/received/sacoin"
 msgstr "Przyznane żetony za lata służby"
@@ -1651,6 +1657,58 @@ msgstr "Naprawiono czołg %s. Wydano "
 
 msgid "serviceChannelMessages/badgeAchievement"
 msgstr "Dodano odznaki"
+
+msgid "serviceChannelMessages/battleMatters/awards/body"
+msgstr "Misja ukończona: %(questIdx)s %(questName)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/done/body"
+msgstr "Ukończyłeś serię misji Akademii Pancernej."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer"
+msgstr ""
+"Żetony można wymienić na dowolny możliwy do zbadania pojazd VI poziomu."
+
+msgid "serviceChannelMessages/battleMatters/awards/footer/button"
+msgstr "Do wyboru pojazdu"
+
+msgid "serviceChannelMessages/battleMatters/awards/header"
+msgstr "Gratulacje!"
+
+msgid "serviceChannelMessages/battleMatters/awards/medium/body"
+msgstr "Ukończone misje Akademii Pancernej: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/questIdx"
+msgstr "%(questIdx)s."
+
+msgid "serviceChannelMessages/battleMatters/awards/received"
+msgstr "Otrzymano nagrodę:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body"
+msgstr "Użyto żetonu akademii"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/crew"
+msgstr "%(vehName)s (100% załogi)"
+
+msgid ""
+"serviceChannelMessages/battleMatters/awards/tokenAward/body/rewardReceived"
+msgstr "Otrzymano nagrodę:"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/slot"
+msgstr "Miejsca w garażu: %(count)s"
+
+msgid "serviceChannelMessages/battleMatters/awards/tokenAward/body/vehicle"
+msgstr "Wypożyczone pojazdy: %(vehName)s"
+
+msgid "serviceChannelMessages/battleMatters/paused"
+msgstr ""
+"Misji Akademii Pancernej nie można obecnie wypełniać. Twoje postępy "
+"w ukończonych misjach zostaną zachowane."
+
+msgid "serviceChannelMessages/battleMatters/started"
+msgstr "Misje Akademii Pancernej są ponownie dostępne."
+
+msgid "serviceChannelMessages/battleMatters/token"
+msgstr "Żeton akademii"
 
 msgid "serviceChannelMessages/battlePass/badges/header/remove"
 msgstr "Usunięto odznakę"
@@ -2190,7 +2248,7 @@ msgstr "Utracono obligacje"
 msgid "serviceChannelMessages/currencyUpdate/debited/eventCoin"
 msgstr "Usunięto jubileuszowe monety"
 
-msgid "serviceChannelMessages/currencyUpdate/debited/freeXp"
+msgid "serviceChannelMessages/currencyUpdate/debited/freeXP"
 msgstr "Spisano wolnego doświadczenia"
 
 msgid "serviceChannelMessages/currencyUpdate/debited/gold"
@@ -2198,6 +2256,9 @@ msgstr "Potrącono złota"
 
 msgid "serviceChannelMessages/currencyUpdate/financial_transaction"
 msgstr "Transakcja finansowa"
+
+msgid "serviceChannelMessages/currencyUpdate/integratedAuction"
+msgstr "Aukcja"
 
 msgid "serviceChannelMessages/currencyUpdate/received/bpcoin"
 msgstr "Otrzymane żetony"
@@ -2211,7 +2272,7 @@ msgstr "Otrzymano obligacje"
 msgid "serviceChannelMessages/currencyUpdate/received/eventCoin"
 msgstr "Otrzymano jubileuszowe monety"
 
-msgid "serviceChannelMessages/currencyUpdate/received/freeXp"
+msgid "serviceChannelMessages/currencyUpdate/received/freeXP"
 msgstr "Otrzymujesz darmowe doświadczenie"
 
 msgid "serviceChannelMessages/currencyUpdate/received/gold"
@@ -2923,6 +2984,39 @@ msgstr "Otrzymano konto premium Wargaming na %(days)d dzień/dni."
 
 msgid "serviceChannelMessages/priorityMessageTitle"
 msgstr "Uwaga!"
+
+msgid "serviceChannelMessages/progression2d/button"
+msgstr "Szczegóły"
+
+msgid "serviceChannelMessages/progression2d/camouflage"
+msgstr "Kamuflaż"
+
+msgid "serviceChannelMessages/progression2d/decal"
+msgstr "naklejka"
+
+msgid "serviceChannelMessages/progression2d/emblem"
+msgstr "emblemat"
+
+msgid "serviceChannelMessages/progression2d/inscription"
+msgstr "Napis"
+
+msgid "serviceChannelMessages/progression2d/item"
+msgstr "Poziom %(level)s %(name)s %(typeName)s"
+
+msgid "serviceChannelMessages/progression2d/itemCount"
+msgstr "I %(count)s więcej"
+
+msgid "serviceChannelMessages/progression2d/paint"
+msgstr "farba"
+
+msgid "serviceChannelMessages/progression2d/projectionDecal"
+msgstr "naklejka"
+
+msgid "serviceChannelMessages/progression2d/received"
+msgstr "Otrzymano:"
+
+msgid "serviceChannelMessages/progression2d/title"
+msgstr "Styl %(name)s"
 
 msgid "serviceChannelMessages/progressiveReward/header"
 msgstr "Gratulacje!"

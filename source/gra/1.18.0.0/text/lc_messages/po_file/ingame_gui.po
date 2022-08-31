@@ -2352,6 +2352,20 @@ msgstr "Adepta Sororitas"
 msgid "rewardWindow/twitch31/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch32/btnLabel"
+msgstr "Rekrutuj"
+
+msgid "rewardWindow/twitch32/descText"
+msgstr ""
+"Gratulacje! Otrzymałeś specjalny zrzut zaopatrzenia z Prime Gaming. A teraz "
+"dobrze go wykorzystaj!"
+
+msgid "rewardWindow/twitch32/headerText"
+msgstr "Rewolwerowiec"
+
+msgid "rewardWindow/twitch32/subHeaderText"
+msgstr "Otrzymane nagrody"
+
 msgid "rewardWindow/twitch4/btnLabel"
 msgstr "Rekrutuj!"
 
