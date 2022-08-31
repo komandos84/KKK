@@ -1965,25 +1965,6 @@ msgstr "Nie można wyszkolić czołgisty. Spróbuj ponownie później."
 msgid "free_xp_to_tman_skill/success"
 msgstr "Udało się wyszkolić czołgistę. Zużyte Wolne Doświadczenie: %(freeXP)s."
 
-msgid "funRandom/notification/available"
-msgstr "Bitwy Automatu do gier są znowu dostępne."
-
-msgid "funRandom/notification/available/title"
-msgstr "Zawieszenie broni"
-
-msgid "funRandom/notification/notSet"
-msgstr "Bitwy Automatu do gier nie są dostępne na wybranym serwerze."
-
-msgid "funRandom/notification/notSet/title"
-msgstr "Zawieszenie broni"
-
-msgid "funRandom/notification/primeTime"
-msgstr ""
-"Trwa zawieszenie broni. Bitwy Automatu do gier są tymczasowo niedostępne."
-
-msgid "funRandom/notification/primeTime/title"
-msgstr "Zawieszenie broni"
-
 msgid "gameSessionControl/korea/midnightNotification"
 msgstr ""
 "Aby uchronić dzieci i młodzież przed uzależnieniem od gry, dołączanie do "
@@ -2460,6 +2441,9 @@ msgstr "?empty?"
 
 msgid "offers/server_error/DISABLED"
 msgstr "Działanie jest tymczasowo niedostępne. Spróbuj ponownie później."
+
+msgid "offers/server_error/EXCEPTION"
+msgstr "Błąd odbierania prezentu: błąd serwera"
 
 msgid "offers/server_error/MULTI_ERROR"
 msgstr ""
@@ -3512,10 +3496,15 @@ msgstr ""
 "Zostałeś usunięty z plutonu, ponieważ dowódca zmienił wymagania bądź nie "
 "możesz dołączyć, bo Twój pojazd nie spełnia wymagań. Wybierz inny pojazd."
 
+msgid "squad/notValidMaxScoutDeleted"
+msgstr ""
+"%(vehName)s został usunięty z plutonu ze względu na ograniczenia liczby "
+"czołgów lekkich dozwolonych na pluton. Wybierz pojazd innego typu."
+
 msgid "squad/notValidMaxSpgDeleted"
 msgstr ""
-"%(vehName)s został wyłączony z plutonu z powodu ograniczenia na liczbę dział "
-"samobieżnych. Wybierz pojazd innego typu."
+"%(vehName)s został usunięty z plutonu ze względu na ograniczenia liczby "
+"dział samobieżnych dozwolonych na pluton. Wybierz pojazd innego typu."
 
 msgid "squad_bonus/switch_off/body"
 msgstr ""
@@ -4616,26 +4605,6 @@ msgstr ""
 
 msgid "window/buttons/close"
 msgstr "Zamknij"
-
-msgid "wotAnniversary/award/header"
-msgstr "Gratulacje!"
-
-msgid "wotAnniversary/eventWillEndSoon/body"
-msgstr ""
-"Po wydarzeniu wszystkie jubileuszowe monety zostaną usunięte z Twojego konta."
-
-msgid "wotAnniversary/eventWillEndSoon/header"
-msgstr "Uwaga!"
-
-msgid "wotAnniversary/switch_disable/body"
-msgstr ""
-"Wydarzenie z okazji 12. jubileuszu zakończyło się. Dziękujemy za Twój udział!"
-
-msgid "wotAnniversary/switch_enabled/body"
-msgstr "Wydarzenie z okazji 12. jubileuszu zostało wznowione."
-
-msgid "wotAnniversary/switch_pause/body"
-msgstr "Wydarzenie z okazji 12. jubileuszu jest tymczasowo zawieszone."
 
 msgid "wrong_slot"
 msgstr "%s „%s” nie pasuje do miejsca %s."
