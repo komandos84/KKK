@@ -805,8 +805,14 @@ msgstr "s..."
 msgid "helpScreen/hint/description"
 msgstr "aby zobaczyć charakterystyki pojazdu"
 
+msgid "helpScreen/hint/modeDescription"
+msgstr "aby zobaczyć cechy trybu"
+
 msgid "helpScreen/hint/press"
 msgstr "Naciśnij"
+
+msgid "hint/noBindingKey"
+msgstr "Główne klawisze nie są przypisane"
 
 msgid "hitMarker/blocked"
 msgstr "Nie przebito pancerza"
@@ -855,6 +861,12 @@ msgstr "Nie ma aktywnej misji dla tego trybu bitwy."
 
 msgid "personalMissions/tip/noQuests/vehicleType"
 msgstr "Nie ma aktywnej misji dla tego typu pojazdów."
+
+msgid "personal_reserves/hint/description"
+msgstr "aby aktywować rezerwy osobiste"
+
+msgid "personal_reserves/hint/press"
+msgstr "Naciśnij"
 
 msgid "player_errors/cant_move/chassis_damaged"
 msgstr "Unieruchomienie: zawieszenie uszkodzone"
@@ -906,6 +918,9 @@ msgstr "[%(entity)s] nie potrzebuje pomocy medycznej"
 
 msgid "player_errors/equipment/order/notReady"
 msgstr "Rezerwa nie jest jeszcze gotowa."
+
+msgid "player_errors/equipment/poi/unavailable"
+msgstr "Zdobądź %(name)s, by aktywować umiejętność taktyczną"
 
 msgid "player_errors/equipment/repairEverything/crewAndDevicesAreOk"
 msgstr ""
@@ -1260,6 +1275,12 @@ msgstr "Gracz %(attacker)s zniszczył gracza %(target)s ostrzałem artylerii."
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
 msgstr "Gracz %(attacker)s zniszczył gracza %(target)s nalotem bombowym."
 
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
+msgstr "%(attacker)s zniszczył %(target)s (Osłona ogniowa)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_POI"
+msgstr "%(attacker)s zniszczył %(target)s (Ostrzał artyleryjski)."
+
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_SUICIDE"
 msgstr "Sojusznik: %(target)s zginął w bitwie."
 
@@ -1278,6 +1299,12 @@ msgstr "Gracz %(attacker)s zniszczył gracza %(target)s ostrzałem artylerii."
 
 msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
 msgstr "Gracz %(attacker)s zniszczył gracza %(target)s nalotem bombowym."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
+msgstr "%(attacker)s zniszczył %(target)s (Osłona ogniowa)."
+
+msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_POI"
+msgstr "%(attacker)s zniszczył %(target)s (Ostrzał artyleryjski)."
 
 msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ENEMY"
 msgstr "Przeciwnik %(attacker)s zniszczył przeciwnika %(target)s."
@@ -1317,6 +1344,12 @@ msgstr "Gracz %(target)s zniszczony przez ostrzał artyleryjski."
 
 msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
 msgstr "Gracz %(target)s zniszczony przez nalot bombowy."
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
+msgstr "%(target)s zniszczony"
+
+msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
+msgstr "%(target)s zniszczony"
 
 msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
 msgstr "Sojusznik %(attacker)s rozbił sojusznika %(target)s."
@@ -1433,6 +1466,13 @@ msgstr "Baza%s przeciwnika opanowana"
 
 msgid "player_messages/enemy_team_name"
 msgstr "Drużyna przeciwna"
+
+msgid "player_messages/poi_equipment_used_by_ally"
+msgstr ""
+"Twój sojusznik %(name)s wykorzystał umiejętność taktyczną %(equipment)s."
+
+msgid "player_messages/poi_equipment_used_by_enemy"
+msgstr "Przeciwnik użył umiejętności taktycznej %(equipment)s."
 
 msgid "player_messages/postmortem_caption"
 msgstr "Gracz: %(name)s (%(type)s); Wytrzymałość: %(health)d%%"
@@ -2366,6 +2406,21 @@ msgstr "Rewolwerowiec"
 msgid "rewardWindow/twitch32/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch33/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch33/mainReward_1"
+msgstr "eCamo"
+
+msgid "rewardWindow/twitch33/mainReward_2"
+msgstr "Gotów do bitwy"
+
+msgid "rewardWindow/twitch33/mainReward_3"
+msgstr "Naprzód Charty"
+
+msgid "rewardWindow/twitch33/mainReward_4"
+msgstr "Sztylet"
+
 msgid "rewardWindow/twitch4/btnLabel"
 msgstr "Rekrutuj!"
 
@@ -2550,6 +2605,9 @@ msgstr "Główne klawisze nie są przypisane"
 msgid "siegeMode/hint/press"
 msgstr "Naciśnij"
 
+msgid "siegeMode/hint/rocketAcceleration"
+msgstr "by aktywować dopalacze odrzutowe"
+
 msgid "siegeMode/hint/turboshaftEngine"
 msgstr ", aby przełączyć pomiędzy trybami silnika"
 
@@ -2672,6 +2730,12 @@ msgstr "Skład"
 
 msgid "statistics/tab/line_up/title"
 msgstr "Skład drużyny"
+
+msgid "statistics/tab/personalReserves/header"
+msgstr "Rezerwy osobiste"
+
+msgid "statistics/tab/personalReserves/header/title"
+msgstr "Aktywacja rezerw osobistych"
 
 msgid "statistics/tab/quests/header"
 msgstr "Misje"
@@ -2967,3 +3031,6 @@ msgstr "Uderzenie przeciwnika %(entity)s uszkodziło urządzenie [%(device)s]."
 
 msgid "vehicle_messages/TANKMAN_HIT_AT_WORLD_COLLISION_SELF_SUICIDE"
 msgstr "[%(device)s] odnosi uszkodzenia w wyniku uderzenia."
+
+msgid "vehicle_messages/poi_equipment_used"
+msgstr "Umiejętność taktyczna %(equipment)s została aktywowana!"

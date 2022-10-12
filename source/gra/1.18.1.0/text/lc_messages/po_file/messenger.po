@@ -2106,6 +2106,9 @@ msgstr ""
 " \n"
 "Otrzymane szewrony"
 
+msgid "serviceChannelMessages/battleResults/ratingPoints"
+msgstr "Punkty rankingowe"
+
 msgid "serviceChannelMessages/battleResults/seniorityRewardBody"
 msgstr "Za lata służby otrzymałeś następujące nagrody"
 
@@ -2186,13 +2189,31 @@ msgstr "Wymiana schematów jest niedostępna ze względu na prace techniczne."
 msgid "serviceChannelMessages/blueprintsConvertSale/restore"
 msgstr "Wymiana schematów przywrócona."
 
+msgid "serviceChannelMessages/boosterAdditionalMessage"
+msgstr "Premie z trwających bitew nie są wliczone."
+
 msgid "serviceChannelMessages/boosterDisabled"
 msgstr ""
 "Rezerwa osobista \"%(boosterName)s\" została wyłączona z powodów "
 "technicznych."
 
 msgid "serviceChannelMessages/boosterExpired"
-msgstr "Rezerwa osobista \"%(boosterName)s\" wygasła. Została ona usunięta."
+msgstr "%(boosterName)s: rezerwa osobista skończyła się"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/credits"
+msgstr "Kredyty"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/freeXP"
+msgstr "Wolne PD"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/tmenXP"
+msgstr "PD załogi"
+
+msgid "serviceChannelMessages/boosterExpiredResourceName/xp"
+msgstr "PD bojowego"
+
+msgid "serviceChannelMessages/boosterExpiredTotalTemplate/total"
+msgstr "Łączna premia do %(resourceName)s:"
 
 msgid "serviceChannelMessages/bootcamp/awards"
 msgstr "Otrzymane nagrody:"
@@ -2296,6 +2317,12 @@ msgstr ""
 "Działania z wykorzystaniem zestawu demontażowego są już dostępne. "
 "Przepraszamy za \n"
 "uniedogodnienia."
+
+msgid "serviceChannelMessages/dogTags/bonus/background"
+msgstr "Odblokowano tło nieśmiertelnika: %(name)s"
+
+msgid "serviceChannelMessages/dogTags/bonus/engraving"
+msgstr "Odblokowano grawerunek nieśmiertelnika: %(name)s"
 
 msgid "serviceChannelMessages/dogTags/gradingMessage/levelUpToText"
 msgstr "osiągnięto poziom"
@@ -2513,8 +2540,48 @@ msgstr ""
 "%(defResCount)s jednostek surowców przemysłowych dodano do magazynu centrum "
 "dowodzenia."
 
+msgid "serviceChannelMessages/funRandom/startEvent/button"
+msgstr "Przejdź do wydarzenia"
+
 msgid "serviceChannelMessages/goldReceivedAsGift"
 msgstr "Otrzymano złota: %(gold)s."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/header"
+msgstr "Aukcja: Twoja oferta jest niższa od oferty konkurencyjnej."
+
+msgid "serviceChannelMessages/integratedAuction/belowCompetitiveRate/text"
+msgstr ""
+"Twoje szanse na wygranie bieżącej aukcji zmalały: Twoja oferta jest obecnie "
+"niższa od oferty konkurencyjnej."
+
+msgid "serviceChannelMessages/integratedAuction/button"
+msgstr "Do aukcji"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/header"
+msgstr "Twoja oferta nie wygrała. Do zwrotu:"
+
+msgid "serviceChannelMessages/integratedAuction/lostRate/text"
+msgstr ""
+"Zostałeś przelicytowany przez innych graczy. Twoja oferta zostanie wkrótce "
+"zwrócona na Twoje konto."
+
+msgid "serviceChannelMessages/integratedAuction/rateError/header"
+msgstr "Błąd"
+
+msgid "serviceChannelMessages/integratedAuction/rateError/text"
+msgstr "Błąd oferty. Nie pobrano środków. Spróbuj ponownie."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/text"
+msgstr "Aukcja dobiega końca."
+
+msgid "serviceChannelMessages/integratedAuction/stageFinish/title"
+msgstr "Pospiesz się i złóż ofertę!"
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/text"
+msgstr "Pospiesz się i złóż ofertę! Przedmioty są limitowane."
+
+msgid "serviceChannelMessages/integratedAuction/stageStart/title"
+msgstr "Aukcja o nowe pozycje właśnie się zaczęła!"
 
 msgid "serviceChannelMessages/invoiceReceived/berthsAccrued"
 msgstr "Dodano łóżka do koszar"
@@ -2889,6 +2956,12 @@ msgstr "Do nagród"
 msgid "serviceChannelMessages/payerSeniority/coins/header"
 msgstr "Zasłużona nagroda"
 
+msgid "serviceChannelMessages/personalReservesConverted"
+msgstr "Wszystkie Twoje rezerwy osobiste zostały skonwertowane."
+
+msgid "serviceChannelMessages/personalReservesTitle"
+msgstr "Konwersja rezerw osobistych"
+
 msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
 msgstr "Rozpoczął się nowy cykl zbierania."
 
@@ -3001,10 +3074,13 @@ msgid "serviceChannelMessages/progression2d/inscription"
 msgstr "Napis"
 
 msgid "serviceChannelMessages/progression2d/item"
-msgstr "Poziom %(level)s %(name)s %(typeName)s"
+msgstr "%(typeName)s %(name)s%(level)s"
 
 msgid "serviceChannelMessages/progression2d/itemCount"
 msgstr "I %(count)s więcej"
+
+msgid "serviceChannelMessages/progression2d/level"
+msgstr " %(level)s poziomu"
 
 msgid "serviceChannelMessages/progression2d/paint"
 msgstr "farba"
@@ -3445,6 +3521,9 @@ msgstr "Ulepszenie wyposażenia"
 
 msgid "serviceChannelMessages/tankPremiumReceivedAsGift"
 msgstr "Otrzymano konto premium WoT na %(days)d dzień/dni."
+
+msgid "serviceChannelMessages/toReserves"
+msgstr "Do rezerw"
 
 msgid "serviceChannelMessages/vehCamouflageTimedOut"
 msgstr "Minął czas korzystania z kamuflażu na pojeździe %(vehicleName)s."

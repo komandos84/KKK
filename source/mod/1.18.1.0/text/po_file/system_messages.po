@@ -498,6 +498,11 @@ msgstr ""
 "Dowódcy! Pamiętajcie, że możecie zdobywać punkty Przepustki bitewnej w Misji "
 "zwiadowczej!"
 
+msgid "battlePass/gameModeEnabled/body/43"
+msgstr ""
+"Dowódcy! Pamiętajcie, że możecie zdobywać punkty Przepustki bitewnej "
+"w Natarciu!"
+
 msgid "battlePass/gameModeEnabled/header"
 msgstr "Przepustka bitewna, sezon %(seasonNum)d"
 
@@ -544,6 +549,11 @@ msgstr ""
 msgid "battlePass/switch_disable/body"
 msgstr "Sezon zakończył się. Do zobaczenia w kolejnym sezonie!"
 
+msgid "battlePass/switch_disable/comp7/body"
+msgstr ""
+"W tej chwili ze względu na prace techniczne w trybie Natarcie nie można "
+"zdobywać punktów Przepustki bitewnej."
+
 msgid "battlePass/switch_disable/epicBattle/body"
 msgstr ""
 "Przepustka bitewna jest chwilowo niedostępna w bitwach Linii frontu z powodu "
@@ -564,6 +574,11 @@ msgid "battlePass/switch_enabled/body"
 msgstr ""
 "Przepustka bitewna jest znowu dostępna. Przepraszamy za niedogodności.\n"
 "Sezon przedłużony do %(expiryTime)s."
+
+msgid "battlePass/switch_enabled/comp7/body"
+msgstr ""
+"Punkty Przepustki bitewnej znów można zdobywać w Natarciu. Przepraszamy za "
+"niedogodność."
 
 msgid "battlePass/switch_enabled/epicBattle/body"
 msgstr ""
@@ -1173,7 +1188,7 @@ msgstr "Kolekcje znów są dostępne"
 msgid "connected"
 msgstr ""
 "Witaj\n"
-" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.18.0.0</font> <font color='#FF3333'>Automatyk</font>"
+" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.18.1.0</font> <font color='#FF3333'>Automatyk</font>"
 
 msgid "consumables_apply/error"
 msgstr ""
@@ -1302,6 +1317,9 @@ msgstr "Nie można dokonać modyfikacji. Za mało złota."
 
 msgid "customization/igr_type_changed_error"
 msgstr "Status IGR zmienił się. Bieżąca operacja anulowana."
+
+msgid "customization/invalidVehicle"
+msgstr "Nie można zastosować: nieodpowiedni pojazd"
 
 msgid "customization/personal_number_prohibited"
 msgstr ""
@@ -2236,6 +2254,21 @@ msgstr ""
 "Operacja nie może być zrealizowana. Twoje złoto zostanie przywrócone, kiedy "
 "tylko Portfel WG powróci do działania."
 
+msgid "learn_tankman_free_skill/invalid_vehicle"
+msgstr "Nie można wyszkolić atutu zerowego. Niekompatybilny pojazd."
+
+msgid "learn_tankman_free_skill/server_error"
+msgstr "Nie można wyszkolić atutu zerowego. Spróbuj później."
+
+msgid "learn_tankman_free_skill/success"
+msgstr "Udało się wyszkolić atut zerowy"
+
+msgid "learn_tankman_free_skill/vehicle_locked"
+msgstr "Nie można wyszkolić atutu zerowego. Pojazd zablokowany."
+
+msgid "learn_tankman_free_skill/vehicle_need_repair"
+msgstr "Nie można wyszkolić atutu zerowego. Pojazd wymaga naprawy."
+
 msgid "login_to_other_game_unknown"
 msgstr ""
 "bieżąca sesja gra została przerwana. Twoje Wargaming.net&nbsp;ID zostało "
@@ -2800,6 +2833,20 @@ msgstr "Problemy techniczne zostały rozwiązane. Przepraszamy za niedogodności
 
 msgid "piggybank/switch_on/title"
 msgstr "Rezerwa kredytów jest ponownie dostępna"
+
+msgid "player_subscriptions/switch_off/body"
+msgstr ""
+"Ta funkcjonalność jest tymczasowo niedostępna z powodów technicznych.\n"
+"Przepraszamy za niedogodności."
+
+msgid "player_subscriptions/switch_off/title"
+msgstr "Subskrypcja gracza nie jest już dostępna."
+
+msgid "player_subscriptions/switch_on/body"
+msgstr "Problemy techniczne zostały rozwiązane. Przepraszamy za niedogodności."
+
+msgid "player_subscriptions/switch_on/title"
+msgstr "Subskrypcje gracza są już dostępne"
 
 msgid "prebattle/bootcamp/inOtherQueue"
 msgstr ""
@@ -3910,6 +3957,11 @@ msgid "training/error/swapTeams"
 msgstr ""
 "Wystąpił błąd serwera podczas próby zamiany drużyn. Spróbuj ponownie później."
 
+msgid "unit/errors/ACCOUNT_BANNED"
+msgstr ""
+"Błąd dołączania do plutonu: Twoje konto zostało chwilowo zawieszone w tym "
+"trybie gry."
+
 msgid "unit/errors/ACCOUNT_RESTORED"
 msgstr "Operacja niedostępna. Przywrócono konto."
 
@@ -3995,6 +4047,11 @@ msgstr "Drużyna nie znajduje się w wynikach wyszukiwania"
 
 msgid "unit/errors/NOT_READY"
 msgstr "Drużyna nie jest gotowa."
+
+msgid "unit/errors/NO_ARENA_VEHICLES"
+msgstr ""
+"Błąd dołączania do plutonu: nie masz pojazdu odpowiedniego do wybranego "
+"trybu gry."
 
 msgid "unit/errors/NO_AVAILABLE_SLOTS"
 msgstr "Nie można dodać gracza do członków drużyny."
