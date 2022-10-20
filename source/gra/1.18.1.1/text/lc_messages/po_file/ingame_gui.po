@@ -2406,6 +2406,9 @@ msgstr "Rewolwerowiec"
 msgid "rewardWindow/twitch32/subHeaderText"
 msgstr "Otrzymane nagrody"
 
+msgid "rewardWindow/twitch33/descText"
+msgstr "Otrzymałeś unikalną nagrodę za subskrypcję: Prime Gaming"
+
 msgid "rewardWindow/twitch33/headerText"
 msgstr "PRIME GAMING"
 
@@ -2420,6 +2423,24 @@ msgstr "Naprzód Charty"
 
 msgid "rewardWindow/twitch33/mainReward_4"
 msgstr "Sztylet"
+
+msgid "rewardWindow/twitch34/descText"
+msgstr "Otrzymałeś unikalną nagrodę za subskrypcję: Prime Gaming"
+
+msgid "rewardWindow/twitch34/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch34/mainReward_1"
+msgstr "Gusła"
+
+msgid "rewardWindow/twitch34/mainReward_2"
+msgstr "Czas sabatu"
+
+msgid "rewardWindow/twitch34/mainReward_3"
+msgstr "Wlazłeś do złej dzielnicy"
+
+msgid "rewardWindow/twitch34/mainReward_4"
+msgstr "A kysz!"
 
 msgid "rewardWindow/twitch4/btnLabel"
 msgstr "Rekrutuj!"
