@@ -1188,7 +1188,7 @@ msgstr "Kolekcje znów są dostępne"
 msgid "connected"
 msgstr ""
 "Witaj\n"
-" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.18.1.0</font> <font color='#FF3333'>Automatyk</font>"
+" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.18.1.2</font> <font color='#FF3333'>Automatyk</font>"
 
 msgid "consumables_apply/error"
 msgstr ""
@@ -3704,6 +3704,15 @@ msgid "shop_resync"
 msgstr ""
 "Aktualizacja interfejsu w dniu: %(date)s (%(time)s) w związku ze zmianami na "
 "serwerze."
+
+msgid "shop_sales_event/error"
+msgstr "Błąd tasowania zestawu. Spróbuj ponownie później."
+
+msgid "shop_sales_event/success"
+msgstr "Użyto płatnego tasowania, aby zmienić zestaw. Wydano %(money)s."
+
+msgid "shop_sales_event/success_free"
+msgstr "Użyto darmowego tasowania, aby zmienić zestaw."
 
 msgid "squad/createError"
 msgstr "Tworzenie plutonów jest dostępne tylko dla graczy z kontem premium."

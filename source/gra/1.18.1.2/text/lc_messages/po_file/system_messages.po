@@ -3499,6 +3499,15 @@ msgstr ""
 "Aktualizacja interfejsu w dniu: %(date)s (%(time)s) w związku ze zmianami na "
 "serwerze."
 
+msgid "shop_sales_event/error"
+msgstr "Błąd tasowania zestawu. Spróbuj ponownie później."
+
+msgid "shop_sales_event/success"
+msgstr "Użyto płatnego tasowania, aby zmienić zestaw. Wydano %(money)s."
+
+msgid "shop_sales_event/success_free"
+msgstr "Użyto darmowego tasowania, aby zmienić zestaw."
+
 msgid "squad/createError"
 msgstr "Tworzenie plutonów jest dostępne tylko dla graczy z kontem premium."
 
