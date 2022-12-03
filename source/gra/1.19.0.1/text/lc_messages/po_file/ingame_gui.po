@@ -805,9 +805,6 @@ msgstr "s..."
 msgid "helpScreen/hint/description"
 msgstr "aby zobaczyć charakterystyki pojazdu"
 
-msgid "helpScreen/hint/modeDescription"
-msgstr "aby zobaczyć cechy trybu"
-
 msgid "helpScreen/hint/press"
 msgstr "Naciśnij"
 
@@ -1998,16 +1995,13 @@ msgid "rewardWindow/countLabel"
 msgstr "x{count}"
 
 msgid "rewardWindow/lootbox/btnLabel"
-msgstr "Przejdź do pudełek"
+msgstr "Do pudełek"
 
 msgid "rewardWindow/lootbox/descText"
 msgstr "Otrzymałeś duże pudełka z cennymi nagrodami."
 
 msgid "rewardWindow/lootbox/headerText"
 msgstr "Otrzymałeś pudełka!"
-
-msgid "rewardWindow/lootbox/isFreeDescText"
-msgstr "Otrzymałeś małe pudełka z cennymi nagrodami za ukończenie misji."
 
 msgid "rewardWindow/lootbox/winHeaderText"
 msgstr "Czas się dowiedzieć, co jest w pudełku!"
@@ -2443,7 +2437,7 @@ msgid "rewardWindow/twitch34/mainReward_4"
 msgstr "A kysz!"
 
 msgid "rewardWindow/twitch35/descText"
-msgstr "Otrzymujesz unikalną nagrodę Prime Gaming"
+msgstr "Otrzymałeś unikalną nagrodę za subskrypcję: Prime Gaming"
 
 msgid "rewardWindow/twitch35/headerText"
 msgstr "PRIME GAMING"
@@ -2459,6 +2453,24 @@ msgstr "Zwycięski gol"
 
 msgid "rewardWindow/twitch35/mainReward_4"
 msgstr "Ponadczasowa klasyka"
+
+msgid "rewardWindow/twitch36/descText"
+msgstr "Przyznano Ci unikalną nagrodę za program: Prime Gaming"
+
+msgid "rewardWindow/twitch36/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch36/mainReward_1"
+msgstr "Świąteczny strój"
+
+msgid "rewardWindow/twitch36/mainReward_2"
+msgstr "Uroczy prezent"
+
+msgid "rewardWindow/twitch36/mainReward_3"
+msgstr "Prezent wagi ciężkiej"
+
+msgid "rewardWindow/twitch36/mainReward_4"
+msgstr "Podwójna uroczystość"
 
 msgid "rewardWindow/twitch4/btnLabel"
 msgstr "Rekrutuj!"
