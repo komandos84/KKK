@@ -538,8 +538,8 @@ msgstr "Otrzymano wyposażenie z nagród: %(name)s"
 
 msgid "battlePass/seasonEnd/text"
 msgstr ""
-"Sezon Przepustki bitewnej skończył się. Wszystkie niewybrane w trakcie "
-"sezonu nagrody, zostały Ci przyznane domyślnie:"
+"Przepustka bitewna skończyła się. Wszystkie niewybrane nagrody, zostały Ci "
+"przyznane domyślnie:"
 
 msgid "battlePass/switchChapter/error"
 msgstr "Błąd podczas wybierania rozdziału. Spróbuj ponownie."
@@ -559,7 +559,9 @@ msgstr ""
 "prac technicznych. Przepraszamy za niedogodności."
 
 msgid "battlePass/switch_disable/body"
-msgstr "Sezon zakończył się. Do zobaczenia w kolejnym sezonie!"
+msgstr ""
+"Dzień sądu skończył się. Mamy nadzieję, że nigdy nie wyjdzie poza filmy "
+"i gry."
 
 msgid "battlePass/switch_disable/comp7/body"
 msgstr ""
@@ -580,12 +582,10 @@ msgstr ""
 "prac technicznych."
 
 msgid "battlePass/switch_disable/title"
-msgstr "Przepustka bitewna, sezon %(seasonNum)d"
+msgstr "Przepustka bitewna: Dzień sądu"
 
 msgid "battlePass/switch_enabled/body"
-msgstr ""
-"Przepustka bitewna jest znowu dostępna. Przepraszamy za niedogodności.\n"
-"Sezon przedłużony do %(expiryTime)s."
+msgstr "Przepustka bitewna jest znowu dostępna. Przepraszamy za niedogodności."
 
 msgid "battlePass/switch_enabled/comp7/body"
 msgstr ""
@@ -1200,7 +1200,7 @@ msgstr "Kolekcje znów są dostępne"
 msgid "connected"
 msgstr ""
 "Witaj\n"
-" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.19.0.1</font> <font color='#FF3333'>Automatyk</font>"
+" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.19.1.0</font> <font color='#FF3333'>Automatyk</font>"
 
 msgid "consumables_apply/error"
 msgstr ""
@@ -1537,8 +1537,7 @@ msgstr "Nie udało się wyzerować umiejętności. Spróbuj później."
 
 msgid "drop_tankman_skill/success"
 msgstr ""
-"<font color='#929290'>Udało się zresetować wszystkie umiejętności i atuty."
-"<br>Wydałeś: </font>%(money)s"
+"Udało się zresetować wszystkie umiejętności i atuty. Wydałeś %(money)s."
 
 msgid "drop_tankman_skill/vehicle_locked"
 msgstr "Błąd przy zerowaniu umiejętności. Pojazd zablokowany."
@@ -2124,6 +2123,17 @@ msgid "graficsPresetFail"
 msgstr ""
 "Nie udało się zastosować ustawienia grafiki. Konflikt karty graficznej."
 
+msgid "hbp/seasonStart/body"
+msgstr ""
+"Dowódcy! To jest specjalna Przepustka bitewna i sami się o tym przekonacie.\n"
+"\n"
+"Za ukończenie postępów otrzymacie słynne postaci filmowe z unikalnymi "
+"ścieżkami głosowymi, pojazd premium ze specjalnym stylem 3D, elementy "
+"personalizujące i wiele więcej nagród!"
+
+msgid "hbp/seasonStart/title"
+msgstr "Przepustka bitewna: Dzień sądu"
+
 msgid "igr/customization/begin"
 msgstr "Darmowe kamuflaże, napisy i emblematy są dostępne w %(igrIcon)s."
 
@@ -2317,12 +2327,11 @@ msgstr ""
 "wykorzystane do zalogowania się do gry World&nbsp;of&nbsp;Warships"
 
 msgid "lootboxes/open/server_error"
-msgstr "Błąd podczas otwierania pudełka: błąd serwera."
+msgstr "Błąd przy odbieraniu prezentu: błąd serwera."
 
 msgid "lootboxes/open/server_error/COOLDOWN"
 msgstr ""
-"Błąd podczas otwierania pudełka: prosimy poczekać na zakończenie poprzedniej "
-"operacji."
+"Błąd przy odbieraniu prezentu. Zaczekaj na zakończenie poprzedniej operacji."
 
 msgid "lootboxes/open/server_error/DISABLED"
 msgstr "Działanie jest tymczasowo niedostępne. Spróbuj ponownie później."
@@ -2621,319 +2630,6 @@ msgstr "Błąd przełączania konfiguracji"
 
 msgid "nation_change/success"
 msgstr "%(veh_name)s: zmieniono konfigurację narodową"
-
-msgid "newYear/allObjectsCollected/body"
-msgstr "Odnalazłeś wszystkie ukryte elementy scenografii miasteczka."
-
-msgid "newYear/allObjectsCollected/header"
-msgstr "Gratulacje!"
-
-msgid "newYear/applyVehicleDiscount/server_error"
-msgstr "Błąd aktywacji zniżki: błąd serwera."
-
-msgid "newYear/applyVehicleDiscount/server_error/alreadyActive"
-msgstr "Błąd aktywacji zniżki: zniżka na ten pojazd już jest aktywna."
-
-msgid "newYear/applyVehicleDiscount/server_error/alreadyBought"
-msgstr "Błąd aktywacji zniżki: już kupiono ten pojazd."
-
-msgid "newYear/applyVehicleDiscount/server_error/noDiscountForVehicle"
-msgstr "Błąd aktywacji zniżki: nie znaleziono zniżki na ten pojazd."
-
-msgid "newYear/applyVehicleDiscount/server_error/noDiscounts"
-msgstr "Błąd aktywacji zniżki: nie znaleziono zniżki."
-
-msgid "newYear/applyVehicleDiscount/success"
-msgstr "Aktywowałeś zniżkę %(discount)s%% na %(vehName)s"
-
-msgid "newYear/breakToys/server_error"
-msgstr "Błąd rozbicia dekoracji: błąd serwera."
-
-msgid "newYear/buyCollection/server_error"
-msgstr "Błąd zakupu kolekcji: błąd serwera."
-
-msgid "newYear/buyToy/credits"
-msgstr "Wydane kredyty: %(value)s"
-
-msgid "newYear/buyToy/gold"
-msgstr "Wydane złoto: %(value)s"
-
-msgid "newYear/buyToy/server_error"
-msgstr ""
-"Błąd podczas kupowania przedmiotu. Kupowanie jest tymczasowo niedostępne."
-
-msgid "newYear/buyToy/text"
-msgstr "Kupiono przedmiot %(toy_name)s."
-
-msgid "newYear/buying/errors/not_enough_resource"
-msgstr "Błąd podczas kupowania. Za mało zasobów."
-
-msgid "newYear/buying/errors/server_error"
-msgstr "Błąd podczas kupowania. Kupowanie jest tymczasowo niedostępne."
-
-msgid "newYear/buying/errors/server_error_centerDown"
-msgstr "Błąd podczas kupowania. Usługa jest tymczasowo niedostępna."
-
-msgid "newYear/celebrityChallenge/progressReward/title"
-msgstr "Misje od Milli ukończone: %(value)s!"
-
-msgid "newYear/celebrityChallenge/questReward/guest_A/title"
-msgstr "Misja od Arniego ukończona!"
-
-msgid "newYear/celebrityChallenge/questReward/guest_M/title"
-msgstr "Misja od Milli ukończona!"
-
-msgid "newYear/celebrityChallenge/questReward/ny23Coin"
-msgstr "Otrzymano żeton do automatu z prezentami"
-
-msgid "newYear/celebrityChallenge/questReward/ny23Coins"
-msgstr "Otrzymano żeton do automatu z prezentami: x%(count)s"
-
-msgid "newYear/coin23/apply/server_error"
-msgstr "Błąd aktywacji automatu. Błąd serwera."
-
-msgid "newYear/coin23/apply/server_error/COOLDOWN"
-msgstr ""
-"Błąd aktywacji automatu. Prosimy poczekać na zakończenie poprzedniej "
-"operacji."
-
-msgid "newYear/coin23/apply/server_error/DISABLED"
-msgstr "Błąd aktywacji automatu. Błąd serwera."
-
-msgid "newYear/coin23/apply/server_error/EXCEPTION"
-msgstr "Błąd aktywacji automatu. Błąd serwera."
-
-msgid "newYear/coin23/buying/errors/invalid_coins_count"
-msgstr "Błąd kupowania żetonów. Nieprawidłowa liczba żetonów do kupienia."
-
-msgid "newYear/coin23/buying/errors/invalid_resource_type"
-msgstr "Błąd kupowania żetonów. Niewłaściwy typ zasobów dla płatności."
-
-msgid "newYear/coin23/buying/errors/not_enough_resource"
-msgstr "Błąd kupowania żetonów. Za mało zasobów."
-
-msgid "newYear/coin23/buying/errors/server_error"
-msgstr "Błąd kupowania żetonów. Kupowanie jest tymczasowo niedostępne."
-
-msgid "newYear/coin23/buying/errors/server_error_centerDown"
-msgstr "Błąd kupowania żetonów. Kupowanie jest tymczasowo niedostępne."
-
-msgid "newYear/collectingResources/auto/canceled"
-msgstr "Za mało kredytów na dalsze automatyczne zbieranie zasobów."
-
-msgid "newYear/collectingResources/auto/collected"
-msgstr "Zdobyte zasoby łącznie:"
-
-msgid "newYear/collectingResources/auto/count"
-msgstr "Wykonane automatyczne zbiory: %(count)s"
-
-msgid "newYear/collectingResources/auto/deactivated"
-msgstr "Autokolektor zasobów wyłączony"
-
-msgid "newYear/collectingResources/auto/finished"
-msgstr "Zasoby zostały zebrane przy użyciu autokolektora zasobów."
-
-msgid "newYear/collectingResources/auto/spentMoney"
-msgstr "Wydane kredyty: %(money)s"
-
-msgid "newYear/collectingResources/button"
-msgstr "Do zasobów"
-
-msgid "newYear/collectingResources/header"
-msgstr "Zebrano zasoby!"
-
-msgid "newYear/collectingResources/server_error/common"
-msgstr "Błąd zakończenia operacji."
-
-msgid "newYear/collectingResourcesAvailable/button"
-msgstr "Do zasobów!"
-
-msgid "newYear/collectingResourcesAvailable/countValue"
-msgstr "%(count)s"
-
-msgid "newYear/collectingResourcesAvailable/friend/button"
-msgstr "Do znajomych!"
-
-msgid "newYear/collectingResourcesAvailable/friend/header"
-msgstr "Zbieranie zasobów od Twoich znajomych dostępne"
-
-msgid "newYear/collectingResourcesAvailable/friend/oneFriendMessage"
-msgstr ""
-"Zbierz %(countValue)s zasobów każdego typu od Twojego znajomego "
-"%(friendName)s"
-
-msgid "newYear/collectingResourcesAvailable/friend/twoFriendsMessage"
-msgstr ""
-"Zbierz %(countValue)s zasobów każdego typu od Twoich znajomych "
-"%(friendName1)s i %(friendName2)s"
-
-msgid "newYear/collectingResourcesAvailable/header"
-msgstr "Zbieranie zasobów dostępne"
-
-msgid "newYear/collectingResourcesAvailable/message"
-msgstr "Zbierz %(countValue)s zasobów każdego typu lub ustaw autokolektor."
-
-msgid "newYear/convertingResources/decrease/message"
-msgstr ""
-"Wymieniono zasoby.\n"
-"Wydano: %(value)s"
-
-msgid "newYear/convertingResources/decrease/title"
-msgstr "Transakcja finansowa"
-
-msgid "newYear/convertingResources/error"
-msgstr "Błąd zamiany zasobów. Zamiana jest tymczasowo niedostępna."
-
-msgid "newYear/convertingResources/increase/message"
-msgstr ""
-"Wymieniono zasoby.\n"
-"Dodano: %(value)s"
-
-msgid "newYear/convertingResources/increase/title"
-msgstr "Dodano:"
-
-msgid "newYear/craftToy/server_error"
-msgstr "Błąd tworzenia dekoracji: błąd serwera."
-
-msgid "newYear/errorTypes/levelUpRewardsError"
-msgstr ""
-"Błąd otrzymywania nagród za zwiększenie Twojego poziomu świątecznej "
-"atmosfery."
-
-msgid "newYear/financialOperation/spent"
-msgstr "Wydano: %(count)s"
-
-msgid "newYear/giftMachine/tokenBought"
-msgstr "Kupiono żeton do automatu z prezentami: %(count)s"
-
-msgid "newYear/hangToy/server_error"
-msgstr "Błąd umieszczania dekoracji: błąd serwera."
-
-msgid "newYear/marketplace/collectionBought"
-msgstr "Kupiono zestaw z nagrodami."
-
-msgid "newYear/marketplace/errors/collection_already_bought"
-msgstr "Błąd kupowania zestawu. Już masz ten zestaw."
-
-msgid "newYear/marketplace/errors/server_error"
-msgstr "Błąd kupowania zestawu. Kupowanie jest tymczasowo niedostępne."
-
-msgid "newYear/marketplace/rewards/header"
-msgstr "Gratulacje!"
-
-msgid "newYear/objectLevelUp/Fair"
-msgstr ""
-"Zwiększono poziom jarmarku.\n"
-"Aktualny poziom: %(level)s.\n"
-"Otrzymujesz w nagrodę %(items)s szt. nowych dekoracji jarmarku."
-
-msgid "newYear/objectLevelUp/Fir"
-msgstr ""
-"Zwiększono poziom choinki.\n"
-"Aktualny poziom: %(level)s.\n"
-"Otrzymujesz w nagrodę %(items)s szt. nowych dekoracji choinki."
-
-msgid "newYear/objectLevelUp/Installation"
-msgstr ""
-"Zwiększono poziom instalacji.\n"
-"Aktualny poziom: %(level)s.\n"
-"Otrzymujesz w nagrodę %(items)s szt. nowych dekoracji instalacji."
-
-msgid "newYear/objectLevelUp/error"
-msgstr "Błąd zwiększania poziomu."
-
-msgid "newYear/objectLevelUp/header"
-msgstr "Gratulacje!"
-
-msgid "newYear/objectMaxLevel/Fair"
-msgstr "Twój jarmark osiągnął maksymalny poziom."
-
-msgid "newYear/objectMaxLevel/Fir"
-msgstr "Twoja choinka osiągnęła maksymalny poziom."
-
-msgid "newYear/objectMaxLevel/Installation"
-msgstr "Twoja instalacja osiągnęła maksymalny poziom."
-
-msgid "newYear/piggyBank/reward/title"
-msgstr "Otrzymano nagrodę"
-
-msgid "newYear/piggyBank/rewards/text"
-msgstr ""
-"Nagrody za zbieranie zasobów od Twoich znajomych podczas Operacji "
-"świątecznych."
-
-msgid "newYear/piggyBank/rewards/title"
-msgstr "Otrzymane nagrody"
-
-msgid "newYear/piggyBank/server_error"
-msgstr ""
-"Błąd otrzymywania nagród.\n"
-"Operacja jest tymczasowo niedostępna."
-
-msgid "newYear/rerollCelebrityQuest/guest_A/type_1"
-msgstr ""
-"Misję od Arniego z warunkiem do wypełnienia w jednej bitwie zamieniono na "
-"misję na dowolną liczbę bitew."
-
-msgid "newYear/rerollCelebrityQuest/guest_A/type_2"
-msgstr ""
-"Misję od Arniego z warunkiem do wypełnienia w dowolnej liczbie bitew "
-"zamieniono na misję na jedną bitwę."
-
-msgid "newYear/rerollCelebrityQuest/guest_M/type_1"
-msgstr ""
-"Misję od Milli z warunkiem do wypełnienia w jednej bitwie zamieniono na "
-"misję na dowolną liczbę bitew."
-
-msgid "newYear/rerollCelebrityQuest/guest_M/type_2"
-msgstr ""
-"Misję od Milli z warunkiem do wypełnienia w dowolnej liczbie bitew "
-"zamieniono na misję na jedną bitwę."
-
-msgid "newYear/rerollCelebrityQuest/server_error"
-msgstr "Błąd zmiany warunków misji. Błąd serwera."
-
-msgid "newYear/rerollCelebrityQuest/server_error/noRerolls"
-msgstr "Błąd zmiany warunków misji. Brak dostępnych prób."
-
-msgid "newYear/resetLootboxStatistics/server_error"
-msgstr ""
-"Nie można zresetować statystyk – pracujemy nad rozwiązaniem problemu. "
-"Spróbuj ponownie później."
-
-msgid "newYear/resetLootboxStatistics/server_error/header"
-msgstr "Nie udało się..."
-
-msgid "newYear/resources/ny_amber"
-msgstr "Ciepły bursztyn: %(count)s"
-
-msgid "newYear/resources/ny_crystal"
-msgstr "Kryształ górski: %(count)s"
-
-msgid "newYear/resources/ny_emerald"
-msgstr "Czysty szmaragd: %(count)s"
-
-msgid "newYear/resources/ny_iron"
-msgstr "Żelazo meteorytowe: %(count)s"
-
-msgid "newYear/setAutoCollecting/activated/header"
-msgstr "Autokolektor zasobów włączony!"
-
-msgid "newYear/setAutoCollecting/activated/message"
-msgstr ""
-"Następne zbieranie zasobów zostanie wykonane za %(timerIcon)s %(timer)s"
-
-msgid "newYear/setAutoCollecting/activated/simpleSuccess"
-msgstr "Autokolektor zasobów włączony."
-
-msgid "newYear/setAutoCollecting/deactivated/success"
-msgstr "Autokolektor zasobów wyłączony."
-
-msgid "newYear/strokeDog/header"
-msgstr "Otrzymano zasoby!"
-
-msgid "newYear/strokeDog/server_error"
-msgstr "Błąd otrzymywania zasobów. Operacja jest tymczasowo niedostępna."
 
 msgid "notrecruit_window/success"
 msgstr ""
