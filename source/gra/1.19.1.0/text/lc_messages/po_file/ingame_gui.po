@@ -613,6 +613,15 @@ msgstr ", by włączyć czat głosowy"
 msgid "dynamicSquad/invite"
 msgstr "Zaproszenie do plutonu"
 
+msgid "efficiencyRibbons/AirstrikeDmg"
+msgstr "Uszkodzenia spowodowane nalotem"
+
+msgid "efficiencyRibbons/ArtilleryDmg"
+msgstr "Uszkodzenia spowodowane ostrzałem artylerii"
+
+msgid "efficiencyRibbons/CannonDmg"
+msgstr "Uszkodzenia od głównego celu"
+
 msgid "efficiencyRibbons/armor"
 msgstr "Zablokowane uszkodzenia"
 
@@ -1163,6 +1172,15 @@ msgid ""
 "player_messages/DEATH_FROM_INACTIVE_CREW_AT_WORLD_COLLISION_SELF_SUICIDE"
 msgstr "Załoga zabita."
 
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ALLY_ENEMY_ARCADE"
+msgstr "%(attacker)s zniszczył %(target)s minami."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_ENEMY_ALLY_ARCADE"
+msgstr "%(attacker)s zniszczył %(target)s minami."
+
+msgid "player_messages/DEATH_FROM_MINE_EXPLOSION_SELF_ENEMY_ARCADE"
+msgstr "%(target)s zniszczony minami."
+
 msgid "player_messages/DEATH_FROM_OVERTURN_ALLY_ALLY"
 msgstr "Sojusznik %(attacker)s przewrócił sojusznika %(target)s."
 
@@ -1267,10 +1285,10 @@ msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY"
 msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
 
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_ARTILLERY"
-msgstr "Gracz %(attacker)s zniszczył gracza %(target)s ostrzałem artylerii."
+msgstr "%(attacker)s zniszczył %(target)s ostrzałem artylerii."
 
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_BOMBER"
-msgstr "Gracz %(attacker)s zniszczył gracza %(target)s nalotem bombowym."
+msgstr "%(attacker)s zniszczył %(target)s nalotem."
 
 msgid "player_messages/DEATH_FROM_SHOT_ALLY_ENEMY_COMP7"
 msgstr "%(attacker)s zniszczył %(target)s (Osłona ogniowa)."
@@ -1292,10 +1310,10 @@ msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY"
 msgstr "Gracz %(attacker)s zniszczył gracza %(target)s."
 
 msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_ARTILLERY"
-msgstr "Gracz %(attacker)s zniszczył gracza %(target)s ostrzałem artylerii."
+msgstr "%(attacker)s zniszczył %(target)s ostrzałem artylerii."
 
 msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_BOMBER"
-msgstr "Gracz %(attacker)s zniszczył gracza %(target)s nalotem bombowym."
+msgstr "%(attacker)s zniszczył %(target)s nalotem."
 
 msgid "player_messages/DEATH_FROM_SHOT_ENEMY_ALLY_COMP7"
 msgstr "%(attacker)s zniszczył %(target)s (Osłona ogniowa)."
@@ -1340,7 +1358,7 @@ msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_ARTILLERY"
 msgstr "Gracz %(target)s zniszczony przez ostrzał artyleryjski."
 
 msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_BOMBER"
-msgstr "Gracz %(target)s zniszczony przez nalot bombowy."
+msgstr "%(target)s zniszczony nalotem."
 
 msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_COMP7"
 msgstr "%(target)s zniszczony"
@@ -1587,8 +1605,17 @@ msgstr "Tryb obserwatora"
 msgid "postmortem/tips/observerMode/text"
 msgstr "Przełącz się między pojazdami sojuszników."
 
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION"
+msgstr "Pojazd zniszczony przez główny cel"
+
 msgid "postmortem_messages/DEATH_FROM_ARTILLERY_PROTECTION_UNKNOWN"
 msgstr "Pojazd zniszczony przez ostrzał artyleryjski."
+
+msgid "postmortem_messages/DEATH_FROM_ARTILLERY_SECTOR"
+msgstr "Pojazd zniszczony przez główny cel"
+
+msgid "postmortem_messages/DEATH_FROM_BOMBER"
+msgstr "Pojazd zniszczony przez nalot"
 
 msgid "postmortem_messages/DEATH_FROM_CLING_BRANDER"
 msgstr "Pojazd zniszczony przez robota bitewnego."
@@ -1645,7 +1672,7 @@ msgid "postmortem_messages/DEATH_FROM_KAMIKAZE"
 msgstr "Pojazd zniszczony przez kulę ognia."
 
 msgid "postmortem_messages/DEATH_FROM_MINE_EXPLOSION"
-msgstr "Pojazd zniszczony przez pole minowe."
+msgstr "Pojazd zniszczony przez miny"
 
 msgid "postmortem_messages/DEATH_FROM_OVERTURN_ALLY_SELF"
 msgstr "Pojazd przewrócony przez sojusznika"
@@ -1665,6 +1692,9 @@ msgstr "Pojazd zniszczony przez taranowanie"
 msgid "postmortem_messages/DEATH_FROM_RAMMING_SELF_SUICIDE"
 msgstr "Pojazd zniszczony przez taranowanie"
 
+msgid "postmortem_messages/DEATH_FROM_RECOVERY"
+msgstr "Twój pojazd został zniszczony"
+
 msgid "postmortem_messages/DEATH_FROM_SECTOR_BOMBERS_UNKNOWN"
 msgstr "Pojazd zniszczony podczas bombardowania strefy."
 
@@ -1675,13 +1705,13 @@ msgid "postmortem_messages/DEATH_FROM_SHOT"
 msgstr "Pojazd zniszczony przez strzał gracza"
 
 msgid "postmortem_messages/DEATH_FROM_SHOT_ARCADE_BOMBER_BATTLE_ROYALE"
-msgstr "Pojazd zniszczony przez Ostrzał artyleryjski."
+msgstr "Pojazd zniszczony przez nalot."
 
 msgid "postmortem_messages/DEATH_FROM_SHOT_ARTILLERY"
 msgstr "Pojazd zniszczony przez ostrzał artyleryjski"
 
 msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
-msgstr "Pojazd zniszczony przez bombardowanie"
+msgstr "Pojazd zniszczony przez nalot"
 
 msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
 msgstr "Pojazd zniszczony przez wyładowanie elektryczne."
@@ -2002,6 +2032,9 @@ msgstr "Otrzymałeś duże pudełka z cennymi nagrodami."
 
 msgid "rewardWindow/lootbox/headerText"
 msgstr "Otrzymałeś pudełka!"
+
+msgid "rewardWindow/lootbox/isFreeDescText"
+msgstr "Otrzymałeś małe pudełka z cennymi nagrodami za ukończenie misji."
 
 msgid "rewardWindow/lootbox/winHeaderText"
 msgstr "Czas się dowiedzieć, co jest w pudełku!"
@@ -2471,6 +2504,27 @@ msgstr "Prezent wagi ciężkiej"
 
 msgid "rewardWindow/twitch36/mainReward_4"
 msgstr "Podwójna uroczystość"
+
+msgid "rewardWindow/twitch37/btnLabel"
+msgstr "Wybierz nagrody"
+
+msgid "rewardWindow/twitch37/descText"
+msgstr "Otrzymałeś unikalną nagrodę za subskrypcję: Prime Gaming"
+
+msgid "rewardWindow/twitch37/headerText"
+msgstr "PRIME GAMING"
+
+msgid "rewardWindow/twitch37/mainReward_1"
+msgstr "Świat bez skazy"
+
+msgid "rewardWindow/twitch37/mainReward_2"
+msgstr "Skanowanie wzrokiem"
+
+msgid "rewardWindow/twitch37/mainReward_3"
+msgstr "Anatomia cyborga"
+
+msgid "rewardWindow/twitch37/mainReward_4"
+msgstr "Zostałeś wykryty"
 
 msgid "rewardWindow/twitch4/btnLabel"
 msgstr "Rekrutuj!"

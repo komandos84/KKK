@@ -1258,18 +1258,6 @@ msgstr "Odebrano części"
 msgid "platformCurrencyMsg/debited/freeXP"
 msgstr "Spisano wolnego doświadczenia"
 
-msgid "platformCurrencyMsg/debited/ny_amber"
-msgstr "Usunięto ciepły bursztyn"
-
-msgid "platformCurrencyMsg/debited/ny_crystal"
-msgstr "Usunięto kryształ górski"
-
-msgid "platformCurrencyMsg/debited/ny_emerald"
-msgstr "Usunięto czysty szmaragd"
-
-msgid "platformCurrencyMsg/debited/ny_iron"
-msgstr "Usunięto żelazo meteorytowe"
-
 msgid "platformCurrencyMsg/debited/sacoin"
 msgstr "Pobrane żetony za lata służby"
 
@@ -1284,18 +1272,6 @@ msgstr "Dodano części"
 
 msgid "platformCurrencyMsg/received/freeXP"
 msgstr "Otrzymujesz darmowe doświadczenie"
-
-msgid "platformCurrencyMsg/received/ny_amber"
-msgstr "Dodano ciepły bursztyn"
-
-msgid "platformCurrencyMsg/received/ny_crystal"
-msgstr "Dodano kryształ górski"
-
-msgid "platformCurrencyMsg/received/ny_emerald"
-msgstr "Dodano czysty szmaragd"
-
-msgid "platformCurrencyMsg/received/ny_iron"
-msgstr "Dodano żelazo meteorytowe"
 
 msgid "platformCurrencyMsg/received/sacoin"
 msgstr "Przyznane żetony za lata służby"
@@ -1804,6 +1780,7 @@ msgstr "Otrzymałeś nagrody za ukończone etapy przy użyciu niewydanych punkt�
 msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
 msgstr ""
 "Ukończyłeś rozdział %(chapter)s!\n"
+"\n"
 "Otrzymano nagrodę:"
 
 msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
@@ -1816,7 +1793,8 @@ msgstr ""
 
 msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
 msgstr ""
-"Ukończyłeś etap postępu %(newLevel)s rozdziału %(chapter)s.\n"
+"Ukończyłeś %(newLevel)s etap postępu rozdziału %(chapter)s.\n"
+"\n"
 "Otrzymano nagrodę:"
 
 msgid "serviceChannelMessages/battlePassReward/button"
@@ -1845,10 +1823,7 @@ msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
 msgstr "Otrzymałeś nagrody za ukończone wcześniej etapy Przepustki bitewnej:"
 
 msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
-msgstr ""
-"Będziesz teraz otrzymywać nagrody ze ścieżek nagród podstawowych i "
-"ulepszonych w rozdziale %(chapter)s.\n"
-"Ta Ulepszona przepustka dotyczy tylko rozdziału %(chapter)s."
+msgstr "Teraz będziesz otrzymywać zarówno podstawowe, jak i ulepszone nagrody."
 
 msgid "serviceChannelMessages/battlePassReward/header/buyBP"
 msgstr "Kupiono ulepszoną przepustkę"
@@ -2053,10 +2028,10 @@ msgid "serviceChannelMessages/battleResults/quests/items/name"
 msgstr "%(name)s (x%(count)s)"
 
 msgid "serviceChannelMessages/battleResults/quests/premium"
-msgstr "Dodane dni konta premium Wargaming"
+msgstr "Dodano dni konta premium Wargaming"
 
 msgid "serviceChannelMessages/battleResults/quests/premium_plus"
-msgstr "Dodane dni konta premium WoT"
+msgstr "Dodano dni konta premium WoT"
 
 msgid "serviceChannelMessages/battleResults/quests/rankedBonusBattles"
 msgstr "Dodano bitwy bonusowe: %(bonusBattles)s"
@@ -2068,11 +2043,8 @@ msgid ""
 "serviceChannelMessages/battleResults/quests/rankedBonusBattles/persistent"
 msgstr "standardowe w liczbie %(count)s"
 
-msgid "serviceChannelMessages/battleResults/quests/variadicDiscount"
-msgstr "Otrzymano %(discount)s%% zniżki na pojazdy %(level)s poziomu"
-
 msgid "serviceChannelMessages/battleResults/quests/vehicleSlots"
-msgstr "Dodano miejsca w garażu"
+msgstr "Dodano miejsca"
 
 msgid "serviceChannelMessages/battleResults/rankedBonusBattles"
 msgstr "Dodano bitwy bonusowe"
@@ -2842,17 +2814,11 @@ msgstr "Dodano fragmenty schematu pojazdów %(nationName)s"
 msgid "serviceChannelMessages/invoiceReceived/nationalBlueprintsDebited"
 msgstr "Usunięto fragmenty schematu pojazdów %(nationName)s"
 
-msgid "serviceChannelMessages/invoiceReceived/nyToysAccruedInvoiceReceived"
-msgstr "Dodano dekoracje: "
-
-msgid "serviceChannelMessages/invoiceReceived/nyToysDebitedInvoiceReceived"
-msgstr "Usunięto dekoracje: "
-
 msgid "serviceChannelMessages/invoiceReceived/pieces"
 msgstr "szt."
 
 msgid "serviceChannelMessages/invoiceReceived/premiumAccrued"
-msgstr "Dodane dni konta premium Wargaming"
+msgstr "Dodano dni konta premium Wargaming"
 
 msgid "serviceChannelMessages/invoiceReceived/premiumDebited"
 msgstr "Odjęte dni konta premium Wargaming"
@@ -2888,7 +2854,7 @@ msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccount"
 msgstr "Konto premium WoT"
 
 msgid "serviceChannelMessages/invoiceReceived/tankPremiumAccrued"
-msgstr "Dodane dni konta premium WoT"
+msgstr "Dodano dni konta premium WoT"
 
 msgid "serviceChannelMessages/invoiceReceived/tankPremiumDebited"
 msgstr "Odjęte dni konta premium WoT"
@@ -2904,9 +2870,6 @@ msgstr "Usunięto nierozdzielone doświadczenie członkom załogi"
 
 msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
 msgstr "Zwolnieni"
-
-msgid "serviceChannelMessages/invoiceReceived/toyTypeWrapper"
-msgstr "%(name)s (x%(count)s)"
 
 msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
 msgstr "Dodano fragmenty schematu %(vehicleName)s"
@@ -2929,7 +2892,7 @@ msgstr ""
 "szt."
 
 msgid "serviceChannelMessages/lootBoxes/button"
-msgstr "Odbierz"
+msgstr "Do pudełek"
 
 msgid "serviceChannelMessages/lootBoxes/footer"
 msgstr "Kliknij przycisk, by zobaczyć zawartość."
@@ -2940,29 +2903,11 @@ msgstr "Otrzymałeś paczkę:"
 msgid "serviceChannelMessages/lootBoxes/item/name"
 msgstr "%(name)s %(colorTagOpen)sx%(count)s%(colorTagClose)s"
 
-msgid "serviceChannelMessages/lootBoxesAutoOpen/boxes"
-msgstr ""
-"Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy Ci nagrody za Operacje "
-"świąteczne 2023."
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/boxesAndCoins"
-msgstr ""
-"Otworzyliśmy wszystkie Twoje pudełka, użyliśmy żetonów do automatu "
-"i przekazaliśmy Ci nagrody za Operacje świąteczne 2023."
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/boxesCounter"
-msgstr "Otwarte pudełka: x%(count)s"
-
 msgid "serviceChannelMessages/lootBoxesAutoOpen/button"
 msgstr "Obejrzyj"
 
-msgid "serviceChannelMessages/lootBoxesAutoOpen/coins"
-msgstr ""
-"Użyliśmy wszystkich Twoich żetonów do automatu i przekazaliśmy Ci nagrody za "
-"Operacje świąteczne 2023."
-
-msgid "serviceChannelMessages/lootBoxesAutoOpen/coinsCounter"
-msgstr "Użyte żetony: x%(count)s"
+msgid "serviceChannelMessages/lootBoxesAutoOpen/counter"
+msgstr "×%(count)s"
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/event/boxes"
 msgstr "Aktywowane portale: %(boxes)s"
@@ -2985,6 +2930,11 @@ msgstr ""
 
 msgid "serviceChannelMessages/lootBoxesAutoOpen/header"
 msgstr "Otrzymano nagrody"
+
+msgid "serviceChannelMessages/lootBoxesAutoOpen/text"
+msgstr ""
+"Otworzyliśmy wszystkie Twoje pudełka i przekazaliśmy nagrody za Operacje "
+"świąteczne"
 
 msgid "serviceChannelMessages/lunarBoxesAutoOpen/body"
 msgstr "?empty?"
@@ -3047,22 +2997,6 @@ msgstr "Możesz wypełnić ankietę na temat mapy %(mapName)s w Misji zwiadowcze
 
 msgid "serviceChannelMessages/multiplier"
 msgstr " (x%(count)s)"
-
-msgid "serviceChannelMessages/newYear/buyToy/header"
-msgstr "Zakupiono:"
-
-msgid "serviceChannelMessages/newYear/collectingResources/button"
-msgstr "Do zasobów"
-
-msgid "serviceChannelMessages/newYear/dogReminder/button"
-msgstr "Do psa"
-
-msgid "serviceChannelMessages/newYear/dogReminder/header"
-msgstr "Zadbaj o swojego zwierzaka!"
-
-msgid "serviceChannelMessages/newYear/dogReminder/message"
-msgstr ""
-"Wypożycz specjalne przedmioty i spraw, aby Chaffee poczuł się przytulnie."
 
 msgid "serviceChannelMessages/notrecruitedTankman/button"
 msgstr "Do koszar"
@@ -3498,7 +3432,7 @@ msgstr ""
 "do działu Wygląd w magazynie."
 
 msgid "serviceChannelMessages/sysMsg/converter/slotsReceived"
-msgstr "Dodane miejsca w garażu: %(slots)s"
+msgstr "Dodane miejsca: %(slots)s"
 
 msgid "serviceChannelMessages/sysMsg/converter/slotsWithdrawn"
 msgstr "Usunięte miejsca: %(slots)s"
