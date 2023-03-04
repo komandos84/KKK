@@ -1721,14 +1721,6 @@ msgstr "Misje Akademii Pancernej są ponownie dostępne."
 msgid "serviceChannelMessages/battleMatters/token"
 msgstr "Żeton akademii"
 
-msgid "serviceChannelMessages/battlePass/badges/header/remove"
-msgstr "Usunięto odznakę"
-
-msgid "serviceChannelMessages/battlePass/badges/text/remove"
-msgstr ""
-"Usunięto odznakę %(badgeName)s ze względu na koniec sezonu Przepustki "
-"bitewnej."
-
 msgid "serviceChannelMessages/battlePass/freePointsUsed/header"
 msgstr "Użyto niewydanych punktów"
 
@@ -1770,7 +1762,6 @@ msgstr "Otrzymałeś nagrody za ukończone etapy przy użyciu niewydanych punkt�
 msgid "serviceChannelMessages/battlePassReward/battle/chapterFinal/text"
 msgstr ""
 "Ukończyłeś rozdział %(chapter)s!\n"
-"\n"
 "Otrzymano nagrodę:"
 
 msgid "serviceChannelMessages/battlePassReward/battle/final/additionalText"
@@ -1783,8 +1774,7 @@ msgstr ""
 
 msgid "serviceChannelMessages/battlePassReward/battle/newLevel/text"
 msgstr ""
-"Ukończyłeś %(newLevel)s etap postępu rozdziału %(chapter)s.\n"
-"\n"
+"Ukończyłeś etap postępu %(newLevel)s rozdziału %(chapter)s.\n"
 "Otrzymano nagrodę:"
 
 msgid "serviceChannelMessages/battlePassReward/button"
@@ -1813,7 +1803,10 @@ msgid "serviceChannelMessages/battlePassReward/buyWithRewards/text"
 msgstr "Otrzymałeś nagrody za ukończone wcześniej etapy Przepustki bitewnej:"
 
 msgid "serviceChannelMessages/battlePassReward/buyWithoutRewards/text"
-msgstr "Teraz będziesz otrzymywać zarówno podstawowe, jak i ulepszone nagrody."
+msgstr ""
+"Będziesz teraz otrzymywać nagrody ze ścieżek nagród podstawowych "
+"i ulepszonych w rozdziale %(chapter)s.\n"
+"Ta Ulepszona przepustka działa tylko dla rozdziału %(chapter)s."
 
 msgid "serviceChannelMessages/battlePassReward/header/buyBP"
 msgstr "Kupiono ulepszoną przepustkę"
@@ -2146,29 +2139,8 @@ msgstr "Porażki techniczne"
 msgid "serviceChannelMessages/battleResults/techVictory"
 msgstr "Zwycięstwo walkowerem"
 
-msgid "serviceChannelMessages/battleResults/training_battle"
-msgstr "Poligon"
-
 msgid "serviceChannelMessages/battleResults/victory"
 msgstr "Zwycięstwo"
-
-msgid "serviceChannelMessages/battleTutorial/reasons/extermination"
-msgstr "Pojazd zniszczony"
-
-msgid "serviceChannelMessages/battleTutorial/reasons/failed"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/battleTutorial/reasons/finished"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/battleTutorial/reasons/timeout"
-msgstr "Czas minął"
-
-msgid "serviceChannelMessages/battleTutorial/results/failed"
-msgstr "Porażka."
-
-msgid "serviceChannelMessages/battleTutorial/results/finished"
-msgstr "Zakończono!"
 
 msgid "serviceChannelMessages/blackMapDisabled"
 msgstr ""
@@ -3171,7 +3143,8 @@ msgstr "Otrzymałeś załogę z %(event)s."
 
 msgid "serviceChannelMessages/recruitReminder/text"
 msgstr ""
-"Masz niezrekrutowanych członków załogi: %(count)s. Zostaną usunięci %(date)s!"
+"Masz niezrekrutowanych członków załogi: %(count)s. Kolejne usunięcie "
+"%(date)s!"
 
 msgid "serviceChannelMessages/recruitReminderTermless/text"
 msgstr "Masz niezrekrutowanych członków załogi: %(count)s"
