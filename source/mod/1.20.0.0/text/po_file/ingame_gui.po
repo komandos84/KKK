@@ -790,7 +790,7 @@ msgid "efficiencyRibbons/vehicleRecovery"
 msgstr "Porzucono pojazd"
 
 msgid "efficiencyRibbons/worldCollision"
-msgstr "Uszkodzenia od upadku"
+msgstr "Uszkodzenia przez uderzenie"
 
 msgid "epic_players_panel/state/hidden/body"
 msgstr "Ukryj panele drużyn"
@@ -1827,13 +1827,13 @@ msgid "player_messages/base_capture_blocked"
 msgstr "Zablokowano zajmowanie bazy"
 
 msgid "player_messages/base_captured_by_notification"
-msgstr "Opanowanie bazy%s (%d)"
+msgstr "Zdobywanie bazy%s (%d)"
 
 msgid "player_messages/base_captured_notification"
-msgstr "Okupacja bazy%s!"
+msgstr "Baza%s zdobyta!"
 
 msgid "player_messages/enemy_base_captured_by_notification"
-msgstr "Opanowanie bazy%s przeciwnika (%d)"
+msgstr "Zdobywanie bazy%s przeciwnika (%d)"
 
 msgid "player_messages/enemy_base_captured_notification"
 msgstr "Baza%s przeciwnika opanowana"

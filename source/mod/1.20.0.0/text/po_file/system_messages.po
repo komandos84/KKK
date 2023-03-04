@@ -470,11 +470,6 @@ msgstr ""
 msgid "battlePass/activateChapter/success"
 msgstr "Aktywowano rozdział %(chapter)s"
 
-msgid "battlePass/badgeRemoved/text"
-msgstr ""
-"Usunięto odznakę %(badgeName)s ze względu na koniec sezonu Przepustki "
-"bitewnej."
-
 msgid "battlePass/extraFinish/body"
 msgstr "Wydarzenie %(name)s dobiegło końca. Dziękujemy za udział!"
 
@@ -538,8 +533,8 @@ msgstr "Otrzymano wyposażenie z nagród: %(name)s"
 
 msgid "battlePass/seasonEnd/text"
 msgstr ""
-"Przepustka bitewna skończyła się. Wszystkie niewybrane nagrody, zostały Ci "
-"przyznane domyślnie:"
+"Sezon Przepustki bitewnej skończył się. Wszystkie niewybrane w trakcie "
+"sezonu nagrody, zostały Ci przyznane domyślnie:"
 
 msgid "battlePass/switchChapter/error"
 msgstr "Błąd podczas wybierania rozdziału. Spróbuj ponownie."
@@ -559,9 +554,7 @@ msgstr ""
 "prac technicznych. Przepraszamy za niedogodności."
 
 msgid "battlePass/switch_disable/body"
-msgstr ""
-"Dzień sądu skończył się. Mamy nadzieję, że nigdy nie wyjdzie poza filmy "
-"i gry."
+msgstr "Sezon zakończył się. Do zobaczenia w kolejnym sezonie!"
 
 msgid "battlePass/switch_disable/comp7/body"
 msgstr ""
@@ -582,10 +575,12 @@ msgstr ""
 "prac technicznych."
 
 msgid "battlePass/switch_disable/title"
-msgstr "Przepustka bitewna: Dzień sądu"
+msgstr "Przepustka bitewna, sezon %(seasonNum)d"
 
 msgid "battlePass/switch_enabled/body"
-msgstr "Przepustka bitewna jest znowu dostępna. Przepraszamy za niedogodności."
+msgstr ""
+"Przepustka bitewna jest znowu dostępna. Przepraszamy za niedogodności.\n"
+"Sezon przedłużono do: %(expiryTime)s."
 
 msgid "battlePass/switch_enabled/comp7/body"
 msgstr ""
@@ -1200,7 +1195,7 @@ msgstr "Kolekcje znów są dostępne"
 msgid "connected"
 msgstr ""
 "Witaj\n"
-" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.19.1.0</font> <font color='#FF3333'>Automatyk</font>"
+" na serwerze World&nbsp;of&nbsp;Tanks <font color='#c5ab5d'>'%s'</font>!<br><font color='#BFE9FF'>KKK 1.20.0.0</font> <font color='#FF3333'>Automatyk</font>"
 
 msgid "consumables_apply/error"
 msgstr ""
@@ -2122,17 +2117,6 @@ msgstr ""
 msgid "graficsPresetFail"
 msgstr ""
 "Nie udało się zastosować ustawienia grafiki. Konflikt karty graficznej."
-
-msgid "hbp/seasonStart/body"
-msgstr ""
-"Dowódcy! To jest specjalna Przepustka bitewna i sami się o tym przekonacie.\n"
-"\n"
-"Za ukończenie postępów otrzymacie słynne postaci filmowe z unikalnymi "
-"ścieżkami głosowymi, pojazd premium ze specjalnym stylem 3D, elementy "
-"personalizujące i wiele więcej nagród!"
-
-msgid "hbp/seasonStart/title"
-msgstr "Przepustka bitewna: Dzień sądu"
 
 msgid "igr/customization/begin"
 msgstr "Darmowe kamuflaże, napisy i emblematy są dostępne w %(igrIcon)s."
@@ -4212,6 +4196,16 @@ msgstr "Wykluczono cię z oddziału specjalnego: oddział został rozwiązany."
 
 msgid "unit/warnings/CLAN_CHANGED"
 msgstr "Zostałeś wykluczony z oddziału specjalnego. Zmieniono klan."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS"
+msgstr ""
+"Osiągnąłeś limit czasu gry. Nie możesz wejść do nowej bitwy. Zostaniesz "
+"rozłączony z serwerem o %(expiredTime)s."
+
+msgid "unit/warnings/EXPIRED_PLAY_LIMITS_TO_COMMANDER"
+msgstr ""
+"Jednemu z graczy nie pozostało wystarczająco dużo czasu sesji gry, aby "
+"zakończyć bitwę. Pluton jest teraz w stanie przygotowania."
 
 msgid "unit/warnings/EXTERNAL_LEGIONARIES_MATCHING_CANCELED"
 msgstr "Zbieranie najemników jest zawieszone."
