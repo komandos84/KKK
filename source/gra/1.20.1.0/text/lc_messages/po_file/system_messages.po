@@ -20,19 +20,20 @@ msgid "actionAchievements/title"
 msgstr "Medale za wydarzenia"
 
 msgid "add_tankman_skill/invalid_vehicle"
-msgstr "Błąd przy szkoleniu umiejętności. Niewłaściwy pojazd."
+msgstr "Błąd przy szkoleniu atutu. Niewłaściwy pojazd."
 
 msgid "add_tankman_skill/server_error"
-msgstr "Nie udało się nauczyć nowej umiejętności. Spróbuj później."
+msgstr ""
+"Nie udało się wyszkolić nowego atutu u członka załogi. Spróbuj później."
 
 msgid "add_tankman_skill/success"
-msgstr "Nowa umiejętność została opanowana."
+msgstr "Udało się wyszkolić nowy atut."
 
 msgid "add_tankman_skill/vehicle_locked"
-msgstr "Błąd przy ćwiczeniu umiejętności. Pojazd jest zablokowany."
+msgstr "Błąd przy szkoleniu atutu. Pojazd jest zablokowany."
 
 msgid "add_tankman_skill/vehicle_need_repair"
-msgstr "Błąd przy ćwiczeniu umiejętności. Napraw pojazd."
+msgstr "Błąd przy szkoleniu atutu. Napraw pojazd."
 
 msgid "another_periphery"
 msgstr "Wciąż jesteś zalogowany na innym serwerze."
@@ -293,6 +294,11 @@ msgid "artefact_remove/vehicle_need_repair"
 msgstr ""
 "Pojazd uszkodzony. Nie zdemontowano elementu %(kind)s „%(name)s”. Napraw "
 "pojazd i spróbuj ponownie."
+
+msgid "artefact_remove/wot_plus_success"
+msgstr ""
+"%(kind)s %(name)s zdemontowano z pojazdu za darmo dzięki aktywnej "
+"subskrypcji WoT Plus."
 
 msgid "artefact_sell/invalid_module"
 msgstr "Nie można sprzedać elementu %(kind)s „%(name)s”. Nieprawidłowy moduł."
@@ -1451,20 +1457,19 @@ msgid "dossiers_unavailable"
 msgstr "Konto nie jest gotowe (DOSSIERS_UNAVAILABLE)"
 
 msgid "drop_tankman_skill/invalid_vehicle"
-msgstr "Błąd przy zerowaniu umiejętności. Niewłaściwy pojazd."
+msgstr "Błąd przy zerowaniu atutów. Niewłaściwy pojazd."
 
 msgid "drop_tankman_skill/server_error"
-msgstr "Nie udało się wyzerować umiejętności. Spróbuj później."
+msgstr "Nie udało się wyzerować atutów. Spróbuj później."
 
 msgid "drop_tankman_skill/success"
-msgstr ""
-"Udało się zresetować wszystkie umiejętności i atuty. Wydałeś %(money)s."
+msgstr "Udało się wyzerować wszystkie atuty. Wydałeś %(money)s."
 
 msgid "drop_tankman_skill/vehicle_locked"
-msgstr "Błąd przy zerowaniu umiejętności. Pojazd zablokowany."
+msgstr "Błąd przy zerowaniu atutów. Pojazd jest zablokowany."
 
 msgid "drop_tankman_skill/vehicle_need_repair"
-msgstr "Błąd przy zerowaniu umiejętności. Napraw pojazd."
+msgstr "Błąd przy zerowaniu atutów. Napraw pojazd."
 
 msgid "drr_scale/step_down"
 msgstr "Rozdzielczość dynamiczna zmniejszona do %(scale)d%%."
@@ -2240,6 +2245,24 @@ msgid "maps_black_list/select/success"
 msgstr ""
 "Mapa %(mapName)s została wykluczona z bitew losowych dla typu bitew "
 "standardowych. Możesz zmienić swój wybór za %(time)s."
+
+msgid "maps_black_list/select/success/noSubscriptions"
+msgstr ""
+"Mapę %(mapName)s wykluczono z bitew losowych dla typu bitew standardowych. "
+"Możesz zmienić swój wybór za %(time)s lub odblokować dodatkowe miejsce, "
+"aktywując konto premium WoT lub subskrybując WoT Plus."
+
+msgid "maps_black_list/select/success/premium"
+msgstr ""
+"Mapę %(mapName)s wykluczono z bitew losowych dla typu bitew standardowych. "
+"Możesz zmienić swój wybór za %(time)s lub odblokować dodatkowe miejsce, "
+"subskrybując WoT Plus."
+
+msgid "maps_black_list/select/success/wotPlus"
+msgstr ""
+"Mapę %(mapName)s wykluczono z bitew losowych dla typu bitew standardowych. "
+"Możesz zmienić swój wybór za %(time)s lub odblokować dodatkowe miejsce, "
+"aktywując konto premium WoT."
 
 msgid "maps_black_list/switch_off/body"
 msgstr ""
@@ -4547,6 +4570,9 @@ msgstr ""
 "Operacja nie może być zrealizowana. Twoje złoto zostanie przywrócone, kiedy "
 "tylko Portfel WG powróci do działania."
 
+msgid "vehicle_slot_buy/not_enough_credits"
+msgstr "Błąd kupowania miejsca. Za mało kredytów."
+
 msgid "vehicle_slot_buy/not_enough_gold"
 msgstr "Podczas kupowania miejsca wystąpił błąd. Masz zbyt mało złota."
 
@@ -4686,6 +4712,9 @@ msgid "wallet/not_available_gold"
 msgstr ""
 "Trwa pobieranie danych na temat konta. Twoje złoto wkrótce znów będzie "
 "dostępne."
+
+msgid "winback/turnOffBattlesError"
+msgstr "Nie można wyjść z Rozgrzewki. Spróbuj ponownie później."
 
 msgid "window/buttons/close"
 msgstr "Zamknij"
