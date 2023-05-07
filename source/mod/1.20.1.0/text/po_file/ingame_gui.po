@@ -545,6 +545,9 @@ msgstr "Unieruchomiony: zawieszenie jest zniszczone."
 msgid "damage_panel/devices/wheel/normal"
 msgstr "Zawieszenie jest całe."
 
+msgid "danger_zone/indicator"
+msgstr "Twój pojazd zostanie zniszczony – opuść strefę zagrożenia!"
+
 msgid "devices/ammo_bay"
 msgstr "magazyn amunicyjny"
 
@@ -859,6 +862,12 @@ msgid "helpScreen/hint/description"
 msgstr "aby zobaczyć charakterystyki pojazdu"
 
 msgid "helpScreen/hint/press"
+msgstr "Naciśnij"
+
+msgid "helpScreen/mapbox/description"
+msgstr "aby zobaczyć cechy mapy"
+
+msgid "helpScreen/mapbox/press"
 msgstr "Naciśnij"
 
 msgid "hint/noBindingKey"

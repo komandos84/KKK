@@ -1000,6 +1000,12 @@ msgstr "wydarzeń"
 msgid "listView/emptyList/template"
 msgstr "Na razie brak %(listType)s."
 
+msgid "listView/news/checkNewsBtn"
+msgstr "Wiadomości"
+
+msgid "listView/news/header"
+msgstr "CO NOWEGO?"
+
 msgid "listView/title"
 msgstr "Kanał systemowy"
 
@@ -1532,6 +1538,9 @@ msgstr "Zdobyto punkty"
 msgid "serviceChannelMessages/BRbattleResults/victory"
 msgstr "Zwycięstwo"
 
+msgid "serviceChannelMessages/Financial/add"
+msgstr "Dodano"
+
 msgid "serviceChannelMessages/achievementReceived/message"
 msgstr "Przebieg służby"
 
@@ -1944,7 +1953,7 @@ msgid "serviceChannelMessages/battleResults/freeXP"
 msgstr "Otrzymujesz darmowe doświadczenie"
 
 msgid "serviceChannelMessages/battleResults/gold"
-msgstr "Uzyskano złota"
+msgstr "Zdobyte złoto"
 
 msgid "serviceChannelMessages/battleResults/penaltyForDamageAllies"
 msgstr "grzywna za uszkodzenia spowodowane u sojuszników: %s"
@@ -2265,6 +2274,9 @@ msgstr "%(label)s x%(count)s"
 msgid "serviceChannelMessages/crewSkinsCount"
 msgstr "%(label)s x%(count)s"
 
+msgid "serviceChannelMessages/currenciesReserves/smash/title"
+msgstr "Otwarto rezerwy kredytów i złota!"
+
 msgid "serviceChannelMessages/currencyUpdate/auction"
 msgstr "Aukcja"
 
@@ -2400,6 +2412,12 @@ msgstr "• Rozkazy przekwalifikowania"
 
 msgid "serviceChannelMessages/eventCoinReceivedAsGift"
 msgstr "Przyznano Ci jubileuszowe monety: %(eventCoin)s."
+
+msgid "serviceChannelMessages/excludedMap/available/title"
+msgstr "Odblokowano dodatkowe miejsce do wykluczania map"
+
+msgid "serviceChannelMessages/excludedMap/unavailable/title"
+msgstr "Nie można wykluczyć map za pomocą WoT Plus"
 
 msgid "serviceChannelMessages/failedPersonalMission"
 msgstr "Zerowanie postępów"
@@ -2843,6 +2861,9 @@ msgstr "Usunięto nierozdzielone doświadczenie członkom załogi"
 msgid "serviceChannelMessages/invoiceReceived/tankmenToRemove"
 msgstr "Zwolnieni"
 
+msgid "serviceChannelMessages/invoiceReceived/unlockedModules"
+msgstr "zbadano wszystkie moduły"
+
 msgid "serviceChannelMessages/invoiceReceived/vehicleBlueprintsAccrued"
 msgstr "Dodano fragmenty schematu %(vehicleName)s"
 
@@ -2959,13 +2980,13 @@ msgid "serviceChannelMessages/mapbox/rewardReceived"
 msgstr "Otrzymano nagrodę:"
 
 msgid "serviceChannelMessages/mapbox/surveyAvailable/allMaps"
-msgstr "Możesz zagłosować na najlepszą mapę w Misji zwiadowczej."
+msgstr "Możesz wypełnić ankietę na temat mechaniki trybu w Misji zwiadowczej."
 
 msgid "serviceChannelMessages/mapbox/surveyAvailable/header"
 msgstr "Ankieta jest dostępna"
 
 msgid "serviceChannelMessages/mapbox/surveyAvailable/singleMap"
-msgstr "Możesz wypełnić ankietę na temat mapy %(mapName)s w Misji zwiadowczej."
+msgstr "Możesz wypełnić ankietę na temat mapy %(mapName)s w Misji zwiadowczej."
 
 msgid "serviceChannelMessages/multiplier"
 msgstr " (x%(count)s)"
@@ -2988,11 +3009,20 @@ msgstr "Konwersja rezerw osobistych"
 msgid "serviceChannelMessages/piggyBank/continueAfterSmashed"
 msgstr "Rozpoczął się nowy cykl zbierania."
 
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/goldBank"
+msgstr ""
+"Rozpoczęto nowy cykl gromadzenia. Aby zdobyć kredyty, aktywuj konto premium "
+"WoT."
+
+msgid "serviceChannelMessages/piggyBank/continueAfterSmashed/piggyBank"
+msgstr ""
+"Rozpoczęto nowy cykl gromadzenia. Aby zdobyć złoto, subskrybuj WoT Plus."
+
 msgid "serviceChannelMessages/piggyBank/onPause"
 msgstr "Zawieszono gromadzenie kredytów w Rezerwie kredytów."
 
 msgid "serviceChannelMessages/piggyBank/title"
-msgstr "Rezerwa kredytów jest otwarta!"
+msgstr "Rezerwa kredytów otwarta!"
 
 msgid "serviceChannelMessages/prebattle/battleType/clan"
 msgstr "Bitwa klanowa"
@@ -3319,7 +3349,7 @@ msgid "serviceChannelMessages/serverDowntimeCompensation/premium_plus"
 msgstr "Konto premium WoT"
 
 msgid "serviceChannelMessages/serverDowntimeCompensation/premium_subs"
-msgstr "?empty?"
+msgstr "WoT Plus"
 
 msgid "serviceChannelMessages/serverDowntimeCompensation/rentals"
 msgstr "Wypożyczenie"
@@ -3653,95 +3683,147 @@ msgid "serviceChannelMessages/vehiclesAllLockExpired"
 msgstr "Blokada usunięta. Pojazdy są już gotowe na bitwę klanów."
 
 msgid "serviceChannelMessages/waresBoughtAsGold"
+msgstr "Gracz %(srcName)s przekazał %(srcWares)s złota na twoje konto."
+
+msgid "serviceChannelMessages/waresSoldAsGold"
+msgstr "%(srcWares)s złota przekazano dla gracza %(dstName)s. Opłata: %(fee)s."
+
+msgid "serviceChannelMessages/winback/awards/blueprints"
+msgstr "Zniżka na pojazd %(level)s poziomu"
+
+msgid "serviceChannelMessages/winback/awards/body"
+msgstr "Nagrody otrzymane za ukończenie Powrotu do akcji:"
+
+msgid "serviceChannelMessages/winback/awards/button"
+msgstr "Wybierz nagrodę"
+
+msgid "serviceChannelMessages/winback/awards/discount"
+msgstr "Zniżka na pojazd %(level)s poziomu"
+
+msgid "serviceChannelMessages/winback/awards/discountConcrete"
+msgstr "%(name)s (%(expDiscount)d%% i %(creditDiscount)d%%)"
+
+msgid "serviceChannelMessages/winback/awards/discountHeader"
+msgstr "Dodano zniżki na kupno i badanie: "
+
+msgid "serviceChannelMessages/winback/awards/header"
+msgstr "Gratulacje!"
+
+msgid "serviceChannelMessages/winback/awards/vehicle"
+msgstr "Pojazd %(level)s poziomu"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/body"
+msgstr "Wybierz nagrody z dostępnych kategorii."
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/button"
+msgstr "Wybierz"
+
+msgid "serviceChannelMessages/winbackSelectableRewardEntry/header"
+msgstr "Otrzymano nagrody!"
+
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/subscribed/text"
 msgstr ""
 "<font color='#00bfff'>%(srcName)s</font> przekazał <font color='#FFE769'>"
 "%(srcWares)s</font>&nbsp;<img src='img://gui/maps/icons/library/Automatyk/"
 "gold.png' width='16' height='16' align='baseline' vspace='-3'/> złota na "
 "twoje konto."
 
-msgid "serviceChannelMessages/waresSoldAsGold"
+msgid "serviceChannelMessages/wotPlus/exclusiveVehicle/unsubscribed/text"
 msgstr ""
-"<font color='#FFE769'>%(srcWares)s</font>&nbsp;<img src='img://gui/maps/"
-"icons/library/Automatyk/GoldIcon.png' width='16' height='16' "
-"align='baseline' vspace='-3'/> złota przekazano dla  <font color='#00bfff'>"
-"%(dstName)s</font>. Opłata: <font color='#FFE769'>%(fee)s</font>&nbsp;<img "
-"src='img://gui/maps/icons/library/Automatyk/gold.png' width='16' height='16' "
-"align='baseline' vspace='-3'/>."
+"Czołg ciężki <font color='#E9E2BF'>%(vehicleName)s</font>, ekskluzywny dla "
+"WoT Plus, jest aktualnie niedostępny."
+
+msgid "serviceChannelMessages/wotPlus/expireFreeDemount/title"
+msgstr "Darmowy demontaż wyposażenia jest niedostępny"
 
 msgid "serviceChannelMessages/wotPlus/expireMessage/text"
-msgstr "?empty?"
+msgstr "Przedłuż WoT Plus, aby otrzymać wszystkie korzyści."
 
 msgid "serviceChannelMessages/wotPlus/expireMessage/title"
-msgstr "?empty?"
+msgstr "WoT Plus wygasło %(time)s"
 
 msgid "serviceChannelMessages/wotPlus/freeDirectives/isDisabled/title"
-msgstr "?empty?"
+msgstr "Zawieszono otrzymywanie darmowych dyrektyw"
 
 msgid "serviceChannelMessages/wotPlus/freeDirectives/isEnabled/title"
-msgstr "?empty?"
+msgstr "Przywrócono otrzymywanie darmowych dyrektyw"
 
 msgid "serviceChannelMessages/wotPlus/freeDirectives/received/title"
-msgstr "?empty?"
+msgstr "Otrzymano darmowe dyrektywy"
 
 msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/text"
-msgstr "?empty?"
+msgstr "Zawieszono gromadzenie złota."
 
 msgid "serviceChannelMessages/wotPlus/goldReserve/isDisabled/title"
-msgstr "?empty?"
+msgstr "Rezerwa złota jest aktualnie niedostępna"
 
 msgid "serviceChannelMessages/wotPlus/goldReserve/isEnabled/title"
-msgstr "?empty?"
+msgstr "Rezerwa złota jest dostępna"
 
 msgid "serviceChannelMessages/wotPlus/goldReserve/isFull/title"
-msgstr "?empty?"
+msgstr "Rezerwa złota jest pełna: nie możesz zgromadzić więcej złota"
 
 msgid "serviceChannelMessages/wotPlus/goldReserve/smash/title"
-msgstr "?empty?"
+msgstr "Rezerwa złota otwarta!"
 
 msgid "serviceChannelMessages/wotPlus/nextDateOfRenewal"
-msgstr "?empty?"
+msgstr "Następne przedłużenie: %(time)s"
 
 msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/text"
-msgstr "?empty?"
+msgstr ""
+"Jeden lub więcej członków załogi pojazdu <font color='#E9E2BF'>"
+"%(vehicleName)s</font> nie kwalifikuje się do Ścisłej dyscypliny w drużynie "
+"i nie gromadzi PD załogi."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/incompatibleCrew/title"
+msgstr "Ścisła dyscyplina w drużynie"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isActivated/text"
+msgstr ""
+"Włączono Ścisłą dyscyplinę w drużynie dla członków załogi pojazdu "
+"%(vehicleName)s."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/isDeactivated/text"
+msgstr ""
+"Wyłączono Ścisłą dyscyplinę w drużynie dla członków załogi pojazdu "
+"%(vehicleName)s."
 
 msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/text"
-msgstr "?empty?"
+msgstr "Zawieszono gromadzenie PD załogi."
 
 msgid "serviceChannelMessages/wotPlus/passiveXP/isDisabled/title"
-msgstr "?empty?"
+msgstr "Ścisła dyscyplina w drużynie jest aktualnie niedostępna"
 
 msgid "serviceChannelMessages/wotPlus/passiveXP/isEnabled/title"
-msgstr "?empty?"
+msgstr "Ścisła dyscyplina w drużynie jest dostępna"
 
 msgid "serviceChannelMessages/wotPlus/passiveXP/noTank/text"
-msgstr "?empty?"
+msgstr "Wybierz pojazd, aby otrzymać darmową premię do PD załogi."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/text"
+msgstr ""
+"Ścisłą dyscyplinę w drużynie przeniesiono z pojazdu <font color='#E9E2BF'>"
+"%(oldVehName)s</font> do <font color='#E9E2BF'>%(newVehName)s</font>. Załoga "
+"z pojazdu <font color='#E9E2BF'>%(oldVehName)s</font> przestała gromadzić PD."
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/switching/title"
+msgstr "Przeniesiono Ścisłą dyscyplinę w drużynie"
+
+msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/text"
+msgstr ""
+"Premii PD załogi nie można zastosować do jednego lub więcej członków załogi."
 
 msgid "serviceChannelMessages/wotPlus/passiveXP/wasting/title"
-msgstr "?empty?"
+msgstr "Tracisz cenne PD załogi!"
 
 msgid "serviceChannelMessages/wotPlus/renewMessage/title"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/wotPlus/rental/end/text"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/wotPlus/rental/end/title"
-msgstr "?empty?"
+msgstr "WoT Plus przedłużono %(time)s"
 
 msgid "serviceChannelMessages/wotPlus/rental/noTank/text"
-msgstr "?empty?"
+msgstr "Wybierz pojazd z listy do wypożyczenia."
 
 msgid "serviceChannelMessages/wotPlus/rental/noTank/title"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/wotPlus/tankRental/isDisabled/text"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/wotPlus/tankRental/isDisabled/title"
-msgstr "?empty?"
-
-msgid "serviceChannelMessages/wotPlus/tankRental/isEnabled/title"
-msgstr "?empty?"
+msgstr "Nie wybrano pojazdów do wypożyczenia"
 
 msgid "serviceChannelMessages/wotPlus/tankRental/isPending/text"
 msgstr "%(vehicle)s zostanie wkrótce dodany do Twojego konta."
@@ -3749,8 +3831,17 @@ msgstr "%(vehicle)s zostanie wkrótce dodany do Twojego konta."
 msgid "serviceChannelMessages/wotPlus/tankRental/isPending/title"
 msgstr "Wypożyczony!"
 
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/text"
+msgstr "Korzyści WoT Plus są wyłączone."
+
+msgid "serviceChannelMessages/wotPlus/unavailableMessage/title"
+msgstr "WoT Plus niedostępne"
+
+msgid "serviceChannelMessages/wotPlus/unlockFreeDemount/title"
+msgstr "Darmowy demontaż wyposażenia jest dostępny"
+
 msgid "serviceChannelMessages/wotPlus/unlockMessage/title"
-msgstr "?empty?"
+msgstr "WoT Plus aktywowano %(startTime)s"
 
 msgid "serviceChannelMessages/xpReceivedAsGift"
 msgstr ""
