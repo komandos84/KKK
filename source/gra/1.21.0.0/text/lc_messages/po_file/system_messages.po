@@ -13,6 +13,9 @@ msgstr ""
 msgid "account_was_restored"
 msgstr "Udało się odzyskać twoje konto"
 
+msgid "achievements/server_error"
+msgstr "Zmiany we wstędze cennych nagród nie zostały zapisane."
+
 msgid "actionAchievement/title"
 msgstr "Medal za wydarzenia"
 
@@ -1251,6 +1254,9 @@ msgstr "Nie można spersonalizować. Za mało kredytów i złota."
 msgid "customization/credits_not_enough"
 msgstr "Nie można dokonać modyfikacji. Za mało kredytów."
 
+msgid "customization/currency_not_enough"
+msgstr "Za mało waluty, by kupić przedmiot."
+
 msgid "customization/gold_not_enough"
 msgstr "Nie można dokonać modyfikacji. Za mało złota."
 
@@ -1498,6 +1504,9 @@ msgstr "Otrzymano %(name)s"
 
 msgid "epicBattles/seasonEnd/rewards/equipment"
 msgstr "Otrzymano dyrektywy na wyposażenie: %(name)s"
+
+msgid "epicBattles/seasonEnd/rewards/optionalDevice"
+msgstr "Otrzymano wyposażenie eksperymentalne: %(name)s"
 
 msgid "epicBattles/seasonEnd/text"
 msgstr ""
@@ -2186,6 +2195,16 @@ msgstr "Nie można wyszkolić atutu zerowego. Pojazd zablokowany."
 
 msgid "learn_tankman_free_skill/vehicle_need_repair"
 msgstr "Nie można wyszkolić atutu zerowego. Pojazd wymaga naprawy."
+
+msgid "limitedUI/switchOff"
+msgstr ""
+"Stopniowe pojawianie się ukrytych elementów interfejsu jest chwilowo "
+"wyłączone."
+
+msgid "limitedUI/switchOn"
+msgstr ""
+"Stopniowe pojawianie się ukrytych elementów interfejsu jest ponownie "
+"włączone. Możesz je wyłączyć w ustawieniach."
 
 msgid "login_to_other_game_unknown"
 msgstr ""

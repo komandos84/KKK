@@ -1261,6 +1261,9 @@ msgstr "Usunięto Stalowe pieczęcie"
 msgid "platformCurrencyMsg/debited/equip_coin"
 msgstr "Odebrano części"
 
+msgid "platformCurrencyMsg/debited/famecoin"
+msgstr "Utracono osobiste punkty sławy"
+
 msgid "platformCurrencyMsg/debited/freeXP"
 msgstr "Spisano wolnego doświadczenia"
 
@@ -1275,6 +1278,9 @@ msgstr "Dodano Stalowe pieczęcie"
 
 msgid "platformCurrencyMsg/received/equip_coin"
 msgstr "Dodano części"
+
+msgid "platformCurrencyMsg/received/famecoin"
+msgstr "Zyskano osobiste punkty sławy"
 
 msgid "platformCurrencyMsg/received/freeXP"
 msgstr "Otrzymujesz darmowe doświadczenie"
@@ -2406,6 +2412,9 @@ msgstr "• Obligacje"
 
 msgid "serviceChannelMessages/epicReward/epicAbilityPoints"
 msgstr "• Punkty rezerw bojowych"
+
+msgid "serviceChannelMessages/epicReward/expequipments_gift"
+msgstr "• Wyposażenie eksperymentalne do wyboru"
 
 msgid "serviceChannelMessages/epicReward/recertificationForm_gift"
 msgstr "• Rozkazy przekwalifikowania"

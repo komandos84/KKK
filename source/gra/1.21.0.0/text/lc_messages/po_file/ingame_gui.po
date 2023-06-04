@@ -340,9 +340,6 @@ msgstr "- -"
 msgid "damageIndicator/multiplier"
 msgstr "x%(multiplier)s"
 
-msgid "damageLog/DEATH_ZONE"
-msgstr "DZ"
-
 msgid "damageLog/multiplier"
 msgstr "x%(multiplier)s"
 
@@ -741,6 +738,9 @@ msgstr "Uszkodzenie od kuli ognia"
 
 msgid "efficiencyRibbons/spotted"
 msgstr "Wykryty"
+
+msgid "efficiencyRibbons/staticDeathZone"
+msgstr "Uszkodzenia od strefy zniszczenia"
 
 msgid "efficiencyRibbons/stun"
 msgstr "Ogłuszenie"
@@ -1375,6 +1375,9 @@ msgstr "%(target)s zniszczony"
 msgid "player_messages/DEATH_FROM_SHOT_SELF_ENEMY_POI"
 msgstr "%(target)s zniszczony"
 
+msgid "player_messages/DEATH_FROM_STATIC_DEATH_ZONE_ALLY_SUICIDE"
+msgstr "Sojusznik %(target)s zniszczony przez strefę zniszczenia."
+
 msgid "player_messages/DEATH_FROM_WORLD_COLLISION_ALLY_ALLY"
 msgstr "Sojusznik %(attacker)s rozbił sojusznika %(target)s."
 
@@ -1721,6 +1724,9 @@ msgstr "Pojazd zniszczony przez ostrzał artyleryjski"
 
 msgid "postmortem_messages/DEATH_FROM_SHOT_BOMBER"
 msgstr "Pojazd zniszczony przez nalot"
+
+msgid "postmortem_messages/DEATH_FROM_STATIC_DEATH_ZONE_SELF_SUICIDE"
+msgstr "Pojazd zniszczony przez strefę zniszczenia."
 
 msgid "postmortem_messages/DEATH_FROM_THUNDER_STRIKE"
 msgstr "Pojazd zniszczony przez wyładowanie elektryczne."
@@ -2895,6 +2901,11 @@ msgstr "Nasza drużyna"
 
 msgid "statistics/team2title"
 msgstr "Drużyna przeciwna"
+
+msgid "statusNotificationTimers/staticDeathZone"
+msgstr ""
+"Opuść\n"
+"strefę zniszczenia!"
 
 msgid "stun/indicator"
 msgstr "Załoga ogłuszona"
